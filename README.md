@@ -11,6 +11,160 @@ This is a full-stack AI-powered chatbot tailored for banking interactions. It fe
 
 ---
 
+## Agentic AI Architecture
+
+### Overview
+This project implements a hierarchical agent architecture, where specialized AI agents work together under the coordination of a central coordinator. This approach allows for complex banking interactions to be broken down into manageable, specialized tasks while maintaining context and state across the system.
+
+### Architecture Diagram
+```mermaid
+graph TD
+    A[User Query] --> B[AgentCoordinator]
+    B --> C{Intent Classification}
+    C -->|Inquiry| D[InquiryAgent]
+    C -->|Transaction| E[TransactionAgent]
+    C -->|Fraud| F[FraudDetectionAgent]
+    C -->|Advice| G[AdvisorAgent]
+    C -->|Verification| H[VerificationAgent]
+    D --> I[Response]
+    E --> I
+    F --> I
+    G --> I
+    H --> I
+    I --> J[User]
+```
+
+### Agent Hierarchy
+```mermaid
+classDiagram
+    class AgentCoordinator {
+        +processUserQuery()
+        +classifyIntent()
+        +handleTransactionQuery()
+    }
+    class BankingAgent {
+        <<interface>>
+        +role
+        +goal
+        +backstory
+    }
+    class InquiryAgent {
+        +handleInquiry()
+    }
+    class TransactionAgent {
+        +initiateTransfer()
+        +confirmTransfer()
+        +initiateBillPayment()
+    }
+    class FraudDetectionAgent {
+        +checkTransaction()
+        +analyzeTransaction()
+    }
+    class AdvisorAgent {
+        +provideAdvice()
+        +analyzeSpending()
+    }
+    class VerificationAgent {
+        +initiateVerification()
+        +verifyAnswer()
+    }
+    BankingAgent <|-- InquiryAgent
+    BankingAgent <|-- TransactionAgent
+    BankingAgent <|-- FraudDetectionAgent
+    BankingAgent <|-- AdvisorAgent
+    BankingAgent <|-- VerificationAgent
+    AgentCoordinator --> BankingAgent
+```
+
+### Key Components
+
+#### 1. AgentCoordinator
+- **Role**: Central orchestrator of the agent system
+- **Responsibilities**:
+  - Intent classification
+  - Query routing
+  - State management
+  - Verification handling
+  - Response aggregation
+- **Key Methods**:
+  - `processUserQuery()`: Main entry point for user interactions
+  - `classifyIntent()`: Determines the type of query
+  - `handleTransactionQuery()`: Manages transaction-specific logic
+
+#### 2. Specialized Agents
+Each agent implements the `BankingAgent` interface with specific roles and capabilities:
+
+##### InquiryAgent
+- Handles general banking inquiries
+- Manages balance checks
+- Provides account information
+- [View Implementation](backend/src/agents/inquiryAgent.ts)
+
+##### TransactionAgent
+- Manages money transfers
+- Handles bill payments
+- Processes transaction confirmations
+- [View Implementation](backend/src/agents/transactionAgent.ts)
+
+##### FraudDetectionAgent
+- Monitors for suspicious activity
+- Analyzes transaction patterns
+- Provides security recommendations
+- [View Implementation](backend/src/agents/fraudDetectionAgent.ts)
+
+##### AdvisorAgent
+- Provides financial advice
+- Analyzes spending patterns
+- Offers investment recommendations
+- [View Implementation](backend/src/agents/advisorAgent.ts)
+
+##### VerificationAgent
+- Manages user authentication
+- Handles security questions
+- Maintains verification state
+- [View Implementation](backend/src/agents/verificationAgent.ts)
+
+### Communication Flow
+```mermaid
+sequenceDiagram
+    participant U as User
+    participant C as Coordinator
+    participant A as Agent
+    participant M as Memory
+    participant L as Logger
+
+    U->>C: Query
+    C->>C: Classify Intent
+    C->>A: Route to Agent
+    A->>M: Check Context
+    A->>A: Process Query
+    A->>L: Log Action
+    A->>C: Response
+    C->>U: Formatted Response
+```
+
+### State Management
+- **Verification State**: Maintained per user session
+- **Transaction Context**: Preserved during multi-step operations
+- **Memory Management**: Handles conversation history and context
+- **Audit Logging**: Tracks all agent interactions
+
+### Benefits of This Architecture
+1. **Modularity**: Each agent handles specific banking tasks
+2. **Scalability**: Easy to add new specialized agents
+3. **Maintainability**: Clear separation of concerns
+4. **Reliability**: Robust error handling and state management
+5. **Security**: Centralized verification and fraud detection
+
+### Future Agent Enhancements
+1. **Multi-Agent Collaboration**: Enable agents to work together on complex tasks
+2. **Learning Capabilities**: Implement agent-specific learning from interactions
+3. **Dynamic Role Assignment**: Allow agents to take on different roles based on context
+4. **Enhanced Memory**: Implement more sophisticated context management
+5. **Agent Performance Metrics**: Track and optimize agent effectiveness
+
+---
+
 ## Features
 
 * Conversational UI with clear bot/user distinction
