@@ -24,7 +24,7 @@ Experience the LLM-powered banking assistant in action:
 
 > The demo showcases multi-agent collaboration, real-time chat streaming, and how the system responds to transaction queries, fraud alerts, and balance checks.
 
-📁 *Make sure the video file (`video2408770171 (1).mp4`) is uploaded to the `media/` folder in your repository.*
+
 
 
 
