@@ -16,6 +16,17 @@ This is a full-stack AI-powered chatbot tailored for banking interactions. It fe
 ### Overview
 This project implements a hierarchical agent architecture, where specialized AI agents work together under the coordination of a central coordinator. This approach allows for complex banking interactions to be broken down into manageable, specialized tasks while maintaining context and state across the system.
 
+## 🎥 Demo Video
+
+Experience the LLM-powered banking assistant in action:
+
+[▶️ Watch Demo Video](media/demo-video.mp4)
+
+> The demo showcases multi-agent collaboration, real-time chat streaming, and how the system responds to transaction queries, fraud alerts, and balance checks.
+
+📁 *Make sure the video file (`demo-video.mp4`) is uploaded to your `media/` folder in the repository for this link to work.*
+
+
 ### Architecture Diagram
 ```mermaid
 graph TD
