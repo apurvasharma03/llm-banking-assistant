@@ -20,11 +20,12 @@ This project implements a hierarchical agent architecture, where specialized AI 
 
 Experience the LLM-powered banking assistant in action:
 
-[▶️ Watch Demo Video](media/demo-video.mp4)
+[▶️ Watch Demo Video](media/video2408770171%20(1).mp4)
 
 > The demo showcases multi-agent collaboration, real-time chat streaming, and how the system responds to transaction queries, fraud alerts, and balance checks.
 
-📁 *Make sure the video file (`demo-video.mp4`) is uploaded to your `media/` folder in the repository for this link to work.*
+📁 *Make sure the video file (`video2408770171 (1).mp4`) is uploaded to the `media/` folder in your repository.*
+
 
 
 ### Architecture Diagram
