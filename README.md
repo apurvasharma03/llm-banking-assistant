@@ -2,6 +2,8 @@
 
 ![Tech Stack](https://img.shields.io/badge/Stack-React%2C%20TypeScript%2C%20Node.js%2C%20Express%2C%20Ollama-blue)
 ![Last Commit](https://img.shields.io/github/last-commit/apurvasharma03/llm-banking-assistant)
+![Build](https://github.com/apurvasharma03/llm-banking-assistant/actions/workflows/main.yml/badge.svg)
+
 
 
 This is a full-stack AI-powered chatbot tailored for banking interactions. It features a modern React + TypeScript frontend styled with MUI and a Node.js + Express backend that communicates with an LLM-based API using `ollama-node`.
