@@ -1,0 +1,2302 @@
+[
+  {
+    "conversation_id": "conv_22a8e36f",
+    "user_id": "user_b1ab4c1f",
+    "intent": "financial_advice",
+    "user_name": "Michael Davis",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need help with budgeting and saving money.",
+        "timestamp": "2025-06-19T16:27:05.182067"
+      },
+      {
+        "role": "assistant",
+        "message": "I'd be happy to help you with financial planning. Let me ask a few questions to provide personalized advice.",
+        "timestamp": "2025-06-19T16:27:35.182067"
+      },
+      {
+        "role": "user",
+        "message": "I make $3000 a month and want to save for a house.",
+        "timestamp": "2025-06-19T16:28:05.182067"
+      },
+      {
+        "role": "assistant",
+        "message": "Based on your income, I recommend setting aside 20% for savings. Let me create a budget plan for you.",
+        "timestamp": "2025-06-19T16:28:35.182067"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_b1ab4c1f",
+      "first_name": "Michael",
+      "last_name": "Davis",
+      "email": "james.smith@email.com",
+      "phone": "+1-555-639-3139",
+      "account_type": "checking",
+      "balance": 21269.24,
+      "account_number": "6199728654",
+      "member_since": "2022-08-18"
+    },
+    "generated_at": "2025-06-19T16:55:05.182067",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 3,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_38eda20a",
+    "user_id": "user_3109bceb",
+    "intent": "financial_advice",
+    "user_name": "James Jones",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need help with budgeting and saving money.",
+        "timestamp": "2025-06-19T16:16:05.182720"
+      },
+      {
+        "role": "assistant",
+        "message": "I'd be happy to help you with financial planning. Let me ask a few questions to provide personalized advice.",
+        "timestamp": "2025-06-19T16:16:35.182720"
+      },
+      {
+        "role": "user",
+        "message": "I make $3000 a month and want to save for a house.",
+        "timestamp": "2025-06-19T16:17:05.182720"
+      },
+      {
+        "role": "assistant",
+        "message": "Based on your income, I recommend setting aside 20% for savings. Let me create a budget plan for you.",
+        "timestamp": "2025-06-19T16:17:35.182720"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_3109bceb",
+      "first_name": "James",
+      "last_name": "Jones",
+      "email": "amanda.williams@email.com",
+      "phone": "+1-555-314-6312",
+      "account_type": "student",
+      "balance": 45894.69,
+      "account_number": "2100104912",
+      "member_since": "2021-06-26"
+    },
+    "generated_at": "2025-06-19T16:55:05.182720",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 5,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_7d24bb1b",
+    "user_id": "user_e26d056f",
+    "intent": "financial_advice",
+    "user_name": "John Rodriguez",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need help with budgeting and saving money.",
+        "timestamp": "2025-06-19T16:46:05.182720"
+      },
+      {
+        "role": "assistant",
+        "message": "I'd be happy to help you with financial planning. Let me ask a few questions to provide personalized advice.",
+        "timestamp": "2025-06-19T16:46:35.182720"
+      },
+      {
+        "role": "user",
+        "message": "I make $3000 a month and want to save for a house.",
+        "timestamp": "2025-06-19T16:47:05.182720"
+      },
+      {
+        "role": "assistant",
+        "message": "Based on your income, I recommend setting aside 20% for savings. Let me create a budget plan for you.",
+        "timestamp": "2025-06-19T16:47:35.182720"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_e26d056f",
+      "first_name": "John",
+      "last_name": "Rodriguez",
+      "email": "amanda.garcia@email.com",
+      "phone": "+1-555-765-3308",
+      "account_type": "checking",
+      "balance": 9957.6,
+      "account_number": "5675341043",
+      "member_since": "2024-01-13"
+    },
+    "generated_at": "2025-06-19T16:55:05.184784",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 5,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_88cb0a63",
+    "user_id": "user_7d2a6450",
+    "intent": "financial_advice",
+    "user_name": "Lisa Williams",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need help with budgeting and saving money.",
+        "timestamp": "2025-06-19T16:51:05.187187"
+      },
+      {
+        "role": "assistant",
+        "message": "I'd be happy to help you with financial planning. Let me ask a few questions to provide personalized advice.",
+        "timestamp": "2025-06-19T16:51:35.187187"
+      },
+      {
+        "role": "user",
+        "message": "I make $3000 a month and want to save for a house.",
+        "timestamp": "2025-06-19T16:52:05.187187"
+      },
+      {
+        "role": "assistant",
+        "message": "Based on your income, I recommend setting aside 20% for savings. Let me create a budget plan for you.",
+        "timestamp": "2025-06-19T16:52:35.187187"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_7d2a6450",
+      "first_name": "Lisa",
+      "last_name": "Williams",
+      "email": "jennifer.jones@email.com",
+      "phone": "+1-555-416-2595",
+      "account_type": "senior",
+      "balance": 13865.96,
+      "account_number": "1027375085",
+      "member_since": "2025-02-25"
+    },
+    "generated_at": "2025-06-19T16:55:05.187187",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 4,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_a7cf19ef",
+    "user_id": "user_ef435c51",
+    "intent": "financial_advice",
+    "user_name": "Jennifer Johnson",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need help with budgeting and saving money.",
+        "timestamp": "2025-06-19T16:14:05.188183"
+      },
+      {
+        "role": "assistant",
+        "message": "I'd be happy to help you with financial planning. Let me ask a few questions to provide personalized advice.",
+        "timestamp": "2025-06-19T16:14:35.188183"
+      },
+      {
+        "role": "user",
+        "message": "I make $3000 a month and want to save for a house.",
+        "timestamp": "2025-06-19T16:15:05.188183"
+      },
+      {
+        "role": "assistant",
+        "message": "Based on your income, I recommend setting aside 20% for savings. Let me create a budget plan for you.",
+        "timestamp": "2025-06-19T16:15:35.188183"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_ef435c51",
+      "first_name": "Jennifer",
+      "last_name": "Johnson",
+      "email": "michael.davis@email.com",
+      "phone": "+1-555-632-3776",
+      "account_type": "premium",
+      "balance": 31322.37,
+      "account_number": "5629990125",
+      "member_since": "2020-07-18"
+    },
+    "generated_at": "2025-06-19T16:55:05.188183",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 5,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_3500b0b6",
+    "user_id": "user_1e56a0d0",
+    "intent": "financial_advice",
+    "user_name": "Michael Brown",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need help with budgeting and saving money.",
+        "timestamp": "2025-06-19T16:32:05.189185"
+      },
+      {
+        "role": "assistant",
+        "message": "I'd be happy to help you with financial planning. Let me ask a few questions to provide personalized advice.",
+        "timestamp": "2025-06-19T16:32:35.189185"
+      },
+      {
+        "role": "user",
+        "message": "I make $3000 a month and want to save for a house.",
+        "timestamp": "2025-06-19T16:33:05.189185"
+      },
+      {
+        "role": "assistant",
+        "message": "Based on your income, I recommend setting aside 20% for savings. Let me create a budget plan for you.",
+        "timestamp": "2025-06-19T16:33:35.189185"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_1e56a0d0",
+      "first_name": "Michael",
+      "last_name": "Brown",
+      "email": "jennifer.martinez@email.com",
+      "phone": "+1-555-632-1023",
+      "account_type": "senior",
+      "balance": 43566.95,
+      "account_number": "5866582069",
+      "member_since": "2020-09-21"
+    },
+    "generated_at": "2025-06-19T16:55:05.189185",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 3,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_7bbccb0a",
+    "user_id": "user_1097ce35",
+    "intent": "financial_advice",
+    "user_name": "John Davis",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need help with budgeting and saving money.",
+        "timestamp": "2025-06-19T15:56:05.189185"
+      },
+      {
+        "role": "assistant",
+        "message": "I'd be happy to help you with financial planning. Let me ask a few questions to provide personalized advice.",
+        "timestamp": "2025-06-19T15:56:35.189185"
+      },
+      {
+        "role": "user",
+        "message": "I make $3000 a month and want to save for a house.",
+        "timestamp": "2025-06-19T15:57:05.189185"
+      },
+      {
+        "role": "assistant",
+        "message": "Based on your income, I recommend setting aside 20% for savings. Let me create a budget plan for you.",
+        "timestamp": "2025-06-19T15:57:35.189185"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_1097ce35",
+      "first_name": "John",
+      "last_name": "Davis",
+      "email": "sarah.davis@email.com",
+      "phone": "+1-555-725-4050",
+      "account_type": "checking",
+      "balance": 19772.62,
+      "account_number": "5053086211",
+      "member_since": "2022-08-21"
+    },
+    "generated_at": "2025-06-19T16:55:05.189185",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 4,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_39edd151",
+    "user_id": "user_18dcc7b3",
+    "intent": "financial_advice",
+    "user_name": "Robert Johnson",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need help with budgeting and saving money.",
+        "timestamp": "2025-06-19T15:59:05.189185"
+      },
+      {
+        "role": "assistant",
+        "message": "I'd be happy to help you with financial planning. Let me ask a few questions to provide personalized advice.",
+        "timestamp": "2025-06-19T15:59:35.189185"
+      },
+      {
+        "role": "user",
+        "message": "I make $3000 a month and want to save for a house.",
+        "timestamp": "2025-06-19T16:00:05.189185"
+      },
+      {
+        "role": "assistant",
+        "message": "Based on your income, I recommend setting aside 20% for savings. Let me create a budget plan for you.",
+        "timestamp": "2025-06-19T16:00:35.189185"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_18dcc7b3",
+      "first_name": "Robert",
+      "last_name": "Johnson",
+      "email": "robert.brown@email.com",
+      "phone": "+1-555-929-8929",
+      "account_type": "premium",
+      "balance": 25773.57,
+      "account_number": "8115337767",
+      "member_since": "2021-09-19"
+    },
+    "generated_at": "2025-06-19T16:55:05.189185",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 5,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_c0ba9ceb",
+    "user_id": "user_d8f87ad7",
+    "intent": "financial_advice",
+    "user_name": "Michael Miller",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need help with budgeting and saving money.",
+        "timestamp": "2025-06-19T16:52:05.190168"
+      },
+      {
+        "role": "assistant",
+        "message": "I'd be happy to help you with financial planning. Let me ask a few questions to provide personalized advice.",
+        "timestamp": "2025-06-19T16:52:35.190168"
+      },
+      {
+        "role": "user",
+        "message": "I make $3000 a month and want to save for a house.",
+        "timestamp": "2025-06-19T16:53:05.190168"
+      },
+      {
+        "role": "assistant",
+        "message": "Based on your income, I recommend setting aside 20% for savings. Let me create a budget plan for you.",
+        "timestamp": "2025-06-19T16:53:35.190168"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_d8f87ad7",
+      "first_name": "Michael",
+      "last_name": "Miller",
+      "email": "amanda.davis@email.com",
+      "phone": "+1-555-312-9091",
+      "account_type": "student",
+      "balance": 33046.22,
+      "account_number": "2093640209",
+      "member_since": "2020-10-05"
+    },
+    "generated_at": "2025-06-19T16:55:05.190168",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 5,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_0bcf1da9",
+    "user_id": "user_f4db18d3",
+    "intent": "financial_advice",
+    "user_name": "Lisa Garcia",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need help with budgeting and saving money.",
+        "timestamp": "2025-06-19T16:03:05.190168"
+      },
+      {
+        "role": "assistant",
+        "message": "I'd be happy to help you with financial planning. Let me ask a few questions to provide personalized advice.",
+        "timestamp": "2025-06-19T16:03:35.190168"
+      },
+      {
+        "role": "user",
+        "message": "I make $3000 a month and want to save for a house.",
+        "timestamp": "2025-06-19T16:04:05.190168"
+      },
+      {
+        "role": "assistant",
+        "message": "Based on your income, I recommend setting aside 20% for savings. Let me create a budget plan for you.",
+        "timestamp": "2025-06-19T16:04:35.190168"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_f4db18d3",
+      "first_name": "Lisa",
+      "last_name": "Garcia",
+      "email": "john.rodriguez@email.com",
+      "phone": "+1-555-570-2438",
+      "account_type": "checking",
+      "balance": 28705.73,
+      "account_number": "3800682948",
+      "member_since": "2022-10-16"
+    },
+    "generated_at": "2025-06-19T16:55:05.190168",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 3,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_610deb2f",
+    "user_id": "user_b87ffd97",
+    "intent": "financial_advice",
+    "user_name": "John Williams",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need help with budgeting and saving money.",
+        "timestamp": "2025-06-19T16:33:05.190168"
+      },
+      {
+        "role": "assistant",
+        "message": "I'd be happy to help you with financial planning. Let me ask a few questions to provide personalized advice.",
+        "timestamp": "2025-06-19T16:33:35.190168"
+      },
+      {
+        "role": "user",
+        "message": "I make $3000 a month and want to save for a house.",
+        "timestamp": "2025-06-19T16:34:05.190168"
+      },
+      {
+        "role": "assistant",
+        "message": "Based on your income, I recommend setting aside 20% for savings. Let me create a budget plan for you.",
+        "timestamp": "2025-06-19T16:34:35.190168"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_b87ffd97",
+      "first_name": "John",
+      "last_name": "Williams",
+      "email": "amanda.williams@email.com",
+      "phone": "+1-555-894-4965",
+      "account_type": "savings",
+      "balance": 48415.43,
+      "account_number": "8320754250",
+      "member_since": "2021-11-28"
+    },
+    "generated_at": "2025-06-19T16:55:05.190168",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 4,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_a220adb9",
+    "user_id": "user_81ee4d38",
+    "intent": "financial_advice",
+    "user_name": "Michael Martinez",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need help with budgeting and saving money.",
+        "timestamp": "2025-06-19T16:35:05.190168"
+      },
+      {
+        "role": "assistant",
+        "message": "I'd be happy to help you with financial planning. Let me ask a few questions to provide personalized advice.",
+        "timestamp": "2025-06-19T16:35:35.190168"
+      },
+      {
+        "role": "user",
+        "message": "I make $3000 a month and want to save for a house.",
+        "timestamp": "2025-06-19T16:36:05.190168"
+      },
+      {
+        "role": "assistant",
+        "message": "Based on your income, I recommend setting aside 20% for savings. Let me create a budget plan for you.",
+        "timestamp": "2025-06-19T16:36:35.190168"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_81ee4d38",
+      "first_name": "Michael",
+      "last_name": "Martinez",
+      "email": "david.brown@email.com",
+      "phone": "+1-555-891-3590",
+      "account_type": "checking",
+      "balance": 153.48,
+      "account_number": "2889527285",
+      "member_since": "2022-07-30"
+    },
+    "generated_at": "2025-06-19T16:55:05.191165",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 4,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_bef37e79",
+    "user_id": "user_c666eecd",
+    "intent": "financial_advice",
+    "user_name": "Sarah Miller",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need help with budgeting and saving money.",
+        "timestamp": "2025-06-19T16:25:05.191165"
+      },
+      {
+        "role": "assistant",
+        "message": "I'd be happy to help you with financial planning. Let me ask a few questions to provide personalized advice.",
+        "timestamp": "2025-06-19T16:25:35.191165"
+      },
+      {
+        "role": "user",
+        "message": "I make $3000 a month and want to save for a house.",
+        "timestamp": "2025-06-19T16:26:05.191165"
+      },
+      {
+        "role": "assistant",
+        "message": "Based on your income, I recommend setting aside 20% for savings. Let me create a budget plan for you.",
+        "timestamp": "2025-06-19T16:26:35.191165"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_c666eecd",
+      "first_name": "Sarah",
+      "last_name": "Miller",
+      "email": "amanda.williams@email.com",
+      "phone": "+1-555-834-3992",
+      "account_type": "senior",
+      "balance": 37616.36,
+      "account_number": "4635055434",
+      "member_since": "2024-06-21"
+    },
+    "generated_at": "2025-06-19T16:55:05.191165",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 4,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_11bdd2bb",
+    "user_id": "user_03fcc8e4",
+    "intent": "financial_advice",
+    "user_name": "John Rodriguez",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need help with budgeting and saving money.",
+        "timestamp": "2025-06-19T16:10:05.191165"
+      },
+      {
+        "role": "assistant",
+        "message": "I'd be happy to help you with financial planning. Let me ask a few questions to provide personalized advice.",
+        "timestamp": "2025-06-19T16:10:35.191165"
+      },
+      {
+        "role": "user",
+        "message": "I make $3000 a month and want to save for a house.",
+        "timestamp": "2025-06-19T16:11:05.191165"
+      },
+      {
+        "role": "assistant",
+        "message": "Based on your income, I recommend setting aside 20% for savings. Let me create a budget plan for you.",
+        "timestamp": "2025-06-19T16:11:35.191165"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_03fcc8e4",
+      "first_name": "John",
+      "last_name": "Rodriguez",
+      "email": "lisa.miller@email.com",
+      "phone": "+1-555-883-9620",
+      "account_type": "student",
+      "balance": 8140.75,
+      "account_number": "1228628617",
+      "member_since": "2021-06-26"
+    },
+    "generated_at": "2025-06-19T16:55:05.191165",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 4,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_e24bacf7",
+    "user_id": "user_d7cd2c43",
+    "intent": "financial_advice",
+    "user_name": "Lisa Brown",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need help with budgeting and saving money.",
+        "timestamp": "2025-06-19T16:33:05.192160"
+      },
+      {
+        "role": "assistant",
+        "message": "I'd be happy to help you with financial planning. Let me ask a few questions to provide personalized advice.",
+        "timestamp": "2025-06-19T16:33:35.192160"
+      },
+      {
+        "role": "user",
+        "message": "I make $3000 a month and want to save for a house.",
+        "timestamp": "2025-06-19T16:34:05.192160"
+      },
+      {
+        "role": "assistant",
+        "message": "Based on your income, I recommend setting aside 20% for savings. Let me create a budget plan for you.",
+        "timestamp": "2025-06-19T16:34:35.192160"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_d7cd2c43",
+      "first_name": "Lisa",
+      "last_name": "Brown",
+      "email": "robert.martinez@email.com",
+      "phone": "+1-555-215-8244",
+      "account_type": "checking",
+      "balance": 44962.39,
+      "account_number": "5708282593",
+      "member_since": "2023-11-10"
+    },
+    "generated_at": "2025-06-19T16:55:05.192160",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 3,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_a3be8cd4",
+    "user_id": "user_e117b1a9",
+    "intent": "financial_advice",
+    "user_name": "David Davis",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need help with budgeting and saving money.",
+        "timestamp": "2025-06-19T16:27:05.192160"
+      },
+      {
+        "role": "assistant",
+        "message": "I'd be happy to help you with financial planning. Let me ask a few questions to provide personalized advice.",
+        "timestamp": "2025-06-19T16:27:35.192160"
+      },
+      {
+        "role": "user",
+        "message": "I make $3000 a month and want to save for a house.",
+        "timestamp": "2025-06-19T16:28:05.192160"
+      },
+      {
+        "role": "assistant",
+        "message": "Based on your income, I recommend setting aside 20% for savings. Let me create a budget plan for you.",
+        "timestamp": "2025-06-19T16:28:35.192160"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_e117b1a9",
+      "first_name": "David",
+      "last_name": "Davis",
+      "email": "sarah.martinez@email.com",
+      "phone": "+1-555-331-9496",
+      "account_type": "premium",
+      "balance": 34052.38,
+      "account_number": "8978805478",
+      "member_since": "2023-07-22"
+    },
+    "generated_at": "2025-06-19T16:55:05.192160",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 4,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_ff060940",
+    "user_id": "user_055b9a46",
+    "intent": "financial_advice",
+    "user_name": "Jennifer Rodriguez",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need help with budgeting and saving money.",
+        "timestamp": "2025-06-19T16:46:05.192160"
+      },
+      {
+        "role": "assistant",
+        "message": "I'd be happy to help you with financial planning. Let me ask a few questions to provide personalized advice.",
+        "timestamp": "2025-06-19T16:46:35.192160"
+      },
+      {
+        "role": "user",
+        "message": "I make $3000 a month and want to save for a house.",
+        "timestamp": "2025-06-19T16:47:05.192160"
+      },
+      {
+        "role": "assistant",
+        "message": "Based on your income, I recommend setting aside 20% for savings. Let me create a budget plan for you.",
+        "timestamp": "2025-06-19T16:47:35.192160"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_055b9a46",
+      "first_name": "Jennifer",
+      "last_name": "Rodriguez",
+      "email": "james.garcia@email.com",
+      "phone": "+1-555-646-6696",
+      "account_type": "student",
+      "balance": 42394.52,
+      "account_number": "1368149991",
+      "member_since": "2025-04-28"
+    },
+    "generated_at": "2025-06-19T16:55:05.192160",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 4,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_4f8ebeac",
+    "user_id": "user_e2fa80ad",
+    "intent": "financial_advice",
+    "user_name": "Lisa Smith",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need help with budgeting and saving money.",
+        "timestamp": "2025-06-19T16:34:05.192160"
+      },
+      {
+        "role": "assistant",
+        "message": "I'd be happy to help you with financial planning. Let me ask a few questions to provide personalized advice.",
+        "timestamp": "2025-06-19T16:34:35.192160"
+      },
+      {
+        "role": "user",
+        "message": "I make $3000 a month and want to save for a house.",
+        "timestamp": "2025-06-19T16:35:05.192160"
+      },
+      {
+        "role": "assistant",
+        "message": "Based on your income, I recommend setting aside 20% for savings. Let me create a budget plan for you.",
+        "timestamp": "2025-06-19T16:35:35.192160"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_e2fa80ad",
+      "first_name": "Lisa",
+      "last_name": "Smith",
+      "email": "james.martinez@email.com",
+      "phone": "+1-555-146-4201",
+      "account_type": "senior",
+      "balance": 3223.66,
+      "account_number": "1353093038",
+      "member_since": "2025-02-03"
+    },
+    "generated_at": "2025-06-19T16:55:05.192160",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 4,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_42065a00",
+    "user_id": "user_e148d600",
+    "intent": "financial_advice",
+    "user_name": "Robert Rodriguez",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need help with budgeting and saving money.",
+        "timestamp": "2025-06-19T16:07:05.192160"
+      },
+      {
+        "role": "assistant",
+        "message": "I'd be happy to help you with financial planning. Let me ask a few questions to provide personalized advice.",
+        "timestamp": "2025-06-19T16:07:35.192160"
+      },
+      {
+        "role": "user",
+        "message": "I make $3000 a month and want to save for a house.",
+        "timestamp": "2025-06-19T16:08:05.192160"
+      },
+      {
+        "role": "assistant",
+        "message": "Based on your income, I recommend setting aside 20% for savings. Let me create a budget plan for you.",
+        "timestamp": "2025-06-19T16:08:35.192160"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_e148d600",
+      "first_name": "Robert",
+      "last_name": "Rodriguez",
+      "email": "robert.miller@email.com",
+      "phone": "+1-555-365-8653",
+      "account_type": "checking",
+      "balance": 40034.11,
+      "account_number": "1416353545",
+      "member_since": "2022-04-08"
+    },
+    "generated_at": "2025-06-19T16:55:05.192160",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 3,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_59fb1738",
+    "user_id": "user_70d1309e",
+    "intent": "financial_advice",
+    "user_name": "Sarah Martinez",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need help with budgeting and saving money.",
+        "timestamp": "2025-06-19T16:39:05.192160"
+      },
+      {
+        "role": "assistant",
+        "message": "I'd be happy to help you with financial planning. Let me ask a few questions to provide personalized advice.",
+        "timestamp": "2025-06-19T16:39:35.192160"
+      },
+      {
+        "role": "user",
+        "message": "I make $3000 a month and want to save for a house.",
+        "timestamp": "2025-06-19T16:40:05.192160"
+      },
+      {
+        "role": "assistant",
+        "message": "Based on your income, I recommend setting aside 20% for savings. Let me create a budget plan for you.",
+        "timestamp": "2025-06-19T16:40:35.192160"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_70d1309e",
+      "first_name": "Sarah",
+      "last_name": "Martinez",
+      "email": "michael.jones@email.com",
+      "phone": "+1-555-310-7079",
+      "account_type": "savings",
+      "balance": 8647.47,
+      "account_number": "7708898716",
+      "member_since": "2024-09-12"
+    },
+    "generated_at": "2025-06-19T16:55:05.193159",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 3,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_63c07f95",
+    "user_id": "user_8dcac334",
+    "intent": "financial_advice",
+    "user_name": "Lisa Johnson",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need help with budgeting and saving money.",
+        "timestamp": "2025-06-19T16:24:05.193159"
+      },
+      {
+        "role": "assistant",
+        "message": "I'd be happy to help you with financial planning. Let me ask a few questions to provide personalized advice.",
+        "timestamp": "2025-06-19T16:24:35.193159"
+      },
+      {
+        "role": "user",
+        "message": "I make $3000 a month and want to save for a house.",
+        "timestamp": "2025-06-19T16:25:05.193159"
+      },
+      {
+        "role": "assistant",
+        "message": "Based on your income, I recommend setting aside 20% for savings. Let me create a budget plan for you.",
+        "timestamp": "2025-06-19T16:25:35.193159"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_8dcac334",
+      "first_name": "Lisa",
+      "last_name": "Johnson",
+      "email": "james.garcia@email.com",
+      "phone": "+1-555-635-7644",
+      "account_type": "checking",
+      "balance": 20339.0,
+      "account_number": "9211901822",
+      "member_since": "2024-11-15"
+    },
+    "generated_at": "2025-06-19T16:55:05.193159",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 4,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_9db15d59",
+    "user_id": "user_0ec17f7c",
+    "intent": "financial_advice",
+    "user_name": "Lisa Williams",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need help with budgeting and saving money.",
+        "timestamp": "2025-06-19T16:04:05.193159"
+      },
+      {
+        "role": "assistant",
+        "message": "I'd be happy to help you with financial planning. Let me ask a few questions to provide personalized advice.",
+        "timestamp": "2025-06-19T16:04:35.193159"
+      },
+      {
+        "role": "user",
+        "message": "I make $3000 a month and want to save for a house.",
+        "timestamp": "2025-06-19T16:05:05.193159"
+      },
+      {
+        "role": "assistant",
+        "message": "Based on your income, I recommend setting aside 20% for savings. Let me create a budget plan for you.",
+        "timestamp": "2025-06-19T16:05:35.193159"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_0ec17f7c",
+      "first_name": "Lisa",
+      "last_name": "Williams",
+      "email": "amanda.williams@email.com",
+      "phone": "+1-555-296-2865",
+      "account_type": "premium",
+      "balance": 15842.41,
+      "account_number": "2219121395",
+      "member_since": "2025-01-08"
+    },
+    "generated_at": "2025-06-19T16:55:05.193159",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 3,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_5a01b2d5",
+    "user_id": "user_39536292",
+    "intent": "financial_advice",
+    "user_name": "Lisa Jones",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need help with budgeting and saving money.",
+        "timestamp": "2025-06-19T16:16:05.194156"
+      },
+      {
+        "role": "assistant",
+        "message": "I'd be happy to help you with financial planning. Let me ask a few questions to provide personalized advice.",
+        "timestamp": "2025-06-19T16:16:35.194156"
+      },
+      {
+        "role": "user",
+        "message": "I make $3000 a month and want to save for a house.",
+        "timestamp": "2025-06-19T16:17:05.194156"
+      },
+      {
+        "role": "assistant",
+        "message": "Based on your income, I recommend setting aside 20% for savings. Let me create a budget plan for you.",
+        "timestamp": "2025-06-19T16:17:35.194156"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_39536292",
+      "first_name": "Lisa",
+      "last_name": "Jones",
+      "email": "emily.martinez@email.com",
+      "phone": "+1-555-554-4148",
+      "account_type": "senior",
+      "balance": 33245.23,
+      "account_number": "9239035952",
+      "member_since": "2022-06-26"
+    },
+    "generated_at": "2025-06-19T16:55:05.194156",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 4,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_084aa406",
+    "user_id": "user_94fe4235",
+    "intent": "financial_advice",
+    "user_name": "Amanda Garcia",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need help with budgeting and saving money.",
+        "timestamp": "2025-06-19T16:11:05.194156"
+      },
+      {
+        "role": "assistant",
+        "message": "I'd be happy to help you with financial planning. Let me ask a few questions to provide personalized advice.",
+        "timestamp": "2025-06-19T16:11:35.194156"
+      },
+      {
+        "role": "user",
+        "message": "I make $3000 a month and want to save for a house.",
+        "timestamp": "2025-06-19T16:12:05.194156"
+      },
+      {
+        "role": "assistant",
+        "message": "Based on your income, I recommend setting aside 20% for savings. Let me create a budget plan for you.",
+        "timestamp": "2025-06-19T16:12:35.194156"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_94fe4235",
+      "first_name": "Amanda",
+      "last_name": "Garcia",
+      "email": "lisa.martinez@email.com",
+      "phone": "+1-555-690-4948",
+      "account_type": "student",
+      "balance": 38876.27,
+      "account_number": "6082315489",
+      "member_since": "2020-10-29"
+    },
+    "generated_at": "2025-06-19T16:55:05.194156",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 3,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_e9257bd1",
+    "user_id": "user_3b3fe738",
+    "intent": "financial_advice",
+    "user_name": "Sarah Smith",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need help with budgeting and saving money.",
+        "timestamp": "2025-06-19T16:42:05.194156"
+      },
+      {
+        "role": "assistant",
+        "message": "I'd be happy to help you with financial planning. Let me ask a few questions to provide personalized advice.",
+        "timestamp": "2025-06-19T16:42:35.194156"
+      },
+      {
+        "role": "user",
+        "message": "I make $3000 a month and want to save for a house.",
+        "timestamp": "2025-06-19T16:43:05.194156"
+      },
+      {
+        "role": "assistant",
+        "message": "Based on your income, I recommend setting aside 20% for savings. Let me create a budget plan for you.",
+        "timestamp": "2025-06-19T16:43:35.194156"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_3b3fe738",
+      "first_name": "Sarah",
+      "last_name": "Smith",
+      "email": "lisa.williams@email.com",
+      "phone": "+1-555-615-3712",
+      "account_type": "premium",
+      "balance": 34238.31,
+      "account_number": "8241501246",
+      "member_since": "2021-05-29"
+    },
+    "generated_at": "2025-06-19T16:55:05.194156",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 5,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_f81fa6fc",
+    "user_id": "user_846d1c51",
+    "intent": "financial_advice",
+    "user_name": "David Miller",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need help with budgeting and saving money.",
+        "timestamp": "2025-06-19T16:03:05.194156"
+      },
+      {
+        "role": "assistant",
+        "message": "I'd be happy to help you with financial planning. Let me ask a few questions to provide personalized advice.",
+        "timestamp": "2025-06-19T16:03:35.194156"
+      },
+      {
+        "role": "user",
+        "message": "I make $3000 a month and want to save for a house.",
+        "timestamp": "2025-06-19T16:04:05.194156"
+      },
+      {
+        "role": "assistant",
+        "message": "Based on your income, I recommend setting aside 20% for savings. Let me create a budget plan for you.",
+        "timestamp": "2025-06-19T16:04:35.194156"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_846d1c51",
+      "first_name": "David",
+      "last_name": "Miller",
+      "email": "amanda.martinez@email.com",
+      "phone": "+1-555-198-6737",
+      "account_type": "student",
+      "balance": 44662.91,
+      "account_number": "2701335406",
+      "member_since": "2025-01-28"
+    },
+    "generated_at": "2025-06-19T16:55:05.194156",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 3,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_970a1f29",
+    "user_id": "user_453a6a29",
+    "intent": "financial_advice",
+    "user_name": "Emily Miller",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need help with budgeting and saving money.",
+        "timestamp": "2025-06-19T16:06:05.195152"
+      },
+      {
+        "role": "assistant",
+        "message": "I'd be happy to help you with financial planning. Let me ask a few questions to provide personalized advice.",
+        "timestamp": "2025-06-19T16:06:35.195152"
+      },
+      {
+        "role": "user",
+        "message": "I make $3000 a month and want to save for a house.",
+        "timestamp": "2025-06-19T16:07:05.195152"
+      },
+      {
+        "role": "assistant",
+        "message": "Based on your income, I recommend setting aside 20% for savings. Let me create a budget plan for you.",
+        "timestamp": "2025-06-19T16:07:35.195152"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_453a6a29",
+      "first_name": "Emily",
+      "last_name": "Miller",
+      "email": "michael.garcia@email.com",
+      "phone": "+1-555-894-4744",
+      "account_type": "savings",
+      "balance": 24826.29,
+      "account_number": "8986102937",
+      "member_since": "2023-03-19"
+    },
+    "generated_at": "2025-06-19T16:55:05.195152",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 4,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_42b882d7",
+    "user_id": "user_b1540c21",
+    "intent": "financial_advice",
+    "user_name": "Sarah Smith",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need help with budgeting and saving money.",
+        "timestamp": "2025-06-19T16:39:05.195152"
+      },
+      {
+        "role": "assistant",
+        "message": "I'd be happy to help you with financial planning. Let me ask a few questions to provide personalized advice.",
+        "timestamp": "2025-06-19T16:39:35.195152"
+      },
+      {
+        "role": "user",
+        "message": "I make $3000 a month and want to save for a house.",
+        "timestamp": "2025-06-19T16:40:05.195152"
+      },
+      {
+        "role": "assistant",
+        "message": "Based on your income, I recommend setting aside 20% for savings. Let me create a budget plan for you.",
+        "timestamp": "2025-06-19T16:40:35.195152"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_b1540c21",
+      "first_name": "Sarah",
+      "last_name": "Smith",
+      "email": "emily.johnson@email.com",
+      "phone": "+1-555-929-4310",
+      "account_type": "premium",
+      "balance": 34979.38,
+      "account_number": "7679578059",
+      "member_since": "2023-03-31"
+    },
+    "generated_at": "2025-06-19T16:55:05.195152",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 3,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_34df4a41",
+    "user_id": "user_2de635fe",
+    "intent": "financial_advice",
+    "user_name": "Sarah Miller",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need help with budgeting and saving money.",
+        "timestamp": "2025-06-19T15:56:05.195152"
+      },
+      {
+        "role": "assistant",
+        "message": "I'd be happy to help you with financial planning. Let me ask a few questions to provide personalized advice.",
+        "timestamp": "2025-06-19T15:56:35.195152"
+      },
+      {
+        "role": "user",
+        "message": "I make $3000 a month and want to save for a house.",
+        "timestamp": "2025-06-19T15:57:05.195152"
+      },
+      {
+        "role": "assistant",
+        "message": "Based on your income, I recommend setting aside 20% for savings. Let me create a budget plan for you.",
+        "timestamp": "2025-06-19T15:57:35.195152"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_2de635fe",
+      "first_name": "Sarah",
+      "last_name": "Miller",
+      "email": "sarah.rodriguez@email.com",
+      "phone": "+1-555-107-8013",
+      "account_type": "premium",
+      "balance": 31049.06,
+      "account_number": "8922660707",
+      "member_since": "2024-02-14"
+    },
+    "generated_at": "2025-06-19T16:55:05.195152",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 5,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_8a409c84",
+    "user_id": "user_152af989",
+    "intent": "financial_advice",
+    "user_name": "David Johnson",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need help with budgeting and saving money.",
+        "timestamp": "2025-06-19T16:39:05.195152"
+      },
+      {
+        "role": "assistant",
+        "message": "I'd be happy to help you with financial planning. Let me ask a few questions to provide personalized advice.",
+        "timestamp": "2025-06-19T16:39:35.195152"
+      },
+      {
+        "role": "user",
+        "message": "I make $3000 a month and want to save for a house.",
+        "timestamp": "2025-06-19T16:40:05.195152"
+      },
+      {
+        "role": "assistant",
+        "message": "Based on your income, I recommend setting aside 20% for savings. Let me create a budget plan for you.",
+        "timestamp": "2025-06-19T16:40:35.195152"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_152af989",
+      "first_name": "David",
+      "last_name": "Johnson",
+      "email": "jennifer.rodriguez@email.com",
+      "phone": "+1-555-530-3715",
+      "account_type": "checking",
+      "balance": 38157.49,
+      "account_number": "1460363432",
+      "member_since": "2021-04-21"
+    },
+    "generated_at": "2025-06-19T16:55:05.195152",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 5,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_1dce83dd",
+    "user_id": "user_e52be12e",
+    "intent": "financial_advice",
+    "user_name": "John Jones",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need help with budgeting and saving money.",
+        "timestamp": "2025-06-19T16:27:05.195152"
+      },
+      {
+        "role": "assistant",
+        "message": "I'd be happy to help you with financial planning. Let me ask a few questions to provide personalized advice.",
+        "timestamp": "2025-06-19T16:27:35.195152"
+      },
+      {
+        "role": "user",
+        "message": "I make $3000 a month and want to save for a house.",
+        "timestamp": "2025-06-19T16:28:05.195152"
+      },
+      {
+        "role": "assistant",
+        "message": "Based on your income, I recommend setting aside 20% for savings. Let me create a budget plan for you.",
+        "timestamp": "2025-06-19T16:28:35.195152"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_e52be12e",
+      "first_name": "John",
+      "last_name": "Jones",
+      "email": "jennifer.rodriguez@email.com",
+      "phone": "+1-555-700-5496",
+      "account_type": "student",
+      "balance": 14659.28,
+      "account_number": "3494385186",
+      "member_since": "2020-08-01"
+    },
+    "generated_at": "2025-06-19T16:55:05.195152",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 4,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_3fd6b6a7",
+    "user_id": "user_de19dd79",
+    "intent": "financial_advice",
+    "user_name": "Lisa Johnson",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need help with budgeting and saving money.",
+        "timestamp": "2025-06-19T16:37:05.196557"
+      },
+      {
+        "role": "assistant",
+        "message": "I'd be happy to help you with financial planning. Let me ask a few questions to provide personalized advice.",
+        "timestamp": "2025-06-19T16:37:35.196557"
+      },
+      {
+        "role": "user",
+        "message": "I make $3000 a month and want to save for a house.",
+        "timestamp": "2025-06-19T16:38:05.196557"
+      },
+      {
+        "role": "assistant",
+        "message": "Based on your income, I recommend setting aside 20% for savings. Let me create a budget plan for you.",
+        "timestamp": "2025-06-19T16:38:35.196557"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_de19dd79",
+      "first_name": "Lisa",
+      "last_name": "Johnson",
+      "email": "jennifer.johnson@email.com",
+      "phone": "+1-555-492-6517",
+      "account_type": "student",
+      "balance": 39087.97,
+      "account_number": "1139378792",
+      "member_since": "2024-03-13"
+    },
+    "generated_at": "2025-06-19T16:55:05.196557",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 3,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_a7c0bf7e",
+    "user_id": "user_ef5abea3",
+    "intent": "financial_advice",
+    "user_name": "John Garcia",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need help with budgeting and saving money.",
+        "timestamp": "2025-06-19T16:26:05.196557"
+      },
+      {
+        "role": "assistant",
+        "message": "I'd be happy to help you with financial planning. Let me ask a few questions to provide personalized advice.",
+        "timestamp": "2025-06-19T16:26:35.196557"
+      },
+      {
+        "role": "user",
+        "message": "I make $3000 a month and want to save for a house.",
+        "timestamp": "2025-06-19T16:27:05.196557"
+      },
+      {
+        "role": "assistant",
+        "message": "Based on your income, I recommend setting aside 20% for savings. Let me create a budget plan for you.",
+        "timestamp": "2025-06-19T16:27:35.196557"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_ef5abea3",
+      "first_name": "John",
+      "last_name": "Garcia",
+      "email": "amanda.miller@email.com",
+      "phone": "+1-555-957-5842",
+      "account_type": "student",
+      "balance": 10672.1,
+      "account_number": "5171426971",
+      "member_since": "2024-06-10"
+    },
+    "generated_at": "2025-06-19T16:55:05.196557",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 4,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_4d815309",
+    "user_id": "user_b859af7c",
+    "intent": "financial_advice",
+    "user_name": "Emily Brown",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need help with budgeting and saving money.",
+        "timestamp": "2025-06-19T16:51:05.196557"
+      },
+      {
+        "role": "assistant",
+        "message": "I'd be happy to help you with financial planning. Let me ask a few questions to provide personalized advice.",
+        "timestamp": "2025-06-19T16:51:35.196557"
+      },
+      {
+        "role": "user",
+        "message": "I make $3000 a month and want to save for a house.",
+        "timestamp": "2025-06-19T16:52:05.196557"
+      },
+      {
+        "role": "assistant",
+        "message": "Based on your income, I recommend setting aside 20% for savings. Let me create a budget plan for you.",
+        "timestamp": "2025-06-19T16:52:35.196557"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_b859af7c",
+      "first_name": "Emily",
+      "last_name": "Brown",
+      "email": "lisa.martinez@email.com",
+      "phone": "+1-555-482-9883",
+      "account_type": "senior",
+      "balance": 10641.82,
+      "account_number": "1114824195",
+      "member_since": "2021-08-09"
+    },
+    "generated_at": "2025-06-19T16:55:05.196557",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 3,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_1dbbcff7",
+    "user_id": "user_83503708",
+    "intent": "financial_advice",
+    "user_name": "Michael Williams",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need help with budgeting and saving money.",
+        "timestamp": "2025-06-19T16:22:05.196557"
+      },
+      {
+        "role": "assistant",
+        "message": "I'd be happy to help you with financial planning. Let me ask a few questions to provide personalized advice.",
+        "timestamp": "2025-06-19T16:22:35.196557"
+      },
+      {
+        "role": "user",
+        "message": "I make $3000 a month and want to save for a house.",
+        "timestamp": "2025-06-19T16:23:05.196557"
+      },
+      {
+        "role": "assistant",
+        "message": "Based on your income, I recommend setting aside 20% for savings. Let me create a budget plan for you.",
+        "timestamp": "2025-06-19T16:23:35.196557"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_83503708",
+      "first_name": "Michael",
+      "last_name": "Williams",
+      "email": "robert.rodriguez@email.com",
+      "phone": "+1-555-543-9117",
+      "account_type": "student",
+      "balance": 19197.93,
+      "account_number": "5808786127",
+      "member_since": "2020-12-14"
+    },
+    "generated_at": "2025-06-19T16:55:05.196557",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 5,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_b36307b1",
+    "user_id": "user_c026c201",
+    "intent": "financial_advice",
+    "user_name": "Jennifer Garcia",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need help with budgeting and saving money.",
+        "timestamp": "2025-06-19T16:44:05.196557"
+      },
+      {
+        "role": "assistant",
+        "message": "I'd be happy to help you with financial planning. Let me ask a few questions to provide personalized advice.",
+        "timestamp": "2025-06-19T16:44:35.196557"
+      },
+      {
+        "role": "user",
+        "message": "I make $3000 a month and want to save for a house.",
+        "timestamp": "2025-06-19T16:45:05.196557"
+      },
+      {
+        "role": "assistant",
+        "message": "Based on your income, I recommend setting aside 20% for savings. Let me create a budget plan for you.",
+        "timestamp": "2025-06-19T16:45:35.196557"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_c026c201",
+      "first_name": "Jennifer",
+      "last_name": "Garcia",
+      "email": "john.miller@email.com",
+      "phone": "+1-555-438-9667",
+      "account_type": "senior",
+      "balance": 25646.42,
+      "account_number": "6337428514",
+      "member_since": "2024-04-25"
+    },
+    "generated_at": "2025-06-19T16:55:05.196557",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 5,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_032590ed",
+    "user_id": "user_aec49ce6",
+    "intent": "financial_advice",
+    "user_name": "Sarah Miller",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need help with budgeting and saving money.",
+        "timestamp": "2025-06-19T16:24:05.197555"
+      },
+      {
+        "role": "assistant",
+        "message": "I'd be happy to help you with financial planning. Let me ask a few questions to provide personalized advice.",
+        "timestamp": "2025-06-19T16:24:35.197555"
+      },
+      {
+        "role": "user",
+        "message": "I make $3000 a month and want to save for a house.",
+        "timestamp": "2025-06-19T16:25:05.197555"
+      },
+      {
+        "role": "assistant",
+        "message": "Based on your income, I recommend setting aside 20% for savings. Let me create a budget plan for you.",
+        "timestamp": "2025-06-19T16:25:35.197555"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_aec49ce6",
+      "first_name": "Sarah",
+      "last_name": "Miller",
+      "email": "david.martinez@email.com",
+      "phone": "+1-555-887-1921",
+      "account_type": "premium",
+      "balance": 29556.22,
+      "account_number": "9323081356",
+      "member_since": "2024-05-06"
+    },
+    "generated_at": "2025-06-19T16:55:05.197555",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 5,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_71453f09",
+    "user_id": "user_4bb10a20",
+    "intent": "financial_advice",
+    "user_name": "Robert Garcia",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need help with budgeting and saving money.",
+        "timestamp": "2025-06-19T16:11:05.197555"
+      },
+      {
+        "role": "assistant",
+        "message": "I'd be happy to help you with financial planning. Let me ask a few questions to provide personalized advice.",
+        "timestamp": "2025-06-19T16:11:35.197555"
+      },
+      {
+        "role": "user",
+        "message": "I make $3000 a month and want to save for a house.",
+        "timestamp": "2025-06-19T16:12:05.197555"
+      },
+      {
+        "role": "assistant",
+        "message": "Based on your income, I recommend setting aside 20% for savings. Let me create a budget plan for you.",
+        "timestamp": "2025-06-19T16:12:35.197555"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_4bb10a20",
+      "first_name": "Robert",
+      "last_name": "Garcia",
+      "email": "michael.rodriguez@email.com",
+      "phone": "+1-555-556-2393",
+      "account_type": "checking",
+      "balance": 5592.44,
+      "account_number": "9919745825",
+      "member_since": "2022-09-28"
+    },
+    "generated_at": "2025-06-19T16:55:05.197555",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 4,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_61b8d2f8",
+    "user_id": "user_172fc68f",
+    "intent": "financial_advice",
+    "user_name": "David Brown",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need help with budgeting and saving money.",
+        "timestamp": "2025-06-19T16:23:05.197555"
+      },
+      {
+        "role": "assistant",
+        "message": "I'd be happy to help you with financial planning. Let me ask a few questions to provide personalized advice.",
+        "timestamp": "2025-06-19T16:23:35.197555"
+      },
+      {
+        "role": "user",
+        "message": "I make $3000 a month and want to save for a house.",
+        "timestamp": "2025-06-19T16:24:05.197555"
+      },
+      {
+        "role": "assistant",
+        "message": "Based on your income, I recommend setting aside 20% for savings. Let me create a budget plan for you.",
+        "timestamp": "2025-06-19T16:24:35.197555"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_172fc68f",
+      "first_name": "David",
+      "last_name": "Brown",
+      "email": "amanda.smith@email.com",
+      "phone": "+1-555-459-3126",
+      "account_type": "premium",
+      "balance": 10350.37,
+      "account_number": "4658646065",
+      "member_since": "2024-08-18"
+    },
+    "generated_at": "2025-06-19T16:55:05.197555",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 5,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_9f712b64",
+    "user_id": "user_ae60710e",
+    "intent": "financial_advice",
+    "user_name": "Lisa Johnson",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need help with budgeting and saving money.",
+        "timestamp": "2025-06-19T16:14:05.197555"
+      },
+      {
+        "role": "assistant",
+        "message": "I'd be happy to help you with financial planning. Let me ask a few questions to provide personalized advice.",
+        "timestamp": "2025-06-19T16:14:35.197555"
+      },
+      {
+        "role": "user",
+        "message": "I make $3000 a month and want to save for a house.",
+        "timestamp": "2025-06-19T16:15:05.197555"
+      },
+      {
+        "role": "assistant",
+        "message": "Based on your income, I recommend setting aside 20% for savings. Let me create a budget plan for you.",
+        "timestamp": "2025-06-19T16:15:35.197555"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_ae60710e",
+      "first_name": "Lisa",
+      "last_name": "Johnson",
+      "email": "amanda.williams@email.com",
+      "phone": "+1-555-696-9304",
+      "account_type": "senior",
+      "balance": 48343.45,
+      "account_number": "5892956158",
+      "member_since": "2024-06-11"
+    },
+    "generated_at": "2025-06-19T16:55:05.197555",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 4,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_cf0ac56e",
+    "user_id": "user_04128a03",
+    "intent": "financial_advice",
+    "user_name": "Robert Miller",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need help with budgeting and saving money.",
+        "timestamp": "2025-06-19T16:33:05.202542"
+      },
+      {
+        "role": "assistant",
+        "message": "I'd be happy to help you with financial planning. Let me ask a few questions to provide personalized advice.",
+        "timestamp": "2025-06-19T16:33:35.202542"
+      },
+      {
+        "role": "user",
+        "message": "I make $3000 a month and want to save for a house.",
+        "timestamp": "2025-06-19T16:34:05.202542"
+      },
+      {
+        "role": "assistant",
+        "message": "Based on your income, I recommend setting aside 20% for savings. Let me create a budget plan for you.",
+        "timestamp": "2025-06-19T16:34:35.202542"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_04128a03",
+      "first_name": "Robert",
+      "last_name": "Miller",
+      "email": "michael.martinez@email.com",
+      "phone": "+1-555-327-3424",
+      "account_type": "premium",
+      "balance": 25149.47,
+      "account_number": "1738689429",
+      "member_since": "2021-04-16"
+    },
+    "generated_at": "2025-06-19T16:55:05.202542",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 4,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_5475895b",
+    "user_id": "user_9c7f186c",
+    "intent": "financial_advice",
+    "user_name": "John Rodriguez",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need help with budgeting and saving money.",
+        "timestamp": "2025-06-19T16:44:05.203198"
+      },
+      {
+        "role": "assistant",
+        "message": "I'd be happy to help you with financial planning. Let me ask a few questions to provide personalized advice.",
+        "timestamp": "2025-06-19T16:44:35.203198"
+      },
+      {
+        "role": "user",
+        "message": "I make $3000 a month and want to save for a house.",
+        "timestamp": "2025-06-19T16:45:05.203198"
+      },
+      {
+        "role": "assistant",
+        "message": "Based on your income, I recommend setting aside 20% for savings. Let me create a budget plan for you.",
+        "timestamp": "2025-06-19T16:45:35.203198"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_9c7f186c",
+      "first_name": "John",
+      "last_name": "Rodriguez",
+      "email": "lisa.williams@email.com",
+      "phone": "+1-555-207-3298",
+      "account_type": "premium",
+      "balance": 30724.64,
+      "account_number": "3695512788",
+      "member_since": "2025-05-01"
+    },
+    "generated_at": "2025-06-19T16:55:05.203198",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 5,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_db28ff4d",
+    "user_id": "user_158828d0",
+    "intent": "financial_advice",
+    "user_name": "James Davis",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need help with budgeting and saving money.",
+        "timestamp": "2025-06-19T16:35:05.204327"
+      },
+      {
+        "role": "assistant",
+        "message": "I'd be happy to help you with financial planning. Let me ask a few questions to provide personalized advice.",
+        "timestamp": "2025-06-19T16:35:35.204327"
+      },
+      {
+        "role": "user",
+        "message": "I make $3000 a month and want to save for a house.",
+        "timestamp": "2025-06-19T16:36:05.204327"
+      },
+      {
+        "role": "assistant",
+        "message": "Based on your income, I recommend setting aside 20% for savings. Let me create a budget plan for you.",
+        "timestamp": "2025-06-19T16:36:35.204327"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_158828d0",
+      "first_name": "James",
+      "last_name": "Davis",
+      "email": "emily.jones@email.com",
+      "phone": "+1-555-357-2623",
+      "account_type": "savings",
+      "balance": 5786.73,
+      "account_number": "4290426569",
+      "member_since": "2020-12-20"
+    },
+    "generated_at": "2025-06-19T16:55:05.204327",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 5,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_bc629f8b",
+    "user_id": "user_4fcf6e9f",
+    "intent": "financial_advice",
+    "user_name": "James Smith",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need help with budgeting and saving money.",
+        "timestamp": "2025-06-19T16:14:05.204327"
+      },
+      {
+        "role": "assistant",
+        "message": "I'd be happy to help you with financial planning. Let me ask a few questions to provide personalized advice.",
+        "timestamp": "2025-06-19T16:14:35.204327"
+      },
+      {
+        "role": "user",
+        "message": "I make $3000 a month and want to save for a house.",
+        "timestamp": "2025-06-19T16:15:05.204327"
+      },
+      {
+        "role": "assistant",
+        "message": "Based on your income, I recommend setting aside 20% for savings. Let me create a budget plan for you.",
+        "timestamp": "2025-06-19T16:15:35.204327"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_4fcf6e9f",
+      "first_name": "James",
+      "last_name": "Smith",
+      "email": "amanda.williams@email.com",
+      "phone": "+1-555-376-8945",
+      "account_type": "checking",
+      "balance": 46961.46,
+      "account_number": "9759093129",
+      "member_since": "2022-08-17"
+    },
+    "generated_at": "2025-06-19T16:55:05.204327",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 3,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_01789b43",
+    "user_id": "user_be62aa13",
+    "intent": "financial_advice",
+    "user_name": "John Jones",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need help with budgeting and saving money.",
+        "timestamp": "2025-06-19T16:41:05.205324"
+      },
+      {
+        "role": "assistant",
+        "message": "I'd be happy to help you with financial planning. Let me ask a few questions to provide personalized advice.",
+        "timestamp": "2025-06-19T16:41:35.205324"
+      },
+      {
+        "role": "user",
+        "message": "I make $3000 a month and want to save for a house.",
+        "timestamp": "2025-06-19T16:42:05.205324"
+      },
+      {
+        "role": "assistant",
+        "message": "Based on your income, I recommend setting aside 20% for savings. Let me create a budget plan for you.",
+        "timestamp": "2025-06-19T16:42:35.205324"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_be62aa13",
+      "first_name": "John",
+      "last_name": "Jones",
+      "email": "sarah.davis@email.com",
+      "phone": "+1-555-407-9870",
+      "account_type": "senior",
+      "balance": 2792.57,
+      "account_number": "7991549987",
+      "member_since": "2024-07-17"
+    },
+    "generated_at": "2025-06-19T16:55:05.205324",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 5,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_ea986f05",
+    "user_id": "user_6b901ff4",
+    "intent": "financial_advice",
+    "user_name": "James Davis",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need help with budgeting and saving money.",
+        "timestamp": "2025-06-19T16:26:05.205324"
+      },
+      {
+        "role": "assistant",
+        "message": "I'd be happy to help you with financial planning. Let me ask a few questions to provide personalized advice.",
+        "timestamp": "2025-06-19T16:26:35.205324"
+      },
+      {
+        "role": "user",
+        "message": "I make $3000 a month and want to save for a house.",
+        "timestamp": "2025-06-19T16:27:05.205324"
+      },
+      {
+        "role": "assistant",
+        "message": "Based on your income, I recommend setting aside 20% for savings. Let me create a budget plan for you.",
+        "timestamp": "2025-06-19T16:27:35.205324"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_6b901ff4",
+      "first_name": "James",
+      "last_name": "Davis",
+      "email": "lisa.garcia@email.com",
+      "phone": "+1-555-858-4147",
+      "account_type": "checking",
+      "balance": 16957.06,
+      "account_number": "6551752675",
+      "member_since": "2021-03-25"
+    },
+    "generated_at": "2025-06-19T16:55:05.205324",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 3,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_6e260539",
+    "user_id": "user_d7cfa87e",
+    "intent": "financial_advice",
+    "user_name": "John Johnson",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need help with budgeting and saving money.",
+        "timestamp": "2025-06-19T16:26:05.205324"
+      },
+      {
+        "role": "assistant",
+        "message": "I'd be happy to help you with financial planning. Let me ask a few questions to provide personalized advice.",
+        "timestamp": "2025-06-19T16:26:35.205324"
+      },
+      {
+        "role": "user",
+        "message": "I make $3000 a month and want to save for a house.",
+        "timestamp": "2025-06-19T16:27:05.205324"
+      },
+      {
+        "role": "assistant",
+        "message": "Based on your income, I recommend setting aside 20% for savings. Let me create a budget plan for you.",
+        "timestamp": "2025-06-19T16:27:35.205324"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_d7cfa87e",
+      "first_name": "John",
+      "last_name": "Johnson",
+      "email": "michael.miller@email.com",
+      "phone": "+1-555-388-3607",
+      "account_type": "premium",
+      "balance": 34660.55,
+      "account_number": "1712140885",
+      "member_since": "2024-01-16"
+    },
+    "generated_at": "2025-06-19T16:55:05.205324",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 3,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_202200ad",
+    "user_id": "user_f800f710",
+    "intent": "financial_advice",
+    "user_name": "Amanda Rodriguez",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need help with budgeting and saving money.",
+        "timestamp": "2025-06-19T16:10:05.205324"
+      },
+      {
+        "role": "assistant",
+        "message": "I'd be happy to help you with financial planning. Let me ask a few questions to provide personalized advice.",
+        "timestamp": "2025-06-19T16:10:35.205324"
+      },
+      {
+        "role": "user",
+        "message": "I make $3000 a month and want to save for a house.",
+        "timestamp": "2025-06-19T16:11:05.205324"
+      },
+      {
+        "role": "assistant",
+        "message": "Based on your income, I recommend setting aside 20% for savings. Let me create a budget plan for you.",
+        "timestamp": "2025-06-19T16:11:35.205324"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_f800f710",
+      "first_name": "Amanda",
+      "last_name": "Rodriguez",
+      "email": "amanda.johnson@email.com",
+      "phone": "+1-555-249-2377",
+      "account_type": "premium",
+      "balance": 43974.37,
+      "account_number": "2759294251",
+      "member_since": "2021-03-27"
+    },
+    "generated_at": "2025-06-19T16:55:05.206727",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 4,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_ec7c35ad",
+    "user_id": "user_907ae2cd",
+    "intent": "financial_advice",
+    "user_name": "Sarah Smith",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need help with budgeting and saving money.",
+        "timestamp": "2025-06-19T16:17:05.206727"
+      },
+      {
+        "role": "assistant",
+        "message": "I'd be happy to help you with financial planning. Let me ask a few questions to provide personalized advice.",
+        "timestamp": "2025-06-19T16:17:35.206727"
+      },
+      {
+        "role": "user",
+        "message": "I make $3000 a month and want to save for a house.",
+        "timestamp": "2025-06-19T16:18:05.206727"
+      },
+      {
+        "role": "assistant",
+        "message": "Based on your income, I recommend setting aside 20% for savings. Let me create a budget plan for you.",
+        "timestamp": "2025-06-19T16:18:35.206727"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_907ae2cd",
+      "first_name": "Sarah",
+      "last_name": "Smith",
+      "email": "robert.davis@email.com",
+      "phone": "+1-555-908-5615",
+      "account_type": "premium",
+      "balance": 20807.34,
+      "account_number": "2052435401",
+      "member_since": "2021-02-16"
+    },
+    "generated_at": "2025-06-19T16:55:05.206727",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 5,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_4de22ead",
+    "user_id": "user_22c56988",
+    "intent": "financial_advice",
+    "user_name": "Robert Williams",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need help with budgeting and saving money.",
+        "timestamp": "2025-06-19T16:04:05.206727"
+      },
+      {
+        "role": "assistant",
+        "message": "I'd be happy to help you with financial planning. Let me ask a few questions to provide personalized advice.",
+        "timestamp": "2025-06-19T16:04:35.206727"
+      },
+      {
+        "role": "user",
+        "message": "I make $3000 a month and want to save for a house.",
+        "timestamp": "2025-06-19T16:05:05.206727"
+      },
+      {
+        "role": "assistant",
+        "message": "Based on your income, I recommend setting aside 20% for savings. Let me create a budget plan for you.",
+        "timestamp": "2025-06-19T16:05:35.206727"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_22c56988",
+      "first_name": "Robert",
+      "last_name": "Williams",
+      "email": "michael.rodriguez@email.com",
+      "phone": "+1-555-726-6988",
+      "account_type": "premium",
+      "balance": 10132.96,
+      "account_number": "8685636423",
+      "member_since": "2020-09-06"
+    },
+    "generated_at": "2025-06-19T16:55:05.206727",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 3,
+      "resolution_status": "resolved"
+    }
+  }
+]

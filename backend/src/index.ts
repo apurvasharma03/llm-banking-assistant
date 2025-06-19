@@ -2,6 +2,9 @@ import express from 'express';
 import cors from 'cors';
 import chatRouter from './routes/chat';
 import { config } from './config';
+import fs from 'fs';
+import path from 'path';
+import customersRouter from './routes/customers';
 
 const app = express();
 
@@ -20,8 +23,18 @@ app.use((req, res, next) => {
   next();
 });
 
+// Load synthetic data
+const customers = JSON.parse(fs.readFileSync(path.join(__dirname, '../customers.json'), 'utf-8'));
+const accounts = JSON.parse(fs.readFileSync(path.join(__dirname, '../accounts.json'), 'utf-8'));
+const transactions = JSON.parse(fs.readFileSync(path.join(__dirname, '../transactions.json'), 'utf-8'));
+
+app.locals.customers = customers;
+app.locals.accounts = accounts;
+app.locals.transactions = transactions;
+
 // Routes
 app.use('/api/chat', chatRouter);
+app.use('/api/customers', customersRouter);
 
 // Health check endpoint
 app.get('/health', (req, res) => {

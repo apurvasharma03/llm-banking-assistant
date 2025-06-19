@@ -1,0 +1,2302 @@
+[
+  {
+    "conversation_id": "conv_c2e86a00",
+    "user_id": "user_f0691bae",
+    "intent": "transaction_request",
+    "user_name": "Amanda Smith",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need to transfer money to my friend.",
+        "timestamp": "2025-06-19T16:33:05.154215"
+      },
+      {
+        "role": "assistant",
+        "message": "I can help you with that transfer. Please provide the recipient's name and account number.",
+        "timestamp": "2025-06-19T16:33:35.154215"
+      },
+      {
+        "role": "user",
+        "message": "The name is John Doe and the account number is 1234567890.",
+        "timestamp": "2025-06-19T16:34:05.154215"
+      },
+      {
+        "role": "assistant",
+        "message": "Thank you. How much would you like to transfer?",
+        "timestamp": "2025-06-19T16:34:35.154215"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_f0691bae",
+      "first_name": "Amanda",
+      "last_name": "Smith",
+      "email": "james.miller@email.com",
+      "phone": "+1-555-265-5443",
+      "account_type": "student",
+      "balance": 42598.52,
+      "account_number": "4036358291",
+      "member_since": "2022-08-31"
+    },
+    "generated_at": "2025-06-19T16:55:05.155196",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 5,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_6723a87b",
+    "user_id": "user_79bd67c9",
+    "intent": "transaction_request",
+    "user_name": "John Jones",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need to transfer money to my friend.",
+        "timestamp": "2025-06-19T16:22:05.155196"
+      },
+      {
+        "role": "assistant",
+        "message": "I can help you with that transfer. Please provide the recipient's name and account number.",
+        "timestamp": "2025-06-19T16:22:35.155196"
+      },
+      {
+        "role": "user",
+        "message": "The name is John Doe and the account number is 1234567890.",
+        "timestamp": "2025-06-19T16:23:05.155196"
+      },
+      {
+        "role": "assistant",
+        "message": "Thank you. How much would you like to transfer?",
+        "timestamp": "2025-06-19T16:23:35.155196"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_79bd67c9",
+      "first_name": "John",
+      "last_name": "Jones",
+      "email": "james.jones@email.com",
+      "phone": "+1-555-999-4246",
+      "account_type": "senior",
+      "balance": 22451.93,
+      "account_number": "3069517093",
+      "member_since": "2023-07-15"
+    },
+    "generated_at": "2025-06-19T16:55:05.155196",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 5,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_a13d8ba7",
+    "user_id": "user_8782afa3",
+    "intent": "transaction_request",
+    "user_name": "James Jones",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need to transfer money to my friend.",
+        "timestamp": "2025-06-19T16:42:05.156188"
+      },
+      {
+        "role": "assistant",
+        "message": "I can help you with that transfer. Please provide the recipient's name and account number.",
+        "timestamp": "2025-06-19T16:42:35.156188"
+      },
+      {
+        "role": "user",
+        "message": "The name is John Doe and the account number is 1234567890.",
+        "timestamp": "2025-06-19T16:43:05.156188"
+      },
+      {
+        "role": "assistant",
+        "message": "Thank you. How much would you like to transfer?",
+        "timestamp": "2025-06-19T16:43:35.156188"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_8782afa3",
+      "first_name": "James",
+      "last_name": "Jones",
+      "email": "lisa.smith@email.com",
+      "phone": "+1-555-204-2592",
+      "account_type": "student",
+      "balance": 47946.18,
+      "account_number": "8079762180",
+      "member_since": "2021-09-14"
+    },
+    "generated_at": "2025-06-19T16:55:05.156188",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 3,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_672ed740",
+    "user_id": "user_52c88fa2",
+    "intent": "transaction_request",
+    "user_name": "David Brown",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need to transfer money to my friend.",
+        "timestamp": "2025-06-19T16:32:05.156188"
+      },
+      {
+        "role": "assistant",
+        "message": "I can help you with that transfer. Please provide the recipient's name and account number.",
+        "timestamp": "2025-06-19T16:32:35.156188"
+      },
+      {
+        "role": "user",
+        "message": "The name is John Doe and the account number is 1234567890.",
+        "timestamp": "2025-06-19T16:33:05.156188"
+      },
+      {
+        "role": "assistant",
+        "message": "Thank you. How much would you like to transfer?",
+        "timestamp": "2025-06-19T16:33:35.156188"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_52c88fa2",
+      "first_name": "David",
+      "last_name": "Brown",
+      "email": "robert.brown@email.com",
+      "phone": "+1-555-638-6019",
+      "account_type": "premium",
+      "balance": 21926.56,
+      "account_number": "1293667848",
+      "member_since": "2023-02-24"
+    },
+    "generated_at": "2025-06-19T16:55:05.156188",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 5,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_4ac8bd4f",
+    "user_id": "user_bf03abf4",
+    "intent": "transaction_request",
+    "user_name": "Lisa Williams",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need to transfer money to my friend.",
+        "timestamp": "2025-06-19T16:39:05.156188"
+      },
+      {
+        "role": "assistant",
+        "message": "I can help you with that transfer. Please provide the recipient's name and account number.",
+        "timestamp": "2025-06-19T16:39:35.156188"
+      },
+      {
+        "role": "user",
+        "message": "The name is John Doe and the account number is 1234567890.",
+        "timestamp": "2025-06-19T16:40:05.156188"
+      },
+      {
+        "role": "assistant",
+        "message": "Thank you. How much would you like to transfer?",
+        "timestamp": "2025-06-19T16:40:35.156188"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_bf03abf4",
+      "first_name": "Lisa",
+      "last_name": "Williams",
+      "email": "amanda.davis@email.com",
+      "phone": "+1-555-161-2735",
+      "account_type": "savings",
+      "balance": 10398.17,
+      "account_number": "7294592357",
+      "member_since": "2022-09-11"
+    },
+    "generated_at": "2025-06-19T16:55:05.156188",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 4,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_0105424d",
+    "user_id": "user_16063cd5",
+    "intent": "transaction_request",
+    "user_name": "James Martinez",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need to transfer money to my friend.",
+        "timestamp": "2025-06-19T16:12:05.156188"
+      },
+      {
+        "role": "assistant",
+        "message": "I can help you with that transfer. Please provide the recipient's name and account number.",
+        "timestamp": "2025-06-19T16:12:35.156188"
+      },
+      {
+        "role": "user",
+        "message": "The name is John Doe and the account number is 1234567890.",
+        "timestamp": "2025-06-19T16:13:05.156188"
+      },
+      {
+        "role": "assistant",
+        "message": "Thank you. How much would you like to transfer?",
+        "timestamp": "2025-06-19T16:13:35.156188"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_16063cd5",
+      "first_name": "James",
+      "last_name": "Martinez",
+      "email": "emily.williams@email.com",
+      "phone": "+1-555-552-5169",
+      "account_type": "savings",
+      "balance": 28770.9,
+      "account_number": "5259390817",
+      "member_since": "2021-08-06"
+    },
+    "generated_at": "2025-06-19T16:55:05.156188",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 3,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_3c4da089",
+    "user_id": "user_8d32e24e",
+    "intent": "transaction_request",
+    "user_name": "John Williams",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need to transfer money to my friend.",
+        "timestamp": "2025-06-19T16:52:05.156188"
+      },
+      {
+        "role": "assistant",
+        "message": "I can help you with that transfer. Please provide the recipient's name and account number.",
+        "timestamp": "2025-06-19T16:52:35.156188"
+      },
+      {
+        "role": "user",
+        "message": "The name is John Doe and the account number is 1234567890.",
+        "timestamp": "2025-06-19T16:53:05.156188"
+      },
+      {
+        "role": "assistant",
+        "message": "Thank you. How much would you like to transfer?",
+        "timestamp": "2025-06-19T16:53:35.156188"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_8d32e24e",
+      "first_name": "John",
+      "last_name": "Williams",
+      "email": "john.rodriguez@email.com",
+      "phone": "+1-555-679-2018",
+      "account_type": "premium",
+      "balance": 24877.78,
+      "account_number": "5567786802",
+      "member_since": "2023-01-20"
+    },
+    "generated_at": "2025-06-19T16:55:05.156188",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 5,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_8eb27ba9",
+    "user_id": "user_4f439e76",
+    "intent": "transaction_request",
+    "user_name": "Robert Brown",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need to transfer money to my friend.",
+        "timestamp": "2025-06-19T16:46:05.156188"
+      },
+      {
+        "role": "assistant",
+        "message": "I can help you with that transfer. Please provide the recipient's name and account number.",
+        "timestamp": "2025-06-19T16:46:35.156188"
+      },
+      {
+        "role": "user",
+        "message": "The name is John Doe and the account number is 1234567890.",
+        "timestamp": "2025-06-19T16:47:05.156188"
+      },
+      {
+        "role": "assistant",
+        "message": "Thank you. How much would you like to transfer?",
+        "timestamp": "2025-06-19T16:47:35.156188"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_4f439e76",
+      "first_name": "Robert",
+      "last_name": "Brown",
+      "email": "michael.williams@email.com",
+      "phone": "+1-555-392-2834",
+      "account_type": "checking",
+      "balance": 20242.07,
+      "account_number": "2499019186",
+      "member_since": "2024-01-11"
+    },
+    "generated_at": "2025-06-19T16:55:05.156188",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 4,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_fb4683a8",
+    "user_id": "user_789b929f",
+    "intent": "transaction_request",
+    "user_name": "Lisa Rodriguez",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need to transfer money to my friend.",
+        "timestamp": "2025-06-19T16:11:05.156188"
+      },
+      {
+        "role": "assistant",
+        "message": "I can help you with that transfer. Please provide the recipient's name and account number.",
+        "timestamp": "2025-06-19T16:11:35.156188"
+      },
+      {
+        "role": "user",
+        "message": "The name is John Doe and the account number is 1234567890.",
+        "timestamp": "2025-06-19T16:12:05.156188"
+      },
+      {
+        "role": "assistant",
+        "message": "Thank you. How much would you like to transfer?",
+        "timestamp": "2025-06-19T16:12:35.156188"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_789b929f",
+      "first_name": "Lisa",
+      "last_name": "Rodriguez",
+      "email": "robert.miller@email.com",
+      "phone": "+1-555-399-5073",
+      "account_type": "student",
+      "balance": 1933.84,
+      "account_number": "1166303394",
+      "member_since": "2022-05-08"
+    },
+    "generated_at": "2025-06-19T16:55:05.156188",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 3,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_4fb5d8df",
+    "user_id": "user_791388fd",
+    "intent": "transaction_request",
+    "user_name": "Emily Jones",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need to transfer money to my friend.",
+        "timestamp": "2025-06-19T16:40:05.156188"
+      },
+      {
+        "role": "assistant",
+        "message": "I can help you with that transfer. Please provide the recipient's name and account number.",
+        "timestamp": "2025-06-19T16:40:35.156188"
+      },
+      {
+        "role": "user",
+        "message": "The name is John Doe and the account number is 1234567890.",
+        "timestamp": "2025-06-19T16:41:05.156188"
+      },
+      {
+        "role": "assistant",
+        "message": "Thank you. How much would you like to transfer?",
+        "timestamp": "2025-06-19T16:41:35.156188"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_791388fd",
+      "first_name": "Emily",
+      "last_name": "Jones",
+      "email": "michael.rodriguez@email.com",
+      "phone": "+1-555-406-9770",
+      "account_type": "savings",
+      "balance": 41076.9,
+      "account_number": "1660263901",
+      "member_since": "2022-04-11"
+    },
+    "generated_at": "2025-06-19T16:55:05.156188",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 3,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_744d99f2",
+    "user_id": "user_e40eef28",
+    "intent": "transaction_request",
+    "user_name": "John Martinez",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need to transfer money to my friend.",
+        "timestamp": "2025-06-19T16:16:05.157184"
+      },
+      {
+        "role": "assistant",
+        "message": "I can help you with that transfer. Please provide the recipient's name and account number.",
+        "timestamp": "2025-06-19T16:16:35.157184"
+      },
+      {
+        "role": "user",
+        "message": "The name is John Doe and the account number is 1234567890.",
+        "timestamp": "2025-06-19T16:17:05.157184"
+      },
+      {
+        "role": "assistant",
+        "message": "Thank you. How much would you like to transfer?",
+        "timestamp": "2025-06-19T16:17:35.157184"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_e40eef28",
+      "first_name": "John",
+      "last_name": "Martinez",
+      "email": "john.martinez@email.com",
+      "phone": "+1-555-226-2944",
+      "account_type": "checking",
+      "balance": 4864.87,
+      "account_number": "7460712783",
+      "member_since": "2022-10-08"
+    },
+    "generated_at": "2025-06-19T16:55:05.157184",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 4,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_b0d6125e",
+    "user_id": "user_af123955",
+    "intent": "transaction_request",
+    "user_name": "John Davis",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need to transfer money to my friend.",
+        "timestamp": "2025-06-19T16:51:05.157184"
+      },
+      {
+        "role": "assistant",
+        "message": "I can help you with that transfer. Please provide the recipient's name and account number.",
+        "timestamp": "2025-06-19T16:51:35.157184"
+      },
+      {
+        "role": "user",
+        "message": "The name is John Doe and the account number is 1234567890.",
+        "timestamp": "2025-06-19T16:52:05.157184"
+      },
+      {
+        "role": "assistant",
+        "message": "Thank you. How much would you like to transfer?",
+        "timestamp": "2025-06-19T16:52:35.157184"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_af123955",
+      "first_name": "John",
+      "last_name": "Davis",
+      "email": "robert.williams@email.com",
+      "phone": "+1-555-338-7065",
+      "account_type": "senior",
+      "balance": 19299.17,
+      "account_number": "7449699194",
+      "member_since": "2024-09-12"
+    },
+    "generated_at": "2025-06-19T16:55:05.157184",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 4,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_e235bf1e",
+    "user_id": "user_a1907991",
+    "intent": "transaction_request",
+    "user_name": "Sarah Miller",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need to transfer money to my friend.",
+        "timestamp": "2025-06-19T16:42:05.157184"
+      },
+      {
+        "role": "assistant",
+        "message": "I can help you with that transfer. Please provide the recipient's name and account number.",
+        "timestamp": "2025-06-19T16:42:35.157184"
+      },
+      {
+        "role": "user",
+        "message": "The name is John Doe and the account number is 1234567890.",
+        "timestamp": "2025-06-19T16:43:05.157184"
+      },
+      {
+        "role": "assistant",
+        "message": "Thank you. How much would you like to transfer?",
+        "timestamp": "2025-06-19T16:43:35.157184"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_a1907991",
+      "first_name": "Sarah",
+      "last_name": "Miller",
+      "email": "emily.garcia@email.com",
+      "phone": "+1-555-700-2465",
+      "account_type": "premium",
+      "balance": 30588.78,
+      "account_number": "8583928103",
+      "member_since": "2023-12-02"
+    },
+    "generated_at": "2025-06-19T16:55:05.157184",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 4,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_e6f9a585",
+    "user_id": "user_935ea6fe",
+    "intent": "transaction_request",
+    "user_name": "Michael Williams",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need to transfer money to my friend.",
+        "timestamp": "2025-06-19T16:48:05.157184"
+      },
+      {
+        "role": "assistant",
+        "message": "I can help you with that transfer. Please provide the recipient's name and account number.",
+        "timestamp": "2025-06-19T16:48:35.157184"
+      },
+      {
+        "role": "user",
+        "message": "The name is John Doe and the account number is 1234567890.",
+        "timestamp": "2025-06-19T16:49:05.157184"
+      },
+      {
+        "role": "assistant",
+        "message": "Thank you. How much would you like to transfer?",
+        "timestamp": "2025-06-19T16:49:35.157184"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_935ea6fe",
+      "first_name": "Michael",
+      "last_name": "Williams",
+      "email": "jennifer.smith@email.com",
+      "phone": "+1-555-603-4374",
+      "account_type": "savings",
+      "balance": 33945.7,
+      "account_number": "5362855063",
+      "member_since": "2021-09-27"
+    },
+    "generated_at": "2025-06-19T16:55:05.157184",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 3,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_6ec2e133",
+    "user_id": "user_a2d5053c",
+    "intent": "transaction_request",
+    "user_name": "Lisa Garcia",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need to transfer money to my friend.",
+        "timestamp": "2025-06-19T16:02:05.157184"
+      },
+      {
+        "role": "assistant",
+        "message": "I can help you with that transfer. Please provide the recipient's name and account number.",
+        "timestamp": "2025-06-19T16:02:35.157184"
+      },
+      {
+        "role": "user",
+        "message": "The name is John Doe and the account number is 1234567890.",
+        "timestamp": "2025-06-19T16:03:05.157184"
+      },
+      {
+        "role": "assistant",
+        "message": "Thank you. How much would you like to transfer?",
+        "timestamp": "2025-06-19T16:03:35.157184"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_a2d5053c",
+      "first_name": "Lisa",
+      "last_name": "Garcia",
+      "email": "robert.davis@email.com",
+      "phone": "+1-555-585-9317",
+      "account_type": "student",
+      "balance": 21509.97,
+      "account_number": "3939092537",
+      "member_since": "2020-09-23"
+    },
+    "generated_at": "2025-06-19T16:55:05.157184",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 5,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_ee72fe66",
+    "user_id": "user_fee2eebb",
+    "intent": "transaction_request",
+    "user_name": "Michael Rodriguez",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need to transfer money to my friend.",
+        "timestamp": "2025-06-19T16:40:05.157184"
+      },
+      {
+        "role": "assistant",
+        "message": "I can help you with that transfer. Please provide the recipient's name and account number.",
+        "timestamp": "2025-06-19T16:40:35.157184"
+      },
+      {
+        "role": "user",
+        "message": "The name is John Doe and the account number is 1234567890.",
+        "timestamp": "2025-06-19T16:41:05.157184"
+      },
+      {
+        "role": "assistant",
+        "message": "Thank you. How much would you like to transfer?",
+        "timestamp": "2025-06-19T16:41:35.157184"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_fee2eebb",
+      "first_name": "Michael",
+      "last_name": "Rodriguez",
+      "email": "john.williams@email.com",
+      "phone": "+1-555-759-3781",
+      "account_type": "savings",
+      "balance": 264.21,
+      "account_number": "5048172807",
+      "member_since": "2021-01-21"
+    },
+    "generated_at": "2025-06-19T16:55:05.157184",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 5,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_ca3a8428",
+    "user_id": "user_ff6efccc",
+    "intent": "transaction_request",
+    "user_name": "James Miller",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need to transfer money to my friend.",
+        "timestamp": "2025-06-19T16:30:05.158265"
+      },
+      {
+        "role": "assistant",
+        "message": "I can help you with that transfer. Please provide the recipient's name and account number.",
+        "timestamp": "2025-06-19T16:30:35.158265"
+      },
+      {
+        "role": "user",
+        "message": "The name is John Doe and the account number is 1234567890.",
+        "timestamp": "2025-06-19T16:31:05.158265"
+      },
+      {
+        "role": "assistant",
+        "message": "Thank you. How much would you like to transfer?",
+        "timestamp": "2025-06-19T16:31:35.158265"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_ff6efccc",
+      "first_name": "James",
+      "last_name": "Miller",
+      "email": "jennifer.jones@email.com",
+      "phone": "+1-555-765-6081",
+      "account_type": "savings",
+      "balance": 7668.67,
+      "account_number": "7348913731",
+      "member_since": "2021-10-20"
+    },
+    "generated_at": "2025-06-19T16:55:05.158265",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 5,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_a871be5b",
+    "user_id": "user_01074bb9",
+    "intent": "transaction_request",
+    "user_name": "Michael Brown",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need to transfer money to my friend.",
+        "timestamp": "2025-06-19T16:33:05.158265"
+      },
+      {
+        "role": "assistant",
+        "message": "I can help you with that transfer. Please provide the recipient's name and account number.",
+        "timestamp": "2025-06-19T16:33:35.158265"
+      },
+      {
+        "role": "user",
+        "message": "The name is John Doe and the account number is 1234567890.",
+        "timestamp": "2025-06-19T16:34:05.158265"
+      },
+      {
+        "role": "assistant",
+        "message": "Thank you. How much would you like to transfer?",
+        "timestamp": "2025-06-19T16:34:35.158265"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_01074bb9",
+      "first_name": "Michael",
+      "last_name": "Brown",
+      "email": "lisa.davis@email.com",
+      "phone": "+1-555-913-7245",
+      "account_type": "premium",
+      "balance": 44928.82,
+      "account_number": "8892472123",
+      "member_since": "2024-01-11"
+    },
+    "generated_at": "2025-06-19T16:55:05.158265",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 3,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_56b074b8",
+    "user_id": "user_be3cbcc7",
+    "intent": "transaction_request",
+    "user_name": "Robert Garcia",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need to transfer money to my friend.",
+        "timestamp": "2025-06-19T16:40:05.158265"
+      },
+      {
+        "role": "assistant",
+        "message": "I can help you with that transfer. Please provide the recipient's name and account number.",
+        "timestamp": "2025-06-19T16:40:35.158265"
+      },
+      {
+        "role": "user",
+        "message": "The name is John Doe and the account number is 1234567890.",
+        "timestamp": "2025-06-19T16:41:05.158265"
+      },
+      {
+        "role": "assistant",
+        "message": "Thank you. How much would you like to transfer?",
+        "timestamp": "2025-06-19T16:41:35.158265"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_be3cbcc7",
+      "first_name": "Robert",
+      "last_name": "Garcia",
+      "email": "amanda.miller@email.com",
+      "phone": "+1-555-695-2378",
+      "account_type": "senior",
+      "balance": 33844.53,
+      "account_number": "6558308995",
+      "member_since": "2021-04-14"
+    },
+    "generated_at": "2025-06-19T16:55:05.158265",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 3,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_74ae1b86",
+    "user_id": "user_c08e7955",
+    "intent": "transaction_request",
+    "user_name": "Robert Brown",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need to transfer money to my friend.",
+        "timestamp": "2025-06-19T16:31:05.158265"
+      },
+      {
+        "role": "assistant",
+        "message": "I can help you with that transfer. Please provide the recipient's name and account number.",
+        "timestamp": "2025-06-19T16:31:35.158265"
+      },
+      {
+        "role": "user",
+        "message": "The name is John Doe and the account number is 1234567890.",
+        "timestamp": "2025-06-19T16:32:05.158265"
+      },
+      {
+        "role": "assistant",
+        "message": "Thank you. How much would you like to transfer?",
+        "timestamp": "2025-06-19T16:32:35.158265"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_c08e7955",
+      "first_name": "Robert",
+      "last_name": "Brown",
+      "email": "emily.miller@email.com",
+      "phone": "+1-555-574-8066",
+      "account_type": "senior",
+      "balance": 4690.87,
+      "account_number": "9111798033",
+      "member_since": "2022-09-25"
+    },
+    "generated_at": "2025-06-19T16:55:05.158265",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 4,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_65b3ec18",
+    "user_id": "user_2393a8f1",
+    "intent": "transaction_request",
+    "user_name": "John Brown",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need to transfer money to my friend.",
+        "timestamp": "2025-06-19T16:06:05.158265"
+      },
+      {
+        "role": "assistant",
+        "message": "I can help you with that transfer. Please provide the recipient's name and account number.",
+        "timestamp": "2025-06-19T16:06:35.158265"
+      },
+      {
+        "role": "user",
+        "message": "The name is John Doe and the account number is 1234567890.",
+        "timestamp": "2025-06-19T16:07:05.158265"
+      },
+      {
+        "role": "assistant",
+        "message": "Thank you. How much would you like to transfer?",
+        "timestamp": "2025-06-19T16:07:35.158265"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_2393a8f1",
+      "first_name": "John",
+      "last_name": "Brown",
+      "email": "david.martinez@email.com",
+      "phone": "+1-555-622-2325",
+      "account_type": "savings",
+      "balance": 8354.49,
+      "account_number": "2082094318",
+      "member_since": "2023-09-18"
+    },
+    "generated_at": "2025-06-19T16:55:05.158265",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 3,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_bb0a91ce",
+    "user_id": "user_6ac438d9",
+    "intent": "transaction_request",
+    "user_name": "Lisa Garcia",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need to transfer money to my friend.",
+        "timestamp": "2025-06-19T16:43:05.158265"
+      },
+      {
+        "role": "assistant",
+        "message": "I can help you with that transfer. Please provide the recipient's name and account number.",
+        "timestamp": "2025-06-19T16:43:35.158265"
+      },
+      {
+        "role": "user",
+        "message": "The name is John Doe and the account number is 1234567890.",
+        "timestamp": "2025-06-19T16:44:05.158265"
+      },
+      {
+        "role": "assistant",
+        "message": "Thank you. How much would you like to transfer?",
+        "timestamp": "2025-06-19T16:44:35.158265"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_6ac438d9",
+      "first_name": "Lisa",
+      "last_name": "Garcia",
+      "email": "sarah.johnson@email.com",
+      "phone": "+1-555-855-3747",
+      "account_type": "premium",
+      "balance": 18224.03,
+      "account_number": "4363581476",
+      "member_since": "2024-01-13"
+    },
+    "generated_at": "2025-06-19T16:55:05.159388",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 3,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_2effb559",
+    "user_id": "user_c474fba5",
+    "intent": "transaction_request",
+    "user_name": "Sarah Brown",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need to transfer money to my friend.",
+        "timestamp": "2025-06-19T16:31:05.159388"
+      },
+      {
+        "role": "assistant",
+        "message": "I can help you with that transfer. Please provide the recipient's name and account number.",
+        "timestamp": "2025-06-19T16:31:35.159388"
+      },
+      {
+        "role": "user",
+        "message": "The name is John Doe and the account number is 1234567890.",
+        "timestamp": "2025-06-19T16:32:05.159388"
+      },
+      {
+        "role": "assistant",
+        "message": "Thank you. How much would you like to transfer?",
+        "timestamp": "2025-06-19T16:32:35.159388"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_c474fba5",
+      "first_name": "Sarah",
+      "last_name": "Brown",
+      "email": "jennifer.williams@email.com",
+      "phone": "+1-555-417-5294",
+      "account_type": "savings",
+      "balance": 7717.34,
+      "account_number": "2265685849",
+      "member_since": "2023-10-01"
+    },
+    "generated_at": "2025-06-19T16:55:05.159388",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 4,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_7467ba4b",
+    "user_id": "user_a0d2fae6",
+    "intent": "transaction_request",
+    "user_name": "David Davis",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need to transfer money to my friend.",
+        "timestamp": "2025-06-19T16:31:05.159388"
+      },
+      {
+        "role": "assistant",
+        "message": "I can help you with that transfer. Please provide the recipient's name and account number.",
+        "timestamp": "2025-06-19T16:31:35.159388"
+      },
+      {
+        "role": "user",
+        "message": "The name is John Doe and the account number is 1234567890.",
+        "timestamp": "2025-06-19T16:32:05.159388"
+      },
+      {
+        "role": "assistant",
+        "message": "Thank you. How much would you like to transfer?",
+        "timestamp": "2025-06-19T16:32:35.159388"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_a0d2fae6",
+      "first_name": "David",
+      "last_name": "Davis",
+      "email": "amanda.martinez@email.com",
+      "phone": "+1-555-724-5439",
+      "account_type": "premium",
+      "balance": 16975.79,
+      "account_number": "3685387579",
+      "member_since": "2024-12-03"
+    },
+    "generated_at": "2025-06-19T16:55:05.159388",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 5,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_f49bf86b",
+    "user_id": "user_577a69ba",
+    "intent": "transaction_request",
+    "user_name": "John Garcia",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need to transfer money to my friend.",
+        "timestamp": "2025-06-19T16:11:05.159388"
+      },
+      {
+        "role": "assistant",
+        "message": "I can help you with that transfer. Please provide the recipient's name and account number.",
+        "timestamp": "2025-06-19T16:11:35.159388"
+      },
+      {
+        "role": "user",
+        "message": "The name is John Doe and the account number is 1234567890.",
+        "timestamp": "2025-06-19T16:12:05.159388"
+      },
+      {
+        "role": "assistant",
+        "message": "Thank you. How much would you like to transfer?",
+        "timestamp": "2025-06-19T16:12:35.159388"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_577a69ba",
+      "first_name": "John",
+      "last_name": "Garcia",
+      "email": "john.jones@email.com",
+      "phone": "+1-555-480-8485",
+      "account_type": "senior",
+      "balance": 10356.25,
+      "account_number": "5306130249",
+      "member_since": "2024-09-29"
+    },
+    "generated_at": "2025-06-19T16:55:05.159388",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 5,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_7610463e",
+    "user_id": "user_81d45dc3",
+    "intent": "transaction_request",
+    "user_name": "Sarah Johnson",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need to transfer money to my friend.",
+        "timestamp": "2025-06-19T16:50:05.159388"
+      },
+      {
+        "role": "assistant",
+        "message": "I can help you with that transfer. Please provide the recipient's name and account number.",
+        "timestamp": "2025-06-19T16:50:35.159388"
+      },
+      {
+        "role": "user",
+        "message": "The name is John Doe and the account number is 1234567890.",
+        "timestamp": "2025-06-19T16:51:05.159388"
+      },
+      {
+        "role": "assistant",
+        "message": "Thank you. How much would you like to transfer?",
+        "timestamp": "2025-06-19T16:51:35.159388"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_81d45dc3",
+      "first_name": "Sarah",
+      "last_name": "Johnson",
+      "email": "michael.davis@email.com",
+      "phone": "+1-555-723-8748",
+      "account_type": "checking",
+      "balance": 2437.39,
+      "account_number": "9782526544",
+      "member_since": "2023-03-05"
+    },
+    "generated_at": "2025-06-19T16:55:05.159388",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 4,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_736ead53",
+    "user_id": "user_6d466814",
+    "intent": "transaction_request",
+    "user_name": "Lisa Rodriguez",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need to transfer money to my friend.",
+        "timestamp": "2025-06-19T16:28:05.159388"
+      },
+      {
+        "role": "assistant",
+        "message": "I can help you with that transfer. Please provide the recipient's name and account number.",
+        "timestamp": "2025-06-19T16:28:35.159388"
+      },
+      {
+        "role": "user",
+        "message": "The name is John Doe and the account number is 1234567890.",
+        "timestamp": "2025-06-19T16:29:05.159388"
+      },
+      {
+        "role": "assistant",
+        "message": "Thank you. How much would you like to transfer?",
+        "timestamp": "2025-06-19T16:29:35.159388"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_6d466814",
+      "first_name": "Lisa",
+      "last_name": "Rodriguez",
+      "email": "emily.jones@email.com",
+      "phone": "+1-555-855-5709",
+      "account_type": "student",
+      "balance": 20865.43,
+      "account_number": "5222571210",
+      "member_since": "2021-04-15"
+    },
+    "generated_at": "2025-06-19T16:55:05.159388",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 5,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_709f71c5",
+    "user_id": "user_1f0b736c",
+    "intent": "transaction_request",
+    "user_name": "Jennifer Brown",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need to transfer money to my friend.",
+        "timestamp": "2025-06-19T16:49:05.160398"
+      },
+      {
+        "role": "assistant",
+        "message": "I can help you with that transfer. Please provide the recipient's name and account number.",
+        "timestamp": "2025-06-19T16:49:35.160398"
+      },
+      {
+        "role": "user",
+        "message": "The name is John Doe and the account number is 1234567890.",
+        "timestamp": "2025-06-19T16:50:05.160398"
+      },
+      {
+        "role": "assistant",
+        "message": "Thank you. How much would you like to transfer?",
+        "timestamp": "2025-06-19T16:50:35.160398"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_1f0b736c",
+      "first_name": "Jennifer",
+      "last_name": "Brown",
+      "email": "lisa.garcia@email.com",
+      "phone": "+1-555-128-4860",
+      "account_type": "savings",
+      "balance": 11709.8,
+      "account_number": "3864830462",
+      "member_since": "2025-03-18"
+    },
+    "generated_at": "2025-06-19T16:55:05.160398",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 3,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_35ce0562",
+    "user_id": "user_704137dd",
+    "intent": "transaction_request",
+    "user_name": "Emily Davis",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need to transfer money to my friend.",
+        "timestamp": "2025-06-19T16:31:05.160398"
+      },
+      {
+        "role": "assistant",
+        "message": "I can help you with that transfer. Please provide the recipient's name and account number.",
+        "timestamp": "2025-06-19T16:31:35.160398"
+      },
+      {
+        "role": "user",
+        "message": "The name is John Doe and the account number is 1234567890.",
+        "timestamp": "2025-06-19T16:32:05.160398"
+      },
+      {
+        "role": "assistant",
+        "message": "Thank you. How much would you like to transfer?",
+        "timestamp": "2025-06-19T16:32:35.160398"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_704137dd",
+      "first_name": "Emily",
+      "last_name": "Davis",
+      "email": "lisa.williams@email.com",
+      "phone": "+1-555-298-8880",
+      "account_type": "premium",
+      "balance": 11947.67,
+      "account_number": "5610123667",
+      "member_since": "2022-03-03"
+    },
+    "generated_at": "2025-06-19T16:55:05.160398",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 3,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_e88b6dad",
+    "user_id": "user_b4aca67e",
+    "intent": "transaction_request",
+    "user_name": "Emily Johnson",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need to transfer money to my friend.",
+        "timestamp": "2025-06-19T16:21:05.160398"
+      },
+      {
+        "role": "assistant",
+        "message": "I can help you with that transfer. Please provide the recipient's name and account number.",
+        "timestamp": "2025-06-19T16:21:35.160398"
+      },
+      {
+        "role": "user",
+        "message": "The name is John Doe and the account number is 1234567890.",
+        "timestamp": "2025-06-19T16:22:05.160398"
+      },
+      {
+        "role": "assistant",
+        "message": "Thank you. How much would you like to transfer?",
+        "timestamp": "2025-06-19T16:22:35.160398"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_b4aca67e",
+      "first_name": "Emily",
+      "last_name": "Johnson",
+      "email": "john.rodriguez@email.com",
+      "phone": "+1-555-697-9940",
+      "account_type": "student",
+      "balance": 269.43,
+      "account_number": "5247263755",
+      "member_since": "2024-03-22"
+    },
+    "generated_at": "2025-06-19T16:55:05.160398",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 3,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_82a6ea04",
+    "user_id": "user_fadc1f3e",
+    "intent": "transaction_request",
+    "user_name": "Jennifer Johnson",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need to transfer money to my friend.",
+        "timestamp": "2025-06-19T16:54:05.160398"
+      },
+      {
+        "role": "assistant",
+        "message": "I can help you with that transfer. Please provide the recipient's name and account number.",
+        "timestamp": "2025-06-19T16:54:35.160398"
+      },
+      {
+        "role": "user",
+        "message": "The name is John Doe and the account number is 1234567890.",
+        "timestamp": "2025-06-19T16:55:05.160398"
+      },
+      {
+        "role": "assistant",
+        "message": "Thank you. How much would you like to transfer?",
+        "timestamp": "2025-06-19T16:55:35.160398"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_fadc1f3e",
+      "first_name": "Jennifer",
+      "last_name": "Johnson",
+      "email": "jennifer.jones@email.com",
+      "phone": "+1-555-539-6644",
+      "account_type": "savings",
+      "balance": 37688.32,
+      "account_number": "4451292552",
+      "member_since": "2025-04-10"
+    },
+    "generated_at": "2025-06-19T16:55:05.161406",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 4,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_b52e82c0",
+    "user_id": "user_f4755f03",
+    "intent": "transaction_request",
+    "user_name": "Emily Rodriguez",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need to transfer money to my friend.",
+        "timestamp": "2025-06-19T16:05:05.161406"
+      },
+      {
+        "role": "assistant",
+        "message": "I can help you with that transfer. Please provide the recipient's name and account number.",
+        "timestamp": "2025-06-19T16:05:35.161406"
+      },
+      {
+        "role": "user",
+        "message": "The name is John Doe and the account number is 1234567890.",
+        "timestamp": "2025-06-19T16:06:05.161406"
+      },
+      {
+        "role": "assistant",
+        "message": "Thank you. How much would you like to transfer?",
+        "timestamp": "2025-06-19T16:06:35.161406"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_f4755f03",
+      "first_name": "Emily",
+      "last_name": "Rodriguez",
+      "email": "sarah.davis@email.com",
+      "phone": "+1-555-257-7766",
+      "account_type": "premium",
+      "balance": 45645.91,
+      "account_number": "6631503300",
+      "member_since": "2020-09-29"
+    },
+    "generated_at": "2025-06-19T16:55:05.161406",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 5,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_2e585dd5",
+    "user_id": "user_41d981f5",
+    "intent": "transaction_request",
+    "user_name": "Sarah Johnson",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need to transfer money to my friend.",
+        "timestamp": "2025-06-19T16:28:05.161406"
+      },
+      {
+        "role": "assistant",
+        "message": "I can help you with that transfer. Please provide the recipient's name and account number.",
+        "timestamp": "2025-06-19T16:28:35.161406"
+      },
+      {
+        "role": "user",
+        "message": "The name is John Doe and the account number is 1234567890.",
+        "timestamp": "2025-06-19T16:29:05.161406"
+      },
+      {
+        "role": "assistant",
+        "message": "Thank you. How much would you like to transfer?",
+        "timestamp": "2025-06-19T16:29:35.161406"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_41d981f5",
+      "first_name": "Sarah",
+      "last_name": "Johnson",
+      "email": "robert.smith@email.com",
+      "phone": "+1-555-501-3980",
+      "account_type": "student",
+      "balance": 364.27,
+      "account_number": "7082222531",
+      "member_since": "2022-08-21"
+    },
+    "generated_at": "2025-06-19T16:55:05.161406",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 4,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_992f6cb8",
+    "user_id": "user_0b74240e",
+    "intent": "transaction_request",
+    "user_name": "Robert Brown",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need to transfer money to my friend.",
+        "timestamp": "2025-06-19T16:40:05.161406"
+      },
+      {
+        "role": "assistant",
+        "message": "I can help you with that transfer. Please provide the recipient's name and account number.",
+        "timestamp": "2025-06-19T16:40:35.161406"
+      },
+      {
+        "role": "user",
+        "message": "The name is John Doe and the account number is 1234567890.",
+        "timestamp": "2025-06-19T16:41:05.161406"
+      },
+      {
+        "role": "assistant",
+        "message": "Thank you. How much would you like to transfer?",
+        "timestamp": "2025-06-19T16:41:35.161406"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_0b74240e",
+      "first_name": "Robert",
+      "last_name": "Brown",
+      "email": "robert.miller@email.com",
+      "phone": "+1-555-873-8636",
+      "account_type": "student",
+      "balance": 42126.23,
+      "account_number": "5646969522",
+      "member_since": "2021-12-18"
+    },
+    "generated_at": "2025-06-19T16:55:05.161406",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 3,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_bcf8965d",
+    "user_id": "user_58a16a3b",
+    "intent": "transaction_request",
+    "user_name": "Jennifer Williams",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need to transfer money to my friend.",
+        "timestamp": "2025-06-19T16:41:05.161406"
+      },
+      {
+        "role": "assistant",
+        "message": "I can help you with that transfer. Please provide the recipient's name and account number.",
+        "timestamp": "2025-06-19T16:41:35.161406"
+      },
+      {
+        "role": "user",
+        "message": "The name is John Doe and the account number is 1234567890.",
+        "timestamp": "2025-06-19T16:42:05.161406"
+      },
+      {
+        "role": "assistant",
+        "message": "Thank you. How much would you like to transfer?",
+        "timestamp": "2025-06-19T16:42:35.161406"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_58a16a3b",
+      "first_name": "Jennifer",
+      "last_name": "Williams",
+      "email": "lisa.smith@email.com",
+      "phone": "+1-555-122-7348",
+      "account_type": "savings",
+      "balance": 38839.53,
+      "account_number": "1525917706",
+      "member_since": "2021-11-07"
+    },
+    "generated_at": "2025-06-19T16:55:05.161406",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 3,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_f245d3f0",
+    "user_id": "user_67e72480",
+    "intent": "transaction_request",
+    "user_name": "David Johnson",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need to transfer money to my friend.",
+        "timestamp": "2025-06-19T16:14:05.161969"
+      },
+      {
+        "role": "assistant",
+        "message": "I can help you with that transfer. Please provide the recipient's name and account number.",
+        "timestamp": "2025-06-19T16:14:35.161969"
+      },
+      {
+        "role": "user",
+        "message": "The name is John Doe and the account number is 1234567890.",
+        "timestamp": "2025-06-19T16:15:05.161969"
+      },
+      {
+        "role": "assistant",
+        "message": "Thank you. How much would you like to transfer?",
+        "timestamp": "2025-06-19T16:15:35.161969"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_67e72480",
+      "first_name": "David",
+      "last_name": "Johnson",
+      "email": "david.jones@email.com",
+      "phone": "+1-555-922-6720",
+      "account_type": "student",
+      "balance": 29208.3,
+      "account_number": "7502197225",
+      "member_since": "2024-08-13"
+    },
+    "generated_at": "2025-06-19T16:55:05.161969",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 5,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_a16fb31e",
+    "user_id": "user_a023774d",
+    "intent": "transaction_request",
+    "user_name": "Emily Williams",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need to transfer money to my friend.",
+        "timestamp": "2025-06-19T16:52:05.161969"
+      },
+      {
+        "role": "assistant",
+        "message": "I can help you with that transfer. Please provide the recipient's name and account number.",
+        "timestamp": "2025-06-19T16:52:35.161969"
+      },
+      {
+        "role": "user",
+        "message": "The name is John Doe and the account number is 1234567890.",
+        "timestamp": "2025-06-19T16:53:05.161969"
+      },
+      {
+        "role": "assistant",
+        "message": "Thank you. How much would you like to transfer?",
+        "timestamp": "2025-06-19T16:53:35.161969"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_a023774d",
+      "first_name": "Emily",
+      "last_name": "Williams",
+      "email": "amanda.rodriguez@email.com",
+      "phone": "+1-555-266-9657",
+      "account_type": "savings",
+      "balance": 33039.93,
+      "account_number": "6832469498",
+      "member_since": "2020-07-03"
+    },
+    "generated_at": "2025-06-19T16:55:05.161969",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 5,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_fa41a201",
+    "user_id": "user_7efdc2e5",
+    "intent": "transaction_request",
+    "user_name": "David Garcia",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need to transfer money to my friend.",
+        "timestamp": "2025-06-19T16:05:05.161969"
+      },
+      {
+        "role": "assistant",
+        "message": "I can help you with that transfer. Please provide the recipient's name and account number.",
+        "timestamp": "2025-06-19T16:05:35.161969"
+      },
+      {
+        "role": "user",
+        "message": "The name is John Doe and the account number is 1234567890.",
+        "timestamp": "2025-06-19T16:06:05.161969"
+      },
+      {
+        "role": "assistant",
+        "message": "Thank you. How much would you like to transfer?",
+        "timestamp": "2025-06-19T16:06:35.161969"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_7efdc2e5",
+      "first_name": "David",
+      "last_name": "Garcia",
+      "email": "john.davis@email.com",
+      "phone": "+1-555-497-2884",
+      "account_type": "checking",
+      "balance": 2855.22,
+      "account_number": "1539844235",
+      "member_since": "2021-11-16"
+    },
+    "generated_at": "2025-06-19T16:55:05.161969",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 3,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_2a464ab7",
+    "user_id": "user_2b5af9d1",
+    "intent": "transaction_request",
+    "user_name": "Emily Johnson",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need to transfer money to my friend.",
+        "timestamp": "2025-06-19T16:36:05.161969"
+      },
+      {
+        "role": "assistant",
+        "message": "I can help you with that transfer. Please provide the recipient's name and account number.",
+        "timestamp": "2025-06-19T16:36:35.161969"
+      },
+      {
+        "role": "user",
+        "message": "The name is John Doe and the account number is 1234567890.",
+        "timestamp": "2025-06-19T16:37:05.161969"
+      },
+      {
+        "role": "assistant",
+        "message": "Thank you. How much would you like to transfer?",
+        "timestamp": "2025-06-19T16:37:35.161969"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_2b5af9d1",
+      "first_name": "Emily",
+      "last_name": "Johnson",
+      "email": "emily.martinez@email.com",
+      "phone": "+1-555-765-2745",
+      "account_type": "checking",
+      "balance": 39271.03,
+      "account_number": "6020719381",
+      "member_since": "2022-05-10"
+    },
+    "generated_at": "2025-06-19T16:55:05.161969",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 3,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_72a755d4",
+    "user_id": "user_ee2e3394",
+    "intent": "transaction_request",
+    "user_name": "Emily Miller",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need to transfer money to my friend.",
+        "timestamp": "2025-06-19T16:25:05.161969"
+      },
+      {
+        "role": "assistant",
+        "message": "I can help you with that transfer. Please provide the recipient's name and account number.",
+        "timestamp": "2025-06-19T16:25:35.161969"
+      },
+      {
+        "role": "user",
+        "message": "The name is John Doe and the account number is 1234567890.",
+        "timestamp": "2025-06-19T16:26:05.161969"
+      },
+      {
+        "role": "assistant",
+        "message": "Thank you. How much would you like to transfer?",
+        "timestamp": "2025-06-19T16:26:35.161969"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_ee2e3394",
+      "first_name": "Emily",
+      "last_name": "Miller",
+      "email": "jennifer.rodriguez@email.com",
+      "phone": "+1-555-292-6298",
+      "account_type": "savings",
+      "balance": 41926.9,
+      "account_number": "5399847488",
+      "member_since": "2024-08-08"
+    },
+    "generated_at": "2025-06-19T16:55:05.161969",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 4,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_d32f6000",
+    "user_id": "user_460b5f64",
+    "intent": "transaction_request",
+    "user_name": "Lisa Williams",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need to transfer money to my friend.",
+        "timestamp": "2025-06-19T16:35:05.161969"
+      },
+      {
+        "role": "assistant",
+        "message": "I can help you with that transfer. Please provide the recipient's name and account number.",
+        "timestamp": "2025-06-19T16:35:35.161969"
+      },
+      {
+        "role": "user",
+        "message": "The name is John Doe and the account number is 1234567890.",
+        "timestamp": "2025-06-19T16:36:05.161969"
+      },
+      {
+        "role": "assistant",
+        "message": "Thank you. How much would you like to transfer?",
+        "timestamp": "2025-06-19T16:36:35.161969"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_460b5f64",
+      "first_name": "Lisa",
+      "last_name": "Williams",
+      "email": "david.garcia@email.com",
+      "phone": "+1-555-870-6823",
+      "account_type": "checking",
+      "balance": 27495.46,
+      "account_number": "3612430318",
+      "member_since": "2024-04-17"
+    },
+    "generated_at": "2025-06-19T16:55:05.163975",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 4,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_f6e0b366",
+    "user_id": "user_d5e05ae9",
+    "intent": "transaction_request",
+    "user_name": "James Miller",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need to transfer money to my friend.",
+        "timestamp": "2025-06-19T16:32:05.163975"
+      },
+      {
+        "role": "assistant",
+        "message": "I can help you with that transfer. Please provide the recipient's name and account number.",
+        "timestamp": "2025-06-19T16:32:35.163975"
+      },
+      {
+        "role": "user",
+        "message": "The name is John Doe and the account number is 1234567890.",
+        "timestamp": "2025-06-19T16:33:05.163975"
+      },
+      {
+        "role": "assistant",
+        "message": "Thank you. How much would you like to transfer?",
+        "timestamp": "2025-06-19T16:33:35.163975"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_d5e05ae9",
+      "first_name": "James",
+      "last_name": "Miller",
+      "email": "robert.rodriguez@email.com",
+      "phone": "+1-555-756-2676",
+      "account_type": "checking",
+      "balance": 21500.15,
+      "account_number": "5394025173",
+      "member_since": "2023-03-20"
+    },
+    "generated_at": "2025-06-19T16:55:05.163975",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 3,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_11c16a64",
+    "user_id": "user_e4420f9e",
+    "intent": "transaction_request",
+    "user_name": "John Garcia",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need to transfer money to my friend.",
+        "timestamp": "2025-06-19T16:12:05.163975"
+      },
+      {
+        "role": "assistant",
+        "message": "I can help you with that transfer. Please provide the recipient's name and account number.",
+        "timestamp": "2025-06-19T16:12:35.163975"
+      },
+      {
+        "role": "user",
+        "message": "The name is John Doe and the account number is 1234567890.",
+        "timestamp": "2025-06-19T16:13:05.163975"
+      },
+      {
+        "role": "assistant",
+        "message": "Thank you. How much would you like to transfer?",
+        "timestamp": "2025-06-19T16:13:35.163975"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_e4420f9e",
+      "first_name": "John",
+      "last_name": "Garcia",
+      "email": "amanda.johnson@email.com",
+      "phone": "+1-555-638-6482",
+      "account_type": "student",
+      "balance": 24837.76,
+      "account_number": "8052247510",
+      "member_since": "2023-09-17"
+    },
+    "generated_at": "2025-06-19T16:55:05.163975",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 3,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_e998d37e",
+    "user_id": "user_31baf938",
+    "intent": "transaction_request",
+    "user_name": "James Johnson",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need to transfer money to my friend.",
+        "timestamp": "2025-06-19T16:45:05.163975"
+      },
+      {
+        "role": "assistant",
+        "message": "I can help you with that transfer. Please provide the recipient's name and account number.",
+        "timestamp": "2025-06-19T16:45:35.163975"
+      },
+      {
+        "role": "user",
+        "message": "The name is John Doe and the account number is 1234567890.",
+        "timestamp": "2025-06-19T16:46:05.163975"
+      },
+      {
+        "role": "assistant",
+        "message": "Thank you. How much would you like to transfer?",
+        "timestamp": "2025-06-19T16:46:35.163975"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_31baf938",
+      "first_name": "James",
+      "last_name": "Johnson",
+      "email": "jennifer.miller@email.com",
+      "phone": "+1-555-301-3491",
+      "account_type": "savings",
+      "balance": 12652.74,
+      "account_number": "3778815694",
+      "member_since": "2023-03-17"
+    },
+    "generated_at": "2025-06-19T16:55:05.163975",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 3,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_9b14463b",
+    "user_id": "user_5933f13e",
+    "intent": "transaction_request",
+    "user_name": "Lisa Rodriguez",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need to transfer money to my friend.",
+        "timestamp": "2025-06-19T16:02:05.163975"
+      },
+      {
+        "role": "assistant",
+        "message": "I can help you with that transfer. Please provide the recipient's name and account number.",
+        "timestamp": "2025-06-19T16:02:35.163975"
+      },
+      {
+        "role": "user",
+        "message": "The name is John Doe and the account number is 1234567890.",
+        "timestamp": "2025-06-19T16:03:05.163975"
+      },
+      {
+        "role": "assistant",
+        "message": "Thank you. How much would you like to transfer?",
+        "timestamp": "2025-06-19T16:03:35.163975"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_5933f13e",
+      "first_name": "Lisa",
+      "last_name": "Rodriguez",
+      "email": "sarah.garcia@email.com",
+      "phone": "+1-555-826-5115",
+      "account_type": "checking",
+      "balance": 49785.21,
+      "account_number": "7687069799",
+      "member_since": "2022-03-24"
+    },
+    "generated_at": "2025-06-19T16:55:05.163975",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 5,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_dc248100",
+    "user_id": "user_2e45b9ce",
+    "intent": "transaction_request",
+    "user_name": "Emily Rodriguez",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need to transfer money to my friend.",
+        "timestamp": "2025-06-19T16:54:05.163975"
+      },
+      {
+        "role": "assistant",
+        "message": "I can help you with that transfer. Please provide the recipient's name and account number.",
+        "timestamp": "2025-06-19T16:54:35.163975"
+      },
+      {
+        "role": "user",
+        "message": "The name is John Doe and the account number is 1234567890.",
+        "timestamp": "2025-06-19T16:55:05.163975"
+      },
+      {
+        "role": "assistant",
+        "message": "Thank you. How much would you like to transfer?",
+        "timestamp": "2025-06-19T16:55:35.163975"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_2e45b9ce",
+      "first_name": "Emily",
+      "last_name": "Rodriguez",
+      "email": "lisa.williams@email.com",
+      "phone": "+1-555-284-4141",
+      "account_type": "premium",
+      "balance": 41556.74,
+      "account_number": "9914119442",
+      "member_since": "2024-04-07"
+    },
+    "generated_at": "2025-06-19T16:55:05.163975",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 3,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_f7539f01",
+    "user_id": "user_1ff34467",
+    "intent": "transaction_request",
+    "user_name": "Lisa Garcia",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need to transfer money to my friend.",
+        "timestamp": "2025-06-19T16:05:05.165112"
+      },
+      {
+        "role": "assistant",
+        "message": "I can help you with that transfer. Please provide the recipient's name and account number.",
+        "timestamp": "2025-06-19T16:05:35.165112"
+      },
+      {
+        "role": "user",
+        "message": "The name is John Doe and the account number is 1234567890.",
+        "timestamp": "2025-06-19T16:06:05.165112"
+      },
+      {
+        "role": "assistant",
+        "message": "Thank you. How much would you like to transfer?",
+        "timestamp": "2025-06-19T16:06:35.165112"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_1ff34467",
+      "first_name": "Lisa",
+      "last_name": "Garcia",
+      "email": "robert.miller@email.com",
+      "phone": "+1-555-121-8390",
+      "account_type": "student",
+      "balance": 43576.37,
+      "account_number": "8366567055",
+      "member_since": "2022-10-03"
+    },
+    "generated_at": "2025-06-19T16:55:05.165112",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 3,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_bd3bb1f7",
+    "user_id": "user_2cf7f8e6",
+    "intent": "transaction_request",
+    "user_name": "James Smith",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need to transfer money to my friend.",
+        "timestamp": "2025-06-19T16:08:05.165112"
+      },
+      {
+        "role": "assistant",
+        "message": "I can help you with that transfer. Please provide the recipient's name and account number.",
+        "timestamp": "2025-06-19T16:08:35.165112"
+      },
+      {
+        "role": "user",
+        "message": "The name is John Doe and the account number is 1234567890.",
+        "timestamp": "2025-06-19T16:09:05.165112"
+      },
+      {
+        "role": "assistant",
+        "message": "Thank you. How much would you like to transfer?",
+        "timestamp": "2025-06-19T16:09:35.165112"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_2cf7f8e6",
+      "first_name": "James",
+      "last_name": "Smith",
+      "email": "sarah.martinez@email.com",
+      "phone": "+1-555-209-6810",
+      "account_type": "senior",
+      "balance": 17490.4,
+      "account_number": "6711215884",
+      "member_since": "2024-01-02"
+    },
+    "generated_at": "2025-06-19T16:55:05.165112",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 3,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_a145484d",
+    "user_id": "user_f936295f",
+    "intent": "transaction_request",
+    "user_name": "David Garcia",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need to transfer money to my friend.",
+        "timestamp": "2025-06-19T16:01:05.165112"
+      },
+      {
+        "role": "assistant",
+        "message": "I can help you with that transfer. Please provide the recipient's name and account number.",
+        "timestamp": "2025-06-19T16:01:35.165112"
+      },
+      {
+        "role": "user",
+        "message": "The name is John Doe and the account number is 1234567890.",
+        "timestamp": "2025-06-19T16:02:05.165112"
+      },
+      {
+        "role": "assistant",
+        "message": "Thank you. How much would you like to transfer?",
+        "timestamp": "2025-06-19T16:02:35.165112"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_f936295f",
+      "first_name": "David",
+      "last_name": "Garcia",
+      "email": "lisa.garcia@email.com",
+      "phone": "+1-555-826-9934",
+      "account_type": "senior",
+      "balance": 23390.92,
+      "account_number": "7481881554",
+      "member_since": "2023-09-30"
+    },
+    "generated_at": "2025-06-19T16:55:05.165112",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 4,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_ca7bbb90",
+    "user_id": "user_5e459ca1",
+    "intent": "transaction_request",
+    "user_name": "Jennifer Garcia",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need to transfer money to my friend.",
+        "timestamp": "2025-06-19T16:27:05.165112"
+      },
+      {
+        "role": "assistant",
+        "message": "I can help you with that transfer. Please provide the recipient's name and account number.",
+        "timestamp": "2025-06-19T16:27:35.165112"
+      },
+      {
+        "role": "user",
+        "message": "The name is John Doe and the account number is 1234567890.",
+        "timestamp": "2025-06-19T16:28:05.165112"
+      },
+      {
+        "role": "assistant",
+        "message": "Thank you. How much would you like to transfer?",
+        "timestamp": "2025-06-19T16:28:35.165112"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_5e459ca1",
+      "first_name": "Jennifer",
+      "last_name": "Garcia",
+      "email": "david.davis@email.com",
+      "phone": "+1-555-256-3694",
+      "account_type": "checking",
+      "balance": 11333.64,
+      "account_number": "6652960870",
+      "member_since": "2022-08-07"
+    },
+    "generated_at": "2025-06-19T16:55:05.165112",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 5,
+      "resolution_status": "resolved"
+    }
+  }
+]

@@ -1,0 +1,2302 @@
+[
+  {
+    "conversation_id": "conv_ba0b39ba",
+    "user_id": "user_2d82cc65",
+    "intent": "balance_inquiry",
+    "user_name": "Emily Garcia",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Hi, I'd like to check my account balance.",
+        "timestamp": "2025-06-19T16:20:05.139073"
+      },
+      {
+        "role": "assistant",
+        "message": "Hello! I'd be happy to help you check your balance. Let me retrieve that information for you.",
+        "timestamp": "2025-06-19T16:20:35.139073"
+      },
+      {
+        "role": "user",
+        "message": "Can you also show me my recent transactions?",
+        "timestamp": "2025-06-19T16:21:05.139073"
+      },
+      {
+        "role": "assistant",
+        "message": "Of course! Here are your recent transactions from the past 7 days.",
+        "timestamp": "2025-06-19T16:21:35.139073"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_2d82cc65",
+      "first_name": "Emily",
+      "last_name": "Garcia",
+      "email": "lisa.davis@email.com",
+      "phone": "+1-555-307-4730",
+      "account_type": "premium",
+      "balance": 27576.05,
+      "account_number": "4552119152",
+      "member_since": "2024-02-07"
+    },
+    "generated_at": "2025-06-19T16:55:05.139073",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 3,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_c4c9c272",
+    "user_id": "user_1a706a46",
+    "intent": "balance_inquiry",
+    "user_name": "Jennifer Jones",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Hi, I'd like to check my account balance.",
+        "timestamp": "2025-06-19T16:27:05.139073"
+      },
+      {
+        "role": "assistant",
+        "message": "Hello! I'd be happy to help you check your balance. Let me retrieve that information for you.",
+        "timestamp": "2025-06-19T16:27:35.139073"
+      },
+      {
+        "role": "user",
+        "message": "Can you also show me my recent transactions?",
+        "timestamp": "2025-06-19T16:28:05.139073"
+      },
+      {
+        "role": "assistant",
+        "message": "Of course! Here are your recent transactions from the past 7 days.",
+        "timestamp": "2025-06-19T16:28:35.139073"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_1a706a46",
+      "first_name": "Jennifer",
+      "last_name": "Jones",
+      "email": "david.johnson@email.com",
+      "phone": "+1-555-265-1797",
+      "account_type": "checking",
+      "balance": 46840.24,
+      "account_number": "5342775165",
+      "member_since": "2020-12-26"
+    },
+    "generated_at": "2025-06-19T16:55:05.139073",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 3,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_3b976795",
+    "user_id": "user_2d94ba87",
+    "intent": "balance_inquiry",
+    "user_name": "Jennifer Smith",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Hi, I'd like to check my account balance.",
+        "timestamp": "2025-06-19T16:43:05.139073"
+      },
+      {
+        "role": "assistant",
+        "message": "Hello! I'd be happy to help you check your balance. Let me retrieve that information for you.",
+        "timestamp": "2025-06-19T16:43:35.139073"
+      },
+      {
+        "role": "user",
+        "message": "Can you also show me my recent transactions?",
+        "timestamp": "2025-06-19T16:44:05.139073"
+      },
+      {
+        "role": "assistant",
+        "message": "Of course! Here are your recent transactions from the past 7 days.",
+        "timestamp": "2025-06-19T16:44:35.139073"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_2d94ba87",
+      "first_name": "Jennifer",
+      "last_name": "Smith",
+      "email": "james.davis@email.com",
+      "phone": "+1-555-322-4759",
+      "account_type": "checking",
+      "balance": 28137.0,
+      "account_number": "3416138004",
+      "member_since": "2021-06-20"
+    },
+    "generated_at": "2025-06-19T16:55:05.140151",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 5,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_d67d0b91",
+    "user_id": "user_cfd04c44",
+    "intent": "balance_inquiry",
+    "user_name": "Sarah Johnson",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Hi, I'd like to check my account balance.",
+        "timestamp": "2025-06-19T16:01:05.140151"
+      },
+      {
+        "role": "assistant",
+        "message": "Hello! I'd be happy to help you check your balance. Let me retrieve that information for you.",
+        "timestamp": "2025-06-19T16:01:35.140151"
+      },
+      {
+        "role": "user",
+        "message": "Can you also show me my recent transactions?",
+        "timestamp": "2025-06-19T16:02:05.140151"
+      },
+      {
+        "role": "assistant",
+        "message": "Of course! Here are your recent transactions from the past 7 days.",
+        "timestamp": "2025-06-19T16:02:35.140151"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_cfd04c44",
+      "first_name": "Sarah",
+      "last_name": "Johnson",
+      "email": "sarah.miller@email.com",
+      "phone": "+1-555-750-6917",
+      "account_type": "premium",
+      "balance": 10218.64,
+      "account_number": "4986719596",
+      "member_since": "2021-12-16"
+    },
+    "generated_at": "2025-06-19T16:55:05.140151",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 3,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_459d53ae",
+    "user_id": "user_1f6a6eef",
+    "intent": "balance_inquiry",
+    "user_name": "John Garcia",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Hi, I'd like to check my account balance.",
+        "timestamp": "2025-06-19T16:42:05.140151"
+      },
+      {
+        "role": "assistant",
+        "message": "Hello! I'd be happy to help you check your balance. Let me retrieve that information for you.",
+        "timestamp": "2025-06-19T16:42:35.140151"
+      },
+      {
+        "role": "user",
+        "message": "Can you also show me my recent transactions?",
+        "timestamp": "2025-06-19T16:43:05.140151"
+      },
+      {
+        "role": "assistant",
+        "message": "Of course! Here are your recent transactions from the past 7 days.",
+        "timestamp": "2025-06-19T16:43:35.140151"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_1f6a6eef",
+      "first_name": "John",
+      "last_name": "Garcia",
+      "email": "john.rodriguez@email.com",
+      "phone": "+1-555-933-7428",
+      "account_type": "checking",
+      "balance": 15440.86,
+      "account_number": "8249071258",
+      "member_since": "2024-09-19"
+    },
+    "generated_at": "2025-06-19T16:55:05.140151",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 4,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_479c32c9",
+    "user_id": "user_9aae2b5f",
+    "intent": "balance_inquiry",
+    "user_name": "Robert Martinez",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Hi, I'd like to check my account balance.",
+        "timestamp": "2025-06-19T16:34:05.140151"
+      },
+      {
+        "role": "assistant",
+        "message": "Hello! I'd be happy to help you check your balance. Let me retrieve that information for you.",
+        "timestamp": "2025-06-19T16:34:35.140151"
+      },
+      {
+        "role": "user",
+        "message": "Can you also show me my recent transactions?",
+        "timestamp": "2025-06-19T16:35:05.140151"
+      },
+      {
+        "role": "assistant",
+        "message": "Of course! Here are your recent transactions from the past 7 days.",
+        "timestamp": "2025-06-19T16:35:35.140151"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_9aae2b5f",
+      "first_name": "Robert",
+      "last_name": "Martinez",
+      "email": "robert.miller@email.com",
+      "phone": "+1-555-912-9460",
+      "account_type": "senior",
+      "balance": 44361.68,
+      "account_number": "1261386139",
+      "member_since": "2024-05-31"
+    },
+    "generated_at": "2025-06-19T16:55:05.140151",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 5,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_b07018f4",
+    "user_id": "user_59f1cf4b",
+    "intent": "balance_inquiry",
+    "user_name": "John Garcia",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Hi, I'd like to check my account balance.",
+        "timestamp": "2025-06-19T15:56:05.140151"
+      },
+      {
+        "role": "assistant",
+        "message": "Hello! I'd be happy to help you check your balance. Let me retrieve that information for you.",
+        "timestamp": "2025-06-19T15:56:35.140151"
+      },
+      {
+        "role": "user",
+        "message": "Can you also show me my recent transactions?",
+        "timestamp": "2025-06-19T15:57:05.140151"
+      },
+      {
+        "role": "assistant",
+        "message": "Of course! Here are your recent transactions from the past 7 days.",
+        "timestamp": "2025-06-19T15:57:35.140151"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_59f1cf4b",
+      "first_name": "John",
+      "last_name": "Garcia",
+      "email": "emily.smith@email.com",
+      "phone": "+1-555-299-4316",
+      "account_type": "senior",
+      "balance": 22865.56,
+      "account_number": "7947633428",
+      "member_since": "2023-12-01"
+    },
+    "generated_at": "2025-06-19T16:55:05.140151",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 4,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_2749ab3d",
+    "user_id": "user_7da956fa",
+    "intent": "balance_inquiry",
+    "user_name": "Sarah Smith",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Hi, I'd like to check my account balance.",
+        "timestamp": "2025-06-19T16:53:05.140151"
+      },
+      {
+        "role": "assistant",
+        "message": "Hello! I'd be happy to help you check your balance. Let me retrieve that information for you.",
+        "timestamp": "2025-06-19T16:53:35.140151"
+      },
+      {
+        "role": "user",
+        "message": "Can you also show me my recent transactions?",
+        "timestamp": "2025-06-19T16:54:05.140151"
+      },
+      {
+        "role": "assistant",
+        "message": "Of course! Here are your recent transactions from the past 7 days.",
+        "timestamp": "2025-06-19T16:54:35.140151"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_7da956fa",
+      "first_name": "Sarah",
+      "last_name": "Smith",
+      "email": "michael.davis@email.com",
+      "phone": "+1-555-336-2958",
+      "account_type": "savings",
+      "balance": 10659.26,
+      "account_number": "6400057341",
+      "member_since": "2025-01-12"
+    },
+    "generated_at": "2025-06-19T16:55:05.140151",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 3,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_34e089aa",
+    "user_id": "user_1ce6122c",
+    "intent": "balance_inquiry",
+    "user_name": "David Brown",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Hi, I'd like to check my account balance.",
+        "timestamp": "2025-06-19T16:35:05.141162"
+      },
+      {
+        "role": "assistant",
+        "message": "Hello! I'd be happy to help you check your balance. Let me retrieve that information for you.",
+        "timestamp": "2025-06-19T16:35:35.141162"
+      },
+      {
+        "role": "user",
+        "message": "Can you also show me my recent transactions?",
+        "timestamp": "2025-06-19T16:36:05.141162"
+      },
+      {
+        "role": "assistant",
+        "message": "Of course! Here are your recent transactions from the past 7 days.",
+        "timestamp": "2025-06-19T16:36:35.141162"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_1ce6122c",
+      "first_name": "David",
+      "last_name": "Brown",
+      "email": "david.johnson@email.com",
+      "phone": "+1-555-642-9755",
+      "account_type": "checking",
+      "balance": 47690.28,
+      "account_number": "2194011504",
+      "member_since": "2024-03-17"
+    },
+    "generated_at": "2025-06-19T16:55:05.141162",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 3,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_8352e1e6",
+    "user_id": "user_bdbd9275",
+    "intent": "balance_inquiry",
+    "user_name": "David Smith",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Hi, I'd like to check my account balance.",
+        "timestamp": "2025-06-19T16:01:05.141162"
+      },
+      {
+        "role": "assistant",
+        "message": "Hello! I'd be happy to help you check your balance. Let me retrieve that information for you.",
+        "timestamp": "2025-06-19T16:01:35.141162"
+      },
+      {
+        "role": "user",
+        "message": "Can you also show me my recent transactions?",
+        "timestamp": "2025-06-19T16:02:05.141162"
+      },
+      {
+        "role": "assistant",
+        "message": "Of course! Here are your recent transactions from the past 7 days.",
+        "timestamp": "2025-06-19T16:02:35.141162"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_bdbd9275",
+      "first_name": "David",
+      "last_name": "Smith",
+      "email": "robert.martinez@email.com",
+      "phone": "+1-555-639-8977",
+      "account_type": "premium",
+      "balance": 23074.27,
+      "account_number": "5576997752",
+      "member_since": "2021-07-31"
+    },
+    "generated_at": "2025-06-19T16:55:05.141162",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 3,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_97259e0b",
+    "user_id": "user_e968bb24",
+    "intent": "balance_inquiry",
+    "user_name": "Michael Williams",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Hi, I'd like to check my account balance.",
+        "timestamp": "2025-06-19T16:49:05.141162"
+      },
+      {
+        "role": "assistant",
+        "message": "Hello! I'd be happy to help you check your balance. Let me retrieve that information for you.",
+        "timestamp": "2025-06-19T16:49:35.141162"
+      },
+      {
+        "role": "user",
+        "message": "Can you also show me my recent transactions?",
+        "timestamp": "2025-06-19T16:50:05.141162"
+      },
+      {
+        "role": "assistant",
+        "message": "Of course! Here are your recent transactions from the past 7 days.",
+        "timestamp": "2025-06-19T16:50:35.141162"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_e968bb24",
+      "first_name": "Michael",
+      "last_name": "Williams",
+      "email": "robert.brown@email.com",
+      "phone": "+1-555-880-6420",
+      "account_type": "savings",
+      "balance": 37965.83,
+      "account_number": "8800475048",
+      "member_since": "2021-02-09"
+    },
+    "generated_at": "2025-06-19T16:55:05.141162",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 5,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_898cca86",
+    "user_id": "user_0c83bc07",
+    "intent": "balance_inquiry",
+    "user_name": "Lisa Jones",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Hi, I'd like to check my account balance.",
+        "timestamp": "2025-06-19T16:05:05.141162"
+      },
+      {
+        "role": "assistant",
+        "message": "Hello! I'd be happy to help you check your balance. Let me retrieve that information for you.",
+        "timestamp": "2025-06-19T16:05:35.141162"
+      },
+      {
+        "role": "user",
+        "message": "Can you also show me my recent transactions?",
+        "timestamp": "2025-06-19T16:06:05.141162"
+      },
+      {
+        "role": "assistant",
+        "message": "Of course! Here are your recent transactions from the past 7 days.",
+        "timestamp": "2025-06-19T16:06:35.141162"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_0c83bc07",
+      "first_name": "Lisa",
+      "last_name": "Jones",
+      "email": "sarah.garcia@email.com",
+      "phone": "+1-555-682-2614",
+      "account_type": "student",
+      "balance": 16714.73,
+      "account_number": "8736068111",
+      "member_since": "2020-06-23"
+    },
+    "generated_at": "2025-06-19T16:55:05.141162",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 5,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_4f6c7342",
+    "user_id": "user_265dbc0a",
+    "intent": "balance_inquiry",
+    "user_name": "David Martinez",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Hi, I'd like to check my account balance.",
+        "timestamp": "2025-06-19T16:45:05.142168"
+      },
+      {
+        "role": "assistant",
+        "message": "Hello! I'd be happy to help you check your balance. Let me retrieve that information for you.",
+        "timestamp": "2025-06-19T16:45:35.142168"
+      },
+      {
+        "role": "user",
+        "message": "Can you also show me my recent transactions?",
+        "timestamp": "2025-06-19T16:46:05.142168"
+      },
+      {
+        "role": "assistant",
+        "message": "Of course! Here are your recent transactions from the past 7 days.",
+        "timestamp": "2025-06-19T16:46:35.142168"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_265dbc0a",
+      "first_name": "David",
+      "last_name": "Martinez",
+      "email": "michael.garcia@email.com",
+      "phone": "+1-555-982-2811",
+      "account_type": "premium",
+      "balance": 2807.5,
+      "account_number": "2417919864",
+      "member_since": "2024-09-26"
+    },
+    "generated_at": "2025-06-19T16:55:05.142168",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 3,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_e4086c5a",
+    "user_id": "user_fa2a99dd",
+    "intent": "balance_inquiry",
+    "user_name": "John Martinez",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Hi, I'd like to check my account balance.",
+        "timestamp": "2025-06-19T16:53:05.142168"
+      },
+      {
+        "role": "assistant",
+        "message": "Hello! I'd be happy to help you check your balance. Let me retrieve that information for you.",
+        "timestamp": "2025-06-19T16:53:35.142168"
+      },
+      {
+        "role": "user",
+        "message": "Can you also show me my recent transactions?",
+        "timestamp": "2025-06-19T16:54:05.142168"
+      },
+      {
+        "role": "assistant",
+        "message": "Of course! Here are your recent transactions from the past 7 days.",
+        "timestamp": "2025-06-19T16:54:35.142168"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_fa2a99dd",
+      "first_name": "John",
+      "last_name": "Martinez",
+      "email": "emily.garcia@email.com",
+      "phone": "+1-555-625-4050",
+      "account_type": "student",
+      "balance": 1350.44,
+      "account_number": "4888016564",
+      "member_since": "2021-04-27"
+    },
+    "generated_at": "2025-06-19T16:55:05.142168",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 5,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_8cbb088c",
+    "user_id": "user_1a373ebc",
+    "intent": "balance_inquiry",
+    "user_name": "John Jones",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Hi, I'd like to check my account balance.",
+        "timestamp": "2025-06-19T16:54:05.142168"
+      },
+      {
+        "role": "assistant",
+        "message": "Hello! I'd be happy to help you check your balance. Let me retrieve that information for you.",
+        "timestamp": "2025-06-19T16:54:35.142168"
+      },
+      {
+        "role": "user",
+        "message": "Can you also show me my recent transactions?",
+        "timestamp": "2025-06-19T16:55:05.142168"
+      },
+      {
+        "role": "assistant",
+        "message": "Of course! Here are your recent transactions from the past 7 days.",
+        "timestamp": "2025-06-19T16:55:35.142168"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_1a373ebc",
+      "first_name": "John",
+      "last_name": "Jones",
+      "email": "robert.martinez@email.com",
+      "phone": "+1-555-914-9717",
+      "account_type": "student",
+      "balance": 43935.94,
+      "account_number": "3122279941",
+      "member_since": "2023-10-28"
+    },
+    "generated_at": "2025-06-19T16:55:05.142168",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 5,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_d8523290",
+    "user_id": "user_1e26e3d4",
+    "intent": "balance_inquiry",
+    "user_name": "Amanda Rodriguez",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Hi, I'd like to check my account balance.",
+        "timestamp": "2025-06-19T16:42:05.142168"
+      },
+      {
+        "role": "assistant",
+        "message": "Hello! I'd be happy to help you check your balance. Let me retrieve that information for you.",
+        "timestamp": "2025-06-19T16:42:35.142168"
+      },
+      {
+        "role": "user",
+        "message": "Can you also show me my recent transactions?",
+        "timestamp": "2025-06-19T16:43:05.142168"
+      },
+      {
+        "role": "assistant",
+        "message": "Of course! Here are your recent transactions from the past 7 days.",
+        "timestamp": "2025-06-19T16:43:35.142168"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_1e26e3d4",
+      "first_name": "Amanda",
+      "last_name": "Rodriguez",
+      "email": "lisa.garcia@email.com",
+      "phone": "+1-555-919-5428",
+      "account_type": "premium",
+      "balance": 19623.87,
+      "account_number": "6071319454",
+      "member_since": "2024-03-02"
+    },
+    "generated_at": "2025-06-19T16:55:05.142168",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 4,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_dda42599",
+    "user_id": "user_d2df56c7",
+    "intent": "balance_inquiry",
+    "user_name": "James Jones",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Hi, I'd like to check my account balance.",
+        "timestamp": "2025-06-19T16:05:05.142168"
+      },
+      {
+        "role": "assistant",
+        "message": "Hello! I'd be happy to help you check your balance. Let me retrieve that information for you.",
+        "timestamp": "2025-06-19T16:05:35.142168"
+      },
+      {
+        "role": "user",
+        "message": "Can you also show me my recent transactions?",
+        "timestamp": "2025-06-19T16:06:05.142168"
+      },
+      {
+        "role": "assistant",
+        "message": "Of course! Here are your recent transactions from the past 7 days.",
+        "timestamp": "2025-06-19T16:06:35.142168"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_d2df56c7",
+      "first_name": "James",
+      "last_name": "Jones",
+      "email": "michael.smith@email.com",
+      "phone": "+1-555-373-6353",
+      "account_type": "savings",
+      "balance": 35115.78,
+      "account_number": "9570413222",
+      "member_since": "2022-09-19"
+    },
+    "generated_at": "2025-06-19T16:55:05.142168",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 5,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_39314e04",
+    "user_id": "user_192f1526",
+    "intent": "balance_inquiry",
+    "user_name": "Amanda Brown",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Hi, I'd like to check my account balance.",
+        "timestamp": "2025-06-19T16:45:05.142168"
+      },
+      {
+        "role": "assistant",
+        "message": "Hello! I'd be happy to help you check your balance. Let me retrieve that information for you.",
+        "timestamp": "2025-06-19T16:45:35.142168"
+      },
+      {
+        "role": "user",
+        "message": "Can you also show me my recent transactions?",
+        "timestamp": "2025-06-19T16:46:05.142168"
+      },
+      {
+        "role": "assistant",
+        "message": "Of course! Here are your recent transactions from the past 7 days.",
+        "timestamp": "2025-06-19T16:46:35.142168"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_192f1526",
+      "first_name": "Amanda",
+      "last_name": "Brown",
+      "email": "lisa.rodriguez@email.com",
+      "phone": "+1-555-921-6136",
+      "account_type": "savings",
+      "balance": 37470.21,
+      "account_number": "7860644707",
+      "member_since": "2021-09-17"
+    },
+    "generated_at": "2025-06-19T16:55:05.142168",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 3,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_eabd9152",
+    "user_id": "user_e5694c41",
+    "intent": "balance_inquiry",
+    "user_name": "Lisa Brown",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Hi, I'd like to check my account balance.",
+        "timestamp": "2025-06-19T16:53:05.142168"
+      },
+      {
+        "role": "assistant",
+        "message": "Hello! I'd be happy to help you check your balance. Let me retrieve that information for you.",
+        "timestamp": "2025-06-19T16:53:35.142168"
+      },
+      {
+        "role": "user",
+        "message": "Can you also show me my recent transactions?",
+        "timestamp": "2025-06-19T16:54:05.142168"
+      },
+      {
+        "role": "assistant",
+        "message": "Of course! Here are your recent transactions from the past 7 days.",
+        "timestamp": "2025-06-19T16:54:35.142168"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_e5694c41",
+      "first_name": "Lisa",
+      "last_name": "Brown",
+      "email": "david.jones@email.com",
+      "phone": "+1-555-122-2075",
+      "account_type": "senior",
+      "balance": 16618.44,
+      "account_number": "7163330725",
+      "member_since": "2020-08-15"
+    },
+    "generated_at": "2025-06-19T16:55:05.142168",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 3,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_fb2d5dde",
+    "user_id": "user_dd87335d",
+    "intent": "balance_inquiry",
+    "user_name": "Amanda Brown",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Hi, I'd like to check my account balance.",
+        "timestamp": "2025-06-19T16:25:05.142168"
+      },
+      {
+        "role": "assistant",
+        "message": "Hello! I'd be happy to help you check your balance. Let me retrieve that information for you.",
+        "timestamp": "2025-06-19T16:25:35.142168"
+      },
+      {
+        "role": "user",
+        "message": "Can you also show me my recent transactions?",
+        "timestamp": "2025-06-19T16:26:05.142168"
+      },
+      {
+        "role": "assistant",
+        "message": "Of course! Here are your recent transactions from the past 7 days.",
+        "timestamp": "2025-06-19T16:26:35.142168"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_dd87335d",
+      "first_name": "Amanda",
+      "last_name": "Brown",
+      "email": "sarah.davis@email.com",
+      "phone": "+1-555-296-5361",
+      "account_type": "checking",
+      "balance": 3962.97,
+      "account_number": "3405406218",
+      "member_since": "2024-11-09"
+    },
+    "generated_at": "2025-06-19T16:55:05.142168",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 5,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_ff441429",
+    "user_id": "user_a5977ad8",
+    "intent": "balance_inquiry",
+    "user_name": "James Johnson",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Hi, I'd like to check my account balance.",
+        "timestamp": "2025-06-19T16:08:05.143631"
+      },
+      {
+        "role": "assistant",
+        "message": "Hello! I'd be happy to help you check your balance. Let me retrieve that information for you.",
+        "timestamp": "2025-06-19T16:08:35.143631"
+      },
+      {
+        "role": "user",
+        "message": "Can you also show me my recent transactions?",
+        "timestamp": "2025-06-19T16:09:05.143631"
+      },
+      {
+        "role": "assistant",
+        "message": "Of course! Here are your recent transactions from the past 7 days.",
+        "timestamp": "2025-06-19T16:09:35.143631"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_a5977ad8",
+      "first_name": "James",
+      "last_name": "Johnson",
+      "email": "lisa.jones@email.com",
+      "phone": "+1-555-284-5725",
+      "account_type": "senior",
+      "balance": 42344.73,
+      "account_number": "9550251194",
+      "member_since": "2022-12-13"
+    },
+    "generated_at": "2025-06-19T16:55:05.143631",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 5,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_00a67b42",
+    "user_id": "user_2bc71557",
+    "intent": "balance_inquiry",
+    "user_name": "David Garcia",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Hi, I'd like to check my account balance.",
+        "timestamp": "2025-06-19T16:03:05.143631"
+      },
+      {
+        "role": "assistant",
+        "message": "Hello! I'd be happy to help you check your balance. Let me retrieve that information for you.",
+        "timestamp": "2025-06-19T16:03:35.143631"
+      },
+      {
+        "role": "user",
+        "message": "Can you also show me my recent transactions?",
+        "timestamp": "2025-06-19T16:04:05.143631"
+      },
+      {
+        "role": "assistant",
+        "message": "Of course! Here are your recent transactions from the past 7 days.",
+        "timestamp": "2025-06-19T16:04:35.143631"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_2bc71557",
+      "first_name": "David",
+      "last_name": "Garcia",
+      "email": "john.garcia@email.com",
+      "phone": "+1-555-975-3309",
+      "account_type": "student",
+      "balance": 41265.6,
+      "account_number": "2574173648",
+      "member_since": "2024-11-07"
+    },
+    "generated_at": "2025-06-19T16:55:05.143631",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 3,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_f99b6361",
+    "user_id": "user_1cb77467",
+    "intent": "balance_inquiry",
+    "user_name": "Lisa Brown",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Hi, I'd like to check my account balance.",
+        "timestamp": "2025-06-19T16:12:05.143631"
+      },
+      {
+        "role": "assistant",
+        "message": "Hello! I'd be happy to help you check your balance. Let me retrieve that information for you.",
+        "timestamp": "2025-06-19T16:12:35.143631"
+      },
+      {
+        "role": "user",
+        "message": "Can you also show me my recent transactions?",
+        "timestamp": "2025-06-19T16:13:05.143631"
+      },
+      {
+        "role": "assistant",
+        "message": "Of course! Here are your recent transactions from the past 7 days.",
+        "timestamp": "2025-06-19T16:13:35.143631"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_1cb77467",
+      "first_name": "Lisa",
+      "last_name": "Brown",
+      "email": "jennifer.brown@email.com",
+      "phone": "+1-555-512-3417",
+      "account_type": "senior",
+      "balance": 20369.91,
+      "account_number": "2622064622",
+      "member_since": "2024-03-30"
+    },
+    "generated_at": "2025-06-19T16:55:05.143631",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 4,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_43ef64a2",
+    "user_id": "user_4200e509",
+    "intent": "balance_inquiry",
+    "user_name": "Sarah Rodriguez",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Hi, I'd like to check my account balance.",
+        "timestamp": "2025-06-19T16:05:05.143631"
+      },
+      {
+        "role": "assistant",
+        "message": "Hello! I'd be happy to help you check your balance. Let me retrieve that information for you.",
+        "timestamp": "2025-06-19T16:05:35.143631"
+      },
+      {
+        "role": "user",
+        "message": "Can you also show me my recent transactions?",
+        "timestamp": "2025-06-19T16:06:05.143631"
+      },
+      {
+        "role": "assistant",
+        "message": "Of course! Here are your recent transactions from the past 7 days.",
+        "timestamp": "2025-06-19T16:06:35.143631"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_4200e509",
+      "first_name": "Sarah",
+      "last_name": "Rodriguez",
+      "email": "lisa.johnson@email.com",
+      "phone": "+1-555-751-9691",
+      "account_type": "checking",
+      "balance": 4250.41,
+      "account_number": "2719149805",
+      "member_since": "2020-08-14"
+    },
+    "generated_at": "2025-06-19T16:55:05.143631",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 3,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_6f3af330",
+    "user_id": "user_15ee3825",
+    "intent": "balance_inquiry",
+    "user_name": "John Brown",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Hi, I'd like to check my account balance.",
+        "timestamp": "2025-06-19T16:27:05.143631"
+      },
+      {
+        "role": "assistant",
+        "message": "Hello! I'd be happy to help you check your balance. Let me retrieve that information for you.",
+        "timestamp": "2025-06-19T16:27:35.143631"
+      },
+      {
+        "role": "user",
+        "message": "Can you also show me my recent transactions?",
+        "timestamp": "2025-06-19T16:28:05.143631"
+      },
+      {
+        "role": "assistant",
+        "message": "Of course! Here are your recent transactions from the past 7 days.",
+        "timestamp": "2025-06-19T16:28:35.143631"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_15ee3825",
+      "first_name": "John",
+      "last_name": "Brown",
+      "email": "amanda.rodriguez@email.com",
+      "phone": "+1-555-458-9432",
+      "account_type": "checking",
+      "balance": 18739.56,
+      "account_number": "9427076428",
+      "member_since": "2022-07-14"
+    },
+    "generated_at": "2025-06-19T16:55:05.143631",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 3,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_713782ad",
+    "user_id": "user_e5a49baf",
+    "intent": "balance_inquiry",
+    "user_name": "John Garcia",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Hi, I'd like to check my account balance.",
+        "timestamp": "2025-06-19T16:08:05.143631"
+      },
+      {
+        "role": "assistant",
+        "message": "Hello! I'd be happy to help you check your balance. Let me retrieve that information for you.",
+        "timestamp": "2025-06-19T16:08:35.143631"
+      },
+      {
+        "role": "user",
+        "message": "Can you also show me my recent transactions?",
+        "timestamp": "2025-06-19T16:09:05.143631"
+      },
+      {
+        "role": "assistant",
+        "message": "Of course! Here are your recent transactions from the past 7 days.",
+        "timestamp": "2025-06-19T16:09:35.143631"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_e5a49baf",
+      "first_name": "John",
+      "last_name": "Garcia",
+      "email": "robert.martinez@email.com",
+      "phone": "+1-555-383-9369",
+      "account_type": "savings",
+      "balance": 15682.65,
+      "account_number": "4772456420",
+      "member_since": "2024-11-29"
+    },
+    "generated_at": "2025-06-19T16:55:05.143631",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 3,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_ddab1aa3",
+    "user_id": "user_aae5700f",
+    "intent": "balance_inquiry",
+    "user_name": "Sarah Miller",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Hi, I'd like to check my account balance.",
+        "timestamp": "2025-06-19T16:41:05.143631"
+      },
+      {
+        "role": "assistant",
+        "message": "Hello! I'd be happy to help you check your balance. Let me retrieve that information for you.",
+        "timestamp": "2025-06-19T16:41:35.143631"
+      },
+      {
+        "role": "user",
+        "message": "Can you also show me my recent transactions?",
+        "timestamp": "2025-06-19T16:42:05.143631"
+      },
+      {
+        "role": "assistant",
+        "message": "Of course! Here are your recent transactions from the past 7 days.",
+        "timestamp": "2025-06-19T16:42:35.143631"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_aae5700f",
+      "first_name": "Sarah",
+      "last_name": "Miller",
+      "email": "michael.johnson@email.com",
+      "phone": "+1-555-548-8365",
+      "account_type": "checking",
+      "balance": 43329.5,
+      "account_number": "2785999342",
+      "member_since": "2025-02-08"
+    },
+    "generated_at": "2025-06-19T16:55:05.143631",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 3,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_53e291e1",
+    "user_id": "user_b8e505cd",
+    "intent": "balance_inquiry",
+    "user_name": "Jennifer Brown",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Hi, I'd like to check my account balance.",
+        "timestamp": "2025-06-19T16:10:05.145085"
+      },
+      {
+        "role": "assistant",
+        "message": "Hello! I'd be happy to help you check your balance. Let me retrieve that information for you.",
+        "timestamp": "2025-06-19T16:10:35.145085"
+      },
+      {
+        "role": "user",
+        "message": "Can you also show me my recent transactions?",
+        "timestamp": "2025-06-19T16:11:05.145085"
+      },
+      {
+        "role": "assistant",
+        "message": "Of course! Here are your recent transactions from the past 7 days.",
+        "timestamp": "2025-06-19T16:11:35.145085"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_b8e505cd",
+      "first_name": "Jennifer",
+      "last_name": "Brown",
+      "email": "robert.rodriguez@email.com",
+      "phone": "+1-555-135-6716",
+      "account_type": "senior",
+      "balance": 29175.75,
+      "account_number": "2947852913",
+      "member_since": "2022-01-13"
+    },
+    "generated_at": "2025-06-19T16:55:05.145085",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 5,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_bc7b96ee",
+    "user_id": "user_b1e1707d",
+    "intent": "balance_inquiry",
+    "user_name": "James Williams",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Hi, I'd like to check my account balance.",
+        "timestamp": "2025-06-19T16:10:05.145085"
+      },
+      {
+        "role": "assistant",
+        "message": "Hello! I'd be happy to help you check your balance. Let me retrieve that information for you.",
+        "timestamp": "2025-06-19T16:10:35.145085"
+      },
+      {
+        "role": "user",
+        "message": "Can you also show me my recent transactions?",
+        "timestamp": "2025-06-19T16:11:05.145085"
+      },
+      {
+        "role": "assistant",
+        "message": "Of course! Here are your recent transactions from the past 7 days.",
+        "timestamp": "2025-06-19T16:11:35.145085"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_b1e1707d",
+      "first_name": "James",
+      "last_name": "Williams",
+      "email": "michael.smith@email.com",
+      "phone": "+1-555-533-1581",
+      "account_type": "student",
+      "balance": 41091.06,
+      "account_number": "3396974851",
+      "member_since": "2025-05-06"
+    },
+    "generated_at": "2025-06-19T16:55:05.145085",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 3,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_1c1db94d",
+    "user_id": "user_b0d05ef1",
+    "intent": "balance_inquiry",
+    "user_name": "Sarah Davis",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Hi, I'd like to check my account balance.",
+        "timestamp": "2025-06-19T16:43:05.145085"
+      },
+      {
+        "role": "assistant",
+        "message": "Hello! I'd be happy to help you check your balance. Let me retrieve that information for you.",
+        "timestamp": "2025-06-19T16:43:35.145085"
+      },
+      {
+        "role": "user",
+        "message": "Can you also show me my recent transactions?",
+        "timestamp": "2025-06-19T16:44:05.145085"
+      },
+      {
+        "role": "assistant",
+        "message": "Of course! Here are your recent transactions from the past 7 days.",
+        "timestamp": "2025-06-19T16:44:35.145085"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_b0d05ef1",
+      "first_name": "Sarah",
+      "last_name": "Davis",
+      "email": "amanda.miller@email.com",
+      "phone": "+1-555-454-8077",
+      "account_type": "savings",
+      "balance": 6588.72,
+      "account_number": "9648133775",
+      "member_since": "2022-04-13"
+    },
+    "generated_at": "2025-06-19T16:55:05.145085",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 4,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_c54fc773",
+    "user_id": "user_5476beab",
+    "intent": "balance_inquiry",
+    "user_name": "Michael Jones",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Hi, I'd like to check my account balance.",
+        "timestamp": "2025-06-19T16:36:05.146096"
+      },
+      {
+        "role": "assistant",
+        "message": "Hello! I'd be happy to help you check your balance. Let me retrieve that information for you.",
+        "timestamp": "2025-06-19T16:36:35.146096"
+      },
+      {
+        "role": "user",
+        "message": "Can you also show me my recent transactions?",
+        "timestamp": "2025-06-19T16:37:05.146096"
+      },
+      {
+        "role": "assistant",
+        "message": "Of course! Here are your recent transactions from the past 7 days.",
+        "timestamp": "2025-06-19T16:37:35.146096"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_5476beab",
+      "first_name": "Michael",
+      "last_name": "Jones",
+      "email": "michael.brown@email.com",
+      "phone": "+1-555-587-1245",
+      "account_type": "checking",
+      "balance": 5196.32,
+      "account_number": "2987652127",
+      "member_since": "2020-12-06"
+    },
+    "generated_at": "2025-06-19T16:55:05.146096",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 4,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_dddb5184",
+    "user_id": "user_83e6e96f",
+    "intent": "balance_inquiry",
+    "user_name": "Michael Williams",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Hi, I'd like to check my account balance.",
+        "timestamp": "2025-06-19T16:20:05.146096"
+      },
+      {
+        "role": "assistant",
+        "message": "Hello! I'd be happy to help you check your balance. Let me retrieve that information for you.",
+        "timestamp": "2025-06-19T16:20:35.146096"
+      },
+      {
+        "role": "user",
+        "message": "Can you also show me my recent transactions?",
+        "timestamp": "2025-06-19T16:21:05.146096"
+      },
+      {
+        "role": "assistant",
+        "message": "Of course! Here are your recent transactions from the past 7 days.",
+        "timestamp": "2025-06-19T16:21:35.146096"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_83e6e96f",
+      "first_name": "Michael",
+      "last_name": "Williams",
+      "email": "michael.johnson@email.com",
+      "phone": "+1-555-588-5759",
+      "account_type": "student",
+      "balance": 6742.32,
+      "account_number": "7301099795",
+      "member_since": "2023-06-12"
+    },
+    "generated_at": "2025-06-19T16:55:05.146096",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 5,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_8ca1af4f",
+    "user_id": "user_608e5f6b",
+    "intent": "balance_inquiry",
+    "user_name": "Sarah Davis",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Hi, I'd like to check my account balance.",
+        "timestamp": "2025-06-19T16:50:05.146096"
+      },
+      {
+        "role": "assistant",
+        "message": "Hello! I'd be happy to help you check your balance. Let me retrieve that information for you.",
+        "timestamp": "2025-06-19T16:50:35.146096"
+      },
+      {
+        "role": "user",
+        "message": "Can you also show me my recent transactions?",
+        "timestamp": "2025-06-19T16:51:05.146096"
+      },
+      {
+        "role": "assistant",
+        "message": "Of course! Here are your recent transactions from the past 7 days.",
+        "timestamp": "2025-06-19T16:51:35.146096"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_608e5f6b",
+      "first_name": "Sarah",
+      "last_name": "Davis",
+      "email": "jennifer.davis@email.com",
+      "phone": "+1-555-297-6402",
+      "account_type": "senior",
+      "balance": 11806.81,
+      "account_number": "7134801003",
+      "member_since": "2021-02-15"
+    },
+    "generated_at": "2025-06-19T16:55:05.146096",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 5,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_32a29ec3",
+    "user_id": "user_ebf934f1",
+    "intent": "balance_inquiry",
+    "user_name": "David Johnson",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Hi, I'd like to check my account balance.",
+        "timestamp": "2025-06-19T16:51:05.146096"
+      },
+      {
+        "role": "assistant",
+        "message": "Hello! I'd be happy to help you check your balance. Let me retrieve that information for you.",
+        "timestamp": "2025-06-19T16:51:35.146096"
+      },
+      {
+        "role": "user",
+        "message": "Can you also show me my recent transactions?",
+        "timestamp": "2025-06-19T16:52:05.146096"
+      },
+      {
+        "role": "assistant",
+        "message": "Of course! Here are your recent transactions from the past 7 days.",
+        "timestamp": "2025-06-19T16:52:35.146096"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_ebf934f1",
+      "first_name": "David",
+      "last_name": "Johnson",
+      "email": "jennifer.smith@email.com",
+      "phone": "+1-555-834-2156",
+      "account_type": "checking",
+      "balance": 7536.61,
+      "account_number": "2143162980",
+      "member_since": "2021-04-15"
+    },
+    "generated_at": "2025-06-19T16:55:05.146096",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 5,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_bdea7cbd",
+    "user_id": "user_7f5084e9",
+    "intent": "balance_inquiry",
+    "user_name": "Emily Brown",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Hi, I'd like to check my account balance.",
+        "timestamp": "2025-06-19T16:18:05.146096"
+      },
+      {
+        "role": "assistant",
+        "message": "Hello! I'd be happy to help you check your balance. Let me retrieve that information for you.",
+        "timestamp": "2025-06-19T16:18:35.146096"
+      },
+      {
+        "role": "user",
+        "message": "Can you also show me my recent transactions?",
+        "timestamp": "2025-06-19T16:19:05.146096"
+      },
+      {
+        "role": "assistant",
+        "message": "Of course! Here are your recent transactions from the past 7 days.",
+        "timestamp": "2025-06-19T16:19:35.146096"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_7f5084e9",
+      "first_name": "Emily",
+      "last_name": "Brown",
+      "email": "jennifer.martinez@email.com",
+      "phone": "+1-555-370-1346",
+      "account_type": "student",
+      "balance": 44059.59,
+      "account_number": "5860445283",
+      "member_since": "2023-06-11"
+    },
+    "generated_at": "2025-06-19T16:55:05.146096",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 3,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_bbc5725e",
+    "user_id": "user_f94b2048",
+    "intent": "balance_inquiry",
+    "user_name": "Lisa Brown",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Hi, I'd like to check my account balance.",
+        "timestamp": "2025-06-19T16:19:05.146096"
+      },
+      {
+        "role": "assistant",
+        "message": "Hello! I'd be happy to help you check your balance. Let me retrieve that information for you.",
+        "timestamp": "2025-06-19T16:19:35.146096"
+      },
+      {
+        "role": "user",
+        "message": "Can you also show me my recent transactions?",
+        "timestamp": "2025-06-19T16:20:05.146096"
+      },
+      {
+        "role": "assistant",
+        "message": "Of course! Here are your recent transactions from the past 7 days.",
+        "timestamp": "2025-06-19T16:20:35.146096"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_f94b2048",
+      "first_name": "Lisa",
+      "last_name": "Brown",
+      "email": "john.smith@email.com",
+      "phone": "+1-555-625-6923",
+      "account_type": "premium",
+      "balance": 9997.56,
+      "account_number": "1155109201",
+      "member_since": "2022-04-22"
+    },
+    "generated_at": "2025-06-19T16:55:05.147093",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 3,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_017acb5a",
+    "user_id": "user_ded6d007",
+    "intent": "balance_inquiry",
+    "user_name": "Emily Rodriguez",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Hi, I'd like to check my account balance.",
+        "timestamp": "2025-06-19T16:45:05.147093"
+      },
+      {
+        "role": "assistant",
+        "message": "Hello! I'd be happy to help you check your balance. Let me retrieve that information for you.",
+        "timestamp": "2025-06-19T16:45:35.147093"
+      },
+      {
+        "role": "user",
+        "message": "Can you also show me my recent transactions?",
+        "timestamp": "2025-06-19T16:46:05.147093"
+      },
+      {
+        "role": "assistant",
+        "message": "Of course! Here are your recent transactions from the past 7 days.",
+        "timestamp": "2025-06-19T16:46:35.147093"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_ded6d007",
+      "first_name": "Emily",
+      "last_name": "Rodriguez",
+      "email": "david.davis@email.com",
+      "phone": "+1-555-977-2550",
+      "account_type": "premium",
+      "balance": 31769.57,
+      "account_number": "9801310236",
+      "member_since": "2022-05-21"
+    },
+    "generated_at": "2025-06-19T16:55:05.147093",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 3,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_020f1718",
+    "user_id": "user_5d086863",
+    "intent": "balance_inquiry",
+    "user_name": "John Martinez",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Hi, I'd like to check my account balance.",
+        "timestamp": "2025-06-19T16:18:05.147093"
+      },
+      {
+        "role": "assistant",
+        "message": "Hello! I'd be happy to help you check your balance. Let me retrieve that information for you.",
+        "timestamp": "2025-06-19T16:18:35.147093"
+      },
+      {
+        "role": "user",
+        "message": "Can you also show me my recent transactions?",
+        "timestamp": "2025-06-19T16:19:05.147093"
+      },
+      {
+        "role": "assistant",
+        "message": "Of course! Here are your recent transactions from the past 7 days.",
+        "timestamp": "2025-06-19T16:19:35.147093"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_5d086863",
+      "first_name": "John",
+      "last_name": "Martinez",
+      "email": "jennifer.miller@email.com",
+      "phone": "+1-555-284-7047",
+      "account_type": "savings",
+      "balance": 45596.73,
+      "account_number": "9175947350",
+      "member_since": "2021-11-02"
+    },
+    "generated_at": "2025-06-19T16:55:05.147093",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 3,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_ca5d773a",
+    "user_id": "user_2ac4213a",
+    "intent": "balance_inquiry",
+    "user_name": "Michael Johnson",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Hi, I'd like to check my account balance.",
+        "timestamp": "2025-06-19T16:03:05.147093"
+      },
+      {
+        "role": "assistant",
+        "message": "Hello! I'd be happy to help you check your balance. Let me retrieve that information for you.",
+        "timestamp": "2025-06-19T16:03:35.147093"
+      },
+      {
+        "role": "user",
+        "message": "Can you also show me my recent transactions?",
+        "timestamp": "2025-06-19T16:04:05.147093"
+      },
+      {
+        "role": "assistant",
+        "message": "Of course! Here are your recent transactions from the past 7 days.",
+        "timestamp": "2025-06-19T16:04:35.147093"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_2ac4213a",
+      "first_name": "Michael",
+      "last_name": "Johnson",
+      "email": "john.garcia@email.com",
+      "phone": "+1-555-916-9849",
+      "account_type": "senior",
+      "balance": 10427.56,
+      "account_number": "1613319073",
+      "member_since": "2022-08-31"
+    },
+    "generated_at": "2025-06-19T16:55:05.147093",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 4,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_34534804",
+    "user_id": "user_82a3d55b",
+    "intent": "balance_inquiry",
+    "user_name": "Lisa Martinez",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Hi, I'd like to check my account balance.",
+        "timestamp": "2025-06-19T16:45:05.147093"
+      },
+      {
+        "role": "assistant",
+        "message": "Hello! I'd be happy to help you check your balance. Let me retrieve that information for you.",
+        "timestamp": "2025-06-19T16:45:35.147093"
+      },
+      {
+        "role": "user",
+        "message": "Can you also show me my recent transactions?",
+        "timestamp": "2025-06-19T16:46:05.147093"
+      },
+      {
+        "role": "assistant",
+        "message": "Of course! Here are your recent transactions from the past 7 days.",
+        "timestamp": "2025-06-19T16:46:35.147093"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_82a3d55b",
+      "first_name": "Lisa",
+      "last_name": "Martinez",
+      "email": "robert.johnson@email.com",
+      "phone": "+1-555-116-9074",
+      "account_type": "checking",
+      "balance": 13448.32,
+      "account_number": "2319867371",
+      "member_since": "2024-08-17"
+    },
+    "generated_at": "2025-06-19T16:55:05.147093",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 4,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_24e47509",
+    "user_id": "user_19aeb92e",
+    "intent": "balance_inquiry",
+    "user_name": "Michael Garcia",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Hi, I'd like to check my account balance.",
+        "timestamp": "2025-06-19T15:55:05.148496"
+      },
+      {
+        "role": "assistant",
+        "message": "Hello! I'd be happy to help you check your balance. Let me retrieve that information for you.",
+        "timestamp": "2025-06-19T15:55:35.148496"
+      },
+      {
+        "role": "user",
+        "message": "Can you also show me my recent transactions?",
+        "timestamp": "2025-06-19T15:56:05.148496"
+      },
+      {
+        "role": "assistant",
+        "message": "Of course! Here are your recent transactions from the past 7 days.",
+        "timestamp": "2025-06-19T15:56:35.148496"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_19aeb92e",
+      "first_name": "Michael",
+      "last_name": "Garcia",
+      "email": "david.miller@email.com",
+      "phone": "+1-555-613-5062",
+      "account_type": "senior",
+      "balance": 42415.7,
+      "account_number": "6392224789",
+      "member_since": "2022-02-23"
+    },
+    "generated_at": "2025-06-19T16:55:05.148496",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 5,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_fc4b8f19",
+    "user_id": "user_0c4afa7b",
+    "intent": "balance_inquiry",
+    "user_name": "John Davis",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Hi, I'd like to check my account balance.",
+        "timestamp": "2025-06-19T16:27:05.148948"
+      },
+      {
+        "role": "assistant",
+        "message": "Hello! I'd be happy to help you check your balance. Let me retrieve that information for you.",
+        "timestamp": "2025-06-19T16:27:35.148948"
+      },
+      {
+        "role": "user",
+        "message": "Can you also show me my recent transactions?",
+        "timestamp": "2025-06-19T16:28:05.148948"
+      },
+      {
+        "role": "assistant",
+        "message": "Of course! Here are your recent transactions from the past 7 days.",
+        "timestamp": "2025-06-19T16:28:35.148948"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_0c4afa7b",
+      "first_name": "John",
+      "last_name": "Davis",
+      "email": "sarah.brown@email.com",
+      "phone": "+1-555-287-7389",
+      "account_type": "premium",
+      "balance": 29577.27,
+      "account_number": "2088199059",
+      "member_since": "2024-09-01"
+    },
+    "generated_at": "2025-06-19T16:55:05.150020",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 3,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_4f05139a",
+    "user_id": "user_57f5eb07",
+    "intent": "balance_inquiry",
+    "user_name": "Emily Brown",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Hi, I'd like to check my account balance.",
+        "timestamp": "2025-06-19T16:50:05.150020"
+      },
+      {
+        "role": "assistant",
+        "message": "Hello! I'd be happy to help you check your balance. Let me retrieve that information for you.",
+        "timestamp": "2025-06-19T16:50:35.150020"
+      },
+      {
+        "role": "user",
+        "message": "Can you also show me my recent transactions?",
+        "timestamp": "2025-06-19T16:51:05.150020"
+      },
+      {
+        "role": "assistant",
+        "message": "Of course! Here are your recent transactions from the past 7 days.",
+        "timestamp": "2025-06-19T16:51:35.150020"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_57f5eb07",
+      "first_name": "Emily",
+      "last_name": "Brown",
+      "email": "robert.martinez@email.com",
+      "phone": "+1-555-253-3076",
+      "account_type": "student",
+      "balance": 21242.97,
+      "account_number": "5227580545",
+      "member_since": "2022-10-03"
+    },
+    "generated_at": "2025-06-19T16:55:05.150020",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 3,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_f947d0c2",
+    "user_id": "user_8ce9d6b6",
+    "intent": "balance_inquiry",
+    "user_name": "Robert Jones",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Hi, I'd like to check my account balance.",
+        "timestamp": "2025-06-19T16:16:05.151027"
+      },
+      {
+        "role": "assistant",
+        "message": "Hello! I'd be happy to help you check your balance. Let me retrieve that information for you.",
+        "timestamp": "2025-06-19T16:16:35.151027"
+      },
+      {
+        "role": "user",
+        "message": "Can you also show me my recent transactions?",
+        "timestamp": "2025-06-19T16:17:05.151027"
+      },
+      {
+        "role": "assistant",
+        "message": "Of course! Here are your recent transactions from the past 7 days.",
+        "timestamp": "2025-06-19T16:17:35.151027"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_8ce9d6b6",
+      "first_name": "Robert",
+      "last_name": "Jones",
+      "email": "lisa.johnson@email.com",
+      "phone": "+1-555-744-6068",
+      "account_type": "senior",
+      "balance": 1465.89,
+      "account_number": "5469549875",
+      "member_since": "2021-10-19"
+    },
+    "generated_at": "2025-06-19T16:55:05.151027",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 5,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_5ffeed81",
+    "user_id": "user_f4983e2c",
+    "intent": "balance_inquiry",
+    "user_name": "Michael Miller",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Hi, I'd like to check my account balance.",
+        "timestamp": "2025-06-19T16:46:05.151027"
+      },
+      {
+        "role": "assistant",
+        "message": "Hello! I'd be happy to help you check your balance. Let me retrieve that information for you.",
+        "timestamp": "2025-06-19T16:46:35.151027"
+      },
+      {
+        "role": "user",
+        "message": "Can you also show me my recent transactions?",
+        "timestamp": "2025-06-19T16:47:05.151027"
+      },
+      {
+        "role": "assistant",
+        "message": "Of course! Here are your recent transactions from the past 7 days.",
+        "timestamp": "2025-06-19T16:47:35.151027"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_f4983e2c",
+      "first_name": "Michael",
+      "last_name": "Miller",
+      "email": "sarah.johnson@email.com",
+      "phone": "+1-555-129-1058",
+      "account_type": "savings",
+      "balance": 31586.18,
+      "account_number": "3046606566",
+      "member_since": "2022-07-20"
+    },
+    "generated_at": "2025-06-19T16:55:05.151027",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 5,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_e9186ea1",
+    "user_id": "user_a6e2cc9c",
+    "intent": "balance_inquiry",
+    "user_name": "Michael Smith",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Hi, I'd like to check my account balance.",
+        "timestamp": "2025-06-19T16:48:05.151027"
+      },
+      {
+        "role": "assistant",
+        "message": "Hello! I'd be happy to help you check your balance. Let me retrieve that information for you.",
+        "timestamp": "2025-06-19T16:48:35.151027"
+      },
+      {
+        "role": "user",
+        "message": "Can you also show me my recent transactions?",
+        "timestamp": "2025-06-19T16:49:05.151027"
+      },
+      {
+        "role": "assistant",
+        "message": "Of course! Here are your recent transactions from the past 7 days.",
+        "timestamp": "2025-06-19T16:49:35.151027"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_a6e2cc9c",
+      "first_name": "Michael",
+      "last_name": "Smith",
+      "email": "john.miller@email.com",
+      "phone": "+1-555-194-2326",
+      "account_type": "student",
+      "balance": 16265.53,
+      "account_number": "6308553346",
+      "member_since": "2021-07-29"
+    },
+    "generated_at": "2025-06-19T16:55:05.152017",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 3,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_3efe2c94",
+    "user_id": "user_b0f0129c",
+    "intent": "balance_inquiry",
+    "user_name": "Robert Martinez",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Hi, I'd like to check my account balance.",
+        "timestamp": "2025-06-19T16:05:05.152017"
+      },
+      {
+        "role": "assistant",
+        "message": "Hello! I'd be happy to help you check your balance. Let me retrieve that information for you.",
+        "timestamp": "2025-06-19T16:05:35.152017"
+      },
+      {
+        "role": "user",
+        "message": "Can you also show me my recent transactions?",
+        "timestamp": "2025-06-19T16:06:05.152017"
+      },
+      {
+        "role": "assistant",
+        "message": "Of course! Here are your recent transactions from the past 7 days.",
+        "timestamp": "2025-06-19T16:06:35.152017"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_b0f0129c",
+      "first_name": "Robert",
+      "last_name": "Martinez",
+      "email": "david.martinez@email.com",
+      "phone": "+1-555-418-5948",
+      "account_type": "checking",
+      "balance": 45837.15,
+      "account_number": "9521848331",
+      "member_since": "2024-01-26"
+    },
+    "generated_at": "2025-06-19T16:55:05.152017",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 4,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_812a3b26",
+    "user_id": "user_a74cbe44",
+    "intent": "balance_inquiry",
+    "user_name": "Sarah Garcia",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Hi, I'd like to check my account balance.",
+        "timestamp": "2025-06-19T16:39:05.152017"
+      },
+      {
+        "role": "assistant",
+        "message": "Hello! I'd be happy to help you check your balance. Let me retrieve that information for you.",
+        "timestamp": "2025-06-19T16:39:35.152017"
+      },
+      {
+        "role": "user",
+        "message": "Can you also show me my recent transactions?",
+        "timestamp": "2025-06-19T16:40:05.152017"
+      },
+      {
+        "role": "assistant",
+        "message": "Of course! Here are your recent transactions from the past 7 days.",
+        "timestamp": "2025-06-19T16:40:35.152017"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_a74cbe44",
+      "first_name": "Sarah",
+      "last_name": "Garcia",
+      "email": "sarah.davis@email.com",
+      "phone": "+1-555-337-6672",
+      "account_type": "senior",
+      "balance": 13621.9,
+      "account_number": "3027147208",
+      "member_since": "2020-12-15"
+    },
+    "generated_at": "2025-06-19T16:55:05.152017",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 5,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_9f92b3f6",
+    "user_id": "user_87a9aa9f",
+    "intent": "balance_inquiry",
+    "user_name": "Emily Smith",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Hi, I'd like to check my account balance.",
+        "timestamp": "2025-06-19T16:42:05.152017"
+      },
+      {
+        "role": "assistant",
+        "message": "Hello! I'd be happy to help you check your balance. Let me retrieve that information for you.",
+        "timestamp": "2025-06-19T16:42:35.152017"
+      },
+      {
+        "role": "user",
+        "message": "Can you also show me my recent transactions?",
+        "timestamp": "2025-06-19T16:43:05.152017"
+      },
+      {
+        "role": "assistant",
+        "message": "Of course! Here are your recent transactions from the past 7 days.",
+        "timestamp": "2025-06-19T16:43:35.152017"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_87a9aa9f",
+      "first_name": "Emily",
+      "last_name": "Smith",
+      "email": "lisa.brown@email.com",
+      "phone": "+1-555-400-6832",
+      "account_type": "savings",
+      "balance": 7906.33,
+      "account_number": "8667188345",
+      "member_since": "2022-05-06"
+    },
+    "generated_at": "2025-06-19T16:55:05.152017",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 4,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_9ff2d755",
+    "user_id": "user_ce7441cc",
+    "intent": "balance_inquiry",
+    "user_name": "David Garcia",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Hi, I'd like to check my account balance.",
+        "timestamp": "2025-06-19T16:10:05.152017"
+      },
+      {
+        "role": "assistant",
+        "message": "Hello! I'd be happy to help you check your balance. Let me retrieve that information for you.",
+        "timestamp": "2025-06-19T16:10:35.152017"
+      },
+      {
+        "role": "user",
+        "message": "Can you also show me my recent transactions?",
+        "timestamp": "2025-06-19T16:11:05.152017"
+      },
+      {
+        "role": "assistant",
+        "message": "Of course! Here are your recent transactions from the past 7 days.",
+        "timestamp": "2025-06-19T16:11:35.152017"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_ce7441cc",
+      "first_name": "David",
+      "last_name": "Garcia",
+      "email": "lisa.brown@email.com",
+      "phone": "+1-555-834-3127",
+      "account_type": "checking",
+      "balance": 36680.43,
+      "account_number": "6718798628",
+      "member_since": "2023-06-28"
+    },
+    "generated_at": "2025-06-19T16:55:05.152017",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 3,
+      "resolution_status": "resolved"
+    }
+  }
+]

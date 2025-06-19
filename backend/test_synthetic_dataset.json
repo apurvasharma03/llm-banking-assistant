@@ -1,0 +1,1177 @@
+[
+  {
+    "conversation_id": "conv_ff19fd4e",
+    "user_id": "user_d1a21a10",
+    "intent": "balance_inquiry",
+    "user_name": "David Garcia",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Hi, I'd like to check my account balance.",
+        "timestamp": "2025-06-19T16:23:48.845584"
+      },
+      {
+        "role": "assistant",
+        "message": "Hello! I'd be happy to help you check your balance. Let me retrieve that information for you.",
+        "timestamp": "2025-06-19T16:24:18.845584"
+      },
+      {
+        "role": "user",
+        "message": "Can you also show me my recent transactions?",
+        "timestamp": "2025-06-19T16:24:48.845584"
+      },
+      {
+        "role": "assistant",
+        "message": "Of course! Here are your recent transactions from the past 7 days.",
+        "timestamp": "2025-06-19T16:25:18.845584"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_d1a21a10",
+      "first_name": "David",
+      "last_name": "Garcia",
+      "email": "emily.martinez@email.com",
+      "phone": "+1-555-957-1731",
+      "account_type": "checking",
+      "balance": 37526.57,
+      "account_number": "9950809429",
+      "member_since": "2021-04-19"
+    },
+    "generated_at": "2025-06-19T16:54:48.845584",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 5,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_25c7fb29",
+    "user_id": "user_b42b6082",
+    "intent": "balance_inquiry",
+    "user_name": "James Miller",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Hi, I'd like to check my account balance.",
+        "timestamp": "2025-06-19T16:07:48.846588"
+      },
+      {
+        "role": "assistant",
+        "message": "Hello! I'd be happy to help you check your balance. Let me retrieve that information for you.",
+        "timestamp": "2025-06-19T16:08:18.846588"
+      },
+      {
+        "role": "user",
+        "message": "Can you also show me my recent transactions?",
+        "timestamp": "2025-06-19T16:08:48.846588"
+      },
+      {
+        "role": "assistant",
+        "message": "Of course! Here are your recent transactions from the past 7 days.",
+        "timestamp": "2025-06-19T16:09:18.846588"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_b42b6082",
+      "first_name": "James",
+      "last_name": "Miller",
+      "email": "michael.williams@email.com",
+      "phone": "+1-555-190-2655",
+      "account_type": "student",
+      "balance": 25410.81,
+      "account_number": "3389846342",
+      "member_since": "2024-04-05"
+    },
+    "generated_at": "2025-06-19T16:54:48.846588",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 3,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_527a2c32",
+    "user_id": "user_acf9fd07",
+    "intent": "balance_inquiry",
+    "user_name": "Michael Williams",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Hi, I'd like to check my account balance.",
+        "timestamp": "2025-06-19T16:29:48.847589"
+      },
+      {
+        "role": "assistant",
+        "message": "Hello! I'd be happy to help you check your balance. Let me retrieve that information for you.",
+        "timestamp": "2025-06-19T16:30:18.847589"
+      },
+      {
+        "role": "user",
+        "message": "Can you also show me my recent transactions?",
+        "timestamp": "2025-06-19T16:30:48.847589"
+      },
+      {
+        "role": "assistant",
+        "message": "Of course! Here are your recent transactions from the past 7 days.",
+        "timestamp": "2025-06-19T16:31:18.847589"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_acf9fd07",
+      "first_name": "Michael",
+      "last_name": "Williams",
+      "email": "david.miller@email.com",
+      "phone": "+1-555-187-2556",
+      "account_type": "senior",
+      "balance": 20418.04,
+      "account_number": "7374184490",
+      "member_since": "2024-09-28"
+    },
+    "generated_at": "2025-06-19T16:54:48.847589",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 3,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_7285ab83",
+    "user_id": "user_c364874b",
+    "intent": "balance_inquiry",
+    "user_name": "Emily Davis",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Hi, I'd like to check my account balance.",
+        "timestamp": "2025-06-19T16:05:48.848580"
+      },
+      {
+        "role": "assistant",
+        "message": "Hello! I'd be happy to help you check your balance. Let me retrieve that information for you.",
+        "timestamp": "2025-06-19T16:06:18.848580"
+      },
+      {
+        "role": "user",
+        "message": "Can you also show me my recent transactions?",
+        "timestamp": "2025-06-19T16:06:48.848580"
+      },
+      {
+        "role": "assistant",
+        "message": "Of course! Here are your recent transactions from the past 7 days.",
+        "timestamp": "2025-06-19T16:07:18.848580"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_c364874b",
+      "first_name": "Emily",
+      "last_name": "Davis",
+      "email": "jennifer.martinez@email.com",
+      "phone": "+1-555-465-3620",
+      "account_type": "savings",
+      "balance": 49951.12,
+      "account_number": "8513025083",
+      "member_since": "2022-06-24"
+    },
+    "generated_at": "2025-06-19T16:54:48.848580",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 3,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_09eb36e7",
+    "user_id": "user_bed0a81a",
+    "intent": "balance_inquiry",
+    "user_name": "Lisa Garcia",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "Hi, I'd like to check my account balance.",
+        "timestamp": "2025-06-19T16:36:48.848580"
+      },
+      {
+        "role": "assistant",
+        "message": "Hello! I'd be happy to help you check your balance. Let me retrieve that information for you.",
+        "timestamp": "2025-06-19T16:37:18.848580"
+      },
+      {
+        "role": "user",
+        "message": "Can you also show me my recent transactions?",
+        "timestamp": "2025-06-19T16:37:48.848580"
+      },
+      {
+        "role": "assistant",
+        "message": "Of course! Here are your recent transactions from the past 7 days.",
+        "timestamp": "2025-06-19T16:38:18.848580"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_bed0a81a",
+      "first_name": "Lisa",
+      "last_name": "Garcia",
+      "email": "james.rodriguez@email.com",
+      "phone": "+1-555-174-4396",
+      "account_type": "senior",
+      "balance": 37182.14,
+      "account_number": "1005100303",
+      "member_since": "2022-03-25"
+    },
+    "generated_at": "2025-06-19T16:54:48.848580",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 5,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_01674436",
+    "user_id": "user_2e3d94b1",
+    "intent": "transaction_request",
+    "user_name": "Lisa Davis",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need to transfer money to my friend.",
+        "timestamp": "2025-06-19T16:30:48.850617"
+      },
+      {
+        "role": "assistant",
+        "message": "I can help you with that transfer. Please provide the recipient's name and account number.",
+        "timestamp": "2025-06-19T16:31:18.850617"
+      },
+      {
+        "role": "user",
+        "message": "The name is John Doe and the account number is 1234567890.",
+        "timestamp": "2025-06-19T16:31:48.850617"
+      },
+      {
+        "role": "assistant",
+        "message": "Thank you. How much would you like to transfer?",
+        "timestamp": "2025-06-19T16:32:18.850617"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_2e3d94b1",
+      "first_name": "Lisa",
+      "last_name": "Davis",
+      "email": "john.jones@email.com",
+      "phone": "+1-555-285-1476",
+      "account_type": "senior",
+      "balance": 11007.06,
+      "account_number": "7277693676",
+      "member_since": "2020-09-04"
+    },
+    "generated_at": "2025-06-19T16:54:48.850617",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 4,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_39ca4ad3",
+    "user_id": "user_6313c16f",
+    "intent": "transaction_request",
+    "user_name": "Amanda Miller",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need to transfer money to my friend.",
+        "timestamp": "2025-06-19T16:49:48.850617"
+      },
+      {
+        "role": "assistant",
+        "message": "I can help you with that transfer. Please provide the recipient's name and account number.",
+        "timestamp": "2025-06-19T16:50:18.850617"
+      },
+      {
+        "role": "user",
+        "message": "The name is John Doe and the account number is 1234567890.",
+        "timestamp": "2025-06-19T16:50:48.850617"
+      },
+      {
+        "role": "assistant",
+        "message": "Thank you. How much would you like to transfer?",
+        "timestamp": "2025-06-19T16:51:18.850617"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_6313c16f",
+      "first_name": "Amanda",
+      "last_name": "Miller",
+      "email": "emily.miller@email.com",
+      "phone": "+1-555-762-1215",
+      "account_type": "student",
+      "balance": 33488.57,
+      "account_number": "9864125415",
+      "member_since": "2023-06-16"
+    },
+    "generated_at": "2025-06-19T16:54:48.850617",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 5,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_d9d7a704",
+    "user_id": "user_c5b516de",
+    "intent": "transaction_request",
+    "user_name": "Lisa Garcia",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need to transfer money to my friend.",
+        "timestamp": "2025-06-19T16:31:48.850617"
+      },
+      {
+        "role": "assistant",
+        "message": "I can help you with that transfer. Please provide the recipient's name and account number.",
+        "timestamp": "2025-06-19T16:32:18.850617"
+      },
+      {
+        "role": "user",
+        "message": "The name is John Doe and the account number is 1234567890.",
+        "timestamp": "2025-06-19T16:32:48.850617"
+      },
+      {
+        "role": "assistant",
+        "message": "Thank you. How much would you like to transfer?",
+        "timestamp": "2025-06-19T16:33:18.850617"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_c5b516de",
+      "first_name": "Lisa",
+      "last_name": "Garcia",
+      "email": "sarah.davis@email.com",
+      "phone": "+1-555-754-2186",
+      "account_type": "student",
+      "balance": 30489.33,
+      "account_number": "9088000007",
+      "member_since": "2023-05-26"
+    },
+    "generated_at": "2025-06-19T16:54:48.850617",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 5,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_3959282a",
+    "user_id": "user_741638fb",
+    "intent": "transaction_request",
+    "user_name": "Michael Miller",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need to transfer money to my friend.",
+        "timestamp": "2025-06-19T16:29:48.850617"
+      },
+      {
+        "role": "assistant",
+        "message": "I can help you with that transfer. Please provide the recipient's name and account number.",
+        "timestamp": "2025-06-19T16:30:18.850617"
+      },
+      {
+        "role": "user",
+        "message": "The name is John Doe and the account number is 1234567890.",
+        "timestamp": "2025-06-19T16:30:48.850617"
+      },
+      {
+        "role": "assistant",
+        "message": "Thank you. How much would you like to transfer?",
+        "timestamp": "2025-06-19T16:31:18.850617"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_741638fb",
+      "first_name": "Michael",
+      "last_name": "Miller",
+      "email": "robert.johnson@email.com",
+      "phone": "+1-555-913-8206",
+      "account_type": "senior",
+      "balance": 23525.79,
+      "account_number": "1904059250",
+      "member_since": "2021-11-19"
+    },
+    "generated_at": "2025-06-19T16:54:48.850617",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 3,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_c8332f41",
+    "user_id": "user_86ab4421",
+    "intent": "transaction_request",
+    "user_name": "Michael Johnson",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need to transfer money to my friend.",
+        "timestamp": "2025-06-19T16:19:48.850617"
+      },
+      {
+        "role": "assistant",
+        "message": "I can help you with that transfer. Please provide the recipient's name and account number.",
+        "timestamp": "2025-06-19T16:20:18.850617"
+      },
+      {
+        "role": "user",
+        "message": "The name is John Doe and the account number is 1234567890.",
+        "timestamp": "2025-06-19T16:20:48.850617"
+      },
+      {
+        "role": "assistant",
+        "message": "Thank you. How much would you like to transfer?",
+        "timestamp": "2025-06-19T16:21:18.850617"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_86ab4421",
+      "first_name": "Michael",
+      "last_name": "Johnson",
+      "email": "lisa.miller@email.com",
+      "phone": "+1-555-416-1517",
+      "account_type": "savings",
+      "balance": 27384.05,
+      "account_number": "1088299267",
+      "member_since": "2024-12-31"
+    },
+    "generated_at": "2025-06-19T16:54:48.850617",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 3,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_7eb816ca",
+    "user_id": "user_116cd110",
+    "intent": "fraud_alert",
+    "user_name": "David Martinez",
+    "conversation": [
+      {
+        "role": "assistant",
+        "message": "I understand your concern. Let me help you secure your account immediately.",
+        "timestamp": "2025-06-19T16:48:48.852097"
+      },
+      {
+        "role": "user",
+        "message": "That's not me! I didn't make that transaction.",
+        "timestamp": "2025-06-19T16:49:18.852097"
+      },
+      {
+        "role": "assistant",
+        "message": "I've blocked your current card and will issue a new one. It should arrive in 5-7 business days.",
+        "timestamp": "2025-06-19T16:49:48.852097"
+      },
+      {
+        "role": "user",
+        "message": "Please block my card and issue a new one.",
+        "timestamp": "2025-06-19T16:50:18.852097"
+      },
+      {
+        "role": "assistant",
+        "message": "I've blocked your current card and will issue a new one. It should arrive in 5-7 business days.",
+        "timestamp": "2025-06-19T16:50:48.852097"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_116cd110",
+      "first_name": "David",
+      "last_name": "Martinez",
+      "email": "robert.williams@email.com",
+      "phone": "+1-555-886-3212",
+      "account_type": "senior",
+      "balance": 6011.58,
+      "account_number": "1021262229",
+      "member_since": "2021-12-24"
+    },
+    "generated_at": "2025-06-19T16:54:48.852097",
+    "metadata": {
+      "conversation_length": 5,
+      "duration_seconds": 120,
+      "satisfaction_score": 3,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_89b0f7a0",
+    "user_id": "user_f14d59d0",
+    "intent": "fraud_alert",
+    "user_name": "Sarah Rodriguez",
+    "conversation": [
+      {
+        "role": "assistant",
+        "message": "I understand your concern. Let me help you secure your account immediately.",
+        "timestamp": "2025-06-19T16:22:48.852097"
+      },
+      {
+        "role": "user",
+        "message": "That's not me! I didn't make that transaction.",
+        "timestamp": "2025-06-19T16:23:18.852097"
+      },
+      {
+        "role": "assistant",
+        "message": "I've blocked your current card and will issue a new one. It should arrive in 5-7 business days.",
+        "timestamp": "2025-06-19T16:23:48.852097"
+      },
+      {
+        "role": "user",
+        "message": "Please block my card and issue a new one.",
+        "timestamp": "2025-06-19T16:24:18.852097"
+      },
+      {
+        "role": "assistant",
+        "message": "I've blocked your current card and will issue a new one. It should arrive in 5-7 business days.",
+        "timestamp": "2025-06-19T16:24:48.852097"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_f14d59d0",
+      "first_name": "Sarah",
+      "last_name": "Rodriguez",
+      "email": "amanda.miller@email.com",
+      "phone": "+1-555-292-2308",
+      "account_type": "premium",
+      "balance": 434.72,
+      "account_number": "4101054089",
+      "member_since": "2024-08-06"
+    },
+    "generated_at": "2025-06-19T16:54:48.852097",
+    "metadata": {
+      "conversation_length": 5,
+      "duration_seconds": 120,
+      "satisfaction_score": 4,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_69abc540",
+    "user_id": "user_c8ea4c49",
+    "intent": "fraud_alert",
+    "user_name": "Emily Brown",
+    "conversation": [
+      {
+        "role": "assistant",
+        "message": "I understand your concern. Let me help you secure your account immediately.",
+        "timestamp": "2025-06-19T16:23:48.852097"
+      },
+      {
+        "role": "user",
+        "message": "That's not me! I didn't make that transaction.",
+        "timestamp": "2025-06-19T16:24:18.852097"
+      },
+      {
+        "role": "assistant",
+        "message": "I've blocked your current card and will issue a new one. It should arrive in 5-7 business days.",
+        "timestamp": "2025-06-19T16:24:48.852097"
+      },
+      {
+        "role": "user",
+        "message": "Please block my card and issue a new one.",
+        "timestamp": "2025-06-19T16:25:18.852097"
+      },
+      {
+        "role": "assistant",
+        "message": "I've blocked your current card and will issue a new one. It should arrive in 5-7 business days.",
+        "timestamp": "2025-06-19T16:25:48.852097"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_c8ea4c49",
+      "first_name": "Emily",
+      "last_name": "Brown",
+      "email": "sarah.williams@email.com",
+      "phone": "+1-555-765-9889",
+      "account_type": "senior",
+      "balance": 22804.04,
+      "account_number": "9498302642",
+      "member_since": "2020-12-01"
+    },
+    "generated_at": "2025-06-19T16:54:48.852097",
+    "metadata": {
+      "conversation_length": 5,
+      "duration_seconds": 120,
+      "satisfaction_score": 5,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_d9f72484",
+    "user_id": "user_5a327c7c",
+    "intent": "fraud_alert",
+    "user_name": "Emily Miller",
+    "conversation": [
+      {
+        "role": "assistant",
+        "message": "I understand your concern. Let me help you secure your account immediately.",
+        "timestamp": "2025-06-19T15:57:48.852097"
+      },
+      {
+        "role": "user",
+        "message": "That's not me! I didn't make that transaction.",
+        "timestamp": "2025-06-19T15:58:18.852097"
+      },
+      {
+        "role": "assistant",
+        "message": "I've blocked your current card and will issue a new one. It should arrive in 5-7 business days.",
+        "timestamp": "2025-06-19T15:58:48.852097"
+      },
+      {
+        "role": "user",
+        "message": "Please block my card and issue a new one.",
+        "timestamp": "2025-06-19T15:59:18.852097"
+      },
+      {
+        "role": "assistant",
+        "message": "I've blocked your current card and will issue a new one. It should arrive in 5-7 business days.",
+        "timestamp": "2025-06-19T15:59:48.852097"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_5a327c7c",
+      "first_name": "Emily",
+      "last_name": "Miller",
+      "email": "robert.williams@email.com",
+      "phone": "+1-555-103-3244",
+      "account_type": "savings",
+      "balance": 28978.02,
+      "account_number": "3077048595",
+      "member_since": "2024-01-31"
+    },
+    "generated_at": "2025-06-19T16:54:48.852097",
+    "metadata": {
+      "conversation_length": 5,
+      "duration_seconds": 120,
+      "satisfaction_score": 3,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_de9e3c5c",
+    "user_id": "user_0f9c465d",
+    "intent": "fraud_alert",
+    "user_name": "David Rodriguez",
+    "conversation": [
+      {
+        "role": "assistant",
+        "message": "I understand your concern. Let me help you secure your account immediately.",
+        "timestamp": "2025-06-19T16:38:48.853101"
+      },
+      {
+        "role": "user",
+        "message": "That's not me! I didn't make that transaction.",
+        "timestamp": "2025-06-19T16:39:18.853101"
+      },
+      {
+        "role": "assistant",
+        "message": "I've blocked your current card and will issue a new one. It should arrive in 5-7 business days.",
+        "timestamp": "2025-06-19T16:39:48.853101"
+      },
+      {
+        "role": "user",
+        "message": "Please block my card and issue a new one.",
+        "timestamp": "2025-06-19T16:40:18.853101"
+      },
+      {
+        "role": "assistant",
+        "message": "I've blocked your current card and will issue a new one. It should arrive in 5-7 business days.",
+        "timestamp": "2025-06-19T16:40:48.853101"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_0f9c465d",
+      "first_name": "David",
+      "last_name": "Rodriguez",
+      "email": "lisa.rodriguez@email.com",
+      "phone": "+1-555-864-2916",
+      "account_type": "checking",
+      "balance": 40242.59,
+      "account_number": "5263108383",
+      "member_since": "2023-05-03"
+    },
+    "generated_at": "2025-06-19T16:54:48.853101",
+    "metadata": {
+      "conversation_length": 5,
+      "duration_seconds": 120,
+      "satisfaction_score": 5,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_e4dde5ce",
+    "user_id": "user_f1837d6c",
+    "intent": "financial_advice",
+    "user_name": "Michael Williams",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need help with budgeting and saving money.",
+        "timestamp": "2025-06-19T16:08:48.853101"
+      },
+      {
+        "role": "assistant",
+        "message": "I'd be happy to help you with financial planning. Let me ask a few questions to provide personalized advice.",
+        "timestamp": "2025-06-19T16:09:18.853101"
+      },
+      {
+        "role": "user",
+        "message": "I make $3000 a month and want to save for a house.",
+        "timestamp": "2025-06-19T16:09:48.853101"
+      },
+      {
+        "role": "assistant",
+        "message": "Based on your income, I recommend setting aside 20% for savings. Let me create a budget plan for you.",
+        "timestamp": "2025-06-19T16:10:18.853101"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_f1837d6c",
+      "first_name": "Michael",
+      "last_name": "Williams",
+      "email": "robert.martinez@email.com",
+      "phone": "+1-555-181-3253",
+      "account_type": "checking",
+      "balance": 1551.95,
+      "account_number": "1687369345",
+      "member_since": "2020-12-14"
+    },
+    "generated_at": "2025-06-19T16:54:48.853101",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 3,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_a28f49b7",
+    "user_id": "user_d070843c",
+    "intent": "financial_advice",
+    "user_name": "Lisa Martinez",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need help with budgeting and saving money.",
+        "timestamp": "2025-06-19T16:23:48.853101"
+      },
+      {
+        "role": "assistant",
+        "message": "I'd be happy to help you with financial planning. Let me ask a few questions to provide personalized advice.",
+        "timestamp": "2025-06-19T16:24:18.853101"
+      },
+      {
+        "role": "user",
+        "message": "I make $3000 a month and want to save for a house.",
+        "timestamp": "2025-06-19T16:24:48.853101"
+      },
+      {
+        "role": "assistant",
+        "message": "Based on your income, I recommend setting aside 20% for savings. Let me create a budget plan for you.",
+        "timestamp": "2025-06-19T16:25:18.853101"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_d070843c",
+      "first_name": "Lisa",
+      "last_name": "Martinez",
+      "email": "john.williams@email.com",
+      "phone": "+1-555-844-6342",
+      "account_type": "savings",
+      "balance": 28794.26,
+      "account_number": "9210236544",
+      "member_since": "2022-03-18"
+    },
+    "generated_at": "2025-06-19T16:54:48.854381",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 4,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_00b27e10",
+    "user_id": "user_dc07ec7a",
+    "intent": "financial_advice",
+    "user_name": "Amanda Miller",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need help with budgeting and saving money.",
+        "timestamp": "2025-06-19T16:30:48.854381"
+      },
+      {
+        "role": "assistant",
+        "message": "I'd be happy to help you with financial planning. Let me ask a few questions to provide personalized advice.",
+        "timestamp": "2025-06-19T16:31:18.854381"
+      },
+      {
+        "role": "user",
+        "message": "I make $3000 a month and want to save for a house.",
+        "timestamp": "2025-06-19T16:31:48.854381"
+      },
+      {
+        "role": "assistant",
+        "message": "Based on your income, I recommend setting aside 20% for savings. Let me create a budget plan for you.",
+        "timestamp": "2025-06-19T16:32:18.854381"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_dc07ec7a",
+      "first_name": "Amanda",
+      "last_name": "Miller",
+      "email": "lisa.miller@email.com",
+      "phone": "+1-555-601-6365",
+      "account_type": "savings",
+      "balance": 10242.75,
+      "account_number": "8626724586",
+      "member_since": "2023-03-15"
+    },
+    "generated_at": "2025-06-19T16:54:48.854381",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 3,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_63236d92",
+    "user_id": "user_0db59ff0",
+    "intent": "financial_advice",
+    "user_name": "David Smith",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need help with budgeting and saving money.",
+        "timestamp": "2025-06-19T16:50:48.854381"
+      },
+      {
+        "role": "assistant",
+        "message": "I'd be happy to help you with financial planning. Let me ask a few questions to provide personalized advice.",
+        "timestamp": "2025-06-19T16:51:18.854381"
+      },
+      {
+        "role": "user",
+        "message": "I make $3000 a month and want to save for a house.",
+        "timestamp": "2025-06-19T16:51:48.854381"
+      },
+      {
+        "role": "assistant",
+        "message": "Based on your income, I recommend setting aside 20% for savings. Let me create a budget plan for you.",
+        "timestamp": "2025-06-19T16:52:18.854381"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_0db59ff0",
+      "first_name": "David",
+      "last_name": "Smith",
+      "email": "david.jones@email.com",
+      "phone": "+1-555-710-1439",
+      "account_type": "savings",
+      "balance": 24045.26,
+      "account_number": "4621391928",
+      "member_since": "2022-03-27"
+    },
+    "generated_at": "2025-06-19T16:54:48.854381",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 3,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_3a5b641d",
+    "user_id": "user_9ff65ebd",
+    "intent": "financial_advice",
+    "user_name": "Michael Brown",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need help with budgeting and saving money.",
+        "timestamp": "2025-06-19T16:31:48.854891"
+      },
+      {
+        "role": "assistant",
+        "message": "I'd be happy to help you with financial planning. Let me ask a few questions to provide personalized advice.",
+        "timestamp": "2025-06-19T16:32:18.854891"
+      },
+      {
+        "role": "user",
+        "message": "I make $3000 a month and want to save for a house.",
+        "timestamp": "2025-06-19T16:32:48.854891"
+      },
+      {
+        "role": "assistant",
+        "message": "Based on your income, I recommend setting aside 20% for savings. Let me create a budget plan for you.",
+        "timestamp": "2025-06-19T16:33:18.854891"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_9ff65ebd",
+      "first_name": "Michael",
+      "last_name": "Brown",
+      "email": "michael.williams@email.com",
+      "phone": "+1-555-212-5715",
+      "account_type": "savings",
+      "balance": 23863.14,
+      "account_number": "3502042184",
+      "member_since": "2023-08-18"
+    },
+    "generated_at": "2025-06-19T16:54:48.854891",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 5,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_cd593b19",
+    "user_id": "user_b8c309d1",
+    "intent": "account_management",
+    "user_name": "Amanda Brown",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need to update my contact information.",
+        "timestamp": "2025-06-19T16:02:48.855904"
+      },
+      {
+        "role": "assistant",
+        "message": "I can help you update your contact information. What would you like to change?",
+        "timestamp": "2025-06-19T16:03:18.855904"
+      },
+      {
+        "role": "user",
+        "message": "I need to update my phone number and email address.",
+        "timestamp": "2025-06-19T16:03:48.855904"
+      },
+      {
+        "role": "assistant",
+        "message": "I'll help you update both. Please provide your new phone number and email address.",
+        "timestamp": "2025-06-19T16:04:18.855904"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_b8c309d1",
+      "first_name": "Amanda",
+      "last_name": "Brown",
+      "email": "sarah.smith@email.com",
+      "phone": "+1-555-156-3380",
+      "account_type": "checking",
+      "balance": 6673.95,
+      "account_number": "7815269443",
+      "member_since": "2023-03-31"
+    },
+    "generated_at": "2025-06-19T16:54:48.855904",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 3,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_4655fd61",
+    "user_id": "user_6ebd8948",
+    "intent": "account_management",
+    "user_name": "Michael Martinez",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need to update my contact information.",
+        "timestamp": "2025-06-19T16:37:48.855904"
+      },
+      {
+        "role": "assistant",
+        "message": "I can help you update your contact information. What would you like to change?",
+        "timestamp": "2025-06-19T16:38:18.855904"
+      },
+      {
+        "role": "user",
+        "message": "I need to update my phone number and email address.",
+        "timestamp": "2025-06-19T16:38:48.855904"
+      },
+      {
+        "role": "assistant",
+        "message": "I'll help you update both. Please provide your new phone number and email address.",
+        "timestamp": "2025-06-19T16:39:18.855904"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_6ebd8948",
+      "first_name": "Michael",
+      "last_name": "Martinez",
+      "email": "emily.rodriguez@email.com",
+      "phone": "+1-555-671-9843",
+      "account_type": "premium",
+      "balance": 49527.91,
+      "account_number": "6231559735",
+      "member_since": "2021-02-02"
+    },
+    "generated_at": "2025-06-19T16:54:48.855904",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 3,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_9b5ae089",
+    "user_id": "user_9ac1350f",
+    "intent": "account_management",
+    "user_name": "Emily Williams",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need to update my contact information.",
+        "timestamp": "2025-06-19T16:13:48.855904"
+      },
+      {
+        "role": "assistant",
+        "message": "I can help you update your contact information. What would you like to change?",
+        "timestamp": "2025-06-19T16:14:18.855904"
+      },
+      {
+        "role": "user",
+        "message": "I need to update my phone number and email address.",
+        "timestamp": "2025-06-19T16:14:48.855904"
+      },
+      {
+        "role": "assistant",
+        "message": "I'll help you update both. Please provide your new phone number and email address.",
+        "timestamp": "2025-06-19T16:15:18.855904"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_9ac1350f",
+      "first_name": "Emily",
+      "last_name": "Williams",
+      "email": "robert.jones@email.com",
+      "phone": "+1-555-690-9323",
+      "account_type": "student",
+      "balance": 30380.01,
+      "account_number": "9077208418",
+      "member_since": "2021-12-29"
+    },
+    "generated_at": "2025-06-19T16:54:48.855904",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 5,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_f00bbb0a",
+    "user_id": "user_1970d0dd",
+    "intent": "account_management",
+    "user_name": "Robert Rodriguez",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need to update my contact information.",
+        "timestamp": "2025-06-19T16:18:48.855904"
+      },
+      {
+        "role": "assistant",
+        "message": "I can help you update your contact information. What would you like to change?",
+        "timestamp": "2025-06-19T16:19:18.855904"
+      },
+      {
+        "role": "user",
+        "message": "I need to update my phone number and email address.",
+        "timestamp": "2025-06-19T16:19:48.855904"
+      },
+      {
+        "role": "assistant",
+        "message": "I'll help you update both. Please provide your new phone number and email address.",
+        "timestamp": "2025-06-19T16:20:18.855904"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_1970d0dd",
+      "first_name": "Robert",
+      "last_name": "Rodriguez",
+      "email": "sarah.miller@email.com",
+      "phone": "+1-555-759-6424",
+      "account_type": "student",
+      "balance": 48654.19,
+      "account_number": "2093649238",
+      "member_since": "2024-09-16"
+    },
+    "generated_at": "2025-06-19T16:54:48.855904",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 3,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_399c44c8",
+    "user_id": "user_c59716a3",
+    "intent": "account_management",
+    "user_name": "James Smith",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need to update my contact information.",
+        "timestamp": "2025-06-19T16:25:48.855904"
+      },
+      {
+        "role": "assistant",
+        "message": "I can help you update your contact information. What would you like to change?",
+        "timestamp": "2025-06-19T16:26:18.855904"
+      },
+      {
+        "role": "user",
+        "message": "I need to update my phone number and email address.",
+        "timestamp": "2025-06-19T16:26:48.855904"
+      },
+      {
+        "role": "assistant",
+        "message": "I'll help you update both. Please provide your new phone number and email address.",
+        "timestamp": "2025-06-19T16:27:18.855904"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_c59716a3",
+      "first_name": "James",
+      "last_name": "Smith",
+      "email": "jennifer.smith@email.com",
+      "phone": "+1-555-796-4794",
+      "account_type": "senior",
+      "balance": 10596.38,
+      "account_number": "2989048114",
+      "member_since": "2023-11-12"
+    },
+    "generated_at": "2025-06-19T16:54:48.855904",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 4,
+      "resolution_status": "resolved"
+    }
+  }
+]

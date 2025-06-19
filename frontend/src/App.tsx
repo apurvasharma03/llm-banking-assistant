@@ -9,7 +9,11 @@ import {
   ThemeProvider,
   createTheme,
   CircularProgress,
-  Alert
+  Alert,
+  Select,
+  MenuItem,
+  FormControl,
+  InputLabel
 } from '@mui/material';
 
 const theme = createTheme({
@@ -29,11 +33,35 @@ interface Message {
   error?: boolean;
 }
 
+interface Customer {
+  customer_id: string;
+  first_name: string;
+  last_name: string;
+  email: string;
+}
+
 function App() {
   const [messages, setMessages] = useState<Message[]>([]);
   const [input, setInput] = useState('');
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  const [customers, setCustomers] = useState<Customer[]>([]);
+  const [selectedCustomer, setSelectedCustomer] = useState<string>('');
+
+  // Load customers on component mount
+  React.useEffect(() => {
+    fetchCustomers();
+  }, []);
+
+  const fetchCustomers = async () => {
+    try {
+      const response = await fetch('/api/customers');
+      const data = await response.json();
+      setCustomers(data.slice(0, 10)); // Show first 10 customers
+    } catch (error) {
+      console.error('Failed to fetch customers:', error);
+    }
+  };
 
   const handleSend = async () => {
     if (input.trim()) {
@@ -48,14 +76,16 @@ function App() {
       
       try {
         console.log('Sending request to backend...');
-        const response = await fetch('/api/chat/message', {
+        
+        // Use the new endpoint that supports synthetic data
+        const response = await fetch('/api/chat/', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
           },
           body: JSON.stringify({ 
             message: input,
-            userId: 'test-user-123' // Adding a default userId for testing
+            email: selectedCustomer
           }),
         });
 
@@ -68,7 +98,7 @@ function App() {
         }
 
         const botResponse: Message = {
-          text: data.message || data.response,
+          text: data.reply || data.message || data.response,
           sender: 'bot'
         };
         setMessages(prev => [...prev, botResponse]);
@@ -103,6 +133,21 @@ function App() {
           <Typography variant="h4" component="h1" gutterBottom align="center">
             Banking Assistant
           </Typography>
+          
+          <FormControl fullWidth sx={{ mb: 2 }}>
+            <InputLabel>Select Customer</InputLabel>
+            <Select
+              value={selectedCustomer}
+              label="Select Customer"
+              onChange={(e) => setSelectedCustomer(e.target.value)}
+            >
+              {customers.map((customer) => (
+                <MenuItem key={customer.customer_id} value={customer.email}>
+                  {customer.first_name} {customer.last_name} ({customer.email})
+                </MenuItem>
+              ))}
+            </Select>
+          </FormControl>
           
           {error && (
             <Alert severity="error" sx={{ mb: 2 }} onClose={() => setError(null)}>
@@ -156,12 +201,12 @@ function App() {
               value={input}
               onChange={(e) => setInput(e.target.value)}
               onKeyPress={(e) => e.key === 'Enter' && !isLoading && handleSend()}
-              disabled={isLoading}
+              disabled={isLoading || !selectedCustomer}
             />
             <Button 
               variant="contained" 
               onClick={handleSend}
-              disabled={!input.trim() || isLoading}
+              disabled={!input.trim() || isLoading || !selectedCustomer}
             >
               Send
             </Button>

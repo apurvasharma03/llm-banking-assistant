@@ -1,0 +1,2302 @@
+[
+  {
+    "conversation_id": "conv_273b5f1b",
+    "user_id": "user_6891de21",
+    "intent": "account_management",
+    "user_name": "John Williams",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need to update my contact information.",
+        "timestamp": "2025-06-19T16:11:05.210130"
+      },
+      {
+        "role": "assistant",
+        "message": "I can help you update your contact information. What would you like to change?",
+        "timestamp": "2025-06-19T16:11:35.210130"
+      },
+      {
+        "role": "user",
+        "message": "I need to update my phone number and email address.",
+        "timestamp": "2025-06-19T16:12:05.210130"
+      },
+      {
+        "role": "assistant",
+        "message": "I'll help you update both. Please provide your new phone number and email address.",
+        "timestamp": "2025-06-19T16:12:35.210130"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_6891de21",
+      "first_name": "John",
+      "last_name": "Williams",
+      "email": "david.jones@email.com",
+      "phone": "+1-555-254-1641",
+      "account_type": "checking",
+      "balance": 39842.87,
+      "account_number": "3801538304",
+      "member_since": "2022-08-11"
+    },
+    "generated_at": "2025-06-19T16:55:05.210130",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 5,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_180c7b68",
+    "user_id": "user_6a443130",
+    "intent": "account_management",
+    "user_name": "David Smith",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need to update my contact information.",
+        "timestamp": "2025-06-19T16:08:05.210130"
+      },
+      {
+        "role": "assistant",
+        "message": "I can help you update your contact information. What would you like to change?",
+        "timestamp": "2025-06-19T16:08:35.210130"
+      },
+      {
+        "role": "user",
+        "message": "I need to update my phone number and email address.",
+        "timestamp": "2025-06-19T16:09:05.210130"
+      },
+      {
+        "role": "assistant",
+        "message": "I'll help you update both. Please provide your new phone number and email address.",
+        "timestamp": "2025-06-19T16:09:35.210130"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_6a443130",
+      "first_name": "David",
+      "last_name": "Smith",
+      "email": "john.miller@email.com",
+      "phone": "+1-555-859-9943",
+      "account_type": "student",
+      "balance": 31420.64,
+      "account_number": "3906207076",
+      "member_since": "2022-05-19"
+    },
+    "generated_at": "2025-06-19T16:55:05.210130",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 3,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_b390ae11",
+    "user_id": "user_ca1907e1",
+    "intent": "account_management",
+    "user_name": "Lisa Garcia",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need to update my contact information.",
+        "timestamp": "2025-06-19T16:07:05.210130"
+      },
+      {
+        "role": "assistant",
+        "message": "I can help you update your contact information. What would you like to change?",
+        "timestamp": "2025-06-19T16:07:35.210130"
+      },
+      {
+        "role": "user",
+        "message": "I need to update my phone number and email address.",
+        "timestamp": "2025-06-19T16:08:05.210130"
+      },
+      {
+        "role": "assistant",
+        "message": "I'll help you update both. Please provide your new phone number and email address.",
+        "timestamp": "2025-06-19T16:08:35.210130"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_ca1907e1",
+      "first_name": "Lisa",
+      "last_name": "Garcia",
+      "email": "emily.martinez@email.com",
+      "phone": "+1-555-691-3123",
+      "account_type": "checking",
+      "balance": 4221.56,
+      "account_number": "8980264675",
+      "member_since": "2022-06-10"
+    },
+    "generated_at": "2025-06-19T16:55:05.210130",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 3,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_ab5e1086",
+    "user_id": "user_e7b25ed2",
+    "intent": "account_management",
+    "user_name": "Sarah Jones",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need to update my contact information.",
+        "timestamp": "2025-06-19T16:12:05.210130"
+      },
+      {
+        "role": "assistant",
+        "message": "I can help you update your contact information. What would you like to change?",
+        "timestamp": "2025-06-19T16:12:35.210130"
+      },
+      {
+        "role": "user",
+        "message": "I need to update my phone number and email address.",
+        "timestamp": "2025-06-19T16:13:05.210130"
+      },
+      {
+        "role": "assistant",
+        "message": "I'll help you update both. Please provide your new phone number and email address.",
+        "timestamp": "2025-06-19T16:13:35.210130"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_e7b25ed2",
+      "first_name": "Sarah",
+      "last_name": "Jones",
+      "email": "david.garcia@email.com",
+      "phone": "+1-555-438-5736",
+      "account_type": "checking",
+      "balance": 47655.61,
+      "account_number": "9189534515",
+      "member_since": "2021-10-27"
+    },
+    "generated_at": "2025-06-19T16:55:05.210130",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 5,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_a3784229",
+    "user_id": "user_63ca680a",
+    "intent": "account_management",
+    "user_name": "Jennifer Williams",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need to update my contact information.",
+        "timestamp": "2025-06-19T16:12:05.211139"
+      },
+      {
+        "role": "assistant",
+        "message": "I can help you update your contact information. What would you like to change?",
+        "timestamp": "2025-06-19T16:12:35.211139"
+      },
+      {
+        "role": "user",
+        "message": "I need to update my phone number and email address.",
+        "timestamp": "2025-06-19T16:13:05.211139"
+      },
+      {
+        "role": "assistant",
+        "message": "I'll help you update both. Please provide your new phone number and email address.",
+        "timestamp": "2025-06-19T16:13:35.211139"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_63ca680a",
+      "first_name": "Jennifer",
+      "last_name": "Williams",
+      "email": "lisa.garcia@email.com",
+      "phone": "+1-555-524-6556",
+      "account_type": "premium",
+      "balance": 19434.66,
+      "account_number": "8921350532",
+      "member_since": "2021-07-21"
+    },
+    "generated_at": "2025-06-19T16:55:05.211139",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 4,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_45a6a9de",
+    "user_id": "user_f9a73a77",
+    "intent": "account_management",
+    "user_name": "Amanda Martinez",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need to update my contact information.",
+        "timestamp": "2025-06-19T16:39:05.211139"
+      },
+      {
+        "role": "assistant",
+        "message": "I can help you update your contact information. What would you like to change?",
+        "timestamp": "2025-06-19T16:39:35.211139"
+      },
+      {
+        "role": "user",
+        "message": "I need to update my phone number and email address.",
+        "timestamp": "2025-06-19T16:40:05.211139"
+      },
+      {
+        "role": "assistant",
+        "message": "I'll help you update both. Please provide your new phone number and email address.",
+        "timestamp": "2025-06-19T16:40:35.211139"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_f9a73a77",
+      "first_name": "Amanda",
+      "last_name": "Martinez",
+      "email": "john.miller@email.com",
+      "phone": "+1-555-880-6265",
+      "account_type": "checking",
+      "balance": 13024.93,
+      "account_number": "6919669357",
+      "member_since": "2020-09-27"
+    },
+    "generated_at": "2025-06-19T16:55:05.211139",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 4,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_e973337e",
+    "user_id": "user_26e3bbfd",
+    "intent": "account_management",
+    "user_name": "Michael Garcia",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need to update my contact information.",
+        "timestamp": "2025-06-19T16:09:05.211139"
+      },
+      {
+        "role": "assistant",
+        "message": "I can help you update your contact information. What would you like to change?",
+        "timestamp": "2025-06-19T16:09:35.211139"
+      },
+      {
+        "role": "user",
+        "message": "I need to update my phone number and email address.",
+        "timestamp": "2025-06-19T16:10:05.211139"
+      },
+      {
+        "role": "assistant",
+        "message": "I'll help you update both. Please provide your new phone number and email address.",
+        "timestamp": "2025-06-19T16:10:35.211139"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_26e3bbfd",
+      "first_name": "Michael",
+      "last_name": "Garcia",
+      "email": "jennifer.johnson@email.com",
+      "phone": "+1-555-718-9885",
+      "account_type": "premium",
+      "balance": 41932.56,
+      "account_number": "8451503230",
+      "member_since": "2022-06-04"
+    },
+    "generated_at": "2025-06-19T16:55:05.211139",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 3,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_3e3bb133",
+    "user_id": "user_25300b45",
+    "intent": "account_management",
+    "user_name": "Michael Garcia",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need to update my contact information.",
+        "timestamp": "2025-06-19T16:44:05.211648"
+      },
+      {
+        "role": "assistant",
+        "message": "I can help you update your contact information. What would you like to change?",
+        "timestamp": "2025-06-19T16:44:35.211648"
+      },
+      {
+        "role": "user",
+        "message": "I need to update my phone number and email address.",
+        "timestamp": "2025-06-19T16:45:05.211648"
+      },
+      {
+        "role": "assistant",
+        "message": "I'll help you update both. Please provide your new phone number and email address.",
+        "timestamp": "2025-06-19T16:45:35.211648"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_25300b45",
+      "first_name": "Michael",
+      "last_name": "Garcia",
+      "email": "sarah.miller@email.com",
+      "phone": "+1-555-888-3975",
+      "account_type": "checking",
+      "balance": 36417.98,
+      "account_number": "3791286414",
+      "member_since": "2024-02-12"
+    },
+    "generated_at": "2025-06-19T16:55:05.211648",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 3,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_83e71836",
+    "user_id": "user_90597071",
+    "intent": "account_management",
+    "user_name": "John Martinez",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need to update my contact information.",
+        "timestamp": "2025-06-19T16:34:05.211648"
+      },
+      {
+        "role": "assistant",
+        "message": "I can help you update your contact information. What would you like to change?",
+        "timestamp": "2025-06-19T16:34:35.211648"
+      },
+      {
+        "role": "user",
+        "message": "I need to update my phone number and email address.",
+        "timestamp": "2025-06-19T16:35:05.211648"
+      },
+      {
+        "role": "assistant",
+        "message": "I'll help you update both. Please provide your new phone number and email address.",
+        "timestamp": "2025-06-19T16:35:35.211648"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_90597071",
+      "first_name": "John",
+      "last_name": "Martinez",
+      "email": "lisa.rodriguez@email.com",
+      "phone": "+1-555-780-7323",
+      "account_type": "savings",
+      "balance": 41549.6,
+      "account_number": "7404177456",
+      "member_since": "2024-08-05"
+    },
+    "generated_at": "2025-06-19T16:55:05.211648",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 5,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_e08f940e",
+    "user_id": "user_7876bf24",
+    "intent": "account_management",
+    "user_name": "Robert Brown",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need to update my contact information.",
+        "timestamp": "2025-06-19T16:40:05.211648"
+      },
+      {
+        "role": "assistant",
+        "message": "I can help you update your contact information. What would you like to change?",
+        "timestamp": "2025-06-19T16:40:35.211648"
+      },
+      {
+        "role": "user",
+        "message": "I need to update my phone number and email address.",
+        "timestamp": "2025-06-19T16:41:05.211648"
+      },
+      {
+        "role": "assistant",
+        "message": "I'll help you update both. Please provide your new phone number and email address.",
+        "timestamp": "2025-06-19T16:41:35.211648"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_7876bf24",
+      "first_name": "Robert",
+      "last_name": "Brown",
+      "email": "jennifer.jones@email.com",
+      "phone": "+1-555-991-9978",
+      "account_type": "checking",
+      "balance": 39052.81,
+      "account_number": "6019094882",
+      "member_since": "2021-07-09"
+    },
+    "generated_at": "2025-06-19T16:55:05.211648",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 5,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_6570e336",
+    "user_id": "user_fa0cb452",
+    "intent": "account_management",
+    "user_name": "Robert Brown",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need to update my contact information.",
+        "timestamp": "2025-06-19T16:10:05.212649"
+      },
+      {
+        "role": "assistant",
+        "message": "I can help you update your contact information. What would you like to change?",
+        "timestamp": "2025-06-19T16:10:35.212649"
+      },
+      {
+        "role": "user",
+        "message": "I need to update my phone number and email address.",
+        "timestamp": "2025-06-19T16:11:05.212649"
+      },
+      {
+        "role": "assistant",
+        "message": "I'll help you update both. Please provide your new phone number and email address.",
+        "timestamp": "2025-06-19T16:11:35.212649"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_fa0cb452",
+      "first_name": "Robert",
+      "last_name": "Brown",
+      "email": "amanda.rodriguez@email.com",
+      "phone": "+1-555-284-3041",
+      "account_type": "checking",
+      "balance": 34049.54,
+      "account_number": "7699608962",
+      "member_since": "2024-04-23"
+    },
+    "generated_at": "2025-06-19T16:55:05.212649",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 5,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_e495b392",
+    "user_id": "user_ff9f6656",
+    "intent": "account_management",
+    "user_name": "Amanda Johnson",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need to update my contact information.",
+        "timestamp": "2025-06-19T16:24:05.212649"
+      },
+      {
+        "role": "assistant",
+        "message": "I can help you update your contact information. What would you like to change?",
+        "timestamp": "2025-06-19T16:24:35.212649"
+      },
+      {
+        "role": "user",
+        "message": "I need to update my phone number and email address.",
+        "timestamp": "2025-06-19T16:25:05.212649"
+      },
+      {
+        "role": "assistant",
+        "message": "I'll help you update both. Please provide your new phone number and email address.",
+        "timestamp": "2025-06-19T16:25:35.212649"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_ff9f6656",
+      "first_name": "Amanda",
+      "last_name": "Johnson",
+      "email": "lisa.smith@email.com",
+      "phone": "+1-555-766-8636",
+      "account_type": "student",
+      "balance": 35230.29,
+      "account_number": "9712429357",
+      "member_since": "2021-02-27"
+    },
+    "generated_at": "2025-06-19T16:55:05.212649",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 3,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_a2317a5d",
+    "user_id": "user_7a5627c7",
+    "intent": "account_management",
+    "user_name": "Sarah Martinez",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need to update my contact information.",
+        "timestamp": "2025-06-19T15:55:05.212649"
+      },
+      {
+        "role": "assistant",
+        "message": "I can help you update your contact information. What would you like to change?",
+        "timestamp": "2025-06-19T15:55:35.212649"
+      },
+      {
+        "role": "user",
+        "message": "I need to update my phone number and email address.",
+        "timestamp": "2025-06-19T15:56:05.212649"
+      },
+      {
+        "role": "assistant",
+        "message": "I'll help you update both. Please provide your new phone number and email address.",
+        "timestamp": "2025-06-19T15:56:35.212649"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_7a5627c7",
+      "first_name": "Sarah",
+      "last_name": "Martinez",
+      "email": "lisa.rodriguez@email.com",
+      "phone": "+1-555-993-3316",
+      "account_type": "checking",
+      "balance": 10785.61,
+      "account_number": "1290764407",
+      "member_since": "2020-11-08"
+    },
+    "generated_at": "2025-06-19T16:55:05.212649",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 3,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_f47eb5b9",
+    "user_id": "user_e824e622",
+    "intent": "account_management",
+    "user_name": "Emily Martinez",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need to update my contact information.",
+        "timestamp": "2025-06-19T16:42:05.212649"
+      },
+      {
+        "role": "assistant",
+        "message": "I can help you update your contact information. What would you like to change?",
+        "timestamp": "2025-06-19T16:42:35.212649"
+      },
+      {
+        "role": "user",
+        "message": "I need to update my phone number and email address.",
+        "timestamp": "2025-06-19T16:43:05.212649"
+      },
+      {
+        "role": "assistant",
+        "message": "I'll help you update both. Please provide your new phone number and email address.",
+        "timestamp": "2025-06-19T16:43:35.212649"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_e824e622",
+      "first_name": "Emily",
+      "last_name": "Martinez",
+      "email": "lisa.jones@email.com",
+      "phone": "+1-555-608-3236",
+      "account_type": "checking",
+      "balance": 4331.5,
+      "account_number": "8008795189",
+      "member_since": "2021-06-19"
+    },
+    "generated_at": "2025-06-19T16:55:05.212649",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 4,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_4da1ed2e",
+    "user_id": "user_2acd9338",
+    "intent": "account_management",
+    "user_name": "Jennifer Smith",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need to update my contact information.",
+        "timestamp": "2025-06-19T16:16:05.212649"
+      },
+      {
+        "role": "assistant",
+        "message": "I can help you update your contact information. What would you like to change?",
+        "timestamp": "2025-06-19T16:16:35.212649"
+      },
+      {
+        "role": "user",
+        "message": "I need to update my phone number and email address.",
+        "timestamp": "2025-06-19T16:17:05.212649"
+      },
+      {
+        "role": "assistant",
+        "message": "I'll help you update both. Please provide your new phone number and email address.",
+        "timestamp": "2025-06-19T16:17:35.212649"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_2acd9338",
+      "first_name": "Jennifer",
+      "last_name": "Smith",
+      "email": "john.rodriguez@email.com",
+      "phone": "+1-555-692-6054",
+      "account_type": "premium",
+      "balance": 26891.37,
+      "account_number": "8026981585",
+      "member_since": "2021-04-04"
+    },
+    "generated_at": "2025-06-19T16:55:05.212649",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 5,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_a5023fa3",
+    "user_id": "user_3c8fec1e",
+    "intent": "account_management",
+    "user_name": "David Brown",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need to update my contact information.",
+        "timestamp": "2025-06-19T16:09:05.212649"
+      },
+      {
+        "role": "assistant",
+        "message": "I can help you update your contact information. What would you like to change?",
+        "timestamp": "2025-06-19T16:09:35.212649"
+      },
+      {
+        "role": "user",
+        "message": "I need to update my phone number and email address.",
+        "timestamp": "2025-06-19T16:10:05.212649"
+      },
+      {
+        "role": "assistant",
+        "message": "I'll help you update both. Please provide your new phone number and email address.",
+        "timestamp": "2025-06-19T16:10:35.212649"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_3c8fec1e",
+      "first_name": "David",
+      "last_name": "Brown",
+      "email": "john.smith@email.com",
+      "phone": "+1-555-534-5912",
+      "account_type": "premium",
+      "balance": 34469.91,
+      "account_number": "7743462883",
+      "member_since": "2023-02-22"
+    },
+    "generated_at": "2025-06-19T16:55:05.213649",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 5,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_cf20971e",
+    "user_id": "user_cce88b0b",
+    "intent": "account_management",
+    "user_name": "David Williams",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need to update my contact information.",
+        "timestamp": "2025-06-19T16:07:05.213649"
+      },
+      {
+        "role": "assistant",
+        "message": "I can help you update your contact information. What would you like to change?",
+        "timestamp": "2025-06-19T16:07:35.213649"
+      },
+      {
+        "role": "user",
+        "message": "I need to update my phone number and email address.",
+        "timestamp": "2025-06-19T16:08:05.213649"
+      },
+      {
+        "role": "assistant",
+        "message": "I'll help you update both. Please provide your new phone number and email address.",
+        "timestamp": "2025-06-19T16:08:35.213649"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_cce88b0b",
+      "first_name": "David",
+      "last_name": "Williams",
+      "email": "john.davis@email.com",
+      "phone": "+1-555-674-8090",
+      "account_type": "student",
+      "balance": 47202.4,
+      "account_number": "8672536139",
+      "member_since": "2022-02-24"
+    },
+    "generated_at": "2025-06-19T16:55:05.213649",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 4,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_cf6cb7ff",
+    "user_id": "user_29225911",
+    "intent": "account_management",
+    "user_name": "Emily Johnson",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need to update my contact information.",
+        "timestamp": "2025-06-19T16:41:05.213649"
+      },
+      {
+        "role": "assistant",
+        "message": "I can help you update your contact information. What would you like to change?",
+        "timestamp": "2025-06-19T16:41:35.213649"
+      },
+      {
+        "role": "user",
+        "message": "I need to update my phone number and email address.",
+        "timestamp": "2025-06-19T16:42:05.213649"
+      },
+      {
+        "role": "assistant",
+        "message": "I'll help you update both. Please provide your new phone number and email address.",
+        "timestamp": "2025-06-19T16:42:35.213649"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_29225911",
+      "first_name": "Emily",
+      "last_name": "Johnson",
+      "email": "jennifer.garcia@email.com",
+      "phone": "+1-555-686-4984",
+      "account_type": "premium",
+      "balance": 45189.67,
+      "account_number": "7283217953",
+      "member_since": "2022-12-29"
+    },
+    "generated_at": "2025-06-19T16:55:05.213649",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 4,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_1f570769",
+    "user_id": "user_18a225dc",
+    "intent": "account_management",
+    "user_name": "James Rodriguez",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need to update my contact information.",
+        "timestamp": "2025-06-19T16:41:05.213649"
+      },
+      {
+        "role": "assistant",
+        "message": "I can help you update your contact information. What would you like to change?",
+        "timestamp": "2025-06-19T16:41:35.213649"
+      },
+      {
+        "role": "user",
+        "message": "I need to update my phone number and email address.",
+        "timestamp": "2025-06-19T16:42:05.213649"
+      },
+      {
+        "role": "assistant",
+        "message": "I'll help you update both. Please provide your new phone number and email address.",
+        "timestamp": "2025-06-19T16:42:35.213649"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_18a225dc",
+      "first_name": "James",
+      "last_name": "Rodriguez",
+      "email": "david.williams@email.com",
+      "phone": "+1-555-560-4511",
+      "account_type": "senior",
+      "balance": 34541.79,
+      "account_number": "2137837730",
+      "member_since": "2024-07-24"
+    },
+    "generated_at": "2025-06-19T16:55:05.213649",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 5,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_9d7e2afb",
+    "user_id": "user_51dc27b6",
+    "intent": "account_management",
+    "user_name": "Michael Smith",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need to update my contact information.",
+        "timestamp": "2025-06-19T16:52:05.213649"
+      },
+      {
+        "role": "assistant",
+        "message": "I can help you update your contact information. What would you like to change?",
+        "timestamp": "2025-06-19T16:52:35.213649"
+      },
+      {
+        "role": "user",
+        "message": "I need to update my phone number and email address.",
+        "timestamp": "2025-06-19T16:53:05.213649"
+      },
+      {
+        "role": "assistant",
+        "message": "I'll help you update both. Please provide your new phone number and email address.",
+        "timestamp": "2025-06-19T16:53:35.213649"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_51dc27b6",
+      "first_name": "Michael",
+      "last_name": "Smith",
+      "email": "emily.johnson@email.com",
+      "phone": "+1-555-406-6121",
+      "account_type": "student",
+      "balance": 2379.13,
+      "account_number": "7298046465",
+      "member_since": "2022-01-29"
+    },
+    "generated_at": "2025-06-19T16:55:05.213649",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 5,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_0b390ed1",
+    "user_id": "user_066654cd",
+    "intent": "account_management",
+    "user_name": "James Brown",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need to update my contact information.",
+        "timestamp": "2025-06-19T16:34:05.216221"
+      },
+      {
+        "role": "assistant",
+        "message": "I can help you update your contact information. What would you like to change?",
+        "timestamp": "2025-06-19T16:34:35.216221"
+      },
+      {
+        "role": "user",
+        "message": "I need to update my phone number and email address.",
+        "timestamp": "2025-06-19T16:35:05.216221"
+      },
+      {
+        "role": "assistant",
+        "message": "I'll help you update both. Please provide your new phone number and email address.",
+        "timestamp": "2025-06-19T16:35:35.216221"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_066654cd",
+      "first_name": "James",
+      "last_name": "Brown",
+      "email": "emily.johnson@email.com",
+      "phone": "+1-555-806-6443",
+      "account_type": "senior",
+      "balance": 34620.33,
+      "account_number": "3717475226",
+      "member_since": "2023-04-03"
+    },
+    "generated_at": "2025-06-19T16:55:05.217416",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 5,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_86cbf417",
+    "user_id": "user_b28f1fb0",
+    "intent": "account_management",
+    "user_name": "Amanda Rodriguez",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need to update my contact information.",
+        "timestamp": "2025-06-19T15:57:05.217942"
+      },
+      {
+        "role": "assistant",
+        "message": "I can help you update your contact information. What would you like to change?",
+        "timestamp": "2025-06-19T15:57:35.217942"
+      },
+      {
+        "role": "user",
+        "message": "I need to update my phone number and email address.",
+        "timestamp": "2025-06-19T15:58:05.217942"
+      },
+      {
+        "role": "assistant",
+        "message": "I'll help you update both. Please provide your new phone number and email address.",
+        "timestamp": "2025-06-19T15:58:35.217942"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_b28f1fb0",
+      "first_name": "Amanda",
+      "last_name": "Rodriguez",
+      "email": "lisa.johnson@email.com",
+      "phone": "+1-555-474-1609",
+      "account_type": "savings",
+      "balance": 49125.56,
+      "account_number": "9662980201",
+      "member_since": "2021-03-02"
+    },
+    "generated_at": "2025-06-19T16:55:05.217942",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 5,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_1fabf783",
+    "user_id": "user_9083a4aa",
+    "intent": "account_management",
+    "user_name": "James Jones",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need to update my contact information.",
+        "timestamp": "2025-06-19T16:44:05.217942"
+      },
+      {
+        "role": "assistant",
+        "message": "I can help you update your contact information. What would you like to change?",
+        "timestamp": "2025-06-19T16:44:35.217942"
+      },
+      {
+        "role": "user",
+        "message": "I need to update my phone number and email address.",
+        "timestamp": "2025-06-19T16:45:05.217942"
+      },
+      {
+        "role": "assistant",
+        "message": "I'll help you update both. Please provide your new phone number and email address.",
+        "timestamp": "2025-06-19T16:45:35.217942"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_9083a4aa",
+      "first_name": "James",
+      "last_name": "Jones",
+      "email": "robert.jones@email.com",
+      "phone": "+1-555-748-7163",
+      "account_type": "checking",
+      "balance": 5300.19,
+      "account_number": "3508742461",
+      "member_since": "2024-11-26"
+    },
+    "generated_at": "2025-06-19T16:55:05.217942",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 3,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_76654a4b",
+    "user_id": "user_18e06952",
+    "intent": "account_management",
+    "user_name": "James Smith",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need to update my contact information.",
+        "timestamp": "2025-06-19T16:36:05.217942"
+      },
+      {
+        "role": "assistant",
+        "message": "I can help you update your contact information. What would you like to change?",
+        "timestamp": "2025-06-19T16:36:35.217942"
+      },
+      {
+        "role": "user",
+        "message": "I need to update my phone number and email address.",
+        "timestamp": "2025-06-19T16:37:05.217942"
+      },
+      {
+        "role": "assistant",
+        "message": "I'll help you update both. Please provide your new phone number and email address.",
+        "timestamp": "2025-06-19T16:37:35.217942"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_18e06952",
+      "first_name": "James",
+      "last_name": "Smith",
+      "email": "robert.rodriguez@email.com",
+      "phone": "+1-555-216-2553",
+      "account_type": "senior",
+      "balance": 24710.5,
+      "account_number": "6897512217",
+      "member_since": "2024-12-01"
+    },
+    "generated_at": "2025-06-19T16:55:05.218958",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 3,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_b922ed4a",
+    "user_id": "user_e2df45ad",
+    "intent": "account_management",
+    "user_name": "Michael Williams",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need to update my contact information.",
+        "timestamp": "2025-06-19T16:38:05.218958"
+      },
+      {
+        "role": "assistant",
+        "message": "I can help you update your contact information. What would you like to change?",
+        "timestamp": "2025-06-19T16:38:35.218958"
+      },
+      {
+        "role": "user",
+        "message": "I need to update my phone number and email address.",
+        "timestamp": "2025-06-19T16:39:05.218958"
+      },
+      {
+        "role": "assistant",
+        "message": "I'll help you update both. Please provide your new phone number and email address.",
+        "timestamp": "2025-06-19T16:39:35.218958"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_e2df45ad",
+      "first_name": "Michael",
+      "last_name": "Williams",
+      "email": "david.johnson@email.com",
+      "phone": "+1-555-300-1991",
+      "account_type": "checking",
+      "balance": 26669.72,
+      "account_number": "8162125780",
+      "member_since": "2023-03-18"
+    },
+    "generated_at": "2025-06-19T16:55:05.218958",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 5,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_bccad952",
+    "user_id": "user_bf8484c6",
+    "intent": "account_management",
+    "user_name": "Jennifer Williams",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need to update my contact information.",
+        "timestamp": "2025-06-19T16:10:05.220128"
+      },
+      {
+        "role": "assistant",
+        "message": "I can help you update your contact information. What would you like to change?",
+        "timestamp": "2025-06-19T16:10:35.220128"
+      },
+      {
+        "role": "user",
+        "message": "I need to update my phone number and email address.",
+        "timestamp": "2025-06-19T16:11:05.220128"
+      },
+      {
+        "role": "assistant",
+        "message": "I'll help you update both. Please provide your new phone number and email address.",
+        "timestamp": "2025-06-19T16:11:35.220128"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_bf8484c6",
+      "first_name": "Jennifer",
+      "last_name": "Williams",
+      "email": "robert.jones@email.com",
+      "phone": "+1-555-977-4683",
+      "account_type": "senior",
+      "balance": 43497.8,
+      "account_number": "8799153713",
+      "member_since": "2024-09-14"
+    },
+    "generated_at": "2025-06-19T16:55:05.221131",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 3,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_6239a3cc",
+    "user_id": "user_04829b8e",
+    "intent": "account_management",
+    "user_name": "David Williams",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need to update my contact information.",
+        "timestamp": "2025-06-19T16:01:05.221131"
+      },
+      {
+        "role": "assistant",
+        "message": "I can help you update your contact information. What would you like to change?",
+        "timestamp": "2025-06-19T16:01:35.221131"
+      },
+      {
+        "role": "user",
+        "message": "I need to update my phone number and email address.",
+        "timestamp": "2025-06-19T16:02:05.221131"
+      },
+      {
+        "role": "assistant",
+        "message": "I'll help you update both. Please provide your new phone number and email address.",
+        "timestamp": "2025-06-19T16:02:35.221131"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_04829b8e",
+      "first_name": "David",
+      "last_name": "Williams",
+      "email": "john.davis@email.com",
+      "phone": "+1-555-393-5571",
+      "account_type": "savings",
+      "balance": 49436.3,
+      "account_number": "1006549730",
+      "member_since": "2024-02-23"
+    },
+    "generated_at": "2025-06-19T16:55:05.221131",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 5,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_01cc69eb",
+    "user_id": "user_4ff613c3",
+    "intent": "account_management",
+    "user_name": "John Davis",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need to update my contact information.",
+        "timestamp": "2025-06-19T16:26:05.222657"
+      },
+      {
+        "role": "assistant",
+        "message": "I can help you update your contact information. What would you like to change?",
+        "timestamp": "2025-06-19T16:26:35.222657"
+      },
+      {
+        "role": "user",
+        "message": "I need to update my phone number and email address.",
+        "timestamp": "2025-06-19T16:27:05.222657"
+      },
+      {
+        "role": "assistant",
+        "message": "I'll help you update both. Please provide your new phone number and email address.",
+        "timestamp": "2025-06-19T16:27:35.222657"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_4ff613c3",
+      "first_name": "John",
+      "last_name": "Davis",
+      "email": "david.williams@email.com",
+      "phone": "+1-555-441-6206",
+      "account_type": "senior",
+      "balance": 35558.71,
+      "account_number": "2847291523",
+      "member_since": "2021-10-06"
+    },
+    "generated_at": "2025-06-19T16:55:05.222657",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 4,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_c307ee45",
+    "user_id": "user_6b8d8309",
+    "intent": "account_management",
+    "user_name": "Sarah Brown",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need to update my contact information.",
+        "timestamp": "2025-06-19T16:51:05.222657"
+      },
+      {
+        "role": "assistant",
+        "message": "I can help you update your contact information. What would you like to change?",
+        "timestamp": "2025-06-19T16:51:35.222657"
+      },
+      {
+        "role": "user",
+        "message": "I need to update my phone number and email address.",
+        "timestamp": "2025-06-19T16:52:05.222657"
+      },
+      {
+        "role": "assistant",
+        "message": "I'll help you update both. Please provide your new phone number and email address.",
+        "timestamp": "2025-06-19T16:52:35.222657"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_6b8d8309",
+      "first_name": "Sarah",
+      "last_name": "Brown",
+      "email": "lisa.johnson@email.com",
+      "phone": "+1-555-991-3032",
+      "account_type": "checking",
+      "balance": 10935.23,
+      "account_number": "9557190923",
+      "member_since": "2023-07-23"
+    },
+    "generated_at": "2025-06-19T16:55:05.222657",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 3,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_8703202c",
+    "user_id": "user_877c215c",
+    "intent": "account_management",
+    "user_name": "Emily Garcia",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need to update my contact information.",
+        "timestamp": "2025-06-19T15:57:05.222657"
+      },
+      {
+        "role": "assistant",
+        "message": "I can help you update your contact information. What would you like to change?",
+        "timestamp": "2025-06-19T15:57:35.222657"
+      },
+      {
+        "role": "user",
+        "message": "I need to update my phone number and email address.",
+        "timestamp": "2025-06-19T15:58:05.222657"
+      },
+      {
+        "role": "assistant",
+        "message": "I'll help you update both. Please provide your new phone number and email address.",
+        "timestamp": "2025-06-19T15:58:35.222657"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_877c215c",
+      "first_name": "Emily",
+      "last_name": "Garcia",
+      "email": "robert.davis@email.com",
+      "phone": "+1-555-494-2779",
+      "account_type": "senior",
+      "balance": 24059.86,
+      "account_number": "3304049512",
+      "member_since": "2020-08-22"
+    },
+    "generated_at": "2025-06-19T16:55:05.222657",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 5,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_6de557b1",
+    "user_id": "user_238b5835",
+    "intent": "account_management",
+    "user_name": "James Rodriguez",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need to update my contact information.",
+        "timestamp": "2025-06-19T16:20:05.223663"
+      },
+      {
+        "role": "assistant",
+        "message": "I can help you update your contact information. What would you like to change?",
+        "timestamp": "2025-06-19T16:20:35.223663"
+      },
+      {
+        "role": "user",
+        "message": "I need to update my phone number and email address.",
+        "timestamp": "2025-06-19T16:21:05.223663"
+      },
+      {
+        "role": "assistant",
+        "message": "I'll help you update both. Please provide your new phone number and email address.",
+        "timestamp": "2025-06-19T16:21:35.223663"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_238b5835",
+      "first_name": "James",
+      "last_name": "Rodriguez",
+      "email": "amanda.rodriguez@email.com",
+      "phone": "+1-555-753-4509",
+      "account_type": "student",
+      "balance": 31400.16,
+      "account_number": "6160631956",
+      "member_since": "2024-04-12"
+    },
+    "generated_at": "2025-06-19T16:55:05.223663",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 5,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_31965310",
+    "user_id": "user_c4ec1497",
+    "intent": "account_management",
+    "user_name": "Michael Williams",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need to update my contact information.",
+        "timestamp": "2025-06-19T16:06:05.223663"
+      },
+      {
+        "role": "assistant",
+        "message": "I can help you update your contact information. What would you like to change?",
+        "timestamp": "2025-06-19T16:06:35.223663"
+      },
+      {
+        "role": "user",
+        "message": "I need to update my phone number and email address.",
+        "timestamp": "2025-06-19T16:07:05.223663"
+      },
+      {
+        "role": "assistant",
+        "message": "I'll help you update both. Please provide your new phone number and email address.",
+        "timestamp": "2025-06-19T16:07:35.223663"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_c4ec1497",
+      "first_name": "Michael",
+      "last_name": "Williams",
+      "email": "robert.miller@email.com",
+      "phone": "+1-555-884-1164",
+      "account_type": "checking",
+      "balance": 49724.68,
+      "account_number": "3389891716",
+      "member_since": "2022-11-27"
+    },
+    "generated_at": "2025-06-19T16:55:05.223663",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 5,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_676d8bec",
+    "user_id": "user_25eb5216",
+    "intent": "account_management",
+    "user_name": "Sarah Brown",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need to update my contact information.",
+        "timestamp": "2025-06-19T16:24:05.223663"
+      },
+      {
+        "role": "assistant",
+        "message": "I can help you update your contact information. What would you like to change?",
+        "timestamp": "2025-06-19T16:24:35.223663"
+      },
+      {
+        "role": "user",
+        "message": "I need to update my phone number and email address.",
+        "timestamp": "2025-06-19T16:25:05.223663"
+      },
+      {
+        "role": "assistant",
+        "message": "I'll help you update both. Please provide your new phone number and email address.",
+        "timestamp": "2025-06-19T16:25:35.223663"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_25eb5216",
+      "first_name": "Sarah",
+      "last_name": "Brown",
+      "email": "robert.garcia@email.com",
+      "phone": "+1-555-413-9279",
+      "account_type": "student",
+      "balance": 40403.21,
+      "account_number": "8517242442",
+      "member_since": "2023-11-03"
+    },
+    "generated_at": "2025-06-19T16:55:05.223663",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 5,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_bf96ea8d",
+    "user_id": "user_cd820409",
+    "intent": "account_management",
+    "user_name": "Robert Rodriguez",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need to update my contact information.",
+        "timestamp": "2025-06-19T16:47:05.224903"
+      },
+      {
+        "role": "assistant",
+        "message": "I can help you update your contact information. What would you like to change?",
+        "timestamp": "2025-06-19T16:47:35.224903"
+      },
+      {
+        "role": "user",
+        "message": "I need to update my phone number and email address.",
+        "timestamp": "2025-06-19T16:48:05.224903"
+      },
+      {
+        "role": "assistant",
+        "message": "I'll help you update both. Please provide your new phone number and email address.",
+        "timestamp": "2025-06-19T16:48:35.224903"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_cd820409",
+      "first_name": "Robert",
+      "last_name": "Rodriguez",
+      "email": "michael.jones@email.com",
+      "phone": "+1-555-784-3564",
+      "account_type": "premium",
+      "balance": 45294.65,
+      "account_number": "8948259375",
+      "member_since": "2024-10-27"
+    },
+    "generated_at": "2025-06-19T16:55:05.224903",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 5,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_65062263",
+    "user_id": "user_cbceaeb0",
+    "intent": "account_management",
+    "user_name": "David Smith",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need to update my contact information.",
+        "timestamp": "2025-06-19T16:20:05.224903"
+      },
+      {
+        "role": "assistant",
+        "message": "I can help you update your contact information. What would you like to change?",
+        "timestamp": "2025-06-19T16:20:35.224903"
+      },
+      {
+        "role": "user",
+        "message": "I need to update my phone number and email address.",
+        "timestamp": "2025-06-19T16:21:05.224903"
+      },
+      {
+        "role": "assistant",
+        "message": "I'll help you update both. Please provide your new phone number and email address.",
+        "timestamp": "2025-06-19T16:21:35.224903"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_cbceaeb0",
+      "first_name": "David",
+      "last_name": "Smith",
+      "email": "david.smith@email.com",
+      "phone": "+1-555-579-4784",
+      "account_type": "premium",
+      "balance": 24012.48,
+      "account_number": "6538850478",
+      "member_since": "2020-12-06"
+    },
+    "generated_at": "2025-06-19T16:55:05.224903",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 5,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_94b7eaa6",
+    "user_id": "user_2bf8b569",
+    "intent": "account_management",
+    "user_name": "Amanda Smith",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need to update my contact information.",
+        "timestamp": "2025-06-19T16:22:05.224903"
+      },
+      {
+        "role": "assistant",
+        "message": "I can help you update your contact information. What would you like to change?",
+        "timestamp": "2025-06-19T16:22:35.224903"
+      },
+      {
+        "role": "user",
+        "message": "I need to update my phone number and email address.",
+        "timestamp": "2025-06-19T16:23:05.224903"
+      },
+      {
+        "role": "assistant",
+        "message": "I'll help you update both. Please provide your new phone number and email address.",
+        "timestamp": "2025-06-19T16:23:35.224903"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_2bf8b569",
+      "first_name": "Amanda",
+      "last_name": "Smith",
+      "email": "jennifer.jones@email.com",
+      "phone": "+1-555-227-5140",
+      "account_type": "student",
+      "balance": 37487.11,
+      "account_number": "9403075457",
+      "member_since": "2024-03-15"
+    },
+    "generated_at": "2025-06-19T16:55:05.224903",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 3,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_7156de9f",
+    "user_id": "user_42393798",
+    "intent": "account_management",
+    "user_name": "Michael Johnson",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need to update my contact information.",
+        "timestamp": "2025-06-19T16:13:05.224903"
+      },
+      {
+        "role": "assistant",
+        "message": "I can help you update your contact information. What would you like to change?",
+        "timestamp": "2025-06-19T16:13:35.224903"
+      },
+      {
+        "role": "user",
+        "message": "I need to update my phone number and email address.",
+        "timestamp": "2025-06-19T16:14:05.224903"
+      },
+      {
+        "role": "assistant",
+        "message": "I'll help you update both. Please provide your new phone number and email address.",
+        "timestamp": "2025-06-19T16:14:35.224903"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_42393798",
+      "first_name": "Michael",
+      "last_name": "Johnson",
+      "email": "robert.williams@email.com",
+      "phone": "+1-555-446-2133",
+      "account_type": "premium",
+      "balance": 21254.12,
+      "account_number": "9467429620",
+      "member_since": "2025-02-06"
+    },
+    "generated_at": "2025-06-19T16:55:05.225963",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 5,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_45760346",
+    "user_id": "user_0accb826",
+    "intent": "account_management",
+    "user_name": "Robert Brown",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need to update my contact information.",
+        "timestamp": "2025-06-19T16:41:05.225963"
+      },
+      {
+        "role": "assistant",
+        "message": "I can help you update your contact information. What would you like to change?",
+        "timestamp": "2025-06-19T16:41:35.225963"
+      },
+      {
+        "role": "user",
+        "message": "I need to update my phone number and email address.",
+        "timestamp": "2025-06-19T16:42:05.225963"
+      },
+      {
+        "role": "assistant",
+        "message": "I'll help you update both. Please provide your new phone number and email address.",
+        "timestamp": "2025-06-19T16:42:35.225963"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_0accb826",
+      "first_name": "Robert",
+      "last_name": "Brown",
+      "email": "john.davis@email.com",
+      "phone": "+1-555-339-2398",
+      "account_type": "senior",
+      "balance": 15102.7,
+      "account_number": "8930812315",
+      "member_since": "2021-09-25"
+    },
+    "generated_at": "2025-06-19T16:55:05.225963",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 5,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_23b6265c",
+    "user_id": "user_aad683bf",
+    "intent": "account_management",
+    "user_name": "Sarah Garcia",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need to update my contact information.",
+        "timestamp": "2025-06-19T16:38:05.226961"
+      },
+      {
+        "role": "assistant",
+        "message": "I can help you update your contact information. What would you like to change?",
+        "timestamp": "2025-06-19T16:38:35.226961"
+      },
+      {
+        "role": "user",
+        "message": "I need to update my phone number and email address.",
+        "timestamp": "2025-06-19T16:39:05.226961"
+      },
+      {
+        "role": "assistant",
+        "message": "I'll help you update both. Please provide your new phone number and email address.",
+        "timestamp": "2025-06-19T16:39:35.226961"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_aad683bf",
+      "first_name": "Sarah",
+      "last_name": "Garcia",
+      "email": "robert.garcia@email.com",
+      "phone": "+1-555-262-2180",
+      "account_type": "senior",
+      "balance": 34380.5,
+      "account_number": "2022600109",
+      "member_since": "2023-01-24"
+    },
+    "generated_at": "2025-06-19T16:55:05.226961",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 3,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_b1ec8c31",
+    "user_id": "user_4e81d07b",
+    "intent": "account_management",
+    "user_name": "Emily Jones",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need to update my contact information.",
+        "timestamp": "2025-06-19T16:35:05.226961"
+      },
+      {
+        "role": "assistant",
+        "message": "I can help you update your contact information. What would you like to change?",
+        "timestamp": "2025-06-19T16:35:35.226961"
+      },
+      {
+        "role": "user",
+        "message": "I need to update my phone number and email address.",
+        "timestamp": "2025-06-19T16:36:05.226961"
+      },
+      {
+        "role": "assistant",
+        "message": "I'll help you update both. Please provide your new phone number and email address.",
+        "timestamp": "2025-06-19T16:36:35.226961"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_4e81d07b",
+      "first_name": "Emily",
+      "last_name": "Jones",
+      "email": "michael.williams@email.com",
+      "phone": "+1-555-872-8059",
+      "account_type": "checking",
+      "balance": 47759.2,
+      "account_number": "4574590012",
+      "member_since": "2023-11-28"
+    },
+    "generated_at": "2025-06-19T16:55:05.226961",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 3,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_9938f8f0",
+    "user_id": "user_3c27daac",
+    "intent": "account_management",
+    "user_name": "Emily Johnson",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need to update my contact information.",
+        "timestamp": "2025-06-19T16:35:05.226961"
+      },
+      {
+        "role": "assistant",
+        "message": "I can help you update your contact information. What would you like to change?",
+        "timestamp": "2025-06-19T16:35:35.226961"
+      },
+      {
+        "role": "user",
+        "message": "I need to update my phone number and email address.",
+        "timestamp": "2025-06-19T16:36:05.226961"
+      },
+      {
+        "role": "assistant",
+        "message": "I'll help you update both. Please provide your new phone number and email address.",
+        "timestamp": "2025-06-19T16:36:35.226961"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_3c27daac",
+      "first_name": "Emily",
+      "last_name": "Johnson",
+      "email": "emily.williams@email.com",
+      "phone": "+1-555-105-4901",
+      "account_type": "student",
+      "balance": 32024.54,
+      "account_number": "3228050843",
+      "member_since": "2021-04-25"
+    },
+    "generated_at": "2025-06-19T16:55:05.226961",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 3,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_5143680a",
+    "user_id": "user_51ad3a4b",
+    "intent": "account_management",
+    "user_name": "David Martinez",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need to update my contact information.",
+        "timestamp": "2025-06-19T15:55:05.226961"
+      },
+      {
+        "role": "assistant",
+        "message": "I can help you update your contact information. What would you like to change?",
+        "timestamp": "2025-06-19T15:55:35.226961"
+      },
+      {
+        "role": "user",
+        "message": "I need to update my phone number and email address.",
+        "timestamp": "2025-06-19T15:56:05.226961"
+      },
+      {
+        "role": "assistant",
+        "message": "I'll help you update both. Please provide your new phone number and email address.",
+        "timestamp": "2025-06-19T15:56:35.226961"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_51ad3a4b",
+      "first_name": "David",
+      "last_name": "Martinez",
+      "email": "david.jones@email.com",
+      "phone": "+1-555-205-5971",
+      "account_type": "checking",
+      "balance": 21066.96,
+      "account_number": "1773890238",
+      "member_since": "2022-02-09"
+    },
+    "generated_at": "2025-06-19T16:55:05.226961",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 5,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_0527a5f6",
+    "user_id": "user_28cf5152",
+    "intent": "account_management",
+    "user_name": "David Jones",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need to update my contact information.",
+        "timestamp": "2025-06-19T16:45:05.226961"
+      },
+      {
+        "role": "assistant",
+        "message": "I can help you update your contact information. What would you like to change?",
+        "timestamp": "2025-06-19T16:45:35.226961"
+      },
+      {
+        "role": "user",
+        "message": "I need to update my phone number and email address.",
+        "timestamp": "2025-06-19T16:46:05.226961"
+      },
+      {
+        "role": "assistant",
+        "message": "I'll help you update both. Please provide your new phone number and email address.",
+        "timestamp": "2025-06-19T16:46:35.226961"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_28cf5152",
+      "first_name": "David",
+      "last_name": "Jones",
+      "email": "david.jones@email.com",
+      "phone": "+1-555-379-4961",
+      "account_type": "checking",
+      "balance": 41113.9,
+      "account_number": "2872470140",
+      "member_since": "2024-01-21"
+    },
+    "generated_at": "2025-06-19T16:55:05.228306",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 5,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_54c40903",
+    "user_id": "user_f03f6742",
+    "intent": "account_management",
+    "user_name": "Robert Davis",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need to update my contact information.",
+        "timestamp": "2025-06-19T16:07:05.228306"
+      },
+      {
+        "role": "assistant",
+        "message": "I can help you update your contact information. What would you like to change?",
+        "timestamp": "2025-06-19T16:07:35.228306"
+      },
+      {
+        "role": "user",
+        "message": "I need to update my phone number and email address.",
+        "timestamp": "2025-06-19T16:08:05.228306"
+      },
+      {
+        "role": "assistant",
+        "message": "I'll help you update both. Please provide your new phone number and email address.",
+        "timestamp": "2025-06-19T16:08:35.228306"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_f03f6742",
+      "first_name": "Robert",
+      "last_name": "Davis",
+      "email": "david.williams@email.com",
+      "phone": "+1-555-441-8570",
+      "account_type": "premium",
+      "balance": 21017.24,
+      "account_number": "9162784001",
+      "member_since": "2023-05-07"
+    },
+    "generated_at": "2025-06-19T16:55:05.228306",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 3,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_9cf95b0a",
+    "user_id": "user_bcde86a9",
+    "intent": "account_management",
+    "user_name": "Robert Rodriguez",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need to update my contact information.",
+        "timestamp": "2025-06-19T16:35:05.228306"
+      },
+      {
+        "role": "assistant",
+        "message": "I can help you update your contact information. What would you like to change?",
+        "timestamp": "2025-06-19T16:35:35.228306"
+      },
+      {
+        "role": "user",
+        "message": "I need to update my phone number and email address.",
+        "timestamp": "2025-06-19T16:36:05.228306"
+      },
+      {
+        "role": "assistant",
+        "message": "I'll help you update both. Please provide your new phone number and email address.",
+        "timestamp": "2025-06-19T16:36:35.228306"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_bcde86a9",
+      "first_name": "Robert",
+      "last_name": "Rodriguez",
+      "email": "sarah.williams@email.com",
+      "phone": "+1-555-228-2250",
+      "account_type": "savings",
+      "balance": 20599.81,
+      "account_number": "3445199905",
+      "member_since": "2025-04-02"
+    },
+    "generated_at": "2025-06-19T16:55:05.228306",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 3,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_3084c593",
+    "user_id": "user_81ed7da9",
+    "intent": "account_management",
+    "user_name": "Jennifer Jones",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need to update my contact information.",
+        "timestamp": "2025-06-19T16:11:05.228306"
+      },
+      {
+        "role": "assistant",
+        "message": "I can help you update your contact information. What would you like to change?",
+        "timestamp": "2025-06-19T16:11:35.228306"
+      },
+      {
+        "role": "user",
+        "message": "I need to update my phone number and email address.",
+        "timestamp": "2025-06-19T16:12:05.228306"
+      },
+      {
+        "role": "assistant",
+        "message": "I'll help you update both. Please provide your new phone number and email address.",
+        "timestamp": "2025-06-19T16:12:35.228306"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_81ed7da9",
+      "first_name": "Jennifer",
+      "last_name": "Jones",
+      "email": "james.martinez@email.com",
+      "phone": "+1-555-112-5827",
+      "account_type": "senior",
+      "balance": 21744.02,
+      "account_number": "9978432046",
+      "member_since": "2022-04-29"
+    },
+    "generated_at": "2025-06-19T16:55:05.228306",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 5,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_2c929401",
+    "user_id": "user_9d9680c8",
+    "intent": "account_management",
+    "user_name": "John Rodriguez",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need to update my contact information.",
+        "timestamp": "2025-06-19T15:56:05.228306"
+      },
+      {
+        "role": "assistant",
+        "message": "I can help you update your contact information. What would you like to change?",
+        "timestamp": "2025-06-19T15:56:35.228306"
+      },
+      {
+        "role": "user",
+        "message": "I need to update my phone number and email address.",
+        "timestamp": "2025-06-19T15:57:05.228306"
+      },
+      {
+        "role": "assistant",
+        "message": "I'll help you update both. Please provide your new phone number and email address.",
+        "timestamp": "2025-06-19T15:57:35.228306"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_9d9680c8",
+      "first_name": "John",
+      "last_name": "Rodriguez",
+      "email": "jennifer.garcia@email.com",
+      "phone": "+1-555-976-7888",
+      "account_type": "checking",
+      "balance": 27617.46,
+      "account_number": "6124994544",
+      "member_since": "2024-03-14"
+    },
+    "generated_at": "2025-06-19T16:55:05.228306",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 4,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_c7f4084a",
+    "user_id": "user_d17d9dd1",
+    "intent": "account_management",
+    "user_name": "Lisa Johnson",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need to update my contact information.",
+        "timestamp": "2025-06-19T16:38:05.228306"
+      },
+      {
+        "role": "assistant",
+        "message": "I can help you update your contact information. What would you like to change?",
+        "timestamp": "2025-06-19T16:38:35.228306"
+      },
+      {
+        "role": "user",
+        "message": "I need to update my phone number and email address.",
+        "timestamp": "2025-06-19T16:39:05.228306"
+      },
+      {
+        "role": "assistant",
+        "message": "I'll help you update both. Please provide your new phone number and email address.",
+        "timestamp": "2025-06-19T16:39:35.228306"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_d17d9dd1",
+      "first_name": "Lisa",
+      "last_name": "Johnson",
+      "email": "james.garcia@email.com",
+      "phone": "+1-555-250-3967",
+      "account_type": "senior",
+      "balance": 12873.8,
+      "account_number": "7937977164",
+      "member_since": "2020-12-04"
+    },
+    "generated_at": "2025-06-19T16:55:05.229314",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 4,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_fc69e33f",
+    "user_id": "user_324937a1",
+    "intent": "account_management",
+    "user_name": "Robert Rodriguez",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need to update my contact information.",
+        "timestamp": "2025-06-19T16:31:05.229314"
+      },
+      {
+        "role": "assistant",
+        "message": "I can help you update your contact information. What would you like to change?",
+        "timestamp": "2025-06-19T16:31:35.229314"
+      },
+      {
+        "role": "user",
+        "message": "I need to update my phone number and email address.",
+        "timestamp": "2025-06-19T16:32:05.229314"
+      },
+      {
+        "role": "assistant",
+        "message": "I'll help you update both. Please provide your new phone number and email address.",
+        "timestamp": "2025-06-19T16:32:35.229314"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_324937a1",
+      "first_name": "Robert",
+      "last_name": "Rodriguez",
+      "email": "robert.jones@email.com",
+      "phone": "+1-555-704-7403",
+      "account_type": "premium",
+      "balance": 22474.52,
+      "account_number": "2127204026",
+      "member_since": "2021-11-04"
+    },
+    "generated_at": "2025-06-19T16:55:05.229314",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 5,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_512bae28",
+    "user_id": "user_82ae0c5c",
+    "intent": "account_management",
+    "user_name": "Michael Miller",
+    "conversation": [
+      {
+        "role": "user",
+        "message": "I need to update my contact information.",
+        "timestamp": "2025-06-19T16:08:05.229314"
+      },
+      {
+        "role": "assistant",
+        "message": "I can help you update your contact information. What would you like to change?",
+        "timestamp": "2025-06-19T16:08:35.229314"
+      },
+      {
+        "role": "user",
+        "message": "I need to update my phone number and email address.",
+        "timestamp": "2025-06-19T16:09:05.229314"
+      },
+      {
+        "role": "assistant",
+        "message": "I'll help you update both. Please provide your new phone number and email address.",
+        "timestamp": "2025-06-19T16:09:35.229314"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_82ae0c5c",
+      "first_name": "Michael",
+      "last_name": "Miller",
+      "email": "emily.williams@email.com",
+      "phone": "+1-555-167-3232",
+      "account_type": "student",
+      "balance": 13740.29,
+      "account_number": "3192168153",
+      "member_since": "2023-04-09"
+    },
+    "generated_at": "2025-06-19T16:55:05.229314",
+    "metadata": {
+      "conversation_length": 4,
+      "duration_seconds": 120,
+      "satisfaction_score": 5,
+      "resolution_status": "resolved"
+    }
+  }
+]

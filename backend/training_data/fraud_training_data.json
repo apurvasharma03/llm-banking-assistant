@@ -1,0 +1,2552 @@
+[
+  {
+    "conversation_id": "conv_a8321996",
+    "user_id": "user_38871e0d",
+    "intent": "fraud_alert",
+    "user_name": "Lisa Brown",
+    "conversation": [
+      {
+        "role": "assistant",
+        "message": "I understand your concern. Let me help you secure your account immediately.",
+        "timestamp": "2025-06-19T16:26:05.168234"
+      },
+      {
+        "role": "user",
+        "message": "That's not me! I didn't make that transaction.",
+        "timestamp": "2025-06-19T16:26:35.168234"
+      },
+      {
+        "role": "assistant",
+        "message": "I've blocked your current card and will issue a new one. It should arrive in 5-7 business days.",
+        "timestamp": "2025-06-19T16:27:05.168234"
+      },
+      {
+        "role": "user",
+        "message": "Please block my card and issue a new one.",
+        "timestamp": "2025-06-19T16:27:35.168234"
+      },
+      {
+        "role": "assistant",
+        "message": "I've blocked your current card and will issue a new one. It should arrive in 5-7 business days.",
+        "timestamp": "2025-06-19T16:28:05.168234"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_38871e0d",
+      "first_name": "Lisa",
+      "last_name": "Brown",
+      "email": "lisa.miller@email.com",
+      "phone": "+1-555-773-9771",
+      "account_type": "savings",
+      "balance": 31667.49,
+      "account_number": "1240151855",
+      "member_since": "2022-10-24"
+    },
+    "generated_at": "2025-06-19T16:55:05.168234",
+    "metadata": {
+      "conversation_length": 5,
+      "duration_seconds": 120,
+      "satisfaction_score": 5,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_dae7abbc",
+    "user_id": "user_08cb6342",
+    "intent": "fraud_alert",
+    "user_name": "John Jones",
+    "conversation": [
+      {
+        "role": "assistant",
+        "message": "I understand your concern. Let me help you secure your account immediately.",
+        "timestamp": "2025-06-19T16:44:05.168234"
+      },
+      {
+        "role": "user",
+        "message": "That's not me! I didn't make that transaction.",
+        "timestamp": "2025-06-19T16:44:35.168234"
+      },
+      {
+        "role": "assistant",
+        "message": "I've blocked your current card and will issue a new one. It should arrive in 5-7 business days.",
+        "timestamp": "2025-06-19T16:45:05.168234"
+      },
+      {
+        "role": "user",
+        "message": "Please block my card and issue a new one.",
+        "timestamp": "2025-06-19T16:45:35.168234"
+      },
+      {
+        "role": "assistant",
+        "message": "I've blocked your current card and will issue a new one. It should arrive in 5-7 business days.",
+        "timestamp": "2025-06-19T16:46:05.168234"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_08cb6342",
+      "first_name": "John",
+      "last_name": "Jones",
+      "email": "sarah.jones@email.com",
+      "phone": "+1-555-143-5905",
+      "account_type": "checking",
+      "balance": 20507.94,
+      "account_number": "1400583331",
+      "member_since": "2022-11-06"
+    },
+    "generated_at": "2025-06-19T16:55:05.168234",
+    "metadata": {
+      "conversation_length": 5,
+      "duration_seconds": 120,
+      "satisfaction_score": 4,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_93fab590",
+    "user_id": "user_8187cadf",
+    "intent": "fraud_alert",
+    "user_name": "Robert Garcia",
+    "conversation": [
+      {
+        "role": "assistant",
+        "message": "I understand your concern. Let me help you secure your account immediately.",
+        "timestamp": "2025-06-19T15:59:05.168234"
+      },
+      {
+        "role": "user",
+        "message": "That's not me! I didn't make that transaction.",
+        "timestamp": "2025-06-19T15:59:35.168234"
+      },
+      {
+        "role": "assistant",
+        "message": "I've blocked your current card and will issue a new one. It should arrive in 5-7 business days.",
+        "timestamp": "2025-06-19T16:00:05.168234"
+      },
+      {
+        "role": "user",
+        "message": "Please block my card and issue a new one.",
+        "timestamp": "2025-06-19T16:00:35.168234"
+      },
+      {
+        "role": "assistant",
+        "message": "I've blocked your current card and will issue a new one. It should arrive in 5-7 business days.",
+        "timestamp": "2025-06-19T16:01:05.168234"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_8187cadf",
+      "first_name": "Robert",
+      "last_name": "Garcia",
+      "email": "james.garcia@email.com",
+      "phone": "+1-555-239-7227",
+      "account_type": "senior",
+      "balance": 11756.48,
+      "account_number": "7033010055",
+      "member_since": "2023-04-17"
+    },
+    "generated_at": "2025-06-19T16:55:05.168234",
+    "metadata": {
+      "conversation_length": 5,
+      "duration_seconds": 120,
+      "satisfaction_score": 3,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_7f47ef1a",
+    "user_id": "user_688f2d7d",
+    "intent": "fraud_alert",
+    "user_name": "Robert Davis",
+    "conversation": [
+      {
+        "role": "assistant",
+        "message": "I understand your concern. Let me help you secure your account immediately.",
+        "timestamp": "2025-06-19T16:18:05.168234"
+      },
+      {
+        "role": "user",
+        "message": "That's not me! I didn't make that transaction.",
+        "timestamp": "2025-06-19T16:18:35.168234"
+      },
+      {
+        "role": "assistant",
+        "message": "I've blocked your current card and will issue a new one. It should arrive in 5-7 business days.",
+        "timestamp": "2025-06-19T16:19:05.168234"
+      },
+      {
+        "role": "user",
+        "message": "Please block my card and issue a new one.",
+        "timestamp": "2025-06-19T16:19:35.168234"
+      },
+      {
+        "role": "assistant",
+        "message": "I've blocked your current card and will issue a new one. It should arrive in 5-7 business days.",
+        "timestamp": "2025-06-19T16:20:05.168234"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_688f2d7d",
+      "first_name": "Robert",
+      "last_name": "Davis",
+      "email": "michael.smith@email.com",
+      "phone": "+1-555-467-5189",
+      "account_type": "premium",
+      "balance": 6845.25,
+      "account_number": "9481193673",
+      "member_since": "2020-08-19"
+    },
+    "generated_at": "2025-06-19T16:55:05.168234",
+    "metadata": {
+      "conversation_length": 5,
+      "duration_seconds": 120,
+      "satisfaction_score": 4,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_1b1c9744",
+    "user_id": "user_c5dc1441",
+    "intent": "fraud_alert",
+    "user_name": "Jennifer Brown",
+    "conversation": [
+      {
+        "role": "assistant",
+        "message": "I understand your concern. Let me help you secure your account immediately.",
+        "timestamp": "2025-06-19T16:23:05.168234"
+      },
+      {
+        "role": "user",
+        "message": "That's not me! I didn't make that transaction.",
+        "timestamp": "2025-06-19T16:23:35.168234"
+      },
+      {
+        "role": "assistant",
+        "message": "I've blocked your current card and will issue a new one. It should arrive in 5-7 business days.",
+        "timestamp": "2025-06-19T16:24:05.168234"
+      },
+      {
+        "role": "user",
+        "message": "Please block my card and issue a new one.",
+        "timestamp": "2025-06-19T16:24:35.168234"
+      },
+      {
+        "role": "assistant",
+        "message": "I've blocked your current card and will issue a new one. It should arrive in 5-7 business days.",
+        "timestamp": "2025-06-19T16:25:05.168234"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_c5dc1441",
+      "first_name": "Jennifer",
+      "last_name": "Brown",
+      "email": "michael.jones@email.com",
+      "phone": "+1-555-316-7286",
+      "account_type": "savings",
+      "balance": 616.45,
+      "account_number": "3287162503",
+      "member_since": "2024-04-09"
+    },
+    "generated_at": "2025-06-19T16:55:05.168234",
+    "metadata": {
+      "conversation_length": 5,
+      "duration_seconds": 120,
+      "satisfaction_score": 3,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_7d8cca4e",
+    "user_id": "user_8be31e20",
+    "intent": "fraud_alert",
+    "user_name": "Sarah Johnson",
+    "conversation": [
+      {
+        "role": "assistant",
+        "message": "I understand your concern. Let me help you secure your account immediately.",
+        "timestamp": "2025-06-19T16:40:05.168234"
+      },
+      {
+        "role": "user",
+        "message": "That's not me! I didn't make that transaction.",
+        "timestamp": "2025-06-19T16:40:35.168234"
+      },
+      {
+        "role": "assistant",
+        "message": "I've blocked your current card and will issue a new one. It should arrive in 5-7 business days.",
+        "timestamp": "2025-06-19T16:41:05.168234"
+      },
+      {
+        "role": "user",
+        "message": "Please block my card and issue a new one.",
+        "timestamp": "2025-06-19T16:41:35.168234"
+      },
+      {
+        "role": "assistant",
+        "message": "I've blocked your current card and will issue a new one. It should arrive in 5-7 business days.",
+        "timestamp": "2025-06-19T16:42:05.168234"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_8be31e20",
+      "first_name": "Sarah",
+      "last_name": "Johnson",
+      "email": "emily.johnson@email.com",
+      "phone": "+1-555-687-5049",
+      "account_type": "premium",
+      "balance": 39869.09,
+      "account_number": "5423134149",
+      "member_since": "2024-03-23"
+    },
+    "generated_at": "2025-06-19T16:55:05.168234",
+    "metadata": {
+      "conversation_length": 5,
+      "duration_seconds": 120,
+      "satisfaction_score": 3,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_07c83503",
+    "user_id": "user_a97863a0",
+    "intent": "fraud_alert",
+    "user_name": "Robert Smith",
+    "conversation": [
+      {
+        "role": "assistant",
+        "message": "I understand your concern. Let me help you secure your account immediately.",
+        "timestamp": "2025-06-19T16:00:05.168234"
+      },
+      {
+        "role": "user",
+        "message": "That's not me! I didn't make that transaction.",
+        "timestamp": "2025-06-19T16:00:35.168234"
+      },
+      {
+        "role": "assistant",
+        "message": "I've blocked your current card and will issue a new one. It should arrive in 5-7 business days.",
+        "timestamp": "2025-06-19T16:01:05.168234"
+      },
+      {
+        "role": "user",
+        "message": "Please block my card and issue a new one.",
+        "timestamp": "2025-06-19T16:01:35.168234"
+      },
+      {
+        "role": "assistant",
+        "message": "I've blocked your current card and will issue a new one. It should arrive in 5-7 business days.",
+        "timestamp": "2025-06-19T16:02:05.168234"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_a97863a0",
+      "first_name": "Robert",
+      "last_name": "Smith",
+      "email": "david.williams@email.com",
+      "phone": "+1-555-861-6863",
+      "account_type": "student",
+      "balance": 20653.46,
+      "account_number": "1861962762",
+      "member_since": "2021-05-30"
+    },
+    "generated_at": "2025-06-19T16:55:05.168234",
+    "metadata": {
+      "conversation_length": 5,
+      "duration_seconds": 120,
+      "satisfaction_score": 5,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_429e285a",
+    "user_id": "user_af0b9b17",
+    "intent": "fraud_alert",
+    "user_name": "John Garcia",
+    "conversation": [
+      {
+        "role": "assistant",
+        "message": "I understand your concern. Let me help you secure your account immediately.",
+        "timestamp": "2025-06-19T16:04:05.168234"
+      },
+      {
+        "role": "user",
+        "message": "That's not me! I didn't make that transaction.",
+        "timestamp": "2025-06-19T16:04:35.168234"
+      },
+      {
+        "role": "assistant",
+        "message": "I've blocked your current card and will issue a new one. It should arrive in 5-7 business days.",
+        "timestamp": "2025-06-19T16:05:05.168234"
+      },
+      {
+        "role": "user",
+        "message": "Please block my card and issue a new one.",
+        "timestamp": "2025-06-19T16:05:35.168234"
+      },
+      {
+        "role": "assistant",
+        "message": "I've blocked your current card and will issue a new one. It should arrive in 5-7 business days.",
+        "timestamp": "2025-06-19T16:06:05.168234"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_af0b9b17",
+      "first_name": "John",
+      "last_name": "Garcia",
+      "email": "jennifer.jones@email.com",
+      "phone": "+1-555-832-1036",
+      "account_type": "student",
+      "balance": 39678.2,
+      "account_number": "9675760966",
+      "member_since": "2022-07-12"
+    },
+    "generated_at": "2025-06-19T16:55:05.168234",
+    "metadata": {
+      "conversation_length": 5,
+      "duration_seconds": 120,
+      "satisfaction_score": 4,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_ed707bc8",
+    "user_id": "user_611ab0a4",
+    "intent": "fraud_alert",
+    "user_name": "John Brown",
+    "conversation": [
+      {
+        "role": "assistant",
+        "message": "I understand your concern. Let me help you secure your account immediately.",
+        "timestamp": "2025-06-19T16:06:05.168234"
+      },
+      {
+        "role": "user",
+        "message": "That's not me! I didn't make that transaction.",
+        "timestamp": "2025-06-19T16:06:35.168234"
+      },
+      {
+        "role": "assistant",
+        "message": "I've blocked your current card and will issue a new one. It should arrive in 5-7 business days.",
+        "timestamp": "2025-06-19T16:07:05.168234"
+      },
+      {
+        "role": "user",
+        "message": "Please block my card and issue a new one.",
+        "timestamp": "2025-06-19T16:07:35.168234"
+      },
+      {
+        "role": "assistant",
+        "message": "I've blocked your current card and will issue a new one. It should arrive in 5-7 business days.",
+        "timestamp": "2025-06-19T16:08:05.168234"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_611ab0a4",
+      "first_name": "John",
+      "last_name": "Brown",
+      "email": "david.johnson@email.com",
+      "phone": "+1-555-219-7758",
+      "account_type": "student",
+      "balance": 1113.72,
+      "account_number": "4720624344",
+      "member_since": "2022-02-16"
+    },
+    "generated_at": "2025-06-19T16:55:05.168234",
+    "metadata": {
+      "conversation_length": 5,
+      "duration_seconds": 120,
+      "satisfaction_score": 5,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_dae573a7",
+    "user_id": "user_a4a5631e",
+    "intent": "fraud_alert",
+    "user_name": "James Garcia",
+    "conversation": [
+      {
+        "role": "assistant",
+        "message": "I understand your concern. Let me help you secure your account immediately.",
+        "timestamp": "2025-06-19T16:16:05.168234"
+      },
+      {
+        "role": "user",
+        "message": "That's not me! I didn't make that transaction.",
+        "timestamp": "2025-06-19T16:16:35.168234"
+      },
+      {
+        "role": "assistant",
+        "message": "I've blocked your current card and will issue a new one. It should arrive in 5-7 business days.",
+        "timestamp": "2025-06-19T16:17:05.168234"
+      },
+      {
+        "role": "user",
+        "message": "Please block my card and issue a new one.",
+        "timestamp": "2025-06-19T16:17:35.168234"
+      },
+      {
+        "role": "assistant",
+        "message": "I've blocked your current card and will issue a new one. It should arrive in 5-7 business days.",
+        "timestamp": "2025-06-19T16:18:05.168234"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_a4a5631e",
+      "first_name": "James",
+      "last_name": "Garcia",
+      "email": "sarah.brown@email.com",
+      "phone": "+1-555-519-2091",
+      "account_type": "senior",
+      "balance": 18789.92,
+      "account_number": "6420923725",
+      "member_since": "2023-10-10"
+    },
+    "generated_at": "2025-06-19T16:55:05.170246",
+    "metadata": {
+      "conversation_length": 5,
+      "duration_seconds": 120,
+      "satisfaction_score": 4,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_98539cb8",
+    "user_id": "user_c1d5dfab",
+    "intent": "fraud_alert",
+    "user_name": "Sarah Jones",
+    "conversation": [
+      {
+        "role": "assistant",
+        "message": "I understand your concern. Let me help you secure your account immediately.",
+        "timestamp": "2025-06-19T16:28:05.170246"
+      },
+      {
+        "role": "user",
+        "message": "That's not me! I didn't make that transaction.",
+        "timestamp": "2025-06-19T16:28:35.170246"
+      },
+      {
+        "role": "assistant",
+        "message": "I've blocked your current card and will issue a new one. It should arrive in 5-7 business days.",
+        "timestamp": "2025-06-19T16:29:05.170246"
+      },
+      {
+        "role": "user",
+        "message": "Please block my card and issue a new one.",
+        "timestamp": "2025-06-19T16:29:35.170246"
+      },
+      {
+        "role": "assistant",
+        "message": "I've blocked your current card and will issue a new one. It should arrive in 5-7 business days.",
+        "timestamp": "2025-06-19T16:30:05.170246"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_c1d5dfab",
+      "first_name": "Sarah",
+      "last_name": "Jones",
+      "email": "robert.rodriguez@email.com",
+      "phone": "+1-555-950-7446",
+      "account_type": "savings",
+      "balance": 46148.79,
+      "account_number": "2530078667",
+      "member_since": "2024-11-28"
+    },
+    "generated_at": "2025-06-19T16:55:05.170246",
+    "metadata": {
+      "conversation_length": 5,
+      "duration_seconds": 120,
+      "satisfaction_score": 3,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_39b0deb6",
+    "user_id": "user_49ab71ab",
+    "intent": "fraud_alert",
+    "user_name": "Sarah Rodriguez",
+    "conversation": [
+      {
+        "role": "assistant",
+        "message": "I understand your concern. Let me help you secure your account immediately.",
+        "timestamp": "2025-06-19T16:26:05.172257"
+      },
+      {
+        "role": "user",
+        "message": "That's not me! I didn't make that transaction.",
+        "timestamp": "2025-06-19T16:26:35.172257"
+      },
+      {
+        "role": "assistant",
+        "message": "I've blocked your current card and will issue a new one. It should arrive in 5-7 business days.",
+        "timestamp": "2025-06-19T16:27:05.172257"
+      },
+      {
+        "role": "user",
+        "message": "Please block my card and issue a new one.",
+        "timestamp": "2025-06-19T16:27:35.172257"
+      },
+      {
+        "role": "assistant",
+        "message": "I've blocked your current card and will issue a new one. It should arrive in 5-7 business days.",
+        "timestamp": "2025-06-19T16:28:05.172257"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_49ab71ab",
+      "first_name": "Sarah",
+      "last_name": "Rodriguez",
+      "email": "david.williams@email.com",
+      "phone": "+1-555-480-4735",
+      "account_type": "senior",
+      "balance": 10433.88,
+      "account_number": "6566787735",
+      "member_since": "2024-05-27"
+    },
+    "generated_at": "2025-06-19T16:55:05.172257",
+    "metadata": {
+      "conversation_length": 5,
+      "duration_seconds": 120,
+      "satisfaction_score": 4,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_5be8d668",
+    "user_id": "user_a04637ce",
+    "intent": "fraud_alert",
+    "user_name": "John Davis",
+    "conversation": [
+      {
+        "role": "assistant",
+        "message": "I understand your concern. Let me help you secure your account immediately.",
+        "timestamp": "2025-06-19T16:10:05.172257"
+      },
+      {
+        "role": "user",
+        "message": "That's not me! I didn't make that transaction.",
+        "timestamp": "2025-06-19T16:10:35.172257"
+      },
+      {
+        "role": "assistant",
+        "message": "I've blocked your current card and will issue a new one. It should arrive in 5-7 business days.",
+        "timestamp": "2025-06-19T16:11:05.172257"
+      },
+      {
+        "role": "user",
+        "message": "Please block my card and issue a new one.",
+        "timestamp": "2025-06-19T16:11:35.172257"
+      },
+      {
+        "role": "assistant",
+        "message": "I've blocked your current card and will issue a new one. It should arrive in 5-7 business days.",
+        "timestamp": "2025-06-19T16:12:05.172257"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_a04637ce",
+      "first_name": "John",
+      "last_name": "Davis",
+      "email": "sarah.miller@email.com",
+      "phone": "+1-555-228-6337",
+      "account_type": "savings",
+      "balance": 19394.08,
+      "account_number": "4563401691",
+      "member_since": "2024-04-28"
+    },
+    "generated_at": "2025-06-19T16:55:05.172257",
+    "metadata": {
+      "conversation_length": 5,
+      "duration_seconds": 120,
+      "satisfaction_score": 3,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_10409965",
+    "user_id": "user_786cf097",
+    "intent": "fraud_alert",
+    "user_name": "Sarah Jones",
+    "conversation": [
+      {
+        "role": "assistant",
+        "message": "I understand your concern. Let me help you secure your account immediately.",
+        "timestamp": "2025-06-19T16:41:05.172257"
+      },
+      {
+        "role": "user",
+        "message": "That's not me! I didn't make that transaction.",
+        "timestamp": "2025-06-19T16:41:35.172257"
+      },
+      {
+        "role": "assistant",
+        "message": "I've blocked your current card and will issue a new one. It should arrive in 5-7 business days.",
+        "timestamp": "2025-06-19T16:42:05.172257"
+      },
+      {
+        "role": "user",
+        "message": "Please block my card and issue a new one.",
+        "timestamp": "2025-06-19T16:42:35.172257"
+      },
+      {
+        "role": "assistant",
+        "message": "I've blocked your current card and will issue a new one. It should arrive in 5-7 business days.",
+        "timestamp": "2025-06-19T16:43:05.172257"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_786cf097",
+      "first_name": "Sarah",
+      "last_name": "Jones",
+      "email": "james.garcia@email.com",
+      "phone": "+1-555-239-9207",
+      "account_type": "checking",
+      "balance": 38152.98,
+      "account_number": "1494113078",
+      "member_since": "2024-05-13"
+    },
+    "generated_at": "2025-06-19T16:55:05.172257",
+    "metadata": {
+      "conversation_length": 5,
+      "duration_seconds": 120,
+      "satisfaction_score": 3,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_1da5d6a8",
+    "user_id": "user_38b4f1bb",
+    "intent": "fraud_alert",
+    "user_name": "Robert Martinez",
+    "conversation": [
+      {
+        "role": "assistant",
+        "message": "I understand your concern. Let me help you secure your account immediately.",
+        "timestamp": "2025-06-19T16:48:05.172257"
+      },
+      {
+        "role": "user",
+        "message": "That's not me! I didn't make that transaction.",
+        "timestamp": "2025-06-19T16:48:35.172257"
+      },
+      {
+        "role": "assistant",
+        "message": "I've blocked your current card and will issue a new one. It should arrive in 5-7 business days.",
+        "timestamp": "2025-06-19T16:49:05.172257"
+      },
+      {
+        "role": "user",
+        "message": "Please block my card and issue a new one.",
+        "timestamp": "2025-06-19T16:49:35.172257"
+      },
+      {
+        "role": "assistant",
+        "message": "I've blocked your current card and will issue a new one. It should arrive in 5-7 business days.",
+        "timestamp": "2025-06-19T16:50:05.172257"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_38b4f1bb",
+      "first_name": "Robert",
+      "last_name": "Martinez",
+      "email": "sarah.rodriguez@email.com",
+      "phone": "+1-555-795-9875",
+      "account_type": "savings",
+      "balance": 7607.15,
+      "account_number": "2620521449",
+      "member_since": "2022-11-20"
+    },
+    "generated_at": "2025-06-19T16:55:05.172257",
+    "metadata": {
+      "conversation_length": 5,
+      "duration_seconds": 120,
+      "satisfaction_score": 4,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_1af3d577",
+    "user_id": "user_f1e2eecf",
+    "intent": "fraud_alert",
+    "user_name": "David Jones",
+    "conversation": [
+      {
+        "role": "assistant",
+        "message": "I understand your concern. Let me help you secure your account immediately.",
+        "timestamp": "2025-06-19T16:14:05.172257"
+      },
+      {
+        "role": "user",
+        "message": "That's not me! I didn't make that transaction.",
+        "timestamp": "2025-06-19T16:14:35.172257"
+      },
+      {
+        "role": "assistant",
+        "message": "I've blocked your current card and will issue a new one. It should arrive in 5-7 business days.",
+        "timestamp": "2025-06-19T16:15:05.172257"
+      },
+      {
+        "role": "user",
+        "message": "Please block my card and issue a new one.",
+        "timestamp": "2025-06-19T16:15:35.172257"
+      },
+      {
+        "role": "assistant",
+        "message": "I've blocked your current card and will issue a new one. It should arrive in 5-7 business days.",
+        "timestamp": "2025-06-19T16:16:05.172257"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_f1e2eecf",
+      "first_name": "David",
+      "last_name": "Jones",
+      "email": "amanda.johnson@email.com",
+      "phone": "+1-555-678-8402",
+      "account_type": "student",
+      "balance": 7086.46,
+      "account_number": "6289665118",
+      "member_since": "2023-07-26"
+    },
+    "generated_at": "2025-06-19T16:55:05.172257",
+    "metadata": {
+      "conversation_length": 5,
+      "duration_seconds": 120,
+      "satisfaction_score": 3,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_2f8f6bc7",
+    "user_id": "user_a2bb5b60",
+    "intent": "fraud_alert",
+    "user_name": "Lisa Williams",
+    "conversation": [
+      {
+        "role": "assistant",
+        "message": "I understand your concern. Let me help you secure your account immediately.",
+        "timestamp": "2025-06-19T16:46:05.172257"
+      },
+      {
+        "role": "user",
+        "message": "That's not me! I didn't make that transaction.",
+        "timestamp": "2025-06-19T16:46:35.172257"
+      },
+      {
+        "role": "assistant",
+        "message": "I've blocked your current card and will issue a new one. It should arrive in 5-7 business days.",
+        "timestamp": "2025-06-19T16:47:05.172257"
+      },
+      {
+        "role": "user",
+        "message": "Please block my card and issue a new one.",
+        "timestamp": "2025-06-19T16:47:35.172257"
+      },
+      {
+        "role": "assistant",
+        "message": "I've blocked your current card and will issue a new one. It should arrive in 5-7 business days.",
+        "timestamp": "2025-06-19T16:48:05.172257"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_a2bb5b60",
+      "first_name": "Lisa",
+      "last_name": "Williams",
+      "email": "robert.davis@email.com",
+      "phone": "+1-555-238-4734",
+      "account_type": "student",
+      "balance": 17343.57,
+      "account_number": "4227697330",
+      "member_since": "2023-07-04"
+    },
+    "generated_at": "2025-06-19T16:55:05.172257",
+    "metadata": {
+      "conversation_length": 5,
+      "duration_seconds": 120,
+      "satisfaction_score": 3,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_2108dece",
+    "user_id": "user_dadb9aae",
+    "intent": "fraud_alert",
+    "user_name": "Sarah Rodriguez",
+    "conversation": [
+      {
+        "role": "assistant",
+        "message": "I understand your concern. Let me help you secure your account immediately.",
+        "timestamp": "2025-06-19T15:56:05.174267"
+      },
+      {
+        "role": "user",
+        "message": "That's not me! I didn't make that transaction.",
+        "timestamp": "2025-06-19T15:56:35.174267"
+      },
+      {
+        "role": "assistant",
+        "message": "I've blocked your current card and will issue a new one. It should arrive in 5-7 business days.",
+        "timestamp": "2025-06-19T15:57:05.174267"
+      },
+      {
+        "role": "user",
+        "message": "Please block my card and issue a new one.",
+        "timestamp": "2025-06-19T15:57:35.174267"
+      },
+      {
+        "role": "assistant",
+        "message": "I've blocked your current card and will issue a new one. It should arrive in 5-7 business days.",
+        "timestamp": "2025-06-19T15:58:05.174267"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_dadb9aae",
+      "first_name": "Sarah",
+      "last_name": "Rodriguez",
+      "email": "sarah.johnson@email.com",
+      "phone": "+1-555-200-1208",
+      "account_type": "savings",
+      "balance": 15273.81,
+      "account_number": "5143439275",
+      "member_since": "2023-06-17"
+    },
+    "generated_at": "2025-06-19T16:55:05.174267",
+    "metadata": {
+      "conversation_length": 5,
+      "duration_seconds": 120,
+      "satisfaction_score": 3,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_2abd1fa7",
+    "user_id": "user_61a00c0f",
+    "intent": "fraud_alert",
+    "user_name": "Sarah Johnson",
+    "conversation": [
+      {
+        "role": "assistant",
+        "message": "I understand your concern. Let me help you secure your account immediately.",
+        "timestamp": "2025-06-19T16:07:05.174267"
+      },
+      {
+        "role": "user",
+        "message": "That's not me! I didn't make that transaction.",
+        "timestamp": "2025-06-19T16:07:35.174267"
+      },
+      {
+        "role": "assistant",
+        "message": "I've blocked your current card and will issue a new one. It should arrive in 5-7 business days.",
+        "timestamp": "2025-06-19T16:08:05.174267"
+      },
+      {
+        "role": "user",
+        "message": "Please block my card and issue a new one.",
+        "timestamp": "2025-06-19T16:08:35.174267"
+      },
+      {
+        "role": "assistant",
+        "message": "I've blocked your current card and will issue a new one. It should arrive in 5-7 business days.",
+        "timestamp": "2025-06-19T16:09:05.174267"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_61a00c0f",
+      "first_name": "Sarah",
+      "last_name": "Johnson",
+      "email": "amanda.martinez@email.com",
+      "phone": "+1-555-689-5188",
+      "account_type": "savings",
+      "balance": 22266.71,
+      "account_number": "1834220527",
+      "member_since": "2022-01-06"
+    },
+    "generated_at": "2025-06-19T16:55:05.174267",
+    "metadata": {
+      "conversation_length": 5,
+      "duration_seconds": 120,
+      "satisfaction_score": 4,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_3a4568c3",
+    "user_id": "user_396b29eb",
+    "intent": "fraud_alert",
+    "user_name": "Amanda Brown",
+    "conversation": [
+      {
+        "role": "assistant",
+        "message": "I understand your concern. Let me help you secure your account immediately.",
+        "timestamp": "2025-06-19T16:15:05.174267"
+      },
+      {
+        "role": "user",
+        "message": "That's not me! I didn't make that transaction.",
+        "timestamp": "2025-06-19T16:15:35.174267"
+      },
+      {
+        "role": "assistant",
+        "message": "I've blocked your current card and will issue a new one. It should arrive in 5-7 business days.",
+        "timestamp": "2025-06-19T16:16:05.174267"
+      },
+      {
+        "role": "user",
+        "message": "Please block my card and issue a new one.",
+        "timestamp": "2025-06-19T16:16:35.174267"
+      },
+      {
+        "role": "assistant",
+        "message": "I've blocked your current card and will issue a new one. It should arrive in 5-7 business days.",
+        "timestamp": "2025-06-19T16:17:05.174267"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_396b29eb",
+      "first_name": "Amanda",
+      "last_name": "Brown",
+      "email": "david.miller@email.com",
+      "phone": "+1-555-779-8966",
+      "account_type": "checking",
+      "balance": 28676.45,
+      "account_number": "4052764817",
+      "member_since": "2022-07-11"
+    },
+    "generated_at": "2025-06-19T16:55:05.174267",
+    "metadata": {
+      "conversation_length": 5,
+      "duration_seconds": 120,
+      "satisfaction_score": 4,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_a138f916",
+    "user_id": "user_fd45846a",
+    "intent": "fraud_alert",
+    "user_name": "Lisa Garcia",
+    "conversation": [
+      {
+        "role": "assistant",
+        "message": "I understand your concern. Let me help you secure your account immediately.",
+        "timestamp": "2025-06-19T16:35:05.174267"
+      },
+      {
+        "role": "user",
+        "message": "That's not me! I didn't make that transaction.",
+        "timestamp": "2025-06-19T16:35:35.174267"
+      },
+      {
+        "role": "assistant",
+        "message": "I've blocked your current card and will issue a new one. It should arrive in 5-7 business days.",
+        "timestamp": "2025-06-19T16:36:05.174267"
+      },
+      {
+        "role": "user",
+        "message": "Please block my card and issue a new one.",
+        "timestamp": "2025-06-19T16:36:35.174267"
+      },
+      {
+        "role": "assistant",
+        "message": "I've blocked your current card and will issue a new one. It should arrive in 5-7 business days.",
+        "timestamp": "2025-06-19T16:37:05.174267"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_fd45846a",
+      "first_name": "Lisa",
+      "last_name": "Garcia",
+      "email": "jennifer.miller@email.com",
+      "phone": "+1-555-780-6112",
+      "account_type": "savings",
+      "balance": 15218.07,
+      "account_number": "4087960002",
+      "member_since": "2021-04-12"
+    },
+    "generated_at": "2025-06-19T16:55:05.174267",
+    "metadata": {
+      "conversation_length": 5,
+      "duration_seconds": 120,
+      "satisfaction_score": 5,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_5589177a",
+    "user_id": "user_8d0672f1",
+    "intent": "fraud_alert",
+    "user_name": "Sarah Rodriguez",
+    "conversation": [
+      {
+        "role": "assistant",
+        "message": "I understand your concern. Let me help you secure your account immediately.",
+        "timestamp": "2025-06-19T16:50:05.174267"
+      },
+      {
+        "role": "user",
+        "message": "That's not me! I didn't make that transaction.",
+        "timestamp": "2025-06-19T16:50:35.174267"
+      },
+      {
+        "role": "assistant",
+        "message": "I've blocked your current card and will issue a new one. It should arrive in 5-7 business days.",
+        "timestamp": "2025-06-19T16:51:05.174267"
+      },
+      {
+        "role": "user",
+        "message": "Please block my card and issue a new one.",
+        "timestamp": "2025-06-19T16:51:35.174267"
+      },
+      {
+        "role": "assistant",
+        "message": "I've blocked your current card and will issue a new one. It should arrive in 5-7 business days.",
+        "timestamp": "2025-06-19T16:52:05.174267"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_8d0672f1",
+      "first_name": "Sarah",
+      "last_name": "Rodriguez",
+      "email": "jennifer.garcia@email.com",
+      "phone": "+1-555-946-8756",
+      "account_type": "savings",
+      "balance": 15341.27,
+      "account_number": "9013248438",
+      "member_since": "2023-03-13"
+    },
+    "generated_at": "2025-06-19T16:55:05.174267",
+    "metadata": {
+      "conversation_length": 5,
+      "duration_seconds": 120,
+      "satisfaction_score": 4,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_d6aa8f49",
+    "user_id": "user_e8c8c31b",
+    "intent": "fraud_alert",
+    "user_name": "James Davis",
+    "conversation": [
+      {
+        "role": "assistant",
+        "message": "I understand your concern. Let me help you secure your account immediately.",
+        "timestamp": "2025-06-19T15:58:05.174267"
+      },
+      {
+        "role": "user",
+        "message": "That's not me! I didn't make that transaction.",
+        "timestamp": "2025-06-19T15:58:35.174267"
+      },
+      {
+        "role": "assistant",
+        "message": "I've blocked your current card and will issue a new one. It should arrive in 5-7 business days.",
+        "timestamp": "2025-06-19T15:59:05.174267"
+      },
+      {
+        "role": "user",
+        "message": "Please block my card and issue a new one.",
+        "timestamp": "2025-06-19T15:59:35.174267"
+      },
+      {
+        "role": "assistant",
+        "message": "I've blocked your current card and will issue a new one. It should arrive in 5-7 business days.",
+        "timestamp": "2025-06-19T16:00:05.174267"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_e8c8c31b",
+      "first_name": "James",
+      "last_name": "Davis",
+      "email": "john.davis@email.com",
+      "phone": "+1-555-709-8910",
+      "account_type": "senior",
+      "balance": 25166.43,
+      "account_number": "6126710681",
+      "member_since": "2021-12-19"
+    },
+    "generated_at": "2025-06-19T16:55:05.174267",
+    "metadata": {
+      "conversation_length": 5,
+      "duration_seconds": 120,
+      "satisfaction_score": 3,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_aaf7f002",
+    "user_id": "user_7a1bd4f8",
+    "intent": "fraud_alert",
+    "user_name": "Robert Rodriguez",
+    "conversation": [
+      {
+        "role": "assistant",
+        "message": "I understand your concern. Let me help you secure your account immediately.",
+        "timestamp": "2025-06-19T16:47:05.174267"
+      },
+      {
+        "role": "user",
+        "message": "That's not me! I didn't make that transaction.",
+        "timestamp": "2025-06-19T16:47:35.174267"
+      },
+      {
+        "role": "assistant",
+        "message": "I've blocked your current card and will issue a new one. It should arrive in 5-7 business days.",
+        "timestamp": "2025-06-19T16:48:05.174267"
+      },
+      {
+        "role": "user",
+        "message": "Please block my card and issue a new one.",
+        "timestamp": "2025-06-19T16:48:35.174267"
+      },
+      {
+        "role": "assistant",
+        "message": "I've blocked your current card and will issue a new one. It should arrive in 5-7 business days.",
+        "timestamp": "2025-06-19T16:49:05.174267"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_7a1bd4f8",
+      "first_name": "Robert",
+      "last_name": "Rodriguez",
+      "email": "michael.rodriguez@email.com",
+      "phone": "+1-555-692-8338",
+      "account_type": "senior",
+      "balance": 5420.87,
+      "account_number": "5715876228",
+      "member_since": "2023-12-24"
+    },
+    "generated_at": "2025-06-19T16:55:05.176280",
+    "metadata": {
+      "conversation_length": 5,
+      "duration_seconds": 120,
+      "satisfaction_score": 5,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_3054c7de",
+    "user_id": "user_e16321b0",
+    "intent": "fraud_alert",
+    "user_name": "Amanda Johnson",
+    "conversation": [
+      {
+        "role": "assistant",
+        "message": "I understand your concern. Let me help you secure your account immediately.",
+        "timestamp": "2025-06-19T16:37:05.176280"
+      },
+      {
+        "role": "user",
+        "message": "That's not me! I didn't make that transaction.",
+        "timestamp": "2025-06-19T16:37:35.176280"
+      },
+      {
+        "role": "assistant",
+        "message": "I've blocked your current card and will issue a new one. It should arrive in 5-7 business days.",
+        "timestamp": "2025-06-19T16:38:05.176280"
+      },
+      {
+        "role": "user",
+        "message": "Please block my card and issue a new one.",
+        "timestamp": "2025-06-19T16:38:35.176280"
+      },
+      {
+        "role": "assistant",
+        "message": "I've blocked your current card and will issue a new one. It should arrive in 5-7 business days.",
+        "timestamp": "2025-06-19T16:39:05.176280"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_e16321b0",
+      "first_name": "Amanda",
+      "last_name": "Johnson",
+      "email": "sarah.johnson@email.com",
+      "phone": "+1-555-168-4360",
+      "account_type": "student",
+      "balance": 8083.44,
+      "account_number": "3798315256",
+      "member_since": "2021-10-11"
+    },
+    "generated_at": "2025-06-19T16:55:05.176280",
+    "metadata": {
+      "conversation_length": 5,
+      "duration_seconds": 120,
+      "satisfaction_score": 5,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_58ec85d7",
+    "user_id": "user_694b5f65",
+    "intent": "fraud_alert",
+    "user_name": "John Davis",
+    "conversation": [
+      {
+        "role": "assistant",
+        "message": "I understand your concern. Let me help you secure your account immediately.",
+        "timestamp": "2025-06-19T16:25:05.176280"
+      },
+      {
+        "role": "user",
+        "message": "That's not me! I didn't make that transaction.",
+        "timestamp": "2025-06-19T16:25:35.176280"
+      },
+      {
+        "role": "assistant",
+        "message": "I've blocked your current card and will issue a new one. It should arrive in 5-7 business days.",
+        "timestamp": "2025-06-19T16:26:05.176280"
+      },
+      {
+        "role": "user",
+        "message": "Please block my card and issue a new one.",
+        "timestamp": "2025-06-19T16:26:35.176280"
+      },
+      {
+        "role": "assistant",
+        "message": "I've blocked your current card and will issue a new one. It should arrive in 5-7 business days.",
+        "timestamp": "2025-06-19T16:27:05.176280"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_694b5f65",
+      "first_name": "John",
+      "last_name": "Davis",
+      "email": "michael.rodriguez@email.com",
+      "phone": "+1-555-298-1202",
+      "account_type": "student",
+      "balance": 27453.04,
+      "account_number": "6834837833",
+      "member_since": "2022-08-25"
+    },
+    "generated_at": "2025-06-19T16:55:05.176280",
+    "metadata": {
+      "conversation_length": 5,
+      "duration_seconds": 120,
+      "satisfaction_score": 3,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_75bc4d83",
+    "user_id": "user_bec86443",
+    "intent": "fraud_alert",
+    "user_name": "Amanda Jones",
+    "conversation": [
+      {
+        "role": "assistant",
+        "message": "I understand your concern. Let me help you secure your account immediately.",
+        "timestamp": "2025-06-19T15:56:05.176280"
+      },
+      {
+        "role": "user",
+        "message": "That's not me! I didn't make that transaction.",
+        "timestamp": "2025-06-19T15:56:35.176280"
+      },
+      {
+        "role": "assistant",
+        "message": "I've blocked your current card and will issue a new one. It should arrive in 5-7 business days.",
+        "timestamp": "2025-06-19T15:57:05.176280"
+      },
+      {
+        "role": "user",
+        "message": "Please block my card and issue a new one.",
+        "timestamp": "2025-06-19T15:57:35.176280"
+      },
+      {
+        "role": "assistant",
+        "message": "I've blocked your current card and will issue a new one. It should arrive in 5-7 business days.",
+        "timestamp": "2025-06-19T15:58:05.176280"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_bec86443",
+      "first_name": "Amanda",
+      "last_name": "Jones",
+      "email": "david.rodriguez@email.com",
+      "phone": "+1-555-877-4675",
+      "account_type": "premium",
+      "balance": 20868.84,
+      "account_number": "1972094409",
+      "member_since": "2022-06-02"
+    },
+    "generated_at": "2025-06-19T16:55:05.176280",
+    "metadata": {
+      "conversation_length": 5,
+      "duration_seconds": 120,
+      "satisfaction_score": 4,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_ee08a951",
+    "user_id": "user_60347e21",
+    "intent": "fraud_alert",
+    "user_name": "James Johnson",
+    "conversation": [
+      {
+        "role": "assistant",
+        "message": "I understand your concern. Let me help you secure your account immediately.",
+        "timestamp": "2025-06-19T16:04:05.176280"
+      },
+      {
+        "role": "user",
+        "message": "That's not me! I didn't make that transaction.",
+        "timestamp": "2025-06-19T16:04:35.176280"
+      },
+      {
+        "role": "assistant",
+        "message": "I've blocked your current card and will issue a new one. It should arrive in 5-7 business days.",
+        "timestamp": "2025-06-19T16:05:05.176280"
+      },
+      {
+        "role": "user",
+        "message": "Please block my card and issue a new one.",
+        "timestamp": "2025-06-19T16:05:35.176280"
+      },
+      {
+        "role": "assistant",
+        "message": "I've blocked your current card and will issue a new one. It should arrive in 5-7 business days.",
+        "timestamp": "2025-06-19T16:06:05.176280"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_60347e21",
+      "first_name": "James",
+      "last_name": "Johnson",
+      "email": "robert.brown@email.com",
+      "phone": "+1-555-206-5474",
+      "account_type": "student",
+      "balance": 27118.54,
+      "account_number": "4686889482",
+      "member_since": "2022-02-02"
+    },
+    "generated_at": "2025-06-19T16:55:05.176280",
+    "metadata": {
+      "conversation_length": 5,
+      "duration_seconds": 120,
+      "satisfaction_score": 3,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_77ffd74c",
+    "user_id": "user_48802a6a",
+    "intent": "fraud_alert",
+    "user_name": "Jennifer Jones",
+    "conversation": [
+      {
+        "role": "assistant",
+        "message": "I understand your concern. Let me help you secure your account immediately.",
+        "timestamp": "2025-06-19T16:11:05.176280"
+      },
+      {
+        "role": "user",
+        "message": "That's not me! I didn't make that transaction.",
+        "timestamp": "2025-06-19T16:11:35.176280"
+      },
+      {
+        "role": "assistant",
+        "message": "I've blocked your current card and will issue a new one. It should arrive in 5-7 business days.",
+        "timestamp": "2025-06-19T16:12:05.176280"
+      },
+      {
+        "role": "user",
+        "message": "Please block my card and issue a new one.",
+        "timestamp": "2025-06-19T16:12:35.176280"
+      },
+      {
+        "role": "assistant",
+        "message": "I've blocked your current card and will issue a new one. It should arrive in 5-7 business days.",
+        "timestamp": "2025-06-19T16:13:05.176280"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_48802a6a",
+      "first_name": "Jennifer",
+      "last_name": "Jones",
+      "email": "david.davis@email.com",
+      "phone": "+1-555-997-4060",
+      "account_type": "premium",
+      "balance": 23662.38,
+      "account_number": "4883363849",
+      "member_since": "2022-02-14"
+    },
+    "generated_at": "2025-06-19T16:55:05.176280",
+    "metadata": {
+      "conversation_length": 5,
+      "duration_seconds": 120,
+      "satisfaction_score": 4,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_fbb8f084",
+    "user_id": "user_156ac7d6",
+    "intent": "fraud_alert",
+    "user_name": "David Davis",
+    "conversation": [
+      {
+        "role": "assistant",
+        "message": "I understand your concern. Let me help you secure your account immediately.",
+        "timestamp": "2025-06-19T16:17:05.176280"
+      },
+      {
+        "role": "user",
+        "message": "That's not me! I didn't make that transaction.",
+        "timestamp": "2025-06-19T16:17:35.176280"
+      },
+      {
+        "role": "assistant",
+        "message": "I've blocked your current card and will issue a new one. It should arrive in 5-7 business days.",
+        "timestamp": "2025-06-19T16:18:05.176280"
+      },
+      {
+        "role": "user",
+        "message": "Please block my card and issue a new one.",
+        "timestamp": "2025-06-19T16:18:35.176280"
+      },
+      {
+        "role": "assistant",
+        "message": "I've blocked your current card and will issue a new one. It should arrive in 5-7 business days.",
+        "timestamp": "2025-06-19T16:19:05.176280"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_156ac7d6",
+      "first_name": "David",
+      "last_name": "Davis",
+      "email": "lisa.brown@email.com",
+      "phone": "+1-555-372-6336",
+      "account_type": "savings",
+      "balance": 19492.44,
+      "account_number": "9212310325",
+      "member_since": "2021-02-27"
+    },
+    "generated_at": "2025-06-19T16:55:05.176280",
+    "metadata": {
+      "conversation_length": 5,
+      "duration_seconds": 120,
+      "satisfaction_score": 4,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_86a447bf",
+    "user_id": "user_c23949d2",
+    "intent": "fraud_alert",
+    "user_name": "Sarah Rodriguez",
+    "conversation": [
+      {
+        "role": "assistant",
+        "message": "I understand your concern. Let me help you secure your account immediately.",
+        "timestamp": "2025-06-19T16:39:05.176280"
+      },
+      {
+        "role": "user",
+        "message": "That's not me! I didn't make that transaction.",
+        "timestamp": "2025-06-19T16:39:35.176280"
+      },
+      {
+        "role": "assistant",
+        "message": "I've blocked your current card and will issue a new one. It should arrive in 5-7 business days.",
+        "timestamp": "2025-06-19T16:40:05.176280"
+      },
+      {
+        "role": "user",
+        "message": "Please block my card and issue a new one.",
+        "timestamp": "2025-06-19T16:40:35.176280"
+      },
+      {
+        "role": "assistant",
+        "message": "I've blocked your current card and will issue a new one. It should arrive in 5-7 business days.",
+        "timestamp": "2025-06-19T16:41:05.176280"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_c23949d2",
+      "first_name": "Sarah",
+      "last_name": "Rodriguez",
+      "email": "amanda.miller@email.com",
+      "phone": "+1-555-397-7018",
+      "account_type": "premium",
+      "balance": 18874.58,
+      "account_number": "6059817289",
+      "member_since": "2021-03-01"
+    },
+    "generated_at": "2025-06-19T16:55:05.176280",
+    "metadata": {
+      "conversation_length": 5,
+      "duration_seconds": 120,
+      "satisfaction_score": 5,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_18d6f464",
+    "user_id": "user_5caaa494",
+    "intent": "fraud_alert",
+    "user_name": "David Smith",
+    "conversation": [
+      {
+        "role": "assistant",
+        "message": "I understand your concern. Let me help you secure your account immediately.",
+        "timestamp": "2025-06-19T16:12:05.176280"
+      },
+      {
+        "role": "user",
+        "message": "That's not me! I didn't make that transaction.",
+        "timestamp": "2025-06-19T16:12:35.176280"
+      },
+      {
+        "role": "assistant",
+        "message": "I've blocked your current card and will issue a new one. It should arrive in 5-7 business days.",
+        "timestamp": "2025-06-19T16:13:05.176280"
+      },
+      {
+        "role": "user",
+        "message": "Please block my card and issue a new one.",
+        "timestamp": "2025-06-19T16:13:35.176280"
+      },
+      {
+        "role": "assistant",
+        "message": "I've blocked your current card and will issue a new one. It should arrive in 5-7 business days.",
+        "timestamp": "2025-06-19T16:14:05.176280"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_5caaa494",
+      "first_name": "David",
+      "last_name": "Smith",
+      "email": "michael.jones@email.com",
+      "phone": "+1-555-660-6547",
+      "account_type": "student",
+      "balance": 21408.95,
+      "account_number": "5047415183",
+      "member_since": "2023-05-30"
+    },
+    "generated_at": "2025-06-19T16:55:05.176280",
+    "metadata": {
+      "conversation_length": 5,
+      "duration_seconds": 120,
+      "satisfaction_score": 3,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_79dd6682",
+    "user_id": "user_0d96332e",
+    "intent": "fraud_alert",
+    "user_name": "Michael Miller",
+    "conversation": [
+      {
+        "role": "assistant",
+        "message": "I understand your concern. Let me help you secure your account immediately.",
+        "timestamp": "2025-06-19T16:31:05.176280"
+      },
+      {
+        "role": "user",
+        "message": "That's not me! I didn't make that transaction.",
+        "timestamp": "2025-06-19T16:31:35.176280"
+      },
+      {
+        "role": "assistant",
+        "message": "I've blocked your current card and will issue a new one. It should arrive in 5-7 business days.",
+        "timestamp": "2025-06-19T16:32:05.176280"
+      },
+      {
+        "role": "user",
+        "message": "Please block my card and issue a new one.",
+        "timestamp": "2025-06-19T16:32:35.176280"
+      },
+      {
+        "role": "assistant",
+        "message": "I've blocked your current card and will issue a new one. It should arrive in 5-7 business days.",
+        "timestamp": "2025-06-19T16:33:05.176280"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_0d96332e",
+      "first_name": "Michael",
+      "last_name": "Miller",
+      "email": "michael.brown@email.com",
+      "phone": "+1-555-314-1890",
+      "account_type": "senior",
+      "balance": 45777.11,
+      "account_number": "3727991889",
+      "member_since": "2022-09-18"
+    },
+    "generated_at": "2025-06-19T16:55:05.176280",
+    "metadata": {
+      "conversation_length": 5,
+      "duration_seconds": 120,
+      "satisfaction_score": 4,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_67bb884e",
+    "user_id": "user_608d7a1d",
+    "intent": "fraud_alert",
+    "user_name": "Lisa Rodriguez",
+    "conversation": [
+      {
+        "role": "assistant",
+        "message": "I understand your concern. Let me help you secure your account immediately.",
+        "timestamp": "2025-06-19T16:01:05.178287"
+      },
+      {
+        "role": "user",
+        "message": "That's not me! I didn't make that transaction.",
+        "timestamp": "2025-06-19T16:01:35.178287"
+      },
+      {
+        "role": "assistant",
+        "message": "I've blocked your current card and will issue a new one. It should arrive in 5-7 business days.",
+        "timestamp": "2025-06-19T16:02:05.178287"
+      },
+      {
+        "role": "user",
+        "message": "Please block my card and issue a new one.",
+        "timestamp": "2025-06-19T16:02:35.178287"
+      },
+      {
+        "role": "assistant",
+        "message": "I've blocked your current card and will issue a new one. It should arrive in 5-7 business days.",
+        "timestamp": "2025-06-19T16:03:05.178287"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_608d7a1d",
+      "first_name": "Lisa",
+      "last_name": "Rodriguez",
+      "email": "amanda.brown@email.com",
+      "phone": "+1-555-318-3416",
+      "account_type": "checking",
+      "balance": 31251.37,
+      "account_number": "3388102811",
+      "member_since": "2020-08-26"
+    },
+    "generated_at": "2025-06-19T16:55:05.178287",
+    "metadata": {
+      "conversation_length": 5,
+      "duration_seconds": 120,
+      "satisfaction_score": 3,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_abd2f105",
+    "user_id": "user_680ccbe2",
+    "intent": "fraud_alert",
+    "user_name": "James Jones",
+    "conversation": [
+      {
+        "role": "assistant",
+        "message": "I understand your concern. Let me help you secure your account immediately.",
+        "timestamp": "2025-06-19T16:53:05.178287"
+      },
+      {
+        "role": "user",
+        "message": "That's not me! I didn't make that transaction.",
+        "timestamp": "2025-06-19T16:53:35.178287"
+      },
+      {
+        "role": "assistant",
+        "message": "I've blocked your current card and will issue a new one. It should arrive in 5-7 business days.",
+        "timestamp": "2025-06-19T16:54:05.178287"
+      },
+      {
+        "role": "user",
+        "message": "Please block my card and issue a new one.",
+        "timestamp": "2025-06-19T16:54:35.178287"
+      },
+      {
+        "role": "assistant",
+        "message": "I've blocked your current card and will issue a new one. It should arrive in 5-7 business days.",
+        "timestamp": "2025-06-19T16:55:05.178287"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_680ccbe2",
+      "first_name": "James",
+      "last_name": "Jones",
+      "email": "john.davis@email.com",
+      "phone": "+1-555-951-4612",
+      "account_type": "savings",
+      "balance": 28746.83,
+      "account_number": "7437039751",
+      "member_since": "2024-02-29"
+    },
+    "generated_at": "2025-06-19T16:55:05.178287",
+    "metadata": {
+      "conversation_length": 5,
+      "duration_seconds": 120,
+      "satisfaction_score": 3,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_dee3334a",
+    "user_id": "user_aeee729a",
+    "intent": "fraud_alert",
+    "user_name": "Robert Brown",
+    "conversation": [
+      {
+        "role": "assistant",
+        "message": "I understand your concern. Let me help you secure your account immediately.",
+        "timestamp": "2025-06-19T16:25:05.178287"
+      },
+      {
+        "role": "user",
+        "message": "That's not me! I didn't make that transaction.",
+        "timestamp": "2025-06-19T16:25:35.178287"
+      },
+      {
+        "role": "assistant",
+        "message": "I've blocked your current card and will issue a new one. It should arrive in 5-7 business days.",
+        "timestamp": "2025-06-19T16:26:05.178287"
+      },
+      {
+        "role": "user",
+        "message": "Please block my card and issue a new one.",
+        "timestamp": "2025-06-19T16:26:35.178287"
+      },
+      {
+        "role": "assistant",
+        "message": "I've blocked your current card and will issue a new one. It should arrive in 5-7 business days.",
+        "timestamp": "2025-06-19T16:27:05.178287"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_aeee729a",
+      "first_name": "Robert",
+      "last_name": "Brown",
+      "email": "james.smith@email.com",
+      "phone": "+1-555-766-8957",
+      "account_type": "savings",
+      "balance": 23864.81,
+      "account_number": "5622401424",
+      "member_since": "2023-09-27"
+    },
+    "generated_at": "2025-06-19T16:55:05.178287",
+    "metadata": {
+      "conversation_length": 5,
+      "duration_seconds": 120,
+      "satisfaction_score": 4,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_bbdcf0e4",
+    "user_id": "user_be529140",
+    "intent": "fraud_alert",
+    "user_name": "Lisa Williams",
+    "conversation": [
+      {
+        "role": "assistant",
+        "message": "I understand your concern. Let me help you secure your account immediately.",
+        "timestamp": "2025-06-19T16:43:05.178287"
+      },
+      {
+        "role": "user",
+        "message": "That's not me! I didn't make that transaction.",
+        "timestamp": "2025-06-19T16:43:35.178287"
+      },
+      {
+        "role": "assistant",
+        "message": "I've blocked your current card and will issue a new one. It should arrive in 5-7 business days.",
+        "timestamp": "2025-06-19T16:44:05.178287"
+      },
+      {
+        "role": "user",
+        "message": "Please block my card and issue a new one.",
+        "timestamp": "2025-06-19T16:44:35.178287"
+      },
+      {
+        "role": "assistant",
+        "message": "I've blocked your current card and will issue a new one. It should arrive in 5-7 business days.",
+        "timestamp": "2025-06-19T16:45:05.178287"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_be529140",
+      "first_name": "Lisa",
+      "last_name": "Williams",
+      "email": "michael.davis@email.com",
+      "phone": "+1-555-849-6992",
+      "account_type": "savings",
+      "balance": 30325.33,
+      "account_number": "4020595078",
+      "member_since": "2022-05-23"
+    },
+    "generated_at": "2025-06-19T16:55:05.178287",
+    "metadata": {
+      "conversation_length": 5,
+      "duration_seconds": 120,
+      "satisfaction_score": 5,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_9f703486",
+    "user_id": "user_5cf57b80",
+    "intent": "fraud_alert",
+    "user_name": "Sarah Jones",
+    "conversation": [
+      {
+        "role": "assistant",
+        "message": "I understand your concern. Let me help you secure your account immediately.",
+        "timestamp": "2025-06-19T16:47:05.178287"
+      },
+      {
+        "role": "user",
+        "message": "That's not me! I didn't make that transaction.",
+        "timestamp": "2025-06-19T16:47:35.178287"
+      },
+      {
+        "role": "assistant",
+        "message": "I've blocked your current card and will issue a new one. It should arrive in 5-7 business days.",
+        "timestamp": "2025-06-19T16:48:05.178287"
+      },
+      {
+        "role": "user",
+        "message": "Please block my card and issue a new one.",
+        "timestamp": "2025-06-19T16:48:35.178287"
+      },
+      {
+        "role": "assistant",
+        "message": "I've blocked your current card and will issue a new one. It should arrive in 5-7 business days.",
+        "timestamp": "2025-06-19T16:49:05.178287"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_5cf57b80",
+      "first_name": "Sarah",
+      "last_name": "Jones",
+      "email": "john.smith@email.com",
+      "phone": "+1-555-588-8236",
+      "account_type": "savings",
+      "balance": 30860.04,
+      "account_number": "9994309244",
+      "member_since": "2024-06-03"
+    },
+    "generated_at": "2025-06-19T16:55:05.178287",
+    "metadata": {
+      "conversation_length": 5,
+      "duration_seconds": 120,
+      "satisfaction_score": 3,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_93dc590d",
+    "user_id": "user_37a1ff5f",
+    "intent": "fraud_alert",
+    "user_name": "Emily Smith",
+    "conversation": [
+      {
+        "role": "assistant",
+        "message": "I understand your concern. Let me help you secure your account immediately.",
+        "timestamp": "2025-06-19T16:18:05.178287"
+      },
+      {
+        "role": "user",
+        "message": "That's not me! I didn't make that transaction.",
+        "timestamp": "2025-06-19T16:18:35.178287"
+      },
+      {
+        "role": "assistant",
+        "message": "I've blocked your current card and will issue a new one. It should arrive in 5-7 business days.",
+        "timestamp": "2025-06-19T16:19:05.178287"
+      },
+      {
+        "role": "user",
+        "message": "Please block my card and issue a new one.",
+        "timestamp": "2025-06-19T16:19:35.178287"
+      },
+      {
+        "role": "assistant",
+        "message": "I've blocked your current card and will issue a new one. It should arrive in 5-7 business days.",
+        "timestamp": "2025-06-19T16:20:05.178287"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_37a1ff5f",
+      "first_name": "Emily",
+      "last_name": "Smith",
+      "email": "john.miller@email.com",
+      "phone": "+1-555-826-9444",
+      "account_type": "student",
+      "balance": 17992.02,
+      "account_number": "8457889136",
+      "member_since": "2020-10-24"
+    },
+    "generated_at": "2025-06-19T16:55:05.178287",
+    "metadata": {
+      "conversation_length": 5,
+      "duration_seconds": 120,
+      "satisfaction_score": 3,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_529ee9a1",
+    "user_id": "user_2b399d9d",
+    "intent": "fraud_alert",
+    "user_name": "Lisa Williams",
+    "conversation": [
+      {
+        "role": "assistant",
+        "message": "I understand your concern. Let me help you secure your account immediately.",
+        "timestamp": "2025-06-19T16:33:05.178287"
+      },
+      {
+        "role": "user",
+        "message": "That's not me! I didn't make that transaction.",
+        "timestamp": "2025-06-19T16:33:35.178287"
+      },
+      {
+        "role": "assistant",
+        "message": "I've blocked your current card and will issue a new one. It should arrive in 5-7 business days.",
+        "timestamp": "2025-06-19T16:34:05.178287"
+      },
+      {
+        "role": "user",
+        "message": "Please block my card and issue a new one.",
+        "timestamp": "2025-06-19T16:34:35.178287"
+      },
+      {
+        "role": "assistant",
+        "message": "I've blocked your current card and will issue a new one. It should arrive in 5-7 business days.",
+        "timestamp": "2025-06-19T16:35:05.178287"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_2b399d9d",
+      "first_name": "Lisa",
+      "last_name": "Williams",
+      "email": "emily.brown@email.com",
+      "phone": "+1-555-493-6194",
+      "account_type": "premium",
+      "balance": 45347.75,
+      "account_number": "9883791152",
+      "member_since": "2022-09-11"
+    },
+    "generated_at": "2025-06-19T16:55:05.178287",
+    "metadata": {
+      "conversation_length": 5,
+      "duration_seconds": 120,
+      "satisfaction_score": 4,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_8d7f50e8",
+    "user_id": "user_25e12a41",
+    "intent": "fraud_alert",
+    "user_name": "Lisa Miller",
+    "conversation": [
+      {
+        "role": "assistant",
+        "message": "I understand your concern. Let me help you secure your account immediately.",
+        "timestamp": "2025-06-19T16:03:05.178287"
+      },
+      {
+        "role": "user",
+        "message": "That's not me! I didn't make that transaction.",
+        "timestamp": "2025-06-19T16:03:35.178287"
+      },
+      {
+        "role": "assistant",
+        "message": "I've blocked your current card and will issue a new one. It should arrive in 5-7 business days.",
+        "timestamp": "2025-06-19T16:04:05.178287"
+      },
+      {
+        "role": "user",
+        "message": "Please block my card and issue a new one.",
+        "timestamp": "2025-06-19T16:04:35.178287"
+      },
+      {
+        "role": "assistant",
+        "message": "I've blocked your current card and will issue a new one. It should arrive in 5-7 business days.",
+        "timestamp": "2025-06-19T16:05:05.178287"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_25e12a41",
+      "first_name": "Lisa",
+      "last_name": "Miller",
+      "email": "michael.johnson@email.com",
+      "phone": "+1-555-920-2753",
+      "account_type": "checking",
+      "balance": 15802.77,
+      "account_number": "3643406344",
+      "member_since": "2021-12-23"
+    },
+    "generated_at": "2025-06-19T16:55:05.178287",
+    "metadata": {
+      "conversation_length": 5,
+      "duration_seconds": 120,
+      "satisfaction_score": 3,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_78a4d6a0",
+    "user_id": "user_0d55ef44",
+    "intent": "fraud_alert",
+    "user_name": "Robert Davis",
+    "conversation": [
+      {
+        "role": "assistant",
+        "message": "I understand your concern. Let me help you secure your account immediately.",
+        "timestamp": "2025-06-19T16:53:05.178287"
+      },
+      {
+        "role": "user",
+        "message": "That's not me! I didn't make that transaction.",
+        "timestamp": "2025-06-19T16:53:35.178287"
+      },
+      {
+        "role": "assistant",
+        "message": "I've blocked your current card and will issue a new one. It should arrive in 5-7 business days.",
+        "timestamp": "2025-06-19T16:54:05.178287"
+      },
+      {
+        "role": "user",
+        "message": "Please block my card and issue a new one.",
+        "timestamp": "2025-06-19T16:54:35.178287"
+      },
+      {
+        "role": "assistant",
+        "message": "I've blocked your current card and will issue a new one. It should arrive in 5-7 business days.",
+        "timestamp": "2025-06-19T16:55:05.178287"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_0d55ef44",
+      "first_name": "Robert",
+      "last_name": "Davis",
+      "email": "robert.rodriguez@email.com",
+      "phone": "+1-555-743-2031",
+      "account_type": "senior",
+      "balance": 27980.23,
+      "account_number": "3980100916",
+      "member_since": "2021-04-26"
+    },
+    "generated_at": "2025-06-19T16:55:05.178287",
+    "metadata": {
+      "conversation_length": 5,
+      "duration_seconds": 120,
+      "satisfaction_score": 5,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_47246f30",
+    "user_id": "user_8004db85",
+    "intent": "fraud_alert",
+    "user_name": "Jennifer Brown",
+    "conversation": [
+      {
+        "role": "assistant",
+        "message": "I understand your concern. Let me help you secure your account immediately.",
+        "timestamp": "2025-06-19T16:21:05.178287"
+      },
+      {
+        "role": "user",
+        "message": "That's not me! I didn't make that transaction.",
+        "timestamp": "2025-06-19T16:21:35.178287"
+      },
+      {
+        "role": "assistant",
+        "message": "I've blocked your current card and will issue a new one. It should arrive in 5-7 business days.",
+        "timestamp": "2025-06-19T16:22:05.178287"
+      },
+      {
+        "role": "user",
+        "message": "Please block my card and issue a new one.",
+        "timestamp": "2025-06-19T16:22:35.178287"
+      },
+      {
+        "role": "assistant",
+        "message": "I've blocked your current card and will issue a new one. It should arrive in 5-7 business days.",
+        "timestamp": "2025-06-19T16:23:05.178287"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_8004db85",
+      "first_name": "Jennifer",
+      "last_name": "Brown",
+      "email": "lisa.johnson@email.com",
+      "phone": "+1-555-725-6591",
+      "account_type": "senior",
+      "balance": 30441.17,
+      "account_number": "5389976223",
+      "member_since": "2025-01-18"
+    },
+    "generated_at": "2025-06-19T16:55:05.178287",
+    "metadata": {
+      "conversation_length": 5,
+      "duration_seconds": 120,
+      "satisfaction_score": 3,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_a26e1bf9",
+    "user_id": "user_87e38e1a",
+    "intent": "fraud_alert",
+    "user_name": "Jennifer Brown",
+    "conversation": [
+      {
+        "role": "assistant",
+        "message": "I understand your concern. Let me help you secure your account immediately.",
+        "timestamp": "2025-06-19T16:49:05.178287"
+      },
+      {
+        "role": "user",
+        "message": "That's not me! I didn't make that transaction.",
+        "timestamp": "2025-06-19T16:49:35.178287"
+      },
+      {
+        "role": "assistant",
+        "message": "I've blocked your current card and will issue a new one. It should arrive in 5-7 business days.",
+        "timestamp": "2025-06-19T16:50:05.178287"
+      },
+      {
+        "role": "user",
+        "message": "Please block my card and issue a new one.",
+        "timestamp": "2025-06-19T16:50:35.178287"
+      },
+      {
+        "role": "assistant",
+        "message": "I've blocked your current card and will issue a new one. It should arrive in 5-7 business days.",
+        "timestamp": "2025-06-19T16:51:05.178287"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_87e38e1a",
+      "first_name": "Jennifer",
+      "last_name": "Brown",
+      "email": "michael.smith@email.com",
+      "phone": "+1-555-423-6588",
+      "account_type": "checking",
+      "balance": 47248.85,
+      "account_number": "4539428320",
+      "member_since": "2020-09-26"
+    },
+    "generated_at": "2025-06-19T16:55:05.178287",
+    "metadata": {
+      "conversation_length": 5,
+      "duration_seconds": 120,
+      "satisfaction_score": 5,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_bc962f4b",
+    "user_id": "user_b30c2fd9",
+    "intent": "fraud_alert",
+    "user_name": "Lisa Brown",
+    "conversation": [
+      {
+        "role": "assistant",
+        "message": "I understand your concern. Let me help you secure your account immediately.",
+        "timestamp": "2025-06-19T16:02:05.178287"
+      },
+      {
+        "role": "user",
+        "message": "That's not me! I didn't make that transaction.",
+        "timestamp": "2025-06-19T16:02:35.178287"
+      },
+      {
+        "role": "assistant",
+        "message": "I've blocked your current card and will issue a new one. It should arrive in 5-7 business days.",
+        "timestamp": "2025-06-19T16:03:05.178287"
+      },
+      {
+        "role": "user",
+        "message": "Please block my card and issue a new one.",
+        "timestamp": "2025-06-19T16:03:35.178287"
+      },
+      {
+        "role": "assistant",
+        "message": "I've blocked your current card and will issue a new one. It should arrive in 5-7 business days.",
+        "timestamp": "2025-06-19T16:04:05.178287"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_b30c2fd9",
+      "first_name": "Lisa",
+      "last_name": "Brown",
+      "email": "john.johnson@email.com",
+      "phone": "+1-555-255-7611",
+      "account_type": "premium",
+      "balance": 25480.02,
+      "account_number": "3569633527",
+      "member_since": "2024-09-03"
+    },
+    "generated_at": "2025-06-19T16:55:05.178287",
+    "metadata": {
+      "conversation_length": 5,
+      "duration_seconds": 120,
+      "satisfaction_score": 3,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_69f4aef1",
+    "user_id": "user_4ab96423",
+    "intent": "fraud_alert",
+    "user_name": "Jennifer Rodriguez",
+    "conversation": [
+      {
+        "role": "assistant",
+        "message": "I understand your concern. Let me help you secure your account immediately.",
+        "timestamp": "2025-06-19T16:35:05.180294"
+      },
+      {
+        "role": "user",
+        "message": "That's not me! I didn't make that transaction.",
+        "timestamp": "2025-06-19T16:35:35.180294"
+      },
+      {
+        "role": "assistant",
+        "message": "I've blocked your current card and will issue a new one. It should arrive in 5-7 business days.",
+        "timestamp": "2025-06-19T16:36:05.180294"
+      },
+      {
+        "role": "user",
+        "message": "Please block my card and issue a new one.",
+        "timestamp": "2025-06-19T16:36:35.180294"
+      },
+      {
+        "role": "assistant",
+        "message": "I've blocked your current card and will issue a new one. It should arrive in 5-7 business days.",
+        "timestamp": "2025-06-19T16:37:05.180294"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_4ab96423",
+      "first_name": "Jennifer",
+      "last_name": "Rodriguez",
+      "email": "james.smith@email.com",
+      "phone": "+1-555-604-5048",
+      "account_type": "student",
+      "balance": 22297.03,
+      "account_number": "8201163876",
+      "member_since": "2024-03-31"
+    },
+    "generated_at": "2025-06-19T16:55:05.180294",
+    "metadata": {
+      "conversation_length": 5,
+      "duration_seconds": 120,
+      "satisfaction_score": 3,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_6f7d0d08",
+    "user_id": "user_cabf3835",
+    "intent": "fraud_alert",
+    "user_name": "David Smith",
+    "conversation": [
+      {
+        "role": "assistant",
+        "message": "I understand your concern. Let me help you secure your account immediately.",
+        "timestamp": "2025-06-19T16:14:05.180294"
+      },
+      {
+        "role": "user",
+        "message": "That's not me! I didn't make that transaction.",
+        "timestamp": "2025-06-19T16:14:35.180294"
+      },
+      {
+        "role": "assistant",
+        "message": "I've blocked your current card and will issue a new one. It should arrive in 5-7 business days.",
+        "timestamp": "2025-06-19T16:15:05.180294"
+      },
+      {
+        "role": "user",
+        "message": "Please block my card and issue a new one.",
+        "timestamp": "2025-06-19T16:15:35.180294"
+      },
+      {
+        "role": "assistant",
+        "message": "I've blocked your current card and will issue a new one. It should arrive in 5-7 business days.",
+        "timestamp": "2025-06-19T16:16:05.180294"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_cabf3835",
+      "first_name": "David",
+      "last_name": "Smith",
+      "email": "john.williams@email.com",
+      "phone": "+1-555-139-1403",
+      "account_type": "senior",
+      "balance": 23528.91,
+      "account_number": "9680990287",
+      "member_since": "2021-12-04"
+    },
+    "generated_at": "2025-06-19T16:55:05.180294",
+    "metadata": {
+      "conversation_length": 5,
+      "duration_seconds": 120,
+      "satisfaction_score": 4,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_334a1b90",
+    "user_id": "user_f34160a4",
+    "intent": "fraud_alert",
+    "user_name": "John Williams",
+    "conversation": [
+      {
+        "role": "assistant",
+        "message": "I understand your concern. Let me help you secure your account immediately.",
+        "timestamp": "2025-06-19T16:12:05.180294"
+      },
+      {
+        "role": "user",
+        "message": "That's not me! I didn't make that transaction.",
+        "timestamp": "2025-06-19T16:12:35.180294"
+      },
+      {
+        "role": "assistant",
+        "message": "I've blocked your current card and will issue a new one. It should arrive in 5-7 business days.",
+        "timestamp": "2025-06-19T16:13:05.180294"
+      },
+      {
+        "role": "user",
+        "message": "Please block my card and issue a new one.",
+        "timestamp": "2025-06-19T16:13:35.180294"
+      },
+      {
+        "role": "assistant",
+        "message": "I've blocked your current card and will issue a new one. It should arrive in 5-7 business days.",
+        "timestamp": "2025-06-19T16:14:05.180294"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_f34160a4",
+      "first_name": "John",
+      "last_name": "Williams",
+      "email": "emily.davis@email.com",
+      "phone": "+1-555-817-2308",
+      "account_type": "student",
+      "balance": 13524.87,
+      "account_number": "7467164521",
+      "member_since": "2023-02-02"
+    },
+    "generated_at": "2025-06-19T16:55:05.180294",
+    "metadata": {
+      "conversation_length": 5,
+      "duration_seconds": 120,
+      "satisfaction_score": 3,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_45cabbeb",
+    "user_id": "user_ab35882d",
+    "intent": "fraud_alert",
+    "user_name": "Lisa Miller",
+    "conversation": [
+      {
+        "role": "assistant",
+        "message": "I understand your concern. Let me help you secure your account immediately.",
+        "timestamp": "2025-06-19T16:02:05.180294"
+      },
+      {
+        "role": "user",
+        "message": "That's not me! I didn't make that transaction.",
+        "timestamp": "2025-06-19T16:02:35.180294"
+      },
+      {
+        "role": "assistant",
+        "message": "I've blocked your current card and will issue a new one. It should arrive in 5-7 business days.",
+        "timestamp": "2025-06-19T16:03:05.180294"
+      },
+      {
+        "role": "user",
+        "message": "Please block my card and issue a new one.",
+        "timestamp": "2025-06-19T16:03:35.180294"
+      },
+      {
+        "role": "assistant",
+        "message": "I've blocked your current card and will issue a new one. It should arrive in 5-7 business days.",
+        "timestamp": "2025-06-19T16:04:05.180294"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_ab35882d",
+      "first_name": "Lisa",
+      "last_name": "Miller",
+      "email": "john.martinez@email.com",
+      "phone": "+1-555-888-7463",
+      "account_type": "student",
+      "balance": 45522.28,
+      "account_number": "3151969725",
+      "member_since": "2020-07-05"
+    },
+    "generated_at": "2025-06-19T16:55:05.180294",
+    "metadata": {
+      "conversation_length": 5,
+      "duration_seconds": 120,
+      "satisfaction_score": 4,
+      "resolution_status": "resolved"
+    }
+  },
+  {
+    "conversation_id": "conv_43b9b966",
+    "user_id": "user_f3cb75b3",
+    "intent": "fraud_alert",
+    "user_name": "Amanda Martinez",
+    "conversation": [
+      {
+        "role": "assistant",
+        "message": "I understand your concern. Let me help you secure your account immediately.",
+        "timestamp": "2025-06-19T16:09:05.180294"
+      },
+      {
+        "role": "user",
+        "message": "That's not me! I didn't make that transaction.",
+        "timestamp": "2025-06-19T16:09:35.180294"
+      },
+      {
+        "role": "assistant",
+        "message": "I've blocked your current card and will issue a new one. It should arrive in 5-7 business days.",
+        "timestamp": "2025-06-19T16:10:05.180294"
+      },
+      {
+        "role": "user",
+        "message": "Please block my card and issue a new one.",
+        "timestamp": "2025-06-19T16:10:35.180294"
+      },
+      {
+        "role": "assistant",
+        "message": "I've blocked your current card and will issue a new one. It should arrive in 5-7 business days.",
+        "timestamp": "2025-06-19T16:11:05.180294"
+      }
+    ],
+    "user_profile": {
+      "user_id": "user_f3cb75b3",
+      "first_name": "Amanda",
+      "last_name": "Martinez",
+      "email": "sarah.garcia@email.com",
+      "phone": "+1-555-522-2808",
+      "account_type": "student",
+      "balance": 17611.95,
+      "account_number": "6640916635",
+      "member_since": "2023-07-03"
+    },
+    "generated_at": "2025-06-19T16:55:05.180294",
+    "metadata": {
+      "conversation_length": 5,
+      "duration_seconds": 120,
+      "satisfaction_score": 5,
+      "resolution_status": "resolved"
+    }
+  }
+]
