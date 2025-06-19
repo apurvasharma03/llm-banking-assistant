@@ -1,5 +1,11 @@
 # llm-banking-assistant
 
+![Tech Stack](https://img.shields.io/badge/Stack-React%2C%20TypeScript%2C%20Node.js%2C%20Express%2C%20Ollama-blue)
+![Last Commit](https://img.shields.io/github/last-commit/apurvasharma03/llm-banking-assistant)
+![Build](https://github.com/apurvasharma03/llm-banking-assistant/actions/workflows/main.yml/badge.svg)
+
+
+
 This is a full-stack AI-powered chatbot tailored for banking interactions. It features a modern React + TypeScript frontend styled with MUI and a Node.js + Express backend that communicates with an LLM-based API using `ollama-node`.
 
 ## Project Structure
@@ -15,6 +21,18 @@ This is a full-stack AI-powered chatbot tailored for banking interactions. It fe
 
 ### Overview
 This project implements a hierarchical agent architecture, where specialized AI agents work together under the coordination of a central coordinator. This approach allows for complex banking interactions to be broken down into manageable, specialized tasks while maintaining context and state across the system.
+
+## 🎥 Demo Video
+
+Experience the LLM-powered banking assistant in action:
+
+[▶️ Watch Demo Video](media/video2408770171%20(1).mp4)
+
+> The demo showcases multi-agent collaboration, real-time chat streaming, and how the system responds to transaction queries, fraud alerts, and balance checks.
+
+
+
+
 
 ### Architecture Diagram
 ```mermaid
