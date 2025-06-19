@@ -20,9 +20,26 @@ export class CrewAIService {
   }
 
   async runAgent(input: any): Promise<any> {
-    // Write input to a temporary JSON file
+    // Enhanced input data for the multi-agent CrewAI system
+    const enhancedInput = {
+      query: input.query || '',
+      userId: input.userId || 'user123',
+      mockBalance: input.mockBalance || 5000.0,
+      transactionHistory: input.transactionHistory || [],
+      amount: input.amount || 0,
+      type: input.type || '',
+      description: input.description || '',
+      category: input.category || '',
+      merchant: input.merchant || '',
+      location: input.location || '',
+      // Add any additional context that might be useful for the agents
+      timestamp: new Date().toISOString(),
+      sessionId: input.sessionId || null
+    };
+
+    // Write enhanced input to a temporary JSON file
     const inputFile = path.resolve(__dirname, '../../crew_input.json');
-    fs.writeFileSync(inputFile, JSON.stringify(input));
+    fs.writeFileSync(inputFile, JSON.stringify(enhancedInput, null, 2));
 
     return new Promise((resolve, reject) => {
       const python = spawn('python', [this.scriptPath, inputFile]);
@@ -39,12 +56,23 @@ export class CrewAIService {
         fs.unlinkSync(inputFile); // Clean up temp file
         if (code === 0) {
           try {
-            resolve(JSON.parse(output));
+            const result = JSON.parse(output);
+            resolve(result);
           } catch (e) {
-            reject({ success: false, error: 'Failed to parse Python output', details: output });
+            reject({ 
+              success: false, 
+              error: 'Failed to parse Python output', 
+              details: output,
+              fallback: 'Using fallback response due to parsing error'
+            });
           }
         } else {
-          reject({ success: false, error: error || 'Python script failed', details: output });
+          reject({ 
+            success: false, 
+            error: error || 'Python script failed', 
+            details: output,
+            fallback: 'Using fallback response due to CrewAI error'
+          });
         }
       });
     });

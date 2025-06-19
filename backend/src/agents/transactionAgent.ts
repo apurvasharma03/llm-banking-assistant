@@ -37,7 +37,12 @@ export class TransactionAgent implements BankingAgent {
       const crewAIService = CrewAIService.getInstance();
       const result = await crewAIService.runAgent({
         query: 'Get transaction history',
-        transactionHistory: this.transactionHistory
+        userId: 'user123',
+        mockBalance: this.mockBalance,
+        transactionHistory: this.transactionHistory,
+        amount: 0,
+        type: 'inquiry',
+        description: 'Transaction history request'
       });
       if (result.success) {
         return {
@@ -184,7 +189,12 @@ export class TransactionAgent implements BankingAgent {
       const crewAIService = CrewAIService.getInstance();
       const result = await crewAIService.runAgent({
         query: 'Check balance',
-        mockBalance: this.mockBalance
+        userId: 'user123',
+        mockBalance: this.mockBalance,
+        transactionHistory: this.transactionHistory,
+        amount: 0,
+        type: 'inquiry',
+        description: 'Balance check request'
       });
       if (result.success) {
         return {

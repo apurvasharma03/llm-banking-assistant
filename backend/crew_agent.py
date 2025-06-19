@@ -1,6 +1,38 @@
 import sys
 import json
-from crewai import Agent, Task, Crew, Process
+from crewai import Agent, Task, Crew, Process, LLM
+from datetime import datetime, timedelta
+import random
+import requests
+
+# Test Ollama connection
+def test_ollama_connection():
+    """Test if Ollama is running and accessible"""
+    try:
+        response = requests.get("http://localhost:11434/api/version", timeout=5)
+        if response.status_code == 200:
+            return True
+        else:
+            return False
+    except:
+        return False
+
+# Configure Ollama as the LLM provider
+if not test_ollama_connection():
+    print(json.dumps({
+        "success": False, 
+        "error": "Ollama service not accessible. Please ensure Ollama is running.",
+        "fallback": "Cannot connect to Ollama service"
+    }))
+    sys.exit(1)
+
+llm = LLM(
+    model="ollama/mistral",
+    base_url="http://localhost:11434",
+    temperature=0.7,
+    max_tokens=1024,
+    request_timeout=600
+)
 
 # Read input JSON file path from command line
 if len(sys.argv) < 2:
@@ -16,31 +48,125 @@ except Exception as e:
     print(json.dumps({"success": False, "error": f"Failed to read input file: {e}"}))
     sys.exit(1)
 
-# Example: Use the 'advisor' agent logic
-query = input_data.get('query', 'Give me some financial advice.')
+# Extract data from input
+query = input_data.get('query', '')
+user_id = input_data.get('userId', 'user123')
+mock_balance = input_data.get('mockBalance', 5000.0)
+transaction_history = input_data.get('transactionHistory', [])
+amount = input_data.get('amount', 0)
+transaction_type = input_data.get('type', '')
+description = input_data.get('description', '')
+category = input_data.get('category', '')
+merchant = input_data.get('merchant', '')
+location = input_data.get('location', '')
 
-advisor = Agent(
+# Create all 4 banking agents (removed verification agent for simplicity)
+inquiry_agent = Agent(
+    role='Customer Inquiry Specialist',
+    goal='Handle general banking inquiries and provide account information',
+    backstory='I am a banking customer service expert with deep knowledge of banking products, services, and policies. I help customers understand their accounts and banking options.',
+    verbose=True,  # Enable verbose for debugging
+    allow_delegation=False,
+    llm=llm
+)
+
+transaction_agent = Agent(
+    role='Transaction Processing Specialist',
+    goal='Process banking transactions, transfers, and payments',
+    backstory='I am a transaction processing expert with expertise in fund transfers, bill payments, and transaction history analysis. I ensure secure and accurate financial transactions.',
+    verbose=True,  # Enable verbose for debugging
+    allow_delegation=False,
+    llm=llm
+)
+
+fraud_detection_agent = Agent(
+    role='Fraud Detection Specialist',
+    goal='Detect and prevent fraudulent activities',
+    backstory='I am a cybersecurity and fraud detection expert with advanced pattern recognition skills. I analyze transactions for suspicious activity and protect customers from fraud.',
+    verbose=True,  # Enable verbose for debugging
+    allow_delegation=False,
+    llm=llm
+)
+
+advisor_agent = Agent(
     role='Financial Advisor',
     goal='Provide personalized financial advice and recommendations',
-    backstory='I am a certified financial advisor with expertise in personal finance, investment strategies, and financial planning. I help customers make informed financial decisions.',
-    verbose=False
+    backstory='I am a certified financial advisor with expertise in personal finance, investment strategies, budgeting, and financial planning. I help customers make informed financial decisions.',
+    verbose=True,  # Enable verbose for debugging
+    allow_delegation=False,
+    llm=llm
 )
 
+# Simplified task creation based on query type
+query_lower = query.lower()
+
+# Determine the appropriate agent and create task
+if 'balance' in query_lower or 'account' in query_lower:
+    agent = inquiry_agent
+    task_description = f"Provide account balance information for user {user_id}. Current balance: ${mock_balance}. Query: {query}"
+    expected_output = "Clear account balance information with formatting"
+elif 'transaction' in query_lower or 'transfer' in query_lower or 'payment' in query_lower:
+    agent = transaction_agent
+    task_description = f"Process transaction request: {query}. Amount: ${amount}, Type: {transaction_type}, Description: {description}. Current balance: ${mock_balance}."
+    expected_output = "Transaction processing result with confirmation or error details"
+elif 'fraud' in query_lower or 'suspicious' in query_lower:
+    agent = fraud_detection_agent
+    task_description = f"Analyze potential fraud: {query}. Amount: ${amount}, Merchant: {merchant}, Location: {location}."
+    expected_output = "Fraud analysis with risk assessment and recommendations"
+elif 'advice' in query_lower or 'help' in query_lower or 'recommend' in query_lower:
+    agent = advisor_agent
+    task_description = f"Provide financial advice for: {query}. Current balance: ${mock_balance}."
+    expected_output = "Personalized financial advice with specific recommendations"
+else:
+    agent = inquiry_agent
+    task_description = f"Handle general banking inquiry: {query}. Current balance: ${mock_balance}."
+    expected_output = "Helpful response to banking inquiry"
+
+# Create single task
 task = Task(
-    description=f"Provide financial advice for: {query}",
-    agent=advisor
+    description=task_description,
+    agent=agent,
+    expected_output=expected_output
 )
 
+# Create the crew with simplified structure
 crew = Crew(
-    agents=[advisor],
+    agents=[agent],
     tasks=[task],
     process=Process.sequential,
-    verbose=False
+    verbose=True
 )
 
 try:
     result = crew.kickoff()
-    print(json.dumps({"success": True, "message": result}))
+    
+    # Format the response based on the type of request
+    if 'balance' in query_lower:
+        response_message = f"Your current account balance is ${mock_balance:.2f}. Last updated: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}"
+    elif 'transaction' in query_lower or 'transfer' in query_lower:
+        response_message = f"Transaction processed successfully. {result}"
+    elif 'fraud' in query_lower:
+        response_message = f"Fraud analysis completed. {result}"
+    elif 'advice' in query_lower:
+        response_message = f"Financial advice: {result}"
+    else:
+        response_message = result
+    
+    print(json.dumps({
+        "success": True, 
+        "message": response_message,
+        "data": {
+            "query": query,
+            "userId": user_id,
+            "balance": mock_balance,
+            "timestamp": datetime.now().isoformat()
+        }
+    }))
+    
 except Exception as e:
-    print(json.dumps({"success": False, "error": str(e)}))
+    print(json.dumps({
+        "success": False, 
+        "error": str(e),
+        "fallback": "Using fallback response due to CrewAI error"
+    }))
     sys.exit(1) 
