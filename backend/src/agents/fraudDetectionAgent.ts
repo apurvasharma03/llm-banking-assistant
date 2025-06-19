@@ -1,4 +1,5 @@
 import { BankingAgent, AgentResponse, TransactionData, FraudAlert } from './types';
+import { CrewAIService } from '../services/crewAIService';
 
 interface TransactionHistory {
   transactions: TransactionData[];
@@ -22,74 +23,78 @@ export class FraudDetectionAgent implements BankingAgent {
   private readonly SUSPICIOUS_LOCATIONS = ['overseas', 'high-risk', 'unknown', 'mall', 'shopping center', 'best buy', 'electronics store'];
   private readonly HIGH_RISK_MERCHANTS = ['best buy', 'electronics', 'gaming', 'jewelry', 'luxury'];
 
+  private crewAIService: CrewAIService;
+
+  constructor() {
+    this.crewAIService = CrewAIService.getInstance();
+  }
+
   async analyzeTransaction(transaction: TransactionData, userId: string): Promise<AgentResponse> {
     try {
-      // Update transaction history
-      this.updateTransactionHistory(userId, transaction);
-
-      // Get transaction history
-      const history = this.transactionHistories.get(userId);
-      if (!history) {
-        return {
-          success: false,
-          message: 'No transaction history available',
-          error: 'Missing transaction history'
-        };
-      }
-
-      // Check for various fraud patterns
-      const alerts: FraudAlert[] = [];
-      
-      // Check high value transaction
-      const highValueAlert = this.checkHighValueTransaction(transaction);
-      if (highValueAlert) alerts.push(highValueAlert);
-
-      // Check transaction frequency
-      const frequencyAlert = this.checkTransactionFrequency(history, transaction);
-      if (frequencyAlert) alerts.push(frequencyAlert);
-
-      // Check location risk
-      const locationAlert = this.checkLocationRisk(transaction);
-      if (locationAlert) alerts.push(locationAlert);
-
-      // Check time patterns
-      const timeAlert = this.checkTimePatterns(transaction);
-      if (timeAlert) alerts.push(timeAlert);
-
-      // Check merchant risk
-      const merchantAlert = this.checkMerchantRisk(transaction);
-      if (merchantAlert) alerts.push(merchantAlert);
-
-      if (alerts.length > 0) {
-        // Calculate overall risk score
-        const riskScore = alerts.reduce((sum, alert) => sum + alert.riskScore, 0) / alerts.length;
-        
+      const result = await this.crewAIService.runAgent({
+        query: 'Analyze transaction for fraud',
+        transaction,
+        userId
+      });
+      if (result.success) {
         return {
           success: true,
-          message: 'Suspicious activity detected',
+          message: result.message,
+          data: result.data
+        };
+      } else {
+        throw new Error(result.error || 'CrewAI failed');
+      }
+    } catch (error) {
+      // Fallback to legacy logic
+      try {
+        this.updateTransactionHistory(userId, transaction);
+        const history = this.transactionHistories.get(userId);
+        if (!history) {
+          return {
+            success: false,
+            message: 'No transaction history available',
+            error: 'Missing transaction history'
+          };
+        }
+        const alerts: FraudAlert[] = [];
+        const highValueAlert = this.checkHighValueTransaction(transaction);
+        if (highValueAlert) alerts.push(highValueAlert);
+        const frequencyAlert = this.checkTransactionFrequency(history, transaction);
+        if (frequencyAlert) alerts.push(frequencyAlert);
+        const locationAlert = this.checkLocationRisk(transaction);
+        if (locationAlert) alerts.push(locationAlert);
+        const timeAlert = this.checkTimePatterns(transaction);
+        if (timeAlert) alerts.push(timeAlert);
+        const merchantAlert = this.checkMerchantRisk(transaction);
+        if (merchantAlert) alerts.push(merchantAlert);
+        if (alerts.length > 0) {
+          const riskScore = alerts.reduce((sum, alert) => sum + alert.riskScore, 0) / alerts.length;
+          return {
+            success: true,
+            message: 'Suspicious activity detected',
+            data: {
+              alerts,
+              riskScore,
+              recommendations: alerts.map(alert => alert.recommendedAction)
+            }
+          };
+        }
+        return {
+          success: true,
+          message: 'No suspicious activity detected',
           data: {
-            alerts,
-            riskScore,
-            recommendations: alerts.map(alert => alert.recommendedAction)
+            transaction,
+            riskScore: 0
           }
         };
+      } catch (legacyError) {
+        return {
+          success: false,
+          message: 'Failed to analyze transaction',
+          error: legacyError instanceof Error ? legacyError.message : 'Unknown error'
+        };
       }
-
-      return {
-        success: true,
-        message: 'No suspicious activity detected',
-        data: {
-          transaction,
-          riskScore: 0
-        }
-      };
-    } catch (error) {
-      console.error('Error analyzing transaction:', error);
-      return {
-        success: false,
-        message: 'Failed to analyze transaction',
-        error: error instanceof Error ? error.message : 'Unknown error'
-      };
     }
   }
 
@@ -238,110 +243,122 @@ export class FraudDetectionAgent implements BankingAgent {
 
   async checkTransaction(query: string): Promise<AgentResponse> {
     try {
-      const queryLower = query.toLowerCase();
-      
-      // Check for suspicious patterns
-      const suspiciousPatterns = [
-        'unusual activity',
-        'suspicious transaction',
-        'unauthorized charge',
-        'fraudulent activity',
-        'strange purchase',
-        'check for',
-        'verify',
-        'report'
-      ];
-
-      const isSuspicious = suspiciousPatterns.some(pattern => queryLower.includes(pattern));
-
-      if (isSuspicious) {
+      const result = await this.crewAIService.runAgent({ query });
+      if (result.success) {
         return {
           success: true,
-          message: 'I\'ve analyzed your account for suspicious activity. Here\'s what I found:\n\n' +
-                  '1. Recent Transactions Review:\n' +
-                  '   - No unauthorized transactions detected\n' +
-                  '   - All transactions match your spending patterns\n' +
-                  '   - No unusual locations or merchants\n\n' +
-                  '2. Security Recommendations:\n' +
-                  '   - Enable two-factor authentication if not already enabled\n' +
-                  '   - Review your recent login activity\n' +
-                  '   - Update your security questions\n\n' +
-                  '3. Proactive Measures:\n' +
-                  '   - Set up transaction alerts for amounts over $100\n' +
-                  '   - Enable location-based security\n' +
-                  '   - Regularly review your transaction history\n\n' +
-                  'Would you like me to:\n' +
-                  '1. Show your recent transactions for review\n' +
-                  '2. Set up additional security measures\n' +
-                  '3. Enable transaction alerts\n' +
-                  '4. Review your login activity',
-          data: {
-            type: 'fraud_alert',
-            risk_level: 'low',
-            actions: [
-              'Review transactions',
-              'Enable 2FA',
-              'Set up alerts',
-              'Review login activity'
-            ],
-            recommendations: [
-              'Enable two-factor authentication',
-              'Set up transaction alerts',
-              'Review recent transactions',
-              'Update security questions'
-            ]
-          }
+          message: result.message,
+          data: result.data
         };
+      } else {
+        throw new Error(result.error || 'CrewAI failed');
       }
-
-      // Check for specific transaction concerns
-      if (queryLower.includes('check') && queryLower.includes('transaction')) {
-        return {
-          success: true,
-          message: 'I\'ll help you verify your recent transactions. Please provide:\n' +
-                  '1. Transaction date\n' +
-                  '2. Transaction amount\n' +
-                  '3. Merchant name\n' +
-                  '4. Transaction location\n\n' +
-                  'Or I can show you your recent transactions for review.',
-          data: {
-            type: 'transaction_verification',
-            required_info: [
-              'Transaction date',
-              'Transaction amount',
-              'Merchant name',
-              'Transaction location'
-            ]
-          }
-        };
-      }
-
-      return {
-        success: true,
-        message: 'I can help you with:\n\n' +
-                '1. Checking for suspicious activity\n' +
-                '2. Verifying specific transactions\n' +
-                '3. Reporting potential fraud\n' +
-                '4. Security recommendations\n' +
-                '5. Account protection measures\n\n' +
-                'What specific concern would you like to address?',
-        data: {
-          type: 'general_security',
-          topics: [
-            'Suspicious activity',
-            'Transaction verification',
-            'Fraud reporting',
-            'Security recommendations',
-            'Account protection'
-          ]
-        }
-      };
     } catch (error) {
-      return {
-        success: false,
-        message: 'Failed to check for fraud',
-        error: error instanceof Error ? error.message : 'Unknown error'
-      };
+      // Fallback to legacy logic
+      try {
+        // Check for suspicious patterns
+        const suspiciousPatterns = [
+          'unusual activity',
+          'suspicious transaction',
+          'unauthorized charge',
+          'fraudulent activity',
+          'strange purchase',
+          'check for',
+          'verify',
+          'report'
+        ];
+
+        const isSuspicious = suspiciousPatterns.some(pattern => query.toLowerCase().includes(pattern));
+
+        if (isSuspicious) {
+          return {
+            success: true,
+            message: 'I\'ve analyzed your account for suspicious activity. Here\'s what I found:\n\n' +
+                    '1. Recent Transactions Review:\n' +
+                    '   - No unauthorized transactions detected\n' +
+                    '   - All transactions match your spending patterns\n' +
+                    '   - No unusual locations or merchants\n\n' +
+                    '2. Security Recommendations:\n' +
+                    '   - Enable two-factor authentication if not already enabled\n' +
+                    '   - Review your recent login activity\n' +
+                    '   - Update your security questions\n\n' +
+                    '3. Proactive Measures:\n' +
+                    '   - Set up transaction alerts for amounts over $100\n' +
+                    '   - Enable location-based security\n' +
+                    '   - Regularly review your transaction history\n\n' +
+                    'Would you like me to:\n' +
+                    '1. Show your recent transactions for review\n' +
+                    '2. Set up additional security measures\n' +
+                    '3. Enable transaction alerts\n' +
+                    '4. Review your login activity',
+            data: {
+              type: 'fraud_alert',
+              risk_level: 'low',
+              actions: [
+                'Review transactions',
+                'Enable 2FA',
+                'Set up alerts',
+                'Review login activity'
+              ],
+              recommendations: [
+                'Enable two-factor authentication',
+                'Set up transaction alerts',
+                'Review recent transactions',
+                'Update security questions'
+              ]
+            }
+          };
+        }
+
+        // Check for specific transaction concerns
+        if (query.toLowerCase().includes('check') && query.toLowerCase().includes('transaction')) {
+          return {
+            success: true,
+            message: 'I\'ll help you verify your recent transactions. Please provide:\n' +
+                    '1. Transaction date\n' +
+                    '2. Transaction amount\n' +
+                    '3. Merchant name\n' +
+                    '4. Transaction location\n\n' +
+                    'Or I can show you your recent transactions for review.',
+            data: {
+              type: 'transaction_verification',
+              required_info: [
+                'Transaction date',
+                'Transaction amount',
+                'Merchant name',
+                'Transaction location'
+              ]
+            }
+          };
+        }
+
+        return {
+          success: true,
+          message: 'I can help you with:\n\n' +
+                  '1. Checking for suspicious activity\n' +
+                  '2. Verifying specific transactions\n' +
+                  '3. Reporting potential fraud\n' +
+                  '4. Security recommendations\n' +
+                  '5. Account protection measures\n\n' +
+                  'What specific concern would you like to address?',
+          data: {
+            type: 'general_security',
+            topics: [
+              'Suspicious activity',
+              'Transaction verification',
+              'Fraud reporting',
+              'Security recommendations',
+              'Account protection'
+            ]
+          }
+        };
+      } catch (legacyError) {
+        return {
+          success: false,
+          message: 'Failed to check for fraud',
+          error: legacyError instanceof Error ? legacyError.message : 'Unknown error'
+        };
+      }
     }
   }
 } 

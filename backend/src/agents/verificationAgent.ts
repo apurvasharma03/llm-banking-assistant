@@ -1,5 +1,6 @@
 import { BankingAgent, AgentResponse } from './types';
 import { Config } from '../config/config';
+import { CrewAIService } from '../services/crewAIService';
 
 interface VerificationSession {
   id: string;
@@ -23,35 +24,96 @@ export class VerificationAgent implements BankingAgent {
   };
 
   async initiateVerification(): Promise<AgentResponse> {
-    const question = Object.keys(this.securityQuestions)[0];
-    return {
-      success: true,
-      message: `Please answer the following security question: ${question}`,
-      data: {
-        sessionId: 'mock-session-id',
-        verificationStep: 'security_question'
+    try {
+      const question = Object.keys(this.securityQuestions)[0];
+      const result = await CrewAIService.getInstance().runAgent({
+        query: 'Initiate user verification with security question',
+        question
+      });
+      if (result.success) {
+        return {
+          success: true,
+          message: `Please answer the following security question: ${question}`,
+          data: {
+            sessionId: 'mock-session-id',
+            verificationStep: 'security_question'
+          }
+        };
+      } else {
+        throw new Error(result.error || 'CrewAI failed');
       }
-    };
+    } catch (error) {
+      // Fallback to legacy logic
+      try {
+        const question = Object.keys(this.securityQuestions)[0];
+        return {
+          success: true,
+          message: `Please answer the following security question: ${question}`,
+          data: {
+            sessionId: 'mock-session-id',
+            verificationStep: 'security_question'
+          }
+        };
+      } catch (legacyError) {
+        return {
+          success: false,
+          message: 'Failed to initiate verification',
+          error: legacyError instanceof Error ? legacyError.message : 'Unknown error'
+        };
+      }
+    }
   }
 
   async verifyAnswer(sessionId: string, answer: string): Promise<AgentResponse> {
-    const question = Object.keys(this.securityQuestions)[0];
-    const correctAnswer = this.securityQuestions[question];
-
-    if (answer.toLowerCase() === correctAnswer.toLowerCase()) {
-      return {
-        success: true,
-        message: 'Verification successful.',
-        data: {
-          isVerified: true
+    try {
+      const question = Object.keys(this.securityQuestions)[0];
+      const correctAnswer = this.securityQuestions[question];
+      const result = await CrewAIService.getInstance().runAgent({
+        query: 'Verify user answer to security question',
+        question, answer, correctAnswer
+      });
+      if (result.success && answer.toLowerCase() === correctAnswer.toLowerCase()) {
+        return {
+          success: true,
+          message: 'Verification successful.',
+          data: {
+            isVerified: true
+          }
+        };
+      } else {
+        return {
+          success: false,
+          message: 'Incorrect answer. Please try again.',
+          error: 'INCORRECT_ANSWER'
+        };
+      }
+    } catch (error) {
+      // Fallback to legacy logic
+      try {
+        const question = Object.keys(this.securityQuestions)[0];
+        const correctAnswer = this.securityQuestions[question];
+        if (answer.toLowerCase() === correctAnswer.toLowerCase()) {
+          return {
+            success: true,
+            message: 'Verification successful.',
+            data: {
+              isVerified: true
+            }
+          };
+        } else {
+          return {
+            success: false,
+            message: 'Incorrect answer. Please try again.',
+            error: 'INCORRECT_ANSWER'
+          };
         }
-      };
-    } else {
-      return {
-        success: false,
-        message: 'Incorrect answer. Please try again.',
-        error: 'INCORRECT_ANSWER'
-      };
+      } catch (legacyError) {
+        return {
+          success: false,
+          message: 'Failed to verify answer',
+          error: legacyError instanceof Error ? legacyError.message : 'Unknown error'
+        };
+      }
     }
   }
 

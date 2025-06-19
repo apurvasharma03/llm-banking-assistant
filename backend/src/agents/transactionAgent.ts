@@ -1,5 +1,6 @@
 import { BankingAgent, AgentResponse, TransactionData } from './types';
 import { Config } from '../config/config';
+import { CrewAIService } from '../services/crewAIService';
 
 interface TransferDetails {
   fromAccount: string;
@@ -25,6 +26,7 @@ export class TransactionAgent implements BankingAgent {
   private mockBalance: number;
   private pendingTransactions: Map<string, TransactionData> = new Map();
   private transactionHistory: TransactionData[] = [];
+  private agentId: string | null = null;
 
   constructor() {
     this.mockBalance = Config.getInitialBalance();
@@ -32,68 +34,82 @@ export class TransactionAgent implements BankingAgent {
 
   async getTransactionHistory(): Promise<AgentResponse> {
     try {
-      // If no transactions exist, create some sample transactions
-      if (this.transactionHistory.length === 0) {
-        this.transactionHistory = [
-          {
-            id: '1',
-            userId: 'user123',
-            amount: 100.00,
-            type: 'debit',
-            description: 'Grocery Store',
-            date: new Date(Date.now() - 24 * 60 * 60 * 1000), // 1 day ago
-            merchant: 'Grocery Store',
-            location: 'Local Store',
-            category: 'Shopping'
-          },
-          {
-            id: '2',
-            userId: 'user123',
-            amount: 500.00,
-            type: 'credit',
-            description: 'Salary Deposit',
-            date: new Date(Date.now() - 2 * 24 * 60 * 60 * 1000), // 2 days ago
-            merchant: 'Employer',
-            location: 'Direct Deposit',
-            category: 'Income'
-          },
-          {
-            id: '3',
-            userId: 'user123',
-            amount: 50.00,
-            type: 'debit',
-            description: 'Restaurant',
-            date: new Date(Date.now() - 3 * 24 * 60 * 60 * 1000), // 3 days ago
-            merchant: 'Local Restaurant',
-            location: 'Downtown',
-            category: 'Dining'
-          }
-        ];
+      const crewAIService = CrewAIService.getInstance();
+      const result = await crewAIService.runAgent({
+        query: 'Get transaction history',
+        transactionHistory: this.transactionHistory
+      });
+      if (result.success) {
+        return {
+          success: true,
+          message: result.message,
+          data: result.data
+        };
+      } else {
+        throw new Error(result.error || 'CrewAI failed');
       }
-
-      // Format transactions for display
-      const formattedTransactions = this.transactionHistory
-        .sort((a, b) => b.date.getTime() - a.date.getTime()) // Sort by date, most recent first
-        .map(t => `${t.date.toLocaleDateString()} - ${t.description} - $${t.amount.toFixed(2)} (${t.type})`)
-        .join('\n');
-
-      return {
-        success: true,
-        message: `Here are your recent transactions:\n${formattedTransactions}`,
-        data: {
-          transactions: this.transactionHistory,
-          suggestions: [
-            'Would you like to analyze your spending patterns?',
-            'Would you like to check your account balance?'
-          ]
-        }
-      };
     } catch (error) {
-      return {
-        success: false,
-        message: 'Failed to retrieve transaction history',
-        error: error instanceof Error ? error.message : 'Unknown error'
-      };
+      // Fallback to legacy logic
+      try {
+        if (this.transactionHistory.length === 0) {
+          this.transactionHistory = [
+            {
+              id: '1',
+              userId: 'user123',
+              amount: 100.00,
+              type: 'debit',
+              description: 'Grocery Store',
+              date: new Date(Date.now() - 24 * 60 * 60 * 1000),
+              merchant: 'Grocery Store',
+              location: 'Local Store',
+              category: 'Shopping'
+            },
+            {
+              id: '2',
+              userId: 'user123',
+              amount: 500.00,
+              type: 'credit',
+              description: 'Salary Deposit',
+              date: new Date(Date.now() - 2 * 24 * 60 * 60 * 1000),
+              merchant: 'Employer',
+              location: 'Direct Deposit',
+              category: 'Income'
+            },
+            {
+              id: '3',
+              userId: 'user123',
+              amount: 50.00,
+              type: 'debit',
+              description: 'Restaurant',
+              date: new Date(Date.now() - 3 * 24 * 60 * 60 * 1000),
+              merchant: 'Local Restaurant',
+              location: 'Downtown',
+              category: 'Dining'
+            }
+          ];
+        }
+        const formattedTransactions = this.transactionHistory
+          .sort((a, b) => b.date.getTime() - a.date.getTime())
+          .map(t => `${t.date.toLocaleDateString()} - ${t.description} - $${t.amount.toFixed(2)} (${t.type})`)
+          .join('\n');
+        return {
+          success: true,
+          message: `Here are your recent transactions:\n${formattedTransactions}`,
+          data: {
+            transactions: this.transactionHistory,
+            suggestions: [
+              'Would you like to analyze your spending patterns?',
+              'Would you like to check your account balance?'
+            ]
+          }
+        };
+      } catch (legacyError) {
+        return {
+          success: false,
+          message: 'Failed to retrieve transaction history',
+          error: legacyError instanceof Error ? legacyError.message : 'Unknown error'
+        };
+      }
     }
   }
 
@@ -106,68 +122,97 @@ export class TransactionAgent implements BankingAgent {
     location?: string
   ): Promise<AgentResponse> {
     try {
-      if (amount <= 0) {
+      const crewAIService = CrewAIService.getInstance();
+      const result = await crewAIService.runAgent({
+        query: 'Process transaction',
+        amount, type, description, category, merchant, location
+      });
+      if (result.success) {
         return {
-          success: false,
-          message: 'Transaction amount must be greater than 0'
+          success: true,
+          message: result.message,
+          data: result.data
         };
+      } else {
+        throw new Error(result.error || 'CrewAI failed');
       }
-
-      if (type === 'debit' && amount > this.mockBalance) {
-        return {
-          success: false,
-          message: 'Insufficient funds for transaction'
-        };
-      }
-
-      const transaction: TransactionData = {
-        id: Math.random().toString(36).substring(7),
-        userId: 'user123',
-        amount: amount,
-        type: type,
-        description: description,
-        date: new Date(),
-        merchant: merchant || description,
-        location: location || 'Unknown',
-        category: category || 'Uncategorized'
-      };
-
-      // Update balance
-      this.mockBalance += type === 'credit' ? amount : -amount;
-      
-      // Add to transaction history
-      this.transactionHistory.push(transaction);
-
-      return {
-        success: true,
-        message: `Transaction processed successfully: ${type} of $${amount.toFixed(2)}`,
-        data: transaction
-      };
     } catch (error) {
-      return {
-        success: false,
-        message: 'Failed to process transaction',
-        error: error instanceof Error ? error.message : 'Unknown error'
-      };
+      // Fallback to legacy logic
+      try {
+        if (amount <= 0) {
+          return {
+            success: false,
+            message: 'Transaction amount must be greater than 0'
+          };
+        }
+        if (type === 'debit' && amount > this.mockBalance) {
+          return {
+            success: false,
+            message: 'Insufficient funds for transaction'
+          };
+        }
+        const transaction: TransactionData = {
+          id: Math.random().toString(36).substring(7),
+          userId: 'user123',
+          amount: amount,
+          type: type,
+          description: description,
+          date: new Date(),
+          merchant: merchant || description,
+          location: location || 'Unknown',
+          category: category || 'Uncategorized'
+        };
+        this.mockBalance += type === 'credit' ? amount : -amount;
+        this.transactionHistory.push(transaction);
+        return {
+          success: true,
+          message: `Transaction processed successfully: ${type} of $${amount.toFixed(2)}`,
+          data: transaction
+        };
+      } catch (legacyError) {
+        return {
+          success: false,
+          message: 'Failed to process transaction',
+          error: legacyError instanceof Error ? legacyError.message : 'Unknown error'
+        };
+      }
     }
   }
 
   async checkBalance(): Promise<AgentResponse> {
     try {
-      return {
-        success: true,
-        message: `Your current balance is $${this.mockBalance.toFixed(2)}`,
-        data: {
-          balance: this.mockBalance,
-          lastUpdated: new Date()
-        }
-      };
+      const crewAIService = CrewAIService.getInstance();
+      const result = await crewAIService.runAgent({
+        query: 'Check balance',
+        mockBalance: this.mockBalance
+      });
+      if (result.success) {
+        return {
+          success: true,
+          message: result.message,
+          data: result.data
+        };
+      } else {
+        throw new Error(result.error || 'CrewAI failed');
+      }
     } catch (error) {
-      return {
-        success: false,
-        message: 'Failed to check balance',
-        error: error instanceof Error ? error.message : 'Unknown error'
-      };
+      // Fallback to legacy logic
+      try {
+        return {
+          success: true,
+          message: `Your current balance is $${this.mockBalance.toFixed(2)}`,
+          data: {
+            balance: this.mockBalance,
+            lastUpdated: new Date()
+          }
+        };
+      } catch (legacyError) {
+        return {
+          success: false,
+          message: 'Failed to check balance',
+          error: legacyError instanceof Error ? legacyError.message : 'Unknown error'
+        };
+      }
     }
   }
 

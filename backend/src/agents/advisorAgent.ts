@@ -1,4 +1,5 @@
 import { BankingAgent, AgentResponse, TransactionData } from './types';
+import { CrewAIService } from '../services/crewAIService';
 
 interface SpendingInsight {
   category: string;
@@ -22,54 +23,69 @@ export class AdvisorAgent implements BankingAgent {
   backstory = 'I am a certified financial advisor with expertise in personal finance, investment strategies, and financial planning. I help customers make informed financial decisions.';
   tools: any[] = [];
 
+  constructor() {
+  }
+
   async analyzeSpending(transactions: TransactionData[]): Promise<AgentResponse> {
     try {
-      const spendingByCategory = this.categorizeSpending(transactions);
-      const insights = this.generateSpendingInsights(transactions, spendingByCategory);
-      const recommendations = this.generateRecommendations(spendingByCategory, insights);
-
-      // Format the response message with key insights
-      const totalSpending = Object.values(spendingByCategory).reduce((sum, amount) => sum + amount, 0);
-      const topCategories = Object.entries(spendingByCategory)
-        .sort(([, a], [, b]) => b - a)
-        .slice(0, 3);
-
-      let message = 'Spending Analysis:\n\n';
-      message += `Total Spending: $${totalSpending.toFixed(2)}\n\n`;
-      message += 'Top Spending Categories:\n';
-      topCategories.forEach(([category, amount]) => {
-        const percentage = (amount / totalSpending) * 100;
-        message += `- ${category}: $${amount.toFixed(2)} (${percentage.toFixed(1)}%)\n`;
+      const crewAIService = CrewAIService.getInstance();
+      const result = await crewAIService.runAgent({
+        query: 'Analyze my spending',
+        transactions
       });
-
-      message += '\nKey Insights:\n';
-      insights.forEach(insight => {
-        if (insight.trend !== 'stable' || insight.amount > 500) {
-          message += `- ${insight.category}: ${insight.trend} trend, ${insight.recommendation}\n`;
-        }
-      });
-
-      message += '\nRecommendations:\n';
-      recommendations.forEach((rec, index) => {
-        message += `${index + 1}. ${rec}\n`;
-      });
-
-      return {
-        success: true,
-        message: message,
-        data: {
-          spendingByCategory,
-          insights,
-          recommendations,
-          totalSpending
-        }
-      };
+      if (result.success) {
+        return {
+          success: true,
+          message: result.message,
+          data: result.data
+        };
+      } else {
+        throw new Error(result.error || 'CrewAI failed');
+      }
     } catch (error) {
-      return {
-        success: false,
-        message: 'Failed to analyze spending',
-        error: error instanceof Error ? error.message : 'Unknown error'
-      };
+      // Fallback to legacy logic
+      try {
+        const spendingByCategory = this.categorizeSpending(transactions);
+        const insights = this.generateSpendingInsights(transactions, spendingByCategory);
+        const recommendations = this.generateRecommendations(spendingByCategory, insights);
+        const totalSpending = Object.values(spendingByCategory).reduce((sum, amount) => sum + amount, 0);
+        const topCategories = Object.entries(spendingByCategory)
+          .sort(([, a], [, b]) => b - a)
+          .slice(0, 3);
+        let message = 'Spending Analysis:\n\n';
+        message += `Total Spending: $${totalSpending.toFixed(2)}\n\n`;
+        message += 'Top Spending Categories:\n';
+        topCategories.forEach(([category, amount]) => {
+          const percentage = (amount / totalSpending) * 100;
+          message += `- ${category}: $${amount.toFixed(2)} (${percentage.toFixed(1)}%)\n`;
+        });
+        message += '\nKey Insights:\n';
+        insights.forEach(insight => {
+          if (insight.trend !== 'stable' || insight.amount > 500) {
+            message += `- ${insight.category}: ${insight.trend} trend, ${insight.recommendation}\n`;
+          }
+        });
+        message += '\nRecommendations:\n';
+        recommendations.forEach((rec, index) => {
+          message += `${index + 1}. ${rec}\n`;
+        });
+        return {
+          success: true,
+          message: message,
+          data: {
+            spendingByCategory,
+            insights,
+            recommendations,
+            totalSpending
+          }
+        };
+      } catch (legacyError) {
+        return {
+          success: false,
+          message: 'Failed to analyze spending',
+          error: legacyError instanceof Error ? legacyError.message : 'Unknown error'
+        };
+      }
     }
   }
 
@@ -207,71 +223,90 @@ export class AdvisorAgent implements BankingAgent {
 
   async provideAdvice(query: string): Promise<AgentResponse> {
     try {
-      const queryLower = query.toLowerCase();
-      let advice = '';
-
-      // Investment advice
-      if (queryLower.includes('invest') || queryLower.includes('investment')) {
-        advice = 'Here are some investment recommendations:\n' +
-                '1. Diversify your portfolio across different asset classes\n' +
-                '2. Consider index funds for long-term growth\n' +
-                '3. Start with a retirement account (IRA/401k)\n' +
-                '4. Research before investing in individual stocks\n' +
-                '5. Consider your risk tolerance and time horizon';
+      const crewAIService = CrewAIService.getInstance();
+      const result = await crewAIService.runAgent({ query });
+      if (result.success) {
+        return {
+          success: true,
+          message: result.message,
+          data: result.data
+        };
+      } else {
+        throw new Error(result.error || 'CrewAI failed');
       }
-      // Saving advice
-      else if (queryLower.includes('save') || queryLower.includes('saving')) {
-        advice = 'Here are some saving strategies:\n' +
-                '1. Follow the 50/30/20 rule (50% needs, 30% wants, 20% savings)\n' +
-                '2. Set up automatic transfers to savings\n' +
-                '3. Create an emergency fund (3-6 months of expenses)\n' +
-                '4. Look for high-yield savings accounts\n' +
-                '5. Track your spending to identify saving opportunities';
-      }
-      // Budget advice
-      else if (queryLower.includes('budget') || queryLower.includes('spending')) {
-        advice = 'Here are some budgeting tips:\n' +
-                '1. Track all your expenses for a month\n' +
-                '2. Categorize your spending\n' +
-                '3. Set realistic spending limits\n' +
-                '4. Use budgeting apps to stay on track\n' +
-                '5. Review and adjust your budget regularly';
-      }
-      // General financial advice
-      else {
-        advice = 'Here are some general financial tips:\n' +
-                '1. Build an emergency fund\n' +
-                '2. Pay off high-interest debt first\n' +
-                '3. Start saving for retirement early\n' +
-                '4. Review your insurance coverage\n' +
-                '5. Create a financial plan\n\n' +
-                'Would you like specific advice about:\n' +
-                '- Investing\n' +
-                '- Saving\n' +
-                '- Budgeting\n' +
-                '- Debt management\n' +
-                '- Retirement planning';
-      }
-
-      return {
-        success: true,
-        message: advice,
-        data: {
-          type: 'advice',
-          query: query,
-          suggestions: [
-            'Would you like to know more about investing?',
-            'Would you like to learn about saving strategies?',
-            'Would you like help with budgeting?'
-          ]
-        }
-      };
     } catch (error) {
-      return {
-        success: false,
-        message: 'Failed to provide financial advice',
-        error: error instanceof Error ? error.message : 'Unknown error'
-      };
+      // Fallback to legacy logic
+      try {
+        const queryLower = query.toLowerCase();
+        if (queryLower.includes('save') || queryLower.includes('saving')) {
+          return {
+            success: true,
+            message: 'Here are some tips to save more money:\n' +
+                    '1. Create a monthly budget and stick to it\n' +
+                    '2. Set up automatic savings transfers\n' +
+                    '3. Reduce unnecessary subscriptions\n' +
+                    '4. Cook meals at home instead of eating out\n' +
+                    '5. Use cashback and reward programs',
+            data: {
+              type: 'savings_advice',
+              tips: [
+                'Create a monthly budget',
+                'Set up automatic savings',
+                'Reduce subscriptions',
+                'Cook at home',
+                'Use reward programs'
+              ]
+            }
+          };
+        }
+        if (queryLower.includes('invest') || queryLower.includes('investment')) {
+          return {
+            success: true,
+            message: 'Here are some investment recommendations:\n' +
+                    '1. Start with a diversified portfolio\n' +
+                    '2. Consider index funds for long-term growth\n' +
+                    '3. Don\'t put all your eggs in one basket\n' +
+                    '4. Invest regularly through dollar-cost averaging\n' +
+                    '5. Consider your risk tolerance',
+            data: {
+              type: 'investment_advice',
+              recommendations: [
+                'Diversified portfolio',
+                'Index funds',
+                'Risk management',
+                'Regular investing',
+                'Risk assessment'
+              ]
+            }
+          };
+        }
+        return {
+          success: true,
+          message: 'I can help you with:\n' +
+                  '1. Saving strategies\n' +
+                  '2. Investment advice\n' +
+                  '3. Budget planning\n' +
+                  '4. Debt management\n' +
+                  '5. Financial goal setting\n\n' +
+                  'What specific area would you like to focus on?',
+          data: {
+            type: 'general_advice',
+            topics: [
+              'Saving strategies',
+              'Investment advice',
+              'Budget planning',
+              'Debt management',
+              'Financial goals'
+            ]
+          }
+        };
+      } catch (legacyError) {
+        return {
+          success: false,
+          message: 'Failed to provide financial advice',
+          error: legacyError instanceof Error ? legacyError.message : 'Unknown error'
+        };
+      }
     }
   }
 } 

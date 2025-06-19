@@ -5,10 +5,12 @@ import { config } from './config';
 
 const app = express();
 
-// Middleware
+// Middleware - Simplified CORS for development
 app.use(cors({
-  origin: config.frontendUrl,
-  credentials: true
+  origin: true, // Allow all origins in development
+  credentials: true,
+  methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+  allowedHeaders: ['Content-Type', 'Authorization']
 }));
 app.use(express.json());
 
@@ -47,4 +49,9 @@ app.listen(config.port, () => {
   console.log(`Server is running on port ${config.port}`);
   console.log(`Frontend URL: ${config.frontendUrl}`);
   console.log('=================================');
+  
+  // Add a small delay to ensure all middleware and routes are properly initialized
+  setTimeout(() => {
+    console.log('✅ Backend is fully initialized and ready to accept requests');
+  }, 1000);
 }); 
