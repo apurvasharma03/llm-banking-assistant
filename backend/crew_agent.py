@@ -4,6 +4,12 @@ from crewai import Agent, Task, Crew, Process, LLM
 from datetime import datetime, timedelta
 import random
 import requests
+import os
+import numpy as np
+from sklearn.linear_model import LogisticRegression
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import accuracy_score
+from sklearn.utils import shuffle
 
 # Test Ollama connection
 def test_ollama_connection():
@@ -110,8 +116,11 @@ elif 'transaction' in query_lower or 'transfer' in query_lower or 'payment' in q
     task_description = f"Process transaction request: {query}. Amount: ${amount}, Type: {transaction_type}, Description: {description}. Current balance: ${mock_balance}."
     expected_output = "Transaction processing result with confirmation or error details"
 elif 'fraud' in query_lower or 'suspicious' in query_lower:
+    # Run semi-supervised fraud detection
+    ml_result = semi_supervised_fraud_detection(query, amount, merchant, location)
     agent = fraud_detection_agent
-    task_description = f"Analyze potential fraud: {query}. Amount: ${amount}, Merchant: {merchant}, Location: {location}."
+    task_description = f"Analyze potential fraud: {query}. Amount: ${amount}, Merchant: {merchant}, Location: {location}."\
+        f"\n[ML Risk Score: {ml_result['risk_score']:.2f}, Label: {ml_result['label']}]"
     expected_output = "Fraud analysis with risk assessment and recommendations"
 elif 'advice' in query_lower or 'help' in query_lower or 'recommend' in query_lower:
     agent = advisor_agent
@@ -146,7 +155,7 @@ try:
     elif 'transaction' in query_lower or 'transfer' in query_lower:
         response_message = f"Transaction processed successfully. {result}"
     elif 'fraud' in query_lower:
-        response_message = f"Fraud analysis completed. {result}"
+        response_message = f"Fraud analysis completed. ML Risk Score: {ml_result['risk_score']:.2f} ({ml_result['label']}). {result}"
     elif 'advice' in query_lower:
         response_message = f"Financial advice: {result}"
     else:
@@ -169,4 +178,60 @@ except Exception as e:
         "error": str(e),
         "fallback": "Using fallback response due to CrewAI error"
     }))
-    sys.exit(1) 
+    sys.exit(1)
+
+# --- Semi-supervised fraud detection ---
+def extract_features_from_query(query, amount, merchant, location):
+    # Very basic feature extraction for demo
+    features = [
+        float(amount) if amount else 0.0,
+        int(any(word in (merchant or '').lower() for word in ['electronics', 'jewelry', 'luxury', 'gaming', 'mall', 'overseas', 'unknown'])),
+        int(any(word in (location or '').lower() for word in ['overseas', 'high-risk', 'unknown', 'mall', 'shopping center'])),
+        int('suspicious' in query.lower() or 'fraud' in query.lower()),
+        int('lost card' in query.lower() or 'block' in query.lower()),
+    ]
+    return np.array(features)
+
+def load_labeled_fraud_data():
+    data_path = os.path.join(os.path.dirname(__file__), 'training_data', 'fraud_training_data.json')
+    if not os.path.exists(data_path):
+        return [], []
+    with open(data_path, 'r', encoding='utf-8') as f:
+        data = json.load(f)
+    X, y = [], []
+    for entry in data:
+        # Use the first user message in the conversation as the query
+        user_msgs = [m['message'] for m in entry.get('conversation', []) if m['role'] == 'user']
+        query = user_msgs[0] if user_msgs else ''
+        # Use metadata if available, else random
+        amount = 500 if 'not me' in query.lower() else 100
+        merchant = 'unknown' if 'unknown' in query.lower() else 'grocery'
+        location = 'unknown' if 'unknown' in query.lower() else 'local'
+        X.append(extract_features_from_query(query, amount, merchant, location))
+        y.append(1)  # All labeled as fraud
+    return np.array(X), np.array(y)
+
+def semi_supervised_fraud_detection(query, amount, merchant, location):
+    # Load labeled data
+    X_labeled, y_labeled = load_labeled_fraud_data()
+    if len(X_labeled) < 2:
+        return {'risk_score': 0.5, 'label': 'unknown', 'note': 'Insufficient labeled data'}
+    # Generate a few pseudo-unlabeled samples (simulate)
+    X_unlabeled = []
+    for amt in [20, 50, 100, 200, 500, 1000]:
+        X_unlabeled.append(extract_features_from_query('normal purchase', amt, 'grocery', 'local'))
+    X_unlabeled = np.array(X_unlabeled)
+    # Train initial model
+    model = LogisticRegression()
+    model.fit(X_labeled, y_labeled)
+    # Pseudo-label
+    pseudo_labels = model.predict(X_unlabeled)
+    X_combined = np.vstack([X_labeled, X_unlabeled])
+    y_combined = np.concatenate([y_labeled, pseudo_labels])
+    # Retrain
+    model.fit(X_combined, y_combined)
+    # Predict for current query
+    features = extract_features_from_query(query, amount, merchant, location).reshape(1, -1)
+    risk_score = float(model.predict_proba(features)[0][1])
+    label = 'fraud' if risk_score > 0.5 else 'not_fraud'
+    return {'risk_score': risk_score, 'label': label, 'note': 'Semi-supervised model'} 
