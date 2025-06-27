@@ -1,4 +1,8 @@
+# llm-banking-assistant
 
+![Tech Stack](https://img.shields.io/badge/Stack-React%2C%20TypeScript%2C%20Node.js%2C%20Express%2C%20Ollama-blue)
+![Last Commit](https://img.shields.io/github/last-commit/apurvasharma03/llm-banking-assistant)
+![Build](https://github.com/apurvasharma03/llm-banking-assistant/actions/workflows/main.yml/badge.svg)
 ---
 
 ## 📋 Quick Reference
