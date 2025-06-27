@@ -1,0 +1,269 @@
+test_id,input,expected,actual,passed,response_time_sec,notes
+1,What is my account balance?,account balance,"Hello Mariah, your current account balances are:
+• checking account: $6573.62
+
+Total balance: $6573.62",True,0.041654348373413086,Basic balance inquiry
+2,Show my last 5 transactions.,recent transactions,"Hello Mariah, here are your recent transactions:
+
+• 4/28/2025 - DoorDash (entertainment) - -$2999.03
+• 10/14/2024 - Apple (transportation) - -$1548.54
+• 9/27/2024 - Best Buy (travel) - +$485.96
+• 7/3/2024 - Uber (health) - +$3800.49
+• 6/21/2024 - Netflix (utilities) - +$4382.20
+
+You have 18 total transactions.",True,0.03571176528930664,Recent transactions
+3,How can I report a lost card?,lost card,"Hello Mariah, to report a lost or stolen card, please call our 24/7 customer service at 1-800-BANK-HELP. You can also visit any branch location for immediate assistance.",True,0.010558605194091797,Lost card help
+4,Transfer $100 to John Doe.,transfer,"Hello Mariah, to make a transfer, please log into your online banking account or visit any branch location. You can also use our mobile app for quick transfers.",True,0.005656003952026367,Money transfer
+5,What are your branch hours?,branch hours,"Hello Mariah, our branch hours are Monday-Friday 9:00 AM to 5:00 PM, Saturday 9:00 AM to 2:00 PM. We're closed on Sundays and major holidays.",True,0.009470939636230469,General info
+6,I need help with my account,account,"Hello Mariah, you have 1 accounts and 18 transactions. Your latest balance is $6573.62. How can I help you today?",True,0.009001970291137695,General help request
+7,What are the current interest rates?,interest,"Hello Mariah, our current interest rates are: Savings Account 0.05% APY, Checking Account 0.01% APY, and CD rates range from 0.10% to 2.50% APY depending on term length.",True,0.006842613220214844,Interest rate inquiry
+8,How do I reset my password?,password,"Hello Mariah, to reset your password, please visit our website and click on ""Forgot Password"" or call our customer service at 1-800-BANK-HELP.",True,0.011273384094238281,Password reset
+9,Show me my account details,account details,"Hello Mariah, here are your account details:
+
+• Account Type: checking
+• Balance: $6573.62
+• Status: closed
+• Opened: 4/16/2025
+
+",True,0.010379791259765625,Account details request
+10,Check for fraud on my account,fraud,"Good news, Mariah! No suspicious activity has been detected on your accounts.",True,0.01765275001525879,Fraud detection
+11,Can you tell me my current checking account balance?,checking account balance,"Hello Mariah, your current account balances are:
+• checking account: $6573.62
+
+Total balance: $6573.62",True,0.006464719772338867,Checking account balance
+12,List all my savings account transactions from last month.,savings account transactions,"Hello Mariah, here are your recent transactions:
+
+• 4/28/2025 - DoorDash (entertainment) - -$2999.03
+• 10/14/2024 - Apple (transportation) - -$1548.54
+• 9/27/2024 - Best Buy (travel) - +$485.96
+• 7/3/2024 - Uber (health) - +$3800.49
+• 6/21/2024 - Netflix (utilities) - +$4382.20
+
+You have 18 total transactions.",True,0.019357919692993164,Savings account history
+13,Send $50 to Jane Smith for rent.,transfer,"Hello Mariah, to make a transfer, please log into your online banking account or visit any branch location. You can also use our mobile app for quick transfers.",True,0.004982948303222656,Transfer to Jane Smith
+14,Pay my electricity bill.,bill payment,"Hello Mariah, to pay your bills, please log into your online banking account or visit any branch location. You can also set up automatic bill payments through our mobile app.",True,0.034824371337890625,Bill payment
+15,Cancel my last transaction.,cancel transaction,"Hello Mariah, here are your recent transactions:
+
+• 4/28/2025 - DoorDash (entertainment) - -$2999.03
+• 10/14/2024 - Apple (transportation) - -$1548.54
+• 9/27/2024 - Best Buy (travel) - +$485.96
+• 7/3/2024 - Uber (health) - +$3800.49
+• 6/21/2024 - Netflix (utilities) - +$4382.20
+
+You have 18 total transactions.",True,0.028336524963378906,Cancel transaction
+16,What is the status of my recent transfer?,transfer status,"Hello Mariah, here are your recent transactions:
+
+• 4/28/2025 - DoorDash (entertainment) - -$2999.03
+• 10/14/2024 - Apple (transportation) - -$1548.54
+• 9/27/2024 - Best Buy (travel) - +$485.96
+• 7/3/2024 - Uber (health) - +$3800.49
+• 6/21/2024 - Netflix (utilities) - +$4382.20
+
+You have 18 total transactions.",False,0.005318403244018555,Transfer status
+17,Is there any suspicious activity on my account?,suspicious activity,"Good news, Mariah! No suspicious activity has been detected on your accounts.",True,0.007384061813354492,Fraud inquiry
+18,Show me my spending trends for the past year.,spending trends,"Hello Mariah, I can help you analyze your spending patterns. Based on your recent transactions, your top spending categories are: entertainment, transportation, and utilities. Would you like me to provide more detailed analysis?",True,0.005323171615600586,Spending analysis
+19,Recommend an investment plan.,investment,"Hello Mariah, I'd be happy to help you with investment advice. Based on your current balance and spending patterns, I recommend starting with a high-yield savings account or a certificate of deposit. Would you like to speak with our financial advisor?",True,0.010524988174438477,Investment advice
+20,How do I set up a new account?,set up account,"Hello Mariah, to set up a new account, please visit any branch location with a valid ID and proof of address. You can also start the process online at our website.",True,0.020792245864868164,Account setup
+21,Where is the nearest branch?,nearest branch,"Hello Mariah, our branch hours are Monday-Friday 9:00 AM to 5:00 PM, Saturday 9:00 AM to 2:00 PM. We're closed on Sundays and major holidays.",True,0.009865522384643555,Branch location
+22,What are your ATM withdrawal limits?,ATM withdrawal limits,"Hello Mariah, our ATM withdrawal limits are $500 per day for standard accounts and $1,000 per day for premium accounts. You can increase these limits by contacting customer service.",True,0.005574464797973633,ATM info
+23,I forgot my online banking password.,password,"Hello Mariah, to reset your password, please visit our website and click on ""Forgot Password"" or call our customer service at 1-800-BANK-HELP.",True,0.021664142608642578,Forgot password
+24,Lock my debit card.,lock card,"Hello Mariah, to lock your debit card, please log into your online banking account or mobile app. You can also call us at 1-800-BANK-HELP for immediate assistance.",True,0.015276670455932617,Card lock
+25,Unlock my debit card.,unlock card,"Hello Mariah, to lock your debit card, please log into your online banking account or mobile app. You can also call us at 1-800-BANK-HELP for immediate assistance.",True,0.027589797973632812,Card unlock
+26,What is my credit card due date?,credit card due date,"Hello Mariah, your credit card due date is the 15th of each month. You can view your current statement and due date in your online banking account.",True,0.027743816375732422,Credit card info
+27,Show me all pending bill payments.,pending bill payments,"Hello Mariah, to pay your bills, please log into your online banking account or visit any branch location. You can also set up automatic bill payments through our mobile app.",True,0.026461362838745117,Pending bills
+28,How do I verify my identity?,verify,"Hello Mariah, to verify your identity, please provide your account number and answer your security questions. You can also visit any branch location with a valid ID.",True,0.026028871536254883,Identity verification
+29,What is the process for reporting fraud?,reporting fraud,"Good news, Mariah! No suspicious activity has been detected on your accounts.",False,0.008409976959228516,Fraud process
+30,Can you help me budget my expenses?,budget,"Hello Mariah, I can help you create a budget. Based on your recent spending, I recommend tracking your expenses in categories like housing, transportation, food, and entertainment. Would you like me to provide more specific budgeting advice?",True,0.00447392463684082,Budgeting help
+31,What are your loan interest rates?,loan interest rates,"Hello Mariah, our current interest rates are: Savings Account 0.05% APY, Checking Account 0.01% APY, and CD rates range from 0.10% to 2.50% APY depending on term length.",True,0.02849555015563965,Loan info
+32,How do I apply for a mortgage?,apply for a mortgage,"Hello Mariah, to apply for a mortgage, please visit any branch location or start your application online. You'll need to provide income verification, credit information, and property details.",True,0.008183717727661133,Mortgage application
+33,Show me my last 10 transactions.,last 10 transactions,"Hello Mariah, here are your recent transactions:
+
+• 4/28/2025 - DoorDash (entertainment) - -$2999.03
+• 10/14/2024 - Apple (transportation) - -$1548.54
+• 9/27/2024 - Best Buy (travel) - +$485.96
+• 7/3/2024 - Uber (health) - +$3800.49
+• 6/21/2024 - Netflix (utilities) - +$4382.20
+
+You have 18 total transactions.",True,0.006081819534301758,Transaction history
+34,Transfer $200 from checking to savings.,transfer,"Hello Mariah, to make a transfer, please log into your online banking account or visit any branch location. You can also use our mobile app for quick transfers.",True,0.009857416152954102,Internal transfer
+35,Pay my water bill for this month.,bill payment,"Hello Mariah, to pay your bills, please log into your online banking account or visit any branch location. You can also set up automatic bill payments through our mobile app.",True,0.007078647613525391,Water bill payment
+36,Cancel my scheduled payment to Comcast.,cancel payment,"Hello Mariah, to cancel a transaction or payment, please contact our customer service at 1-800-BANK-HELP immediately. For recent transactions, we may be able to stop the payment if it hasn't been processed yet.",True,0.020308732986450195,Cancel scheduled payment
+37,What is my current loan balance?,loan balance,"Hello Mariah, your current account balances are:
+• checking account: $6573.62
+
+Total balance: $6573.62",True,0.006277322769165039,Loan balance
+38,How do I set up two-factor authentication?,two-factor authentication,"Hello Mariah, you have 1 accounts and 18 transactions. Your latest balance is $6573.62. How can I help you today?",False,0.01158285140991211,Security setup
+39,What are your business hours?,business hours,"Hello Mariah, our branch hours are Monday-Friday 9:00 AM to 5:00 PM, Saturday 9:00 AM to 2:00 PM. We're closed on Sundays and major holidays.",True,0.010895252227783203,Business hours
+40,I want to speak to a human agent.,human agent,"Hello Mariah, I'd be happy to connect you with a human representative. Please call our customer service at 1-800-BANK-HELP, and they'll be able to assist you with your specific needs.",True,0.027658462524414062,Human agent request
+41,How do I change my address?,change address,"Hello Mariah, to change your address, please visit any branch location with a valid ID and proof of your new address. You can also update your address online in your account settings.",True,0.013598918914794922,Change address
+42,What is the minimum balance for a savings account?,minimum balance,"Hello Mariah, your current account balances are:
+• checking account: $6573.62
+
+Total balance: $6573.62",True,0.014230966567993164,Minimum balance
+43,Show me my overdraft fees.,overdraft fees,"Hello Mariah, our overdraft fees are $35 per transaction. You can avoid these fees by setting up overdraft protection or maintaining a minimum balance.",True,0.014960765838623047,Overdraft fees
+44,How do I close my account?,close account,"Hello Mariah, to close your account, please visit any branch location with a valid ID. Make sure to transfer any remaining funds and cancel any automatic payments first.",True,0.014048099517822266,Close account
+45,What is my routing number?,routing number,"Hello Mariah, your routing number is 123456789. You can find this information in your online banking account or on your checks.",True,0.030812978744506836,Routing number
+46,How do I order checks?,order checks,"Hello Mariah, to order checks, please log into your online banking account or visit any branch location. Standard checks typically arrive within 7-10 business days.",True,0.012807607650756836,Order checks
+47,What is the exchange rate for euros?,exchange rate,"Hello Mariah, our current interest rates are: Savings Account 0.05% APY, Checking Account 0.01% APY, and CD rates range from 0.10% to 2.50% APY depending on term length.",True,0.01392054557800293,Exchange rate
+48,How do I dispute a transaction?,dispute transaction,"Hello Mariah, here are your recent transactions:
+
+• 4/28/2025 - DoorDash (entertainment) - -$2999.03
+• 10/14/2024 - Apple (transportation) - -$1548.54
+• 9/27/2024 - Best Buy (travel) - +$485.96
+• 7/3/2024 - Uber (health) - +$3800.49
+• 6/21/2024 - Netflix (utilities) - +$4382.20
+
+You have 18 total transactions.",True,0.056525468826293945,Dispute transaction
+49,What is my account number?,account number,"Hello Mariah, for security reasons, I cannot provide your account number here. You can find your account number in your online banking account or on your checks.",True,0.006532907485961914,Account number
+50,How do I set up direct deposit?,direct deposit,"Hello Mariah, to set up direct deposit, please provide your employer with your account number and routing number. You can find this information in your online banking account.",True,0.011586904525756836,Direct deposit
+51,What is the maximum daily withdrawal limit?,maximum daily withdrawal,"Hello Mariah, our ATM withdrawal limits are $500 per day for standard accounts and $1,000 per day for premium accounts. You can increase these limits by contacting customer service.",True,0.013526439666748047,Withdrawal limit
+52,How do I activate my new card?,activate card,"Hello Mariah, to activate your new card, please call the number on the back of your card or log into your online banking account. You'll need to provide your card number and security code.",True,0.011516809463500977,Activate card
+53,What is the status of my loan application?,loan application status,"Hello Mariah, you have 1 accounts and 18 transactions. Your latest balance is $6573.62. How can I help you today?",False,0.008378744125366211,Loan application status
+54,How do I set up automatic payments?,automatic payments,"Hello Mariah, to set up automatic payments, please log into your online banking account and go to the ""Bill Pay"" section. You can schedule recurring payments for your regular bills.",True,0.010388851165771484,Automatic payments
+55,What is my credit score?,credit score,"Hello Mariah, you can check your credit score for free through our online banking account. We provide monthly credit score updates and credit monitoring services.",True,0.012899637222290039,Credit score
+56,How do I request a credit limit increase?,credit limit increase,"Hello Mariah, our ATM withdrawal limits are $500 per day for standard accounts and $1,000 per day for premium accounts. You can increase these limits by contacting customer service.",True,0.01165461540222168,Credit limit increase
+57,What is the penalty for late payment?,late payment penalty,"Hello Mariah, our late payment penalty is $25 for credit cards and varies by loan type. To avoid late fees, consider setting up automatic payments.",True,0.010223388671875,Late payment penalty
+58,How do I update my phone number?,update phone number,"Hello Mariah, to update your phone number, please visit any branch location with a valid ID or update it online in your account settings.",True,0.0086517333984375,Update phone number
+59,What is the process for closing an account?,closing an account,"Hello Mariah, you have 1 accounts and 18 transactions. Your latest balance is $6573.62. How can I help you today?",True,0.011652469635009766,Account closure process
+60,How do I set up alerts for my account?,set up alerts,"Hello Mariah, to set up a new account, please visit any branch location with a valid ID and proof of address. You can also start the process online at our website.",True,0.01292276382446289,Account alerts
+61,What is the fee for international transfers?,international transfer fee,"Hello Mariah, to make a transfer, please log into your online banking account or visit any branch location. You can also use our mobile app for quick transfers.",True,0.010746240615844727,International transfer fee
+62,How do I report a stolen card?,stolen card,"Hello Mariah, to report a lost or stolen card, please call our 24/7 customer service at 1-800-BANK-HELP. You can also visit any branch location for immediate assistance.",True,0.007266044616699219,Report stolen card
+63,What is the process for opening a joint account?,joint account,"Hello Mariah, to open a joint account, both parties must visit a branch location with valid IDs. You can also start the process online and complete it at a branch.",True,0.013346195220947266,Joint account opening
+64,How do I change my PIN?,change pin,"Hello Mariah, to change your PIN, please visit any ATM or branch location. You can also change your PIN online in your account settings.",True,0.01154327392578125,Change PIN
+65,What is the interest rate on savings accounts?,interest rate,"Hello Mariah, our current interest rates are: Savings Account 0.05% APY, Checking Account 0.01% APY, and CD rates range from 0.10% to 2.50% APY depending on term length.",True,0.011795282363891602,Savings interest rate
+66,How do I request a statement?,request a statement,"Hello Mariah, you can request a statement copy by logging into your online banking account or calling customer service at 1-800-BANK-HELP. There may be a fee for paper statements.",True,0.016971826553344727,Request statement
+67,What is the process for refinancing my loan?,refinancing,"Hello Mariah, to refinance your loan, please visit any branch location or start your application online. Our loan officers can help you determine if refinancing is right for you.",True,0.01009678840637207,Loan refinancing
+68,How do I set up a recurring transfer?,recurring transfer,"Hello Mariah, to make a transfer, please log into your online banking account or visit any branch location. You can also use our mobile app for quick transfers.",True,0.007748842239379883,Recurring transfer
+69,What is the fee for overdraft protection?,overdraft protection fee,"Hello Mariah, our overdraft protection fee is $10 per month. This service links your checking account to your savings account to cover overdrafts.",True,0.010352611541748047,Overdraft protection fee
+70,How do I enable paperless statements?,paperless statements,"Hello Mariah, to enable paperless statements, please log into your online banking account and go to ""Account Settings."" You'll receive email notifications when your statement is ready.",True,0.011077880859375,Paperless statements
+71,What is the process for disputing a charge?,disputing a charge,"Hello Mariah, you have 1 accounts and 18 transactions. Your latest balance is $6573.62. How can I help you today?",False,0.009766340255737305,Dispute charge
+72,How do I set up mobile banking?,mobile banking,"Hello Mariah, to set up mobile banking, download our app from the App Store or Google Play Store. You can use your existing online banking credentials to log in.",True,0.0069081783294677734,Mobile banking setup
+73,What is the process for transferring money internationally?,international transfer,"Hello Mariah, to make a transfer, please log into your online banking account or visit any branch location. You can also use our mobile app for quick transfers.",True,0.010503292083740234,International transfer
+74,How do I request a replacement card?,replacement card,"Hello Mariah, to request a replacement card, please call customer service at 1-800-BANK-HELP or visit any branch location. Your new card will arrive within 7-10 business days.",True,0.029765844345092773,Replacement card
+75,What is the fee for wire transfers?,wire transfer fee,"Hello Mariah, to make a transfer, please log into your online banking account or visit any branch location. You can also use our mobile app for quick transfers.",True,0.009642362594604492,Wire transfer fee
+76,How do I set up account notifications?,account notifications,"Hello Mariah, to set up a new account, please visit any branch location with a valid ID and proof of address. You can also start the process online at our website.",True,0.007254600524902344,Account notifications
+77,What is the process for updating my beneficiary?,updating beneficiary,"Hello Mariah, to update your beneficiary information, please visit any branch location with a valid ID. You'll need to provide the new beneficiary's information.",True,0.01105046272277832,Update beneficiary
+78,How do I request a stop payment?,stop payment,"Hello Mariah, to request a stop payment, please call customer service at 1-800-BANK-HELP immediately. There is a $30 fee for stop payment requests.",True,0.011954069137573242,Stop payment
+79,What is the process for opening a business account?,business account,"Hello Mariah, our branch hours are Monday-Friday 9:00 AM to 5:00 PM, Saturday 9:00 AM to 2:00 PM. We're closed on Sundays and major holidays.",False,0.011999368667602539,Business account opening
+80,How do I set up online bill pay?,online bill pay,"Hello Mariah, to pay your bills, please log into your online banking account or visit any branch location. You can also set up automatic bill payments through our mobile app.",True,0.05033087730407715,Online bill pay
+81,What is the process for closing a credit card?,closing a credit card,"Hello Mariah, to close your credit card, please call our credit card department at 1-800-CREDIT-HELP. Make sure to pay off any remaining balance first.",True,0.010409355163574219,Close credit card
+82,How do I set up a travel notice?,travel notice,"Hello Mariah, to set up a travel notice, please log into your online banking account or call customer service at 1-800-BANK-HELP. This helps prevent your card from being blocked while traveling.",True,0.031200885772705078,Travel notice
+83,What is the process for disputing a transaction?,disputing a transaction,"Hello Mariah, here are your recent transactions:
+
+• 4/28/2025 - DoorDash (entertainment) - -$2999.03
+• 10/14/2024 - Apple (transportation) - -$1548.54
+• 9/27/2024 - Best Buy (travel) - +$485.96
+• 7/3/2024 - Uber (health) - +$3800.49
+• 6/21/2024 - Netflix (utilities) - +$4382.20
+
+You have 18 total transactions.",True,0.03262782096862793,Dispute transaction
+84,How do I set up a trust account?,trust account,"Hello Mariah, to set up a new account, please visit any branch location with a valid ID and proof of address. You can also start the process online at our website.",True,0.005521535873413086,Trust account setup
+85,What is the process for updating my email address?,updating email address,"Hello Mariah, to update your email address, please visit any branch location with a valid ID or update it online in your account settings.",True,0.007626533508300781,Update email address
+86,How do I request a payoff amount?,payoff amount,"Hello Mariah, to request a payoff amount, please call our loan department at 1-800-LOAN-HELP or visit any branch location.",True,0.016829252243041992,Payoff amount
+87,What is the process for setting up a wire transfer?,wire transfer,"Hello Mariah, to make a transfer, please log into your online banking account or visit any branch location. You can also use our mobile app for quick transfers.",True,0.008698225021362305,Wire transfer setup
+88,How do I set up a custodial account?,custodial account,"Hello Mariah, to set up a new account, please visit any branch location with a valid ID and proof of address. You can also start the process online at our website.",True,0.0053026676177978516,Custodial account setup
+89,What is the process for updating my mailing address?,updating mailing address,"Hello Mariah, to update your mailing address, please visit any branch location with a valid ID and proof of your new address.",True,0.010854482650756836,Update mailing address
+90,How do I request a credit report?,credit report,"Hello Mariah, to report a lost or stolen card, please call our 24/7 customer service at 1-800-BANK-HELP. You can also visit any branch location for immediate assistance.",True,0.0047986507415771484,Credit report
+91,What is the process for setting up a direct debit?,direct debit,"Hello Mariah, to set up direct debit, please log into your online banking account and go to the ""Payments"" section. You can authorize automatic withdrawals from your account.",True,0.009717941284179688,Direct debit setup
+92,How do I set up a student account?,student account,"Hello Mariah, to set up a new account, please visit any branch location with a valid ID and proof of address. You can also start the process online at our website.",True,0.009909391403198242,Student account setup
+93,What is the process for updating my security questions?,updating security questions,"Hello Mariah, to update your security questions, please log into your online banking account and go to ""Security Settings."" You can also visit any branch location.",True,0.0341951847076416,Update security questions
+94,How do I request a loan payoff statement?,loan payoff statement,"Hello Mariah, you can request a statement copy by logging into your online banking account or calling customer service at 1-800-BANK-HELP. There may be a fee for paper statements.",True,0.029583454132080078,Loan payoff statement
+95,What is the process for setting up a joint account?,joint account,"Hello Mariah, to open a joint account, both parties must visit a branch location with valid IDs. You can also start the process online and complete it at a branch.",True,0.005234479904174805,Joint account setup
+96,How do I set up a business account?,business account,"Hello Mariah, our branch hours are Monday-Friday 9:00 AM to 5:00 PM, Saturday 9:00 AM to 2:00 PM. We're closed on Sundays and major holidays.",False,0.009623289108276367,Business account setup
+97,What is the process for updating my phone number?,updating phone number,"Hello Mariah, you have 1 accounts and 18 transactions. Your latest balance is $6573.62. How can I help you today?",False,0.02223682403564453,Update phone number
+98,How do I request a balance transfer?,balance transfer,"Hello Mariah, your current account balances are:
+• checking account: $6573.62
+
+Total balance: $6573.62",True,0.0052585601806640625,Balance transfer
+99,What is the process for setting up a recurring payment?,recurring payment,"Hello Mariah, to set up a recurring payment, please log into your online banking account and go to the ""Bill Pay"" section. You can schedule automatic payments.",True,0.007689714431762695,Recurring payment setup
+100,How do I set up a savings account?,savings account,"Hello Mariah, to set up a new account, please visit any branch location with a valid ID and proof of address. You can also start the process online at our website.",True,0.005539655685424805,Savings account setup
+101,What is the process for updating my address?,updating address,"Hello Mariah, to update your address, please visit any branch location with a valid ID and proof of your new address.",True,0.017636775970458984,Update address
+102,How do I request a credit card?,credit card,"Hello Mariah, to request a credit card, please visit any branch location or apply online. You'll need to provide income verification and credit information.",True,0.009215354919433594,Credit card request
+103,What is the process for setting up a new account?,new account,"Hello Mariah, to set up a new account, please visit any branch location with a valid ID and initial deposit. You can also start the process online.",True,0.006174325942993164,New account setup
+104,How do I set up a checking account?,checking account,"Hello Mariah, to set up a new account, please visit any branch location with a valid ID and proof of address. You can also start the process online at our website.",True,0.012278079986572266,Checking account setup
+105,What is the process for updating my beneficiary?,updating beneficiary,"Hello Mariah, to update your beneficiary information, please visit any branch location with a valid ID. You'll need to provide the new beneficiary's information.",True,0.007057905197143555,Update beneficiary
+106,How do I request a statement copy?,statement copy,"Hello Mariah, you can request a statement copy by logging into your online banking account or calling customer service at 1-800-BANK-HELP. There may be a fee for paper statements.",True,0.010612726211547852,Statement copy request
+107,What is the process for setting up a trust account?,trust account,"Hello Mariah, to set up a trust account, please visit any branch location with your trust documentation. You'll need to meet with our trust services team.",True,0.005908012390136719,Trust account setup
+108,How do I set up a money market account?,money market account,"Hello Mariah, to set up a new account, please visit any branch location with a valid ID and proof of address. You can also start the process online at our website.",True,0.010255098342895508,Money market account setup
+109,What is the process for updating my email address?,updating email address,"Hello Mariah, to update your email address, please visit any branch location with a valid ID or update it online in your account settings.",True,0.010446786880493164,Update email address
+110,How do I request a loan statement?,loan statement,"Hello Mariah, you can request a statement copy by logging into your online banking account or calling customer service at 1-800-BANK-HELP. There may be a fee for paper statements.",True,0.0061359405517578125,Loan statement request
+111,What is the process for setting up a custodial account?,custodial account,"Hello Mariah, to set up a custodial account, please visit any branch location with the minor's birth certificate and your valid ID.",True,0.033727169036865234,Custodial account setup
+112,How do I set up a health savings account?,health savings account,"Hello Mariah, to set up a new account, please visit any branch location with a valid ID and proof of address. You can also start the process online at our website.",True,0.03217029571533203,Health savings account setup
+113,What is the process for updating my mailing address?,updating mailing address,"Hello Mariah, to update your mailing address, please visit any branch location with a valid ID and proof of your new address.",True,0.014601945877075195,Update mailing address
+114,How do I request a mortgage statement?,mortgage statement,"Hello Mariah, you can request a statement copy by logging into your online banking account or calling customer service at 1-800-BANK-HELP. There may be a fee for paper statements.",True,0.010915994644165039,Mortgage statement request
+115,What is the process for setting up a student account?,student account,"Hello Mariah, to set up a student account, please visit any branch location with your student ID and a valid government-issued ID. Student accounts have no monthly fees.",True,0.004487514495849609,Student account setup
+116,How do I set up a retirement account?,retirement account,"Hello Mariah, to set up a new account, please visit any branch location with a valid ID and proof of address. You can also start the process online at our website.",True,0.009294509887695312,Retirement account setup
+117,What is the process for updating my security questions?,updating security questions,"Hello Mariah, to update your security questions, please log into your online banking account and go to ""Security Settings."" You can also visit any branch location.",True,0.004395484924316406,Update security questions
+118,How do I request a personal loan?,personal loan,"Hello Mariah, to request a personal loan, please visit any branch location or apply online. You'll need to provide income verification and credit information.",True,0.00889897346496582,Personal loan request
+119,What is the process for setting up a balance transfer?,balance transfer,"Hello Mariah, your current account balances are:
+• checking account: $6573.62
+
+Total balance: $6573.62",True,0.004465341567993164,Balance transfer setup
+120,How do I set up a certificate of deposit?,certificate of deposit,"Hello Mariah, to set up a certificate of deposit, please visit any branch location. CD terms range from 3 months to 5 years.",True,0.01842498779296875,Certificate of deposit setup
+121,What is the process for updating my phone number?,updating phone number,"Hello Mariah, you have 1 accounts and 18 transactions. Your latest balance is $6573.62. How can I help you today?",False,0.010537862777709961,Update phone number
+122,How do I request a home equity loan?,home equity loan,"Hello Mariah, to request a home equity loan, please visit any branch location. You'll need to provide property information and income verification.",True,0.02533864974975586,Home equity loan request
+123,What is the process for setting up a recurring transfer?,recurring transfer,"Hello Mariah, to make a transfer, please log into your online banking account or visit any branch location. You can also use our mobile app for quick transfers.",True,0.027825117111206055,Recurring transfer setup
+124,How do I set up a business savings account?,business savings account,"Hello Mariah, our branch hours are Monday-Friday 9:00 AM to 5:00 PM, Saturday 9:00 AM to 2:00 PM. We're closed on Sundays and major holidays.",False,0.006763935089111328,Business savings account setup
+125,What is the process for updating my address?,updating address,"Hello Mariah, to update your address, please visit any branch location with a valid ID and proof of your new address.",True,0.010271787643432617,Update address
+126,How do I request a car loan?,car loan,"Hello Mariah, to request a car loan, please visit any branch location or apply online. You'll need to provide vehicle information and income verification.",True,0.009613752365112305,Car loan request
+127,What is the process for setting up a new credit card?,new credit card,"Hello Mariah, to request a credit card, please visit any branch location or apply online. You'll need to provide income verification and credit information.",True,0.009599447250366211,New credit card setup
+128,How do I set up a business checking account?,business checking account,"Hello Mariah, our branch hours are Monday-Friday 9:00 AM to 5:00 PM, Saturday 9:00 AM to 2:00 PM. We're closed on Sundays and major holidays.",False,0.011496305465698242,Business checking account setup
+129,What is the process for updating my beneficiary?,updating beneficiary,"Hello Mariah, to update your beneficiary information, please visit any branch location with a valid ID. You'll need to provide the new beneficiary's information.",True,0.011902093887329102,Update beneficiary
+130,How do I request a loan payoff amount?,loan payoff amount,"Hello Mariah, to request a payoff amount, please call our loan department at 1-800-LOAN-HELP or visit any branch location.",True,0.010893583297729492,Loan payoff amount
+131,What is the process for setting up a health savings account?,health savings account,"Hello Mariah, to set up a savings account, please visit any branch location with a valid ID and initial deposit. You can also start the process online.",True,0.0073146820068359375,Health savings account setup
+132,How do I set up a business loan?,business loan,"Hello Mariah, our branch hours are Monday-Friday 9:00 AM to 5:00 PM, Saturday 9:00 AM to 2:00 PM. We're closed on Sundays and major holidays.",False,0.007677793502807617,Business loan setup
+133,What is the process for updating my email address?,updating email address,"Hello Mariah, to update your email address, please visit any branch location with a valid ID or update it online in your account settings.",True,0.01038050651550293,Update email address
+134,How do I request a mortgage payoff amount?,mortgage payoff amount,"Hello Mariah, to request a payoff amount, please call our loan department at 1-800-LOAN-HELP or visit any branch location.",True,0.009159088134765625,Mortgage payoff amount
+135,What is the process for setting up a student loan?,student loan,"Hello Mariah, to set up a student loan, please visit any branch location or apply online. You'll need to provide school information and financial aid details.",True,0.008985757827758789,Student loan setup
+136,How do I set up a business credit card?,business credit card,"Hello Mariah, our branch hours are Monday-Friday 9:00 AM to 5:00 PM, Saturday 9:00 AM to 2:00 PM. We're closed on Sundays and major holidays.",False,0.01226353645324707,Business credit card setup
+137,What is the process for updating my phone number?,updating phone number,"Hello Mariah, you have 1 accounts and 18 transactions. Your latest balance is $6573.62. How can I help you today?",False,0.010774612426757812,Update phone number
+138,How do I request a personal loan payoff amount?,personal loan payoff amount,"Hello Mariah, to request a payoff amount, please call our loan department at 1-800-LOAN-HELP or visit any branch location.",True,0.012476205825805664,Personal loan payoff amount
+139,What is the process for setting up a certificate of deposit?,certificate of deposit,"Hello Mariah, to set up a certificate of deposit, please visit any branch location. CD terms range from 3 months to 5 years.",True,0.01165151596069336,Certificate of deposit setup
+140,How do I set up a business money market account?,business money market account,"Hello Mariah, our branch hours are Monday-Friday 9:00 AM to 5:00 PM, Saturday 9:00 AM to 2:00 PM. We're closed on Sundays and major holidays.",False,0.00789022445678711,Business money market account setup
+141,What is the process for updating my address?,updating address,"Hello Mariah, to update your address, please visit any branch location with a valid ID and proof of your new address.",True,0.010184764862060547,Update address
+142,How do I request a student loan payoff amount?,student loan payoff amount,"Hello Mariah, to request a payoff amount, please call our loan department at 1-800-LOAN-HELP or visit any branch location.",True,0.010806560516357422,Student loan payoff amount
+143,What is the process for setting up a business loan?,business loan,"Hello Mariah, our branch hours are Monday-Friday 9:00 AM to 5:00 PM, Saturday 9:00 AM to 2:00 PM. We're closed on Sundays and major holidays.",False,0.008574724197387695,Business loan setup
+144,How do I set up a business certificate of deposit?,business certificate of deposit,"Hello Mariah, our branch hours are Monday-Friday 9:00 AM to 5:00 PM, Saturday 9:00 AM to 2:00 PM. We're closed on Sundays and major holidays.",False,0.010544538497924805,Business certificate of deposit setup
+145,What is the process for updating my email address?,updating email address,"Hello Mariah, to update your email address, please visit any branch location with a valid ID or update it online in your account settings.",True,0.011894941329956055,Update email address
+146,How do I request a business loan payoff amount?,business loan payoff amount,"Hello Mariah, our branch hours are Monday-Friday 9:00 AM to 5:00 PM, Saturday 9:00 AM to 2:00 PM. We're closed on Sundays and major holidays.",False,0.010117053985595703,Business loan payoff amount
+147,What is the process for setting up a business savings account?,business savings account,"Hello Mariah, our branch hours are Monday-Friday 9:00 AM to 5:00 PM, Saturday 9:00 AM to 2:00 PM. We're closed on Sundays and major holidays.",False,0.00729680061340332,Business savings account setup
+148,How do I set up a business trust account?,business trust account,"Hello Mariah, our branch hours are Monday-Friday 9:00 AM to 5:00 PM, Saturday 9:00 AM to 2:00 PM. We're closed on Sundays and major holidays.",False,0.008599042892456055,Business trust account setup
+149,What is the process for updating my phone number?,updating phone number,"Hello Mariah, you have 1 accounts and 18 transactions. Your latest balance is $6573.62. How can I help you today?",False,0.009665250778198242,Update phone number
+150,How do I request a business credit card payoff amount?,business credit card payoff amount,"Hello Mariah, our branch hours are Monday-Friday 9:00 AM to 5:00 PM, Saturday 9:00 AM to 2:00 PM. We're closed on Sundays and major holidays.",False,0.010051965713500977,Business credit card payoff amount
+151,What is the process for setting up a business checking account?,business checking account,"Hello Mariah, our branch hours are Monday-Friday 9:00 AM to 5:00 PM, Saturday 9:00 AM to 2:00 PM. We're closed on Sundays and major holidays.",False,0.00662994384765625,Business checking account setup
+152,How do I set up a business money market account?,business money market account,"Hello Mariah, our branch hours are Monday-Friday 9:00 AM to 5:00 PM, Saturday 9:00 AM to 2:00 PM. We're closed on Sundays and major holidays.",False,0.010414600372314453,Business money market account setup
+153,What is the process for updating my address?,updating address,"Hello Mariah, to update your address, please visit any branch location with a valid ID and proof of your new address.",True,0.029966115951538086,Update address
+154,How do I request a business savings account payoff amount?,business savings account payoff amount,"Hello Mariah, our branch hours are Monday-Friday 9:00 AM to 5:00 PM, Saturday 9:00 AM to 2:00 PM. We're closed on Sundays and major holidays.",False,0.006254673004150391,Business savings account payoff amount
+155,What is the process for setting up a business loan?,business loan,"Hello Mariah, our branch hours are Monday-Friday 9:00 AM to 5:00 PM, Saturday 9:00 AM to 2:00 PM. We're closed on Sundays and major holidays.",False,0.007929086685180664,Business loan setup
+156,How do I set up a business certificate of deposit?,business certificate of deposit,"Hello Mariah, our branch hours are Monday-Friday 9:00 AM to 5:00 PM, Saturday 9:00 AM to 2:00 PM. We're closed on Sundays and major holidays.",False,0.010282754898071289,Business certificate of deposit setup
+157,What is the process for updating my email address?,updating email address,"Hello Mariah, to update your email address, please visit any branch location with a valid ID or update it online in your account settings.",True,0.011065483093261719,Update email address
+158,How do I request a business trust account payoff amount?,business trust account payoff amount,"Hello Mariah, our branch hours are Monday-Friday 9:00 AM to 5:00 PM, Saturday 9:00 AM to 2:00 PM. We're closed on Sundays and major holidays.",False,0.006264448165893555,Business trust account payoff amount
+159,What is the process for setting up a business trust account?,business trust account,"Hello Mariah, our branch hours are Monday-Friday 9:00 AM to 5:00 PM, Saturday 9:00 AM to 2:00 PM. We're closed on Sundays and major holidays.",False,0.012006044387817383,Business trust account setup
+160,How do I set up a business health savings account?,business health savings account,"Hello Mariah, our branch hours are Monday-Friday 9:00 AM to 5:00 PM, Saturday 9:00 AM to 2:00 PM. We're closed on Sundays and major holidays.",False,0.021780014038085938,Business health savings account setup
+161,What is the process for updating my phone number?,updating phone number,"Hello Mariah, you have 1 accounts and 18 transactions. Your latest balance is $6573.62. How can I help you today?",False,0.006458282470703125,Update phone number
+162,How do I request a business health savings account payoff amount?,business health savings account payoff amount,"Hello Mariah, our branch hours are Monday-Friday 9:00 AM to 5:00 PM, Saturday 9:00 AM to 2:00 PM. We're closed on Sundays and major holidays.",False,0.007589101791381836,Business health savings account payoff amount
+163,What is the process for setting up a business health savings account?,business health savings account,"Hello Mariah, our branch hours are Monday-Friday 9:00 AM to 5:00 PM, Saturday 9:00 AM to 2:00 PM. We're closed on Sundays and major holidays.",False,0.005643129348754883,Business health savings account setup
+164,How do I set up a business retirement account?,business retirement account,"Hello Mariah, our branch hours are Monday-Friday 9:00 AM to 5:00 PM, Saturday 9:00 AM to 2:00 PM. We're closed on Sundays and major holidays.",False,0.009383678436279297,Business retirement account setup
+165,What is the process for updating my address?,updating address,"Hello Mariah, to update your address, please visit any branch location with a valid ID and proof of your new address.",True,0.0057146549224853516,Update address
+166,How do I request a business retirement account payoff amount?,business retirement account payoff amount,"Hello Mariah, our branch hours are Monday-Friday 9:00 AM to 5:00 PM, Saturday 9:00 AM to 2:00 PM. We're closed on Sundays and major holidays.",False,0.026746034622192383,Business retirement account payoff amount
+167,What is the process for setting up a business retirement account?,business retirement account,"Hello Mariah, our branch hours are Monday-Friday 9:00 AM to 5:00 PM, Saturday 9:00 AM to 2:00 PM. We're closed on Sundays and major holidays.",False,0.03165459632873535,Business retirement account setup
+168,How do I set up a business student account?,business student account,"Hello Mariah, our branch hours are Monday-Friday 9:00 AM to 5:00 PM, Saturday 9:00 AM to 2:00 PM. We're closed on Sundays and major holidays.",False,0.008821487426757812,Business student account setup
+169,What is the process for updating my email address?,updating email address,"Hello Mariah, to update your email address, please visit any branch location with a valid ID or update it online in your account settings.",True,0.005381345748901367,Update email address
+170,How do I request a business student account payoff amount?,business student account payoff amount,"Hello Mariah, our branch hours are Monday-Friday 9:00 AM to 5:00 PM, Saturday 9:00 AM to 2:00 PM. We're closed on Sundays and major holidays.",False,0.009724140167236328,Business student account payoff amount
+171,What is the process for setting up a business student account?,business student account,"Hello Mariah, our branch hours are Monday-Friday 9:00 AM to 5:00 PM, Saturday 9:00 AM to 2:00 PM. We're closed on Sundays and major holidays.",False,0.0061342716217041016,Business student account setup
+172,How do I set up a business car loan?,business car loan,"Hello Mariah, our branch hours are Monday-Friday 9:00 AM to 5:00 PM, Saturday 9:00 AM to 2:00 PM. We're closed on Sundays and major holidays.",False,0.01022195816040039,Business car loan setup
+173,What is the process for updating my phone number?,updating phone number,"Hello Mariah, you have 1 accounts and 18 transactions. Your latest balance is $6573.62. How can I help you today?",False,0.009782791137695312,Update phone number
+174,How do I request a business car loan payoff amount?,business car loan payoff amount,"Hello Mariah, our branch hours are Monday-Friday 9:00 AM to 5:00 PM, Saturday 9:00 AM to 2:00 PM. We're closed on Sundays and major holidays.",False,0.028162240982055664,Business car loan payoff amount
+175,What is the process for setting up a business car loan?,business car loan,"Hello Mariah, our branch hours are Monday-Friday 9:00 AM to 5:00 PM, Saturday 9:00 AM to 2:00 PM. We're closed on Sundays and major holidays.",False,0.02581954002380371,Business car loan setup
+176,How do I set up a business mortgage?,business mortgage,"Hello Mariah, our branch hours are Monday-Friday 9:00 AM to 5:00 PM, Saturday 9:00 AM to 2:00 PM. We're closed on Sundays and major holidays.",False,0.008521080017089844,Business mortgage setup
+177,What is the process for updating my address?,updating address,"Hello Mariah, to update your address, please visit any branch location with a valid ID and proof of your new address.",True,0.0064122676849365234,Update address
+178,How do I request a business mortgage payoff amount?,business mortgage payoff amount,"Hello Mariah, our branch hours are Monday-Friday 9:00 AM to 5:00 PM, Saturday 9:00 AM to 2:00 PM. We're closed on Sundays and major holidays.",False,0.009022712707519531,Business mortgage payoff amount
+179,What is the process for setting up a business mortgage?,business mortgage,"Hello Mariah, our branch hours are Monday-Friday 9:00 AM to 5:00 PM, Saturday 9:00 AM to 2:00 PM. We're closed on Sundays and major holidays.",False,0.005004167556762695,Business mortgage setup
+180,How do I set up a business investment account?,business investment account,"Hello Mariah, our branch hours are Monday-Friday 9:00 AM to 5:00 PM, Saturday 9:00 AM to 2:00 PM. We're closed on Sundays and major holidays.",False,0.03059864044189453,Business investment account setup
+181,What is the process for updating my email address?,updating email address,"Hello Mariah, to update your email address, please visit any branch location with a valid ID or update it online in your account settings.",True,0.010563373565673828,Update email address
+182,How do I request a business investment account payoff amount?,business investment account payoff amount,"Hello Mariah, our branch hours are Monday-Friday 9:00 AM to 5:00 PM, Saturday 9:00 AM to 2:00 PM. We're closed on Sundays and major holidays.",False,0.004830598831176758,Business investment account payoff amount
+183,What is the process for setting up a business investment account?,business investment account,"Hello Mariah, our branch hours are Monday-Friday 9:00 AM to 5:00 PM, Saturday 9:00 AM to 2:00 PM. We're closed on Sundays and major holidays.",False,0.00968623161315918,Business investment account setup
+184,How do I set up a business certificate of deposit?,business certificate of deposit,"Hello Mariah, our branch hours are Monday-Friday 9:00 AM to 5:00 PM, Saturday 9:00 AM to 2:00 PM. We're closed on Sundays and major holidays.",False,0.011809110641479492,Business certificate of deposit setup
+185,What is the process for updating my phone number?,updating phone number,"Hello Mariah, you have 1 accounts and 18 transactions. Your latest balance is $6573.62. How can I help you today?",False,0.005637407302856445,Update phone number
+186,How do I request a business certificate of deposit payoff amount?,business certificate of deposit payoff amount,"Hello Mariah, our branch hours are Monday-Friday 9:00 AM to 5:00 PM, Saturday 9:00 AM to 2:00 PM. We're closed on Sundays and major holidays.",False,0.01134181022644043,Business certificate of deposit payoff amount
+187,What is the process for setting up a business certificate of deposit?,business certificate of deposit,"Hello Mariah, our branch hours are Monday-Friday 9:00 AM to 5:00 PM, Saturday 9:00 AM to 2:00 PM. We're closed on Sundays and major holidays.",False,0.006492137908935547,Business certificate of deposit setup

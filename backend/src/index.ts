@@ -5,6 +5,7 @@ import { config } from './config';
 import fs from 'fs';
 import path from 'path';
 import customersRouter from './routes/customers';
+import { Server } from 'http';
 
 const app = express();
 
@@ -15,7 +16,18 @@ app.use(cors({
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
   allowedHeaders: ['Content-Type', 'Authorization']
 }));
-app.use(express.json());
+
+// Increase JSON payload limit and timeout
+app.use(express.json({ limit: '10mb' }));
+app.use(express.urlencoded({ extended: true, limit: '10mb' }));
+
+// Set timeout for all requests
+app.use((req, res, next) => {
+  // Set timeout to 60 seconds for all requests
+  req.setTimeout(60000);
+  res.setTimeout(60000);
+  next();
+});
 
 // Log all requests
 app.use((req, res, next) => {
@@ -57,14 +69,74 @@ app.use((err: any, req: express.Request, res: express.Response, next: express.Ne
   });
 });
 
-app.listen(config.port, () => {
-  console.log('=================================');
-  console.log(`Server is running on port ${config.port}`);
-  console.log(`Frontend URL: ${config.frontendUrl}`);
-  console.log('=================================');
-  
-  // Add a small delay to ensure all middleware and routes are properly initialized
-  setTimeout(() => {
-    console.log('✅ Backend is fully initialized and ready to accept requests');
-  }, 1000);
-}); 
+let server: Server;
+
+// Function to start the server
+export function startServer(port?: string): Promise<Server> {
+  return new Promise((resolve) => {
+    const serverPort = port || config.port;
+    
+    // Add memory cleanup
+    const cleanup = () => {
+      if (global.gc) {
+        global.gc();
+      }
+    };
+    
+    // Clean up memory every 30 seconds
+    const memoryCleanupInterval = setInterval(cleanup, 30000);
+    
+    server = app.listen(serverPort, () => {
+      console.log('=================================');
+      console.log(`Server is running on port ${serverPort}`);
+      console.log(`Frontend URL: ${config.frontendUrl}`);
+      console.log('=================================');
+      
+      // Add a small delay to ensure all middleware and routes are properly initialized
+      setTimeout(() => {
+        console.log('✅ Backend is fully initialized and ready to accept requests');
+        resolve(server);
+      }, 1000);
+    });
+
+    // Set server timeout to 60 seconds
+    server.timeout = 60000;
+    server.keepAliveTimeout = 65000;
+    server.headersTimeout = 66000;
+    
+    // Handle server errors
+    server.on('error', (error) => {
+      console.error('Server error:', error);
+      clearInterval(memoryCleanupInterval);
+    });
+    
+    // Handle server close
+    server.on('close', () => {
+      console.log('Server closing, cleaning up...');
+      clearInterval(memoryCleanupInterval);
+      cleanup();
+    });
+  });
+}
+
+// Function to stop the server
+export function stopServer(): Promise<void> {
+  return new Promise((resolve) => {
+    if (server) {
+      server.close(() => {
+        console.log('Server stopped');
+        resolve();
+      });
+    } else {
+      resolve();
+    }
+  });
+}
+
+// Export the app for testing
+export { app };
+
+// Start server if this file is run directly
+if (require.main === module) {
+  startServer();
+} 
